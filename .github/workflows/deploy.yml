@@ -17,8 +17,8 @@ jobs:
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.MAIDENS_FTP_SERVER }}
+          server: ftp.bvswebdesign.co.uk
           username: ${{ secrets.MAIDENS_FTP_USERNAME }}
           password: ${{ secrets.MAIDENS_FTP_PASSWORD }}
-          local-dir: ./wp-content/
+          local-dir: ./maidens-and-ravens/
           server-dir: /wp-content/themes/maidens-and-ravens/
