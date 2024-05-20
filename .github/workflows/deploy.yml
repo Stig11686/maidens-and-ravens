@@ -20,5 +20,4 @@ jobs:
           server: ftp.bvswebdesign.co.uk
           username: ${{ secrets.MAIDENS_FTP_USERNAME }}
           password: ${{ secrets.MAIDENS_FTP_PASSWORD }}
-          local-dir: ./maidens-and-ravens/
           server-dir: /wp-content/themes/maidens-and-ravens/
