@@ -7,27 +7,12 @@ on:
 
 jobs:
   build-and-deploy:
-    name: Build and Deplo
+    name: Build and Deploy
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: |
-          cd wp-content/themes/maidens-and-ravens
-          npm install
-
-      - name: Build assets
-        run: |
-          cd wp-content/themes/maidens-and-ravens
-          npm run build
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
