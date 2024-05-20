@@ -1,1 +1,2 @@
-<h1>Testing the process</h1>
+<?php
+    include(get_template_directory(). '/template-parts-nav.php');
