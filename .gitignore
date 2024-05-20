@@ -1,19 +1,1 @@
 /node_modules/
-
-# Ignore everything except the "wp-content" directory.
-*
-!wp-content/
-!wp-content/themes/
-!wp-content/plugins/
-
-# Ignore OS files
-.DS_Store
-Thumbs.db
-
-# Ignore log files and databases
-*.log
-*.sql
-*.sqlite
-
-# Ignore the contents of the "uploads" directory
-wp-content/uploads/*
