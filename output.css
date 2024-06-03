@@ -1513,11 +1513,11 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
-.submenu {
+.sub-menu {
 	display: none;
 }
 
-#menu-menu-1 li:hover .submenu {
+#menu-menu-1 li:hover .sub-menu {
 	display: block;
 }
 
