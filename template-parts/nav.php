@@ -14,9 +14,9 @@
                 <?php wp_nav_menu(
                     array(
                         'theme_location' => 'primary',
-                        'container_class' => 'border border-1 border-white p-6 flex items-center justify-center',
+                        'container_class' => '',
                         'menu_class' => 'flex',
-                        'add_li_class'  => 'your-class-name1 your-class-name-2'
+                        'add_li_class'  => 'border border-1 border-white p-6 flex items-center justify-center'
                         )
                     );
                 ?>
