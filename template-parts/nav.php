@@ -1,7 +1,12 @@
 <?php
     $logo_id = get_theme_mod('custom_logo');
     $logo_url = wp_get_attachment_image_url($logo_id, 'full');
+
+    echo $logo_id;
+    echo $logo_url;
 ?>
+
+
 
 <header class="bg-gray-900 text-white">
         <div class="container mx-auto flex justify-between items-center p-4">
