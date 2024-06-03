@@ -5,7 +5,7 @@
 
 
 
-<header class="bg-gray-900 text-white">
+<header class="bg-blue-900 text-white">
         <div class="container mx-auto flex justify-between items-center p-4">
             <div class="logo w-32">
                 <a href="/" class="text-2xl font-bold"><img src="<?php echo esc_url( $logo_url ); ?>" alt="Maidens and Ravens logo"></a>
