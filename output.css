@@ -1521,6 +1521,14 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
+.submenu {
+	display: none;
+}
+
+#menu-menu-1 ul li:hover .submenu {
+	display: block;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;

@@ -926,3 +926,11 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+.submenu {
+	display: none;
+}
+
+#menu-menu-1 ul li:hover .submenu {
+	display: block;
+}
