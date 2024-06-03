@@ -598,13 +598,13 @@ video {
 .divide-slate-400\/25 > :not([hidden]) ~ :not([hidden]) {
   border-color: rgb(148 163 184 / 0.25);
 }
-.bg-blue-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
-}
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+.bg-purple-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(89 49 95 / var(--tw-bg-opacity));
 }
 .p-6 {
   padding: 1.5rem;
