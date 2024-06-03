@@ -589,6 +589,9 @@ video {
 .h-8 {
   height: 2rem;
 }
+.w-32 {
+  width: 8rem;
+}
 .w-8 {
   width: 2rem;
 }
@@ -1533,11 +1536,6 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
-}
-
-.hover\:text-gray-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
