@@ -1517,7 +1517,7 @@ textarea {
 	display: none;
 }
 
-#menu-menu-1 ul li:hover .submenu {
+#menu-menu-1 li:hover .submenu {
 	display: block;
 }
 
