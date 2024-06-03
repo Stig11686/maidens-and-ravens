@@ -6,11 +6,11 @@
 
 
 <header class="bg-blue-900 text-white">
-        <div class="container mx-auto flex justify-between items-center p-4">
-            <div class="logo w-32">
+        <div class="w-full mx-auto flex justify-between items-center">
+            <div class="logo w-32 pl-8">
                 <a href="/" class="text-2xl font-bold"><img src="<?php echo esc_url( $logo_url ); ?>" alt="Maidens and Ravens logo"></a>
             </div>
-            <nav class="hidden md:flex space-x-4">
+            <nav class="hidden md:flex space-x-4 h-full">
                 <?php wp_nav_menu(
                     array(
                         'theme_location' => 'primary',

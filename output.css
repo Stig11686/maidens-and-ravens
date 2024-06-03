@@ -589,11 +589,17 @@ video {
 .h-8 {
   height: 2rem;
 }
+.h-full {
+  height: 100%;
+}
 .w-32 {
   width: 8rem;
 }
 .w-8 {
   width: 2rem;
+}
+.w-full {
+  width: 100%;
 }
 .flex-col {
   flex-direction: column;
@@ -637,6 +643,9 @@ video {
 }
 .p-6 {
   padding: 1.5rem;
+}
+.pl-8 {
+  padding-left: 2rem;
 }
 .text-2xl {
   font-size: 1.5rem;
