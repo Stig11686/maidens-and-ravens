@@ -1,9 +1,6 @@
 <?php
     $logo_id = get_theme_mod('custom_logo');
     $logo_url = wp_get_attachment_image_url($logo_id, 'full');
-
-    echo $logo_id;
-    echo $logo_url;
 ?>
 
 
@@ -11,7 +8,7 @@
 <header class="bg-gray-900 text-white">
         <div class="container mx-auto flex justify-between items-center p-4">
             <div class="logo">
-                <a href="/" class="text-2xl font-bold"><img src="<?php esc_url( $logo_url ); ?>" alt="Maidens and Ravens logo"></a>
+                <a href="/" class="text-2xl font-bold"><img src="<?php echo esc_url( $logo_url ); ?>" alt="Maidens and Ravens logo"></a>
             </div>
             <nav class="hidden md:flex space-x-4">
                 <?php wp_nav_menu(array('theme_location' => 'primary','container_class' => 'flex'));?>
