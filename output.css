@@ -599,6 +599,9 @@ video {
   --tw-divide-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-divide-opacity));
 }
+.divide-slate-400\/25 > :not([hidden]) ~ :not([hidden]) {
+  border-color: rgb(148 163 184 / 0.25);
+}
 .border {
   border-width: 1px;
 }
