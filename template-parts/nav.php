@@ -15,8 +15,8 @@
                     array(
                         'theme_location' => 'primary',
                         'container_class' => '',
-                        'menu_class' => 'flex',
-                        'add_li_class'  => 'divide-x divide-white p-6 flex items-center justify-center'
+                        'menu_class' => 'flex divide-x divide-white',
+                        'add_li_class'  => 'p-6 flex items-center justify-center'
                         )
                     );
                 ?>
