@@ -1,9 +1,10 @@
 <header class="bg-gray-900 text-white">
         <div class="container mx-auto flex justify-between items-center p-4">
             <div class="logo">
-                <a href="#" class="text-2xl font-bold">MyLogo</a>
+                <a href="/" class="text-2xl font-bold"><?php get_theme_mod('custom_logo'); ?></a>
             </div>
             <nav class="hidden md:flex space-x-4">
+                <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex'));?>
                 <a href="#" class="hover:text-gray-400">Home</a>
                 <a href="#" class="hover:text-gray-400">About</a>
                 <a href="#" class="hover:text-gray-400">Services</a>

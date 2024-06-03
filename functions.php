@@ -49,7 +49,7 @@ function maidens_and_ravens_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'maidens-and-ravens' ),
+			'primary' => esc_html__( 'Primary', 'maidens-and-ravens' ),
 		)
 	);
 
@@ -99,6 +99,7 @@ function maidens_and_ravens_setup() {
 			'flex-height' => true,
 		)
 	);
+	
 }
 add_action( 'after_setup_theme', 'maidens_and_ravens_setup' );
 
