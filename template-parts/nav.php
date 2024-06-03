@@ -14,7 +14,8 @@
                 <?php wp_nav_menu(
                     array(
                         'theme_location' => 'primary',
-                        'menu_class' => 'flex'
+                        'menu_class' => 'flex',
+                        'add_li_class'  => 'your-class-name1 your-class-name-2'
                         )
                     );
                 ?>
