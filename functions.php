@@ -103,6 +103,14 @@ function maidens_and_ravens_setup() {
 }
 add_action( 'after_setup_theme', 'maidens_and_ravens_setup' );
 
+function add_additional_class_on_li($classes, $item, $args) {
+	if(isset($args->add_li_class)) {
+		$classes[] = $args->add_li_class;
+	}
+	return $classes;
+}
+add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
