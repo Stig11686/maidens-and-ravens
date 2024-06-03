@@ -16,7 +16,7 @@
                         'theme_location' => 'primary',
                         'container_class' => '',
                         'menu_class' => 'flex',
-                        'add_li_class'  => 'border border-1 border-white p-6 flex items-center justify-center'
+                        'add_li_class'  => 'divide-x divide-white p-6 flex items-center justify-center'
                         )
                     );
                 ?>
