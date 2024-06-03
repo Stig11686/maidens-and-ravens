@@ -24,10 +24,7 @@
         </div>
         <!-- Full-screen dropdown menu -->
         <div id="mobileMenu" class="fixed inset-0 bg-gray-900 text-white flex flex-col items-center justify-center space-y-4 hidden md:hidden">
-            <a href="#" class="text-2xl">Home</a>
-            <a href="#" class="text-2xl">About</a>
-            <a href="#" class="text-2xl">Services</a>
-            <a href="#" class="text-2xl">Contact</a>
+            <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex'));?>
             <button id="closeMenuBtn" class="text-2xl focus:outline-none">Close</button>
         </div>
     </header>
