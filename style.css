@@ -938,3 +938,7 @@ textarea {
 	display: flex;
 	opacity: 1;
 }
+
+#menu-menu-1 li:hover .sub-menu li {
+	border-right: 1px solid white;
+}

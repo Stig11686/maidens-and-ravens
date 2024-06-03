@@ -1533,6 +1533,10 @@ textarea {
 	opacity: 1;
 }
 
+#menu-menu-1 li:hover .sub-menu li {
+	border-right: 1px solid white;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
