@@ -595,19 +595,8 @@ video {
   border-right-width: calc(1px * var(--tw-divide-x-reverse));
   border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
 }
-.divide-white > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-divide-opacity));
-}
 .divide-slate-400\/25 > :not([hidden]) ~ :not([hidden]) {
   border-color: rgb(148 163 184 / 0.25);
-}
-.border {
-  border-width: 1px;
-}
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 .bg-blue-900 {
   --tw-bg-opacity: 1;

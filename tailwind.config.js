@@ -5,7 +5,16 @@ module.exports = {
     fontFamily: {
       sans: ['Spectral', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'purple': {
+          '900': '#59315F',
+        },
+      },
+      boxShadow: {
+        'grey': '0px 0px 8px rgba(0, 0, 0, 0.29)',
+      },
+    },
   },
   plugins: [],
 }
