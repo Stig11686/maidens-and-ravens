@@ -1518,9 +1518,10 @@ textarea {
 	transition: all 0.5s ease-in-out;
 	opacity: 0;
 	position: absolute;
-	bottom: 0;
+	bottom: -118px;
 	left: 0;
-
+	margin-left: 0;
+	background-color: #59315F;
 }
 
 #menu-menu-1 li {
@@ -1528,7 +1529,7 @@ textarea {
 }
 
 #menu-menu-1 li:hover .sub-menu {
-	display: block;
+	display: flex;
 	opacity: 1;
 }
 
