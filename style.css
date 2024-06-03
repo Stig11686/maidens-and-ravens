@@ -491,10 +491,10 @@ table {
 
 /* Links
 --------------------------------------------- */
-a:hover,
 a:focus,
 a:active {
 	color: #191970;
+	outline: orangered;
 }
 
 a:focus {
