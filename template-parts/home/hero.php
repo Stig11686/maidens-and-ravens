@@ -19,7 +19,7 @@ $hero_image = get_theme_mod('hero_image');
           Announcing our next round of funding. <a href="#" class="font-semibold text-white"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
         </div>
       </div>
-      <div class="text-center">
+      <div class="text-center absolute">
         <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Data to enrich your online business</h1>
         <p class="mt-6 text-lg leading-8 text-gray-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
