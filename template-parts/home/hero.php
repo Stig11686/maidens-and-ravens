@@ -5,11 +5,14 @@
     'menu_class' => 'flex divide-x divide-slate-400/25',
     'add_li_class'  => 'p-6 flex items-center justify-center text-white'
  );
+
+ $
  ?>
 
 <div class="bg-gray-900">
   <header class="absolute inset-x-0 top-0 z-50">
-    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <?php include(get_template_directory(  ) . '/template-parts/nav.php'); ?>
+    <!-- <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
@@ -59,7 +62,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </header>
 
   <div class="relative isolate overflow-hidden pt-14">
