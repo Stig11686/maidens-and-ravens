@@ -790,6 +790,9 @@ video {
 .bg-gray-900\/25 {
   background-color: rgb(17 24 39 / 0.25);
 }
+.bg-gray-900\/75 {
+  background-color: rgb(17 24 39 / 0.75);
+}
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
