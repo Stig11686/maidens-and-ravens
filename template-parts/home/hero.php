@@ -6,7 +6,6 @@
     'add_li_class'  => 'p-6 flex items-center justify-center text-white'
  );
 
- $
  ?>
 
 <div class="bg-gray-900">
