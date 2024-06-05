@@ -30,8 +30,8 @@
       <div class="text-center">
         <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Maidens and Ravens</h1>
         <p class="mt-6 text-lg leading-8 text-gray-300">Discover the magic at Maidens & Ravens, a Unique Bridal Boutique in the heart of York
-          <a href="#" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">See our Dresses</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-white">Read about our Boutique <span aria-hidden="true">→</span></a>
+          <a href="#" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Book an Appointment</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-white">See our current dresses <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </div>
