@@ -118,3 +118,4 @@
     </div>
   </div>
 </footer>
+wp_footer(  );
