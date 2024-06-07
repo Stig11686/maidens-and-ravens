@@ -205,9 +205,9 @@ function get_woocommerce_category_image($category_id) {
 
     // Display the image
     if ($image_url) {
-        echo '<img src="' . $image_url . '" alt="' . esc_attr($category->name) . '" />';
+         return $image_url;
     } else {
-        echo '<p>No image found for this category.</p>';
+        return '';
     }
 }
 
