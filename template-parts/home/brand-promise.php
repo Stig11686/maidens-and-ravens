@@ -81,7 +81,7 @@ order in any size and with custom features.</p>
       </div>
       <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
         <div class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-          <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="<?php get_woocommerce_category_image(26); ?>" alt="Customer profile user interface">
+          <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="<?php get_woocommerce_category_image(17); ?>" alt="Customer profile user interface">
         </div>
       </div>
     </div>
