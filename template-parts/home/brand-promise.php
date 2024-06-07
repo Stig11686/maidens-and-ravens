@@ -11,7 +11,7 @@
             </span>
           </div>
           <div class="mt-6">
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900">Stay on top of customer support</h2>
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900">Our Promise</h2>
             <p class="mt-4 text-lg text-gray-500">Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
             <div class="mt-6">
               <a href="#" class="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700">Get started</a>
@@ -21,7 +21,7 @@
         <div class="mt-8 border-t border-gray-200 pt-6">
           <blockquote>
             <div>
-              <p class="text-base text-gray-500">&ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;</p>
+              <p class="text-base text-gray-500">&ldquo;Elizabeth is amazing (let's put a standout testimonial here).&rdquo;</p>
             </div>
             <footer class="mt-3">
               <div class="flex items-center space-x-3">
@@ -36,7 +36,7 @@
       </div>
       <div class="mt-12 sm:mt-16 lg:mt-0">
         <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-          <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg" alt="Inbox user interface">
+          <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://images.unsplash.com/photo-1530779333071-8c0386cd1fdf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTExfHxydXN0aWMlMjB3ZWRkaW5nJTIwZHJlc3N8ZW58MHx8MHx8fDA%3D" alt="picture of a wedding dress">
         </div>
       </div>
     </div>
