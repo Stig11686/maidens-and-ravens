@@ -31,9 +31,17 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: "seasonsregular";
+	src: url('fonts/the-seasons/Fontspring-DEMO-theseasons-reg.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
+	font-family: 'seasonsregular' sans-serif;
 }
 
 /* Sections
