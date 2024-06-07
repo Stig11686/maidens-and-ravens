@@ -190,3 +190,24 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+
+/** get the category image for a woocommerce category */
+function get_woocommerce_category_image($category_id) {
+    // Get the category object
+    $category = get_term($category_id, 'product_cat');
+
+    // Get the thumbnail ID
+    $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
+
+    // Get the image URL
+    $image_url = wp_get_attachment_url($thumbnail_id);
+
+    // Display the image
+    if ($image_url) {
+        echo '<img src="' . esc_url($image_url) . '" alt="' . esc_attr($category->name) . '" />';
+    } else {
+        echo '<p>No image found for this category.</p>';
+    }
+}
+
