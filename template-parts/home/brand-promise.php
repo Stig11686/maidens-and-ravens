@@ -24,13 +24,6 @@
                 average £500-£1000. Our planet conscious brides love the fact that they
                 are saving a dress from ending up in landfill as well as saving their
                 pennies.</p>
-                <p class="mt-4 text-lg text-gray-500">We are passionate in doing what we can to offer our brides a truly
-                sustainable choice. Our treasure trove dresses are already in existence
-                and deserve the opportunity of being worn!  They are our most eco-
-                friendly choice and are budget friendly too with most dresses costing on
-                average £500-£1000. Our planet conscious brides love the fact that they
-                are saving a dress from ending up in landfill as well as saving their
-                pennies.</p>
             <div class="mt-6">
               <a href="#" class="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700">Get started</a>
             </div>
