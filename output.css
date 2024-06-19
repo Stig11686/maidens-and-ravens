@@ -1990,6 +1990,11 @@ textarea {
 	border-right: 1px solid white;
 }
 
+img {
+	-o-border-image: url('./img/frame.png');
+	   border-image: url('./img/frame.png');
+}
+
 .hover\:bg-indigo-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(129 140 248 / var(--tw-bg-opacity));
