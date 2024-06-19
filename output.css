@@ -1993,14 +1993,15 @@ textarea {
 .image-frame-container {
     position: relative;
     display: inline-block;
-    width: 300px; /* Adjust as needed */
-    height: 400px; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
 }
 
 .content-image {
     width: 100%;
     height: auto;
     display: block;
+	border: 59px solid transparent;
 }
 
 .frame-image {

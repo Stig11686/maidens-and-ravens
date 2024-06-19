@@ -31,8 +31,14 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                     </div> -->
 
                     <div class="image-frame-container">
-                        <img src="https://kitpro.site/alleora/wp-content/uploads/sites/247/2024/05/1-16-768x1024.jpg" alt="Content Image" class="content-image">
-                        <img src="https://kitpro.site/alleora/wp-content/uploads/sites/247/2024/05/Frame-1-3-838x1024.png" alt="Frame Image" class="frame-image">
+                        <div class="flex flex-col">
+                            <div>
+                                <img src="https://kitpro.site/alleora/wp-content/uploads/sites/247/2024/05/1-16-768x1024.jpg" alt="Content Image" class="content-image">
+                            </div>
+                            <div>
+                                <img src="https://kitpro.site/alleora/wp-content/uploads/sites/247/2024/05/Frame-1-3-838x1024.png" alt="Frame Image" class="frame-image">
+                            </div>
+                        </div>
                     </div>
 
                         <?php
