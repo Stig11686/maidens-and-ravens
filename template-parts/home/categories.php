@@ -17,9 +17,9 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                             $image = wp_get_attachment_url( $thumbnail_id );
                             $category_link = get_term_link( $category );
                     ?>
-                    <div class="group relative frame">
+                    <!-- <div class="group relative">
                         <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                            <img src="<?php echo $image; ?>" alt="<?php echo esc_html( $category->name ); ?>" class="framed-content h-full w-full object-cover object-center">
+                            <img src="<?php echo $image; ?>" alt="<?php echo esc_html( $category->name ); ?>" class="h-full w-full object-cover object-center">
                         </div>
                         <h3 class="mt-6 text-sm text-gray-500">
                             <a href="<?php echo esc_url( $category_link ); ?>">
@@ -28,7 +28,13 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                             </a>
                         </h3>
                         <p class="text-base font-semibold text-gray-900"><?php echo esc_html( $category->description ); ?></p>
+                    </div> -->
+
+                    <div class="image-frame-container">
+                        <img src="https://kitpro.site/alleora/wp-content/uploads/sites/247/2024/05/1-16-768x1024.jpg" alt="Content Image" class="content-image">
+                        <img src="https://kitpro.site/alleora/wp-content/uploads/sites/247/2024/05/Frame-1-3-838x1024.png" alt="Frame Image" class="frame-image">
                     </div>
+
                         <?php
                         endforeach;
                         ?>
