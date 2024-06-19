@@ -18,8 +18,8 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                             $category_link = get_term_link( $category );
                     ?>
                     <div class="group relative">
-                        <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                            <img src="<?php echo $image; ?>" alt="<?php echo esc_html( $category->name ); ?>" class="h-full w-full object-cover object-center">
+                        <div class="relative frame h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                            <img src="<?php echo $image; ?>" alt="<?php echo esc_html( $category->name ); ?>" class="framed-content h-full w-full object-cover object-center">
                         </div>
                         <h3 class="mt-6 text-sm text-gray-500">
                             <a href="<?php echo esc_url( $category_link ); ?>">

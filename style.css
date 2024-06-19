@@ -951,6 +951,18 @@ textarea {
 	border-right: 1px solid white;
 }
 
-img {
-	border-image: url('./img/frame.png');
+.frame {
+    position: relative;
+    background: url('frame-image.png') no-repeat center center;
+    background-size: cover;
+}
+
+.framed-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%; /* Adjust as needed */
+    height: 80%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    clip-path: inset(10% round 10%);
 }
