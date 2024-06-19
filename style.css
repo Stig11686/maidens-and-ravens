@@ -950,3 +950,7 @@ textarea {
 #menu-menu-1 li:hover .sub-menu li {
 	border-right: 1px solid white;
 }
+
+img {
+	border-image: url('./img/frame.png');
+}
