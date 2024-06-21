@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="mt-8 lg:mt-0">
-        <?php include('./template-parts/founders-story.php'); ?>
+        <?php include('./founders-story.php'); ?>
       </div>
     </div>
   </div>
