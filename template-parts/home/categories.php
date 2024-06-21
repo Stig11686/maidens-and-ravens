@@ -40,7 +40,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                                 </div>
                             </div>
                         </div>
-                        <div class="content">
+                        <div class="image-frame-content">
                             <h3 class="mt-6 text-sm text-gray-500">
                                 <a href="<?php echo esc_url( $category_link ); ?>">
                                 <span class="absolute inset-0"></span>
