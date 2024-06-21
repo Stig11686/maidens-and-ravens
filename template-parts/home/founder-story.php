@@ -6,9 +6,8 @@
       </div>
     </div>
     <div class="px-6 lg:contents">
-      <div class="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
-        <p class="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
-        <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Elizabeths Story</h1>
+      <div class="mx-auto max-w-2xl pb-24 pt-16 sm:pb-24 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
+        <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Elizabeths Story</h2>
         <p class="mt-6 text-xl leading-8 text-gray-700">Hello my Queens.<br>
 
         I am Elizabeth and I am the founder, owner and bridal mavern at Maidens and Ravens, here in the historic city of York. </p>

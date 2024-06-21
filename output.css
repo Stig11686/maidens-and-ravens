@@ -2195,6 +2195,10 @@ textarea {
     padding-top: 6rem;
   }
 
+  .sm\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
   .sm\:text-center {
     text-align: center;
   }
