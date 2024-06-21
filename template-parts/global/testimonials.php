@@ -16,7 +16,7 @@ $testimonials = new WP_Query([
     </div>
     <div class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
       <div class="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
-        <?php foreach ($testimonials->posts as $post) : setup_postdata($post);?>
+        <?php while($testimonials->have_posts() ) : $testimonials->the_post(); ?>
           <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
             <figure class="rounded-2xl bg-gray-50 p-8 text-sm leading-6">
               <blockquote class="text-gray-900">
@@ -30,7 +30,7 @@ $testimonials = new WP_Query([
             </figure>
           </div>
         <?php wp_reset_postdata();
-          endforeach;
+          endwhile;
         ?>
 
         <!-- More testimonials... -->
