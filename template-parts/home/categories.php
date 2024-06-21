@@ -36,7 +36,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                                 <?php echo esc_html( $category->name ); ?>
                                 </a>
                             </h3>
-                            <p class="text-base text-xl font-semibold text-gray-900"><?php echo esc_html( $category->description ); ?></p>
+                            <p class="text-base text-md text-gray-900"><?php echo esc_html( $category->description ); ?></p>
                             <a href="<?php echo esc_url( $category_link ); ?>" class="btn bg-secondary text-sm font-semibold text-white ">View Collection</a>
                         </div>
                     </div>  
