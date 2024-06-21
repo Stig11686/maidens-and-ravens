@@ -20,7 +20,7 @@ $testimonials = new WP_Query([
           <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
             <figure class="rounded-2xl bg-gray-50 p-8 text-sm leading-6">
               <blockquote class="text-gray-900">
-                <p>“<?php the_content();; ?>”</p>
+                <p><?php the_content(); ?></p>
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
@@ -29,7 +29,7 @@ $testimonials = new WP_Query([
               </figcaption>
             </figure>
           </div>
-        <?php wp_reset_postdata();
+        <?php
           endwhile;
         ?>
 
