@@ -30,14 +30,14 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                         <p class="text-base font-semibold text-gray-900"><?php echo esc_html( $category->description ); ?></p>
                     </div> -->
 
-                    <div class="image-frame-container">
+                    <div class="image-frame-container" style="background-image: url('https://kitpro.site/alleora/wp-content/uploads/sites/247/2024/05/Frame-1-3-838x1024.png');">
                         <div class="flex flex-col">
                             <div>
                                 <img src="https://kitpro.site/alleora/wp-content/uploads/sites/247/2024/05/1-16-768x1024.jpg" alt="Content Image" class="content-image">
                             </div>
-                            <div>
+                            <!-- <div>
                                 <img src="https://kitpro.site/alleora/wp-content/uploads/sites/247/2024/05/Frame-1-3-838x1024.png" alt="Frame Image" class="frame-image">
-                            </div>
+                            </div> -->
                             <div>
                             <h3 class="mt-6 text-sm text-gray-500">
                                 <a href="<?php echo esc_url( $category_link ); ?>">
