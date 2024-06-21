@@ -24,7 +24,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                                     <img src="<?php echo $image; ?>" alt="<?php echo esc_html( $category->name ); ?>" class="content-image">
                                 </div>
                                 <div>
-                                    <img src="https://kitpro.site/alleora/wp-content/uploads/sites/247/2024/05/Frame-1-3-838x1024.png" alt="Frame Image" class="frame-image">
+                                    <img src="./img/frame.png" alt="Frame Image" class="frame-image" aria-hidden="true">
                                 </div>
                             </div>
                         </div>
