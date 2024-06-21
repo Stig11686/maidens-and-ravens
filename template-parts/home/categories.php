@@ -17,7 +17,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                             $image = wp_get_attachment_url( $thumbnail_id );
                             $category_link = get_term_link( $category );
                     ?>
-                    <div class="group relative flex flex-col items-start">
+                    <div class="group relative flex flex-col items-start shadow-lg rounded-lg overflow-hidden mb-6">
                         <div class="image-frame-container">
                             <div class="flex flex-col">
                                 <div>
@@ -28,7 +28,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                                 </div>
                             </div>
                         </div>
-                        <div class="image-frame-content">
+                        <div class="image-frame-content px-8">
                             <h3 class="mt-6 text-sm text-gray-500">
                                 <a href="<?php echo esc_url( $category_link ); ?>">
                                 <span class="absolute inset-0"></span>
