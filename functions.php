@@ -211,3 +211,18 @@ function get_woocommerce_category_image($category_id) {
     }
 }
 
+function add_custom_post_types(){
+	register_post_type( 'testimonials', array(
+		'labels' => array(
+			'name' => 'Testimonials',
+			'singular_name' => 'Testimonial',
+			'add_new' => 'Add New Testimonial',
+			'add_new_item' => 'Add New Testimonial',
+			'edit_item' => 'Edit Testimonial',
+			'new_item' => 'New Test'
+			) 
+		)
+	);
+}
+add_action('init', 'add_custom_post_types');
+
