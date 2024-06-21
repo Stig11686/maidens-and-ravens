@@ -1,7 +1,6 @@
 <div class="px-6 lg:contents">
-      <div class="mx-auto max-w-2xl pb-24 pt-16 sm:pb-24 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
-        <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Elizabeths Story</h2>
-        <p class="mt-6 text-xl leading-8 text-gray-700">Hello my Queens.<br>
+      <div class="mx-auto">
+        <p class="my-6 text-xl leading-8 text-gray-700 font-semibold">Hello my Queens.<br>
 
         I am Elizabeth and I am the founder, owner and bridal mavern at Maidens and Ravens, here in the historic city of York. </p>
         <div class="mt-10 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">

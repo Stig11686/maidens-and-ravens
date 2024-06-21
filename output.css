@@ -608,6 +608,10 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 .-ml-48 {
   margin-left: -12rem;
 }
