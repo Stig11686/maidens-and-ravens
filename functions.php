@@ -220,7 +220,8 @@ function add_custom_post_types(){
 			'add_new_item' => 'Add New Testimonial',
 			'edit_item' => 'Edit Testimonial',
 			'new_item' => 'New Test'
-			) 
+			) ,
+			'public' => true,
 		)
 	);
 }
