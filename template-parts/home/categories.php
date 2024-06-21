@@ -17,7 +17,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                             $image = wp_get_attachment_url( $thumbnail_id );
                             $category_link = get_term_link( $category );
                     ?>
-                    <div class="group relative flex flex-col items-start shadow-lg rounded-lg overflow-hidden mb-6">
+                    <div class="group relative flex flex-col items-start self-stretch shadow-lg rounded-lg overflow-hidden mb-6">
                         <div class="image-frame-container">
                             <div class="flex flex-col">
                                 <div>

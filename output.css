@@ -1454,6 +1454,9 @@ html {
 .divide-slate-400\/25 > :not([hidden]) ~ :not([hidden]) {
   border-color: rgb(148 163 184 / 0.25);
 }
+.self-stretch {
+  align-self: stretch;
+}
 .overflow-hidden {
   overflow: hidden;
 }
