@@ -19,7 +19,7 @@ $testimonials = new WP_Query([
         <?php while($testimonials->have_posts() ) : $testimonials->the_post(); ?>
           <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
             <figure class="rounded-2xl bg-gray-50 p-8 text-sm leading-6">
-              <blockquote class="text-gray-900">
+              <blockquote class="text-gray-900 m-0">
                 <p class="text-lg"><?php the_content(); ?></p>
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
