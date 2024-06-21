@@ -1,7 +1,7 @@
 <?php
 
 $testimonials = new WP_Query([
-    'post_type' => 'testimonial',
+    'post_type' => 'testimonials',
     'posts_per_page' => 5,
     'orderby' => 'rand',
 ]);
