@@ -10,7 +10,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
             <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
                 <h2 class="text-2xl font-bold text-gray-900">View our Dresses</h2>
 
-                <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 gap-6 lg:space-y-0">
+                <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 gap-8 lg:space-y-0">
                     <?php
                         foreach ( $categories as $category ) :
                             $thumbnail_id = get_term_meta( $category->term_id, 'thumbnail_id', true );
