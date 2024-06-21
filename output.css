@@ -1738,6 +1738,10 @@ html {
 .ring-white\/10 {
   --tw-ring-color: rgb(255 255 255 / 0.1);
 }
+.ring-primary {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(89 49 95 / var(--tw-ring-opacity));
+}
 .ring-opacity-5 {
   --tw-ring-opacity: 0.05;
 }
@@ -2710,6 +2714,11 @@ textarea {
   background-color: rgb(89 49 95 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(89 49 95 / var(--tw-bg-opacity));
+}
+
 .hover\:text-gray-400:hover {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
@@ -2732,6 +2741,11 @@ textarea {
 
 .hover\:ring-white\/20:hover {
   --tw-ring-color: rgb(255 255 255 / 0.2);
+}
+
+.hover\:ring-primary:hover {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(89 49 95 / var(--tw-ring-opacity));
 }
 
 .focus\:outline-none:focus {
