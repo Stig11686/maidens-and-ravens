@@ -8,34 +8,19 @@
     <div class="px-6 lg:contents">
       <div class="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
         <p class="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
-        <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</h1>
-        <p class="mt-6 text-xl leading-8 text-gray-700">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend egestas fringilla sapien.</p>
+        <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Elizabeths Story</h1>
+        <p class="mt-6 text-xl leading-8 text-gray-700">Hello my Queens.<br>
+
+        I am Elizabeth and I am the founder, owner and bridal mavern at Maidens and Ravens, here in the historic city of York. </p>
         <div class="mt-10 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
-          <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p>
-          <ul role="list" class="mt-8 space-y-8 text-gray-600">
-            <li class="flex gap-x-3">
-              <svg class="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z" clip-rule="evenodd" />
-              </svg>
-              <span><strong class="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</span>
-            </li>
-            <li class="flex gap-x-3">
-              <svg class="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
-              </svg>
-              <span><strong class="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</span>
-            </li>
-            <li class="flex gap-x-3">
-              <svg class="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
-                <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
-              </svg>
-              <span><strong class="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</span>
-            </li>
-          </ul>
-          <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p>
-          <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
-          <p class="mt-6">Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.</p>
+          <p class="font-bold">Did you know that a mavern is someone who is experienced and knowledgeable? Seemed like a fitting name for me.</p>
+          <p class="mt-8">I started my journey into Bridalwear in 2019 but before that I always had a love for art, making things, sewing, knitting and vintage clothing. I had a strong interest in fashion history. Growing up in Edinburgh, I enjoyed charity shop snooping and loved buying dresses from the 60s and 70s which I'd get tailored to me. Like all of my friends, my prom dress was a 1980s secondhand bridesmaid dress - mint green with puff sleeves and lace! I wanted to look like Sarah from Labyrinth in the ballroom scene with David Bowie, complete with ribbons in my hair! I still love that look.</p>
+          <p class="mt-6">Believe it or not I am a practicing family lawyer and since 2003 I have been helping people with their divorces, financial arrangements and children matters. All very rewarding but over the years I missed a creative outlet.</p>
+          <p class="mt-6">Like many of you, I became an avid watcher of Don't tell the Bride (I loved when the groom had to choose the dress) and Say Yes to the Dress. I started thinking how wonderful it would be to own my own boutique and help brides find their perfect dresses.</p>
+          <p class="mt-6">I opened my original boutique in 2019 and after winning the Best Bridal Boutique in Yorkshire in 2022, 2023 ... I became fully independent in 2024 choosing to better adapt my boutique to my brides.</p>
+          <p class="mt-6">I have a real passion for helping my brides. I am a people person and am genuinely committed to helping you find a dress which makes you feel beautiful. I firmly believe there is a dress for every bride (and a bride for every dress!). I love brides of every age, shape, size and colour. I pride myself in being fully inclusive and making your appointments as relaxed and enjoyable as possible.</p>
+          <p class="mt-6">I love quirky, interesting dresses - vintage inspired, colour and alternative styles. That said, I also adore classic looks, beautiful ballgowns and clean, fitted contemporary styles. I have a real eye for what suits you and will suggest different options to adapt a dress to work better for you. Basically, whatever your dream, I want to help you achieve it and if you have no idea,  then that's absolutely fine too. I will never sell a dress to anyone that does not flatter them and I will never pressurise you into making a decision before you feel ready. I promise you, you're in safe hands. </p>
+          <p class="text-gray-100 text-xl opacity-25">Elizabeth</p>
         </div>
       </div>
     </div>
