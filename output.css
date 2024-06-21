@@ -2154,6 +2154,10 @@ textarea {
          columns: 2;
   }
 
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
   .sm\:justify-center {
     justify-content: center;
   }
