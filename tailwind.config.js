@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["*.{html,php,js}", "./template-parts/*.{php,html,js}", "./template-parts/**/*.{php,html,js}", "./assets/js/*.js"],
+  diasyui: {
+    themes: ['valentine', 'dark'],
+  },
   theme: {
     fontFamily: {
       sans: ['seasonsregular', 'sans-serif'],
@@ -31,6 +34,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui')
+  ],
 }
 
