@@ -4,7 +4,7 @@
 ?>
 
 
-<nav class="flex justify-between items-center gap-8">
+<nav class="flex justify-between items-center gap-8 py-8 max-w-9xl mx-auto">
     <div><?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex')); ?></div>
     <div><img class="w-32 h-8" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>
     <div>socials icons<div>
