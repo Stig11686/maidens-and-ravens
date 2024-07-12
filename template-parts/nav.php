@@ -13,7 +13,7 @@
     </div>
     <div><img class="w-32 h-12" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>    
     <div>socials icons</div>
-    <div id="side-menu" class="fixed h-full top-0 left-0 w-0 opacity-0 hidden">
+    <div id="side-menu">
         <div class="relative h-full">
             
             <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-black/20"></div>
@@ -52,11 +52,7 @@
         body.classList.toggle('overflow-hidden');
         overlay.classList.toggle('opacity-0');
         overlay.classList.toggle('opacity-1');
-        sideMenu.classList.toggle('hidden');
-        sideMenu.classList.toggle('w-0');
-        sideMenu.classList.toggle('w-full');
-        sideMenu.classList.toggle('opacity-0');
-        sideMenu.classList.toggle('opacity-1');
+        sideMenu.classList.toggle('open');
         menu.classList.toggle('open');
         hamburgerStripes.forEach(stripe => stripe.classList.toggle('stroke-white'));
         hamburgerStripes.forEach(stripe => stripe.classList.toggle('stroke-black'));

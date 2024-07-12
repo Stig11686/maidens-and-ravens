@@ -35,6 +35,23 @@ body {
 	counter-reset: section;
 }
 
+#side-menu {
+	position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0;
+	width: 0;
+	opacity: 0;
+	display: none;
+	animation: all ease-in 3s;
+}
+
+#side-menu.open {
+	display: block;
+	width: 100%;
+	opacity: 1;
+}
+
 #side-menu .side-menu {
 	clip-path: circle(0 at -21% 0);
 }
