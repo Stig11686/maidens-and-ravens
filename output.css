@@ -1407,14 +1407,14 @@ html {
 .left-\[calc\(50\%-11rem\)\] {
   left: calc(50% - 11rem);
 }
+.right-0 {
+  right: 0px;
+}
 .top-0 {
   top: 0px;
 }
 .top-\[calc\(100\%-13rem\)\] {
   top: calc(100% - 13rem);
-}
-.right-0 {
-  right: 0px;
 }
 .isolate {
   isolation: isolate;
@@ -1678,6 +1678,9 @@ html {
 .border-white\/10 {
   border-color: rgb(255 255 255 / 0.1);
 }
+.bg-black\/20 {
+  background-color: rgb(0 0 0 / 0.2);
+}
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -1712,12 +1715,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-white\/20 {
-  background-color: rgb(255 255 255 / 0.2);
-}
-.bg-black\/20 {
-  background-color: rgb(0 0 0 / 0.2);
 }
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
@@ -1981,6 +1978,17 @@ html {
 #side-menu .side-menu.open {
 	clip-path: circle(100% at -21% 70%);
 }
+
+##side-menu .menu-container li a::before {
+	counter-increment: section;
+	content: counter(section,decimal-leading-zero);
+	font-size: clamp(11px, 2vw, 25px);
+	font-weight: 700;
+	color: #bb8263;
+	position: absolute;
+	margin: -.5rem 0 0 -4rem;
+}
+
 
 @font-face {
 	font-family: "seasonsregular";
