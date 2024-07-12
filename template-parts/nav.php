@@ -14,7 +14,7 @@
         </svg>
     </div>
     
-    <div>socials icons<div>
+    <div>socials icons</div>
     <div id="side-menu" class="fixed top-0 left-0 w-0 opacity-0 hidden">
         <div class="relative">
             <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-white/2"></div>
