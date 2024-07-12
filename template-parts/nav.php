@@ -12,24 +12,3 @@
 </nav>
 
 
-
-
-    <!-- <script>
-        const hamburgerBtn = document.getElementById('hamburgerBtn');
-        const mobileMenu = document.getElementById('mobileMenu');
-        const closeMenuBtn = document.getElementById('closeMenuBtn');
-
-        hamburgerBtn.addEventListener('click', () => {
-            if (window.innerWidth < 768) {
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.add('slide-in');
-            } else {
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.add('slide-down');
-            }
-        });
-
-        closeMenuBtn.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden');
-        });
-    </script> -->
