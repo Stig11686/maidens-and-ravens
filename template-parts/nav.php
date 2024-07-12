@@ -15,9 +15,10 @@
     <div>socials icons</div>
     <div id="side-menu" class="fixed h-full top-0 left-0 w-0 opacity-0 hidden">
         <div class="relative h-full">
-            <div id="close-nav" class="absolute top-0 right-0 text-white font-bold">CLOSE</div>
+            
             <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-black/20"></div>
-            <div class="side-menu z-10 bg-white p-8 h-full w-full">
+            <div class="relative side-menu z-10 bg-white p-8 h-full w-full">
+                <div id="close-nav" class="absolute top-0 right-0 text-white font-bold">CLOSE</div>
                 <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex fex-col list-none ml-auto', 'add_li_class' => 'text-white px-4')); ?>
             </div>
         </div>    
