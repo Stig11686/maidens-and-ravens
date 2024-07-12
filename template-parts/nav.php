@@ -18,7 +18,7 @@
     <div id="side-menu" class="fixed h-full top-0 left-0 w-0 opacity-0 hidden">
         <div class="relative h-full">
             <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-white/20"></div>
-            <div class="z-10 bg-white p-8 h-full w-full" style="clip-path: circle(0 at -21% 0);">
+            <div class="side-menu z-10 bg-white p-8 h-full w-full" style="clip-path: circle(0 at -21% 0);">
             <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex fex-col list-none ml-auto', 'add_li_class' => 'text-white px-4')); ?>
             </div>
         </div>    
@@ -32,6 +32,7 @@
     const hamburger = document.querySelector('.hamburger');
     const overlay = document.querySelector('.overlay');
     const sideMenu = document.getElementById('side-menu');
+    const menu = sideMenu.querySelector('.side-menu');
     const body = document.getElementsByTagName('body')[0];
 
     hamburger.addEventListener('click', (e) => {
@@ -44,6 +45,7 @@
         sideMenu.classList.toggle('w-full');
         sideMenu.classList.toggle('opacity-0');
         sideMenu.classList.toggle('opacity-1');
+        menu.classList.toggle('open');
 
     });
 </script>
