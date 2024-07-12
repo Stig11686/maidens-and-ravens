@@ -6,5 +6,5 @@
     <title><?php echo the_title() . ' | ' . get_bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 </head>
-<body class="bg-base">
+<body class="bg-dark">
     
