@@ -1443,6 +1443,9 @@ html {
 .top-\[calc\(100\%-13rem\)\] {
   top: calc(100% - 13rem);
 }
+.left-0 {
+  left: 0px;
+}
 .isolate {
   isolation: isolate;
 }
@@ -1601,6 +1604,9 @@ html {
 }
 .w-screen {
   width: 100vw;
+}
+.w-0 {
+  width: 0px;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -1987,6 +1993,9 @@ html {
 }
 .opacity-25 {
   opacity: 0.25;
+}
+.opacity-0 {
+  opacity: 0;
 }
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
