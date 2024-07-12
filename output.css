@@ -1979,7 +1979,7 @@ html {
 	clip-path: circle(100% at -21% 70%);
 }
 
-##side-menu .menu-container li a::before {
+#side-menu .menu-container li a::before {
 	counter-increment: section;
 	content: counter(section,decimal-leading-zero);
 	font-size: clamp(11px, 2vw, 25px);
