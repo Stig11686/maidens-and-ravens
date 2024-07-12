@@ -12,7 +12,7 @@
         </svg>
     </div>
     <div><img class="w-32 h-12" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>    
-    <div>socials icons</div>
+    <div class="hidden md:block">socials icons</div>
     <div id="side-menu">
         <div class="relative h-full">
             
