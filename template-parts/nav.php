@@ -37,6 +37,7 @@
         console.log('clicked');
         overlay.classList.toggle('opacity-0');
         overlay.classList.toggle('opacity-1');
+        sideMenu.classList.toggle('hidden');
         sideMenu.classList.toggle('w-0');
         sideMenu.classList.toggle('w-full');
 
