@@ -1439,6 +1439,10 @@ html {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .-ml-48 {
   margin-left: -12rem;
 }
@@ -1920,6 +1924,10 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .opacity-0 {
   opacity: 0;
@@ -3281,6 +3289,11 @@ textarea {
 
   .lg\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
