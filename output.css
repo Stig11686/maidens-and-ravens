@@ -1369,9 +1369,6 @@ html {
 .visible {
   visibility: visible;
 }
-.fixed {
-  position: fixed;
-}
 .absolute {
   position: absolute;
 }
@@ -1529,9 +1526,6 @@ html {
 }
 .h-screen {
   height: 100vh;
-}
-.w-0 {
-  width: 0px;
 }
 .w-12 {
   width: 3rem;
@@ -1997,7 +1991,7 @@ body {
 	width: 0;
 	opacity: 0;
 	display: none;
-	animation: all ease-in 3s;
+	transition: all ease-in 3s;
 }
 
 #side-menu.open {

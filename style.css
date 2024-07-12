@@ -43,7 +43,7 @@ body {
 	width: 0;
 	opacity: 0;
 	display: none;
-	animation: all ease-in 3s;
+	transition: all ease-in 3s;
 }
 
 #side-menu.open {
