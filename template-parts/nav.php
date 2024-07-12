@@ -16,11 +16,12 @@
     
     <div>socials icons<div>
     <div id="side-menu fixed top-0 left-0 w-0 opacity-0 hidden">    
-        <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-white/2"></div>
         <div class="fixed inset-0 z-10 bg-white p-8" style="clip-path: circle(0 at -21% 0);">
         <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex fex-col list-none ml-auto', 'add_li_class' => 'text-white px-4')); ?>
         </div>
     </div>
 </nav>
+
+<div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-white/2"></div>
 
 
