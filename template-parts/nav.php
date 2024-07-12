@@ -8,7 +8,7 @@
     <div><img class="w-32 h-8" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>    
     <div class="flex items-center">
         <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex list-none ml-auto', 'add_li_class' => 'text-white px-4')); ?>
-        <svg viewBox="0 0 12 10" class="hamburger me-3 me-xl-5 me-0 mt-1" height="20px" width="24px">
+        <svg viewBox="0 0 12 10" class="hamburger me-3 me-xl-5 me-0 mt-1" height="20px" width="24px" class="z-50">
             <path d="M10,2 L2,2" class="upper" style="stroke: rgb(255, 255, 255); transform-origin: 0px 0px;" data-svg-origin="2 2" transform="matrix(1,0,0,1,0,0)"></path>
             <path d="M10,5 L2,5" class="lower" style="stroke: rgb(255, 255, 255); transform-origin: 0px 0px;" data-svg-origin="2 5" transform="matrix(1,0,0,1,0,0)"></path>
         </svg>
@@ -19,7 +19,7 @@
         <div class="relative h-full">
             <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-white/20"></div>
             <div class="side-menu z-10 bg-white p-8 h-full w-full" style="clip-path: circle(0 at -21% 0);">
-            <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex fex-col list-none ml-auto', 'add_li_class' => 'text-white px-4')); ?>
+                <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex fex-col list-none ml-auto', 'add_li_class' => 'text-white px-4')); ?>
             </div>
         </div>    
 
