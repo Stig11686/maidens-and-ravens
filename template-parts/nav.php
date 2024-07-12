@@ -8,7 +8,7 @@
     <div><?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex')); ?></div>
     <div><img class="w-32 h-8" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>
     <div>socials icons<div>
-    <div class="fixed inset-0 z-10 bg-white"></div>
+    <div class="hidden fixed inset-0 z-10 bg-white"></div>
 </nav>
 
 
