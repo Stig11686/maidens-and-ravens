@@ -27,12 +27,13 @@
 <script>
     const hamburger = document.querySelector('.hamburger');
     const overlay = document.querySelector('.overlay');
-    const side-menu = document.getElementById('side-menu');
+    const sideMenu = document.getElementById('side-menu');
 
     hamburger.addEventListener('click', (e) => {
         overlay.classList.toggle('opacity-0');
         overlay.classList.toggle('opacity-1');
         sideMenu.classList.toggle('w-0');
-        overlay.classList.toggle('w-full');
+        sideMenu.classList.toggle('w-full');
 
     });
+</script>
