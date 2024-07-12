@@ -32,6 +32,7 @@
     const hamburger = document.querySelector('.hamburger');
     const overlay = document.querySelector('.overlay');
     const sideMenu = document.getElementById('side-menu');
+    const body = document.getElementsByTagName('body')[0];
 
     hamburger.addEventListener('click', (e) => {
         console.log('clicked');
