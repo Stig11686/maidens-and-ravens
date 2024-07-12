@@ -40,6 +40,8 @@
         sideMenu.classList.toggle('hidden');
         sideMenu.classList.toggle('w-0');
         sideMenu.classList.toggle('w-full');
+        sideMenu.classList.toggle('opacity-0');
+        sideMenu.classList.toggle('opacity-1');
 
     });
 </script>
