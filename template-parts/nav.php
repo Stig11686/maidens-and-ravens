@@ -6,38 +6,38 @@
 
 
 <header class="text-white">
-        <div class="w-full mx-auto flex justify-between items-center">
-            <div class="logo w-32 pl-8">
-                <a href="/" class="text-2xl font-bold"><img src="<?php echo esc_url( $logo_url ); ?>" alt="Maidens and Ravens logo"></a>
-            </div>
-            <nav class="hidden md:flex space-x-4 h-full">
-                <?php wp_nav_menu(
-                    array(
-                        'theme_location' => 'primary',
-                        'container_class' => '',
-                        'menu_class' => 'flex divide-x divide-slate-400/25',
-                        'add_li_class'  => 'p-6 flex items-center justify-center text-white'
-                        )
-                    );
-                ?>
-                <button id="hamburgerBtn" class="md:hidden text-white focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-                    </svg>
-                </button>
-            </nav>
+    <div class="w-full mx-auto flex justify-between items-center">
+        <div class="logo w-32 pl-8">
+            <a href="/" class="text-2xl font-bold"><img src="<?php echo esc_url( $logo_url ); ?>" alt="Maidens and Ravens logo"></a>
+        </div>
+        <nav class="hidden md:flex space-x-4 h-full">
+            <?php wp_nav_menu(
+                array(
+                    'theme_location' => 'primary',
+                    'container_class' => '',
+                    'menu_class' => 'flex divide-x divide-slate-400/25',
+                    'add_li_class'  => 'p-6 flex items-center justify-center text-white'
+                    )
+                );
+            ?>
             <button id="hamburgerBtn" class="md:hidden text-white focus:outline-none">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
                 </svg>
             </button>
-        </div>
-        <!-- Full-screen dropdown menu -->
-        <div id="mobileMenu" class="fixed inset-0 bg-gray-900 text-white flex flex-col items-center justify-center space-y-4 hidden md:hidden">
-            <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex'));?>
-            <button id="closeMenuBtn" class="text-2xl focus:outline-none">Close</button>
-        </div>
-    </header>
+        </nav>
+        <button id="hamburgerBtn" class="text-white focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+        </button>
+    </div>
+    <!-- Full-screen dropdown menu -->
+    <div id="mobileMenu" class="fixed inset-0 bg-gray-900 text-white flex flex-col items-center justify-center space-y-4 hidden md:hidden">
+        <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex'));?>
+        <button id="closeMenuBtn" class="text-2xl focus:outline-none">Close</button>
+    </div>
+</header>
 
     <script>
         const hamburgerBtn = document.getElementById('hamburgerBtn');
