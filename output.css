@@ -1404,9 +1404,6 @@ html {
 .left-\[calc\(50\%-11rem\)\] {
   left: calc(50% - 11rem);
 }
-.right-0 {
-  right: 0px;
-}
 .top-0 {
   top: 0px;
 }
@@ -2012,7 +2009,7 @@ body {
 }
 
 #side-menu .menu-menu-1-container #menu-menu-1 li a {
-	font-size: clamp(27px, 4vw, 50px);
+	font-size: clamp(17px, 4vw, 50px);
 }
 
 #side-menu .menu-menu-1-container #menu-menu-1 li a::before {
@@ -3311,11 +3308,6 @@ textarea {
 
   .lg\:pt-32 {
     padding-top: 8rem;
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 }
 

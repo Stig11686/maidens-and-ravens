@@ -64,7 +64,7 @@ body {
 }
 
 #side-menu .menu-menu-1-container #menu-menu-1 li a {
-	font-size: clamp(27px, 4vw, 50px);
+	font-size: clamp(17px, 4vw, 50px);
 }
 
 #side-menu .menu-menu-1-container #menu-menu-1 li a::before {
