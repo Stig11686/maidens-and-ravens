@@ -11,7 +11,7 @@
             <path d="M10,5 L2,5" class="lower stroke-white" transform-origin: 0px 0px;" data-svg-origin="2 5" transform="matrix(1,0,0,1,0,0)"></path>
         </svg>
     </div>
-    <div><img class="w-32 h-8" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>    
+    <div><img class="w-32 h-12" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>    
     <div>socials icons</div>
     <div id="side-menu" class="fixed h-full top-0 left-0 w-0 opacity-0 hidden">
         <div class="relative h-full">
