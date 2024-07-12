@@ -15,7 +15,7 @@
     </div>
     
     <div>socials icons</div>
-    <div id="side-menu" class="fixed top-0 left-0 w-0 opacity-0 hidden">
+    <div id="side-menu" class="fixed h-full top-0 left-0 w-0 opacity-0 hidden">
         <div class="relative">
             <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-white/2"></div>
             <div class="absolute inset-0 z-10 bg-white p-8" style="clip-path: circle(0 at -21% 0);">
@@ -35,6 +35,7 @@
 
     hamburger.addEventListener('click', (e) => {
         console.log('clicked');
+        body.classList.toggle('overflow-hidden');
         overlay.classList.toggle('opacity-0');
         overlay.classList.toggle('opacity-1');
         sideMenu.classList.toggle('hidden');
