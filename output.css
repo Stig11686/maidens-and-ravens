@@ -1542,6 +1542,9 @@ html {
 .mt-1 {
   margin-top: 0.25rem;
 }
+.ml-auto {
+  margin-left: auto;
+}
 .flex {
   display: flex;
 }
