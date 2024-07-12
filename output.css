@@ -1664,7 +1664,7 @@ html {
 }
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(89 49 95 / var(--tw-bg-opacity));
+  background-color: var(--fallback-p,oklch(var(--p)/var(--tw-bg-opacity)));
 }
 .bg-purple-500 {
   --tw-bg-opacity: 1;
@@ -1874,7 +1874,7 @@ html {
 }
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(89 49 95 / var(--tw-text-opacity));
+  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -1912,7 +1912,7 @@ html {
 }
 .ring-primary {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(89 49 95 / var(--tw-ring-opacity));
+  --tw-ring-color: var(--fallback-p,oklch(var(--p)/var(--tw-ring-opacity)));
 }
 .ring-purple-600 {
   --tw-ring-opacity: 1;
@@ -2880,7 +2880,7 @@ textarea {
 
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(89 49 95 / var(--tw-bg-opacity));
+  background-color: var(--fallback-p,oklch(var(--p)/var(--tw-bg-opacity)));
 }
 
 .hover\:bg-purple-400:hover {
@@ -2898,11 +2898,6 @@ textarea {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.hover\:text-gray-700:hover {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2910,7 +2905,7 @@ textarea {
 
 .hover\:ring-primary:hover {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(89 49 95 / var(--tw-ring-opacity));
+  --tw-ring-color: var(--fallback-p,oklch(var(--p)/var(--tw-ring-opacity)));
 }
 
 .hover\:ring-purple-700:hover {
