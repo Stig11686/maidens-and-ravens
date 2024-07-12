@@ -15,7 +15,7 @@
     </div>
     
     <div>socials icons<div>
-    <div class="hidden fixed inset-0 z-10 bg-white p-8"></div>
+    <div class="fixed inset-0 z-10 bg-white p-8" style="clip-path: circle(0 at 21% 0);"></div>
 </nav>
 
 
