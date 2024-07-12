@@ -19,7 +19,7 @@
             <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-black/20"></div>
             <div class="relative side-menu z-10 bg-white p-8 h-full w-full">
                 <div id="close-nav" class="absolute top-0 right-0 text-white font-bold">CLOSE</div>
-                <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex fex-col list-none ml-auto', 'add_li_class' => 'text-white px-4')); ?>
+                <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex fex-col list-none ml-auto', 'add_li_class' => 'px-4')); ?>
             </div>
         </div>    
 
