@@ -63,6 +63,10 @@ body {
 	margin: 5rem ;
 }
 
+#side-menu .menu-menu-1-container #menu-menu-1 li a {
+	font-size: clamp(27px, 4vw, 50px);
+}
+
 #side-menu .menu-menu-1-container #menu-menu-1 li a::before {
 	counter-increment: section;
 	content: counter(section,decimal-leading-zero);
