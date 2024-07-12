@@ -1727,6 +1727,9 @@ html {
 .to-\[\#9089fc\] {
   --tw-gradient-to: #9089fc var(--tw-gradient-to-position);
 }
+.stroke-white {
+  stroke: #fff;
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
