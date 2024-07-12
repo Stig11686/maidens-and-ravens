@@ -15,7 +15,7 @@
     </div>
     
     <div>socials icons<div>
-    <div id="side-menu fixed top-0 left-0 w-0 opacity-0 hidden">    
+    <div id="side-menu" class="fixed top-0 left-0 w-0 opacity-0 hidden">    
         <div class="fixed inset-0 z-10 bg-white p-8" style="clip-path: circle(0 at -21% 0);">
         <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex fex-col list-none ml-auto', 'add_li_class' => 'text-white px-4')); ?>
         </div>
@@ -24,4 +24,15 @@
 
 <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-white/2"></div>
 
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const overlay = document.querySelector('.overlay');
+    const side-menu = document.getElementById('side-menu');
 
+    hamburger.addEventListener('click', (e) => {
+        overlay.classList.toggle('opacity-0');
+        overlay.classList.toggle('opacity-1');
+        sideMenu.classList.toggle('w-0');
+        overlay.classList.toggle('w-full');
+
+    });
