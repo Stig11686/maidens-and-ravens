@@ -1731,11 +1731,11 @@ html {
 .to-\[\#9089fc\] {
   --tw-gradient-to: #9089fc var(--tw-gradient-to-position);
 }
-.stroke-white {
-  stroke: #fff;
-}
 .stroke-black {
   stroke: #000;
+}
+.stroke-white {
+  stroke: #fff;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -1893,6 +1893,10 @@ html {
 .tracking-tight {
   letter-spacing: -0.025em;
 }
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
 .text-gray-100 {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
@@ -1924,10 +1928,6 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .opacity-0 {
   opacity: 0;
@@ -1993,7 +1993,11 @@ html {
 	clip-path: circle(100% at -21% 70%);
 }
 
-#side-menu .menu-container li a::before {
+#side-menu .menu-menu-1-container {
+	margin: auto 0;
+}
+
+#side-menu .menu-menu-1-container #menu-menu-1 li a::before {
 	counter-increment: section;
 	content: counter(section,decimal-leading-zero);
 	font-size: clamp(11px, 2vw, 25px);

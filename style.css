@@ -39,7 +39,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	clip-path: circle(100% at -21% 70%);
 }
 
-#side-menu .menu-menu-1-container li a::before {
+#side-menu .menu-menu-1-container {
+	margin: auto 0;
+}
+
+#side-menu .menu-menu-1-container #menu-menu-1 li a::before {
 	counter-increment: section;
 	content: counter(section,decimal-leading-zero);
 	font-size: clamp(11px, 2vw, 25px);
