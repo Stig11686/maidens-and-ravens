@@ -1730,6 +1730,9 @@ html {
 .stroke-white {
   stroke: #fff;
 }
+.stroke-black {
+  stroke: #000;
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;

@@ -35,7 +35,8 @@
     const menu = sideMenu.querySelector('.side-menu');
     const body = document.getElementsByTagName('body')[0];
     const closeNav = document.getElementById('close-nav');
-    const hamburgerStripes = hamburger.getElementsByTagName('path');
+    const hamburgerStripes = Array.from(hamburger.getElementsByTagName('path'));
+    console.log(hamburgerStripes);
 
     hamburger.addEventListener('click', (e) => {
         console.log('clicked');
