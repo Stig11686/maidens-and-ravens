@@ -34,6 +34,7 @@
     const sideMenu = document.getElementById('side-menu');
 
     hamburger.addEventListener('click', (e) => {
+        console.log('clicked');
         overlay.classList.toggle('opacity-0');
         overlay.classList.toggle('opacity-1');
         sideMenu.classList.toggle('w-0');
