@@ -34,7 +34,6 @@
     const sideMenu = document.getElementById('side-menu');
     const menu = sideMenu.querySelector('.side-menu');
     const body = document.getElementsByTagName('body')[0];
-    const closeNav = document.getElementById('close-nav');
     const hamburgerStripes = Array.from(hamburger.getElementsByTagName('path'));
     console.log(hamburgerStripes);
 
@@ -43,10 +42,10 @@
         toggleMenu();
     });
 
-    closeNav.addEventListener('click', e => {
-        console.log('clicked');
-        toggleMenu()
-    })
+    // closeNav.addEventListener('click', e => {
+    //     console.log('clicked');
+    //     toggleMenu()
+    // })
 
     function toggleMenu() {
         body.classList.toggle('overflow-hidden');
