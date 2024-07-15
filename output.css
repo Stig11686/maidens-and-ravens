@@ -1732,6 +1732,10 @@ html {
 .bg-slate-950\/90 {
   background-color: rgb(2 6 23 / 0.9);
 }
+.bg-purple-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(89 49 95 / var(--tw-bg-opacity));
+}
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
@@ -3014,6 +3018,11 @@ textarea {
 .hover\:bg-purple-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(126 34 206 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-purple-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 33 168 / var(--tw-bg-opacity));
 }
 
 .hover\:text-gray-400:hover {
