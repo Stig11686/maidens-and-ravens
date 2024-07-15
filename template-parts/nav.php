@@ -7,8 +7,8 @@
 <nav class="flex justify-between items-center gap-8 p-8 max-w-screen-2xl mx-auto text-white">
     <div class="flex items-center z-50 self-start cursor-pointer">
         <svg viewBox="0 0 12 10" class="hamburger me-3 me-xl-5 me-0 mt-1" height="20px" width="24px" class="z-50">
-            <path d="M10,2 L2,2" class="upper stroke-white" transform-origin: 0px 0px; data-svg-origin="2 2" transform="matrix(1,0,0,1,0,0)"></path>
-            <path d="M10,5 L2,5" class="lower stroke-white" transform-origin: 0px 0px; data-svg-origin="2 5" transform="matrix(1,0,0,1,0,0)"></path>
+            <path d="M10,2 L2,2" class="upper stroke-white" data-svg-origin="2 2" transform="matrix(1,0,0,1,0,0)"></path>
+            <path d="M10,5 L2,5" class="lower stroke-white" data-svg-origin="2 5" transform="matrix(1,0,0,1,0,0)"></path>
         </svg>
     </div>
     <div><img class="w-full max-h-28 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>    
