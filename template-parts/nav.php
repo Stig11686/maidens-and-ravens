@@ -4,7 +4,7 @@
 ?>
 
 
-<nav class="flex justify-between items-center gap-8 py-8 max-w-screen-2xl mx-auto text-white">
+<nav class="flex justify-between items-center gap-8 p-8 max-w-screen-2xl mx-auto text-white">
     <div class="flex items-center z-50">
         <svg viewBox="0 0 12 10" class="hamburger me-3 me-xl-5 me-0 mt-1" height="20px" width="24px" class="z-50">
             <path d="M10,2 L2,2" class="upper stroke-white" transform-origin: 0px 0px;" data-svg-origin="2 2" transform="matrix(1,0,0,1,0,0)"></path>
