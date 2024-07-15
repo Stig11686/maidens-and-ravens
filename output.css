@@ -1729,6 +1729,9 @@ html {
 .bg-slate-950\/85 {
   background-color: rgb(2 6 23 / 0.85);
 }
+.bg-slate-950\/90 {
+  background-color: rgb(2 6 23 / 0.9);
+}
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
