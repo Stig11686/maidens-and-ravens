@@ -4,12 +4,12 @@ $hero_image = get_theme_mod('hero_image');
 
 ?>
 
-<div id="header" class="relative h-screen">
+<div class="relative h-screen">
   <header class="absolute inset-x-0 top-0 z-50">
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
   </header>
 
-  <div class="relative isolate overflow-hidden pt-14">
+  <div id="header" class="relative isolate overflow-hidden pt-14">
     <img src="<?php echo $hero_image; ?>" alt="" class="absolute inset-0 h-full w-full object-cover">
     <div class="absolute inset-x-0 inset-y-0 overflow-hidden bg-slate-950/90" aria-hidden="true">
     </div>
