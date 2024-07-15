@@ -11,7 +11,7 @@ $hero_image = get_theme_mod('hero_image');
 
   <div class="relative isolate overflow-hidden pt-14">
     <img src="<?php echo $hero_image; ?>" alt="" class="absolute inset-0 h-full w-full object-cover">
-    <div class="absolute inset-x-0 inset-y-0 overflow-hidden bg-slate-950/95" aria-hidden="true">
+    <div class="absolute inset-x-0 inset-y-0 overflow-hidden bg-slate-950/85" aria-hidden="true">
     </div>
     <div class="mx-auto flex flex-col items-center justify-center gap-8 max-w-2xl py-32 sm:py-48 lg:py-40">
       <div class="text-center z-50">
