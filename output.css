@@ -2008,11 +2008,16 @@ body {
 	margin: 5rem ;
 }
 
+#side-menu .menu-menu-1-container > #menu-menu-1 > li {
+	counter-increment: section;
+	position: relative;
+}
+
 #side-menu .menu-menu-1-container #menu-menu-1 li a {
 	font-size: clamp(17px, 4vw, 50px);
 }
 
-#side-menu .menu-menu-1-container #menu-menu-1 li a::before {
+#side-menu .menu-menu-1-container #menu-menu-1 > li > a::before {
 	counter-increment: section;
 	content: counter(section,decimal-leading-zero);
 	font-size: clamp(11px, 2vw, 25px);
@@ -2022,6 +2027,10 @@ body {
 	margin: -1rem 0 0 -4rem;
 }
 
+#side-menu .menu-menu-1-container #menu-menu-1 .sub-menu li a::before {
+	content: "";
+	counter-increment: none;
+}
 
 @font-face {
 	font-family: "seasonsregular";
