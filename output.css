@@ -1381,6 +1381,9 @@ html {
 .inset-20 {
   inset: 5rem;
 }
+.inset-32 {
+  inset: 8rem;
+}
 .inset-x-0 {
   left: 0px;
   right: 0px;
@@ -3185,6 +3188,10 @@ textarea {
 
   .md\:block {
     display: block;
+  }
+
+  .md\:flex {
+    display: flex;
   }
 
   .md\:grid {
