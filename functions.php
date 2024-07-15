@@ -149,8 +149,10 @@ add_action( 'widgets_init', 'maidens_and_ravens_widgets_init' );
 function maidens_and_ravens_scripts() {
 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300..900;1,300..900&display=swap');
 	wp_enqueue_style( 'aos-css', 'https://unpkg.com/aos@2.3.1/dist/aos.css');
+	wp_enqueue_style('slick-slider-css', "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
 	wp_enqueue_style( 'maidens-and-ravens-style', get_template_directory_uri() . '/output.css', array(), _S_VERSION );
 	wp_enqueue_script( 'aos-js', 'https://unpkg.com/aos@2.3.1/dist/aos.js', array(), _S_VERSION, true );
+	wp_enqueue_script('slick-slider-js', "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js", array(), _S_VERSION, true );
 	wp_enqueue_script( 'maidens-and-ravens-main', get_template_directory_uri() . '/js/main.js', array(), _S_VERSION, true );
 	
 
