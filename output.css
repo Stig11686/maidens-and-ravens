@@ -1530,6 +1530,9 @@ html {
 .h-20 {
   height: 5rem;
 }
+.max-h-48 {
+  max-height: 12rem;
+}
 .w-12 {
   width: 3rem;
 }
