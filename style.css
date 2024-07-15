@@ -67,7 +67,7 @@ body {
 	font-size: clamp(17px, 4vw, 50px);
 }
 
-#side-menu .menu-menu-1-container #menu-menu-1 li a::before {
+#side-menu .menu-menu-1-container #menu-menu-1 ul:first-child li a::before {
 	counter-increment: section;
 	content: counter(section,decimal-leading-zero);
 	font-size: clamp(11px, 2vw, 25px);
