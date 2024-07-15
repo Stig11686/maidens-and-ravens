@@ -14,8 +14,8 @@
     <div><img class="w-32 h-12" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>    
     <div class="hidden md:block">
         <div class="flex gap-8">
-            <a href="https://www.facebook.com" target="_blank"><img src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>
-            <a href="https://www.instagram.com" target="_blank"><img src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
+            <a href="https://www.facebook.com" target="_blank"><img class="h-20 w-20 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>
+            <a href="https://www.instagram.com" target="_blank"><img class="h-20 w-20 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
         </div>
     </div>
     <div id="side-menu">
