@@ -18,7 +18,7 @@
 
             <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-black/20"></div>
             <div class="relative side-menu z-10 bg-white p-8 h-full w-full">
-                <img src="./img/maiden-and-raven.jpg" class="opacity-20 h-full w-full object-cover" alt="">
+                <img src="<?php get_stylesheet_directory_uri(  ) . '/img/maiden-and-raven.jpg'; ?>" class="opacity-20 h-full w-full object-cover" alt="">
                 <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'flex flex-col gap-8 my-auto list-none ml-auto', 'add_li_class' => 'text-black px-4')); ?>
             </div>
         </div>    
