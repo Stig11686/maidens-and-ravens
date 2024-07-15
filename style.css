@@ -53,6 +53,10 @@ body {
 #side-menu .side-menu {
 	clip-path: circle(0 at -21% 0);
 	transition: all 3s ease;
+	background-image: url(./img/maidens-and-ravens-menu-op20.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #side-menu .side-menu .raven-image {
