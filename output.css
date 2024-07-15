@@ -1533,6 +1533,9 @@ html {
 .max-h-48 {
   max-height: 12rem;
 }
+.max-h-28 {
+  max-height: 7rem;
+}
 .w-12 {
   width: 3rem;
 }
@@ -1653,6 +1656,9 @@ html {
 }
 .divide-slate-400\/25 > :not([hidden]) ~ :not([hidden]) {
   border-color: rgb(148 163 184 / 0.25);
+}
+.self-start {
+  align-self: flex-start;
 }
 .self-stretch {
   align-self: stretch;

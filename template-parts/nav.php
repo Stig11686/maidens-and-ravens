@@ -5,18 +5,16 @@
 
 
 <nav class="flex justify-between items-center gap-8 p-8 max-w-screen-2xl mx-auto text-white">
-    <div class="flex items-center z-50">
+    <div class="flex items-center z-50 self-start">
         <svg viewBox="0 0 12 10" class="hamburger me-3 me-xl-5 me-0 mt-1" height="20px" width="24px" class="z-50">
             <path d="M10,2 L2,2" class="upper stroke-white" transform-origin: 0px 0px;" data-svg-origin="2 2" transform="matrix(1,0,0,1,0,0)"></path>
             <path d="M10,5 L2,5" class="lower stroke-white" transform-origin: 0px 0px;" data-svg-origin="2 5" transform="matrix(1,0,0,1,0,0)"></path>
         </svg>
     </div>
-    <div><img class="w-full max-h-48 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>    
-    <div class="hidden md:block">
-        <div class="flex gap-8">
-            <a href="https://www.facebook.com" target="_blank"><img class="h-20 w-20 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>
-            <a href="https://www.instagram.com" target="_blank"><img class="h-20 w-20 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
-        </div>
+    <div><img class="w-full max-h-28 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>    
+    <div class="hidden md:flex gap-8 self-start text-white">
+            <a href="https://www.facebook.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>
+            <a href="https://www.instagram.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
     </div>
     <div id="side-menu">
         <div class="relative h-full">
