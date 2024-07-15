@@ -12,9 +12,11 @@
         </svg>
     </div>
     <div><img class="w-full max-h-28 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>    
-    <div class="hidden md:flex gap-8 self-start text-white">
+    <div class="hidden md:block gap-8 self-start text-white">
+        <div class="flex gap-8">
             <a href="https://www.facebook.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>
             <a href="https://www.instagram.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
+        </div>
     </div>
     <div id="side-menu">
         <div class="relative h-full">
