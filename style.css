@@ -1087,18 +1087,12 @@ textarea {
 	background-color: #59315F;
 }
 
-#menu-menu-1 li {
-	position: relative;
+
+
+.sub-menu.open {
+	display: block;
 }
 
-#menu-menu-1 li:hover .sub-menu {
-	display: flex;
-	opacity: 1;
-}
-
-#menu-menu-1 li:hover .sub-menu li {
-	border-right: 1px solid white;
-}
 
 .image-frame-container {
     position: relative;
