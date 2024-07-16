@@ -2,7 +2,7 @@
 <div class="image-frame-container">
     <div class="flex flex-col">
         <div>
-            <img src="" alt="<?php the_title(); ?>" class="content-image">
+            <img src="<?php echo wp_get_attachment_image_url() ?>" alt="<?php the_title(); ?>" class="content-image">
         </div>
         <div>
             <img src=<?php echo get_template_directory_uri(  ) . "/img/frame.png" ?> alt="Frame Image" class="frame-image" aria-hidden="true">
