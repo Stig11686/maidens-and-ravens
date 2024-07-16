@@ -8,7 +8,11 @@ include(get_template_directory() . '/template-parts/global/header.php');
 
 include(get_template_directory(  ) . '/template-parts/home/hero.php');
 
+?>
 
+<div class="max-w-7xl mx-auto py-16">
+
+<?php
 		do_action( 'woocommerce_before_main_content' );
 
 		while ( have_posts() ) : ?>
@@ -26,5 +30,10 @@ include(get_template_directory(  ) . '/template-parts/home/hero.php');
 		 */
 		do_action( 'woocommerce_after_main_content' );
 
+?>
 
+</div>
+
+<?php
+	include(get_template_directory(  ) . '/template-parts/global/footer.php');
 
