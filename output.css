@@ -1538,6 +1538,9 @@ html {
 .h-screen {
   height: 100vh;
 }
+.h-10 {
+  height: 2.5rem;
+}
 .max-h-28 {
   max-height: 7rem;
 }
@@ -1558,6 +1561,9 @@ html {
 }
 .w-screen {
   width: 100vw;
+}
+.w-10 {
+  width: 2.5rem;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -1611,6 +1617,9 @@ html {
 }
 .flex-col {
   flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .items-start {
   align-items: flex-start;
@@ -3385,6 +3394,10 @@ textarea {
   }
 
   .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-6\/12 {
     width: 50%;
   }
 
