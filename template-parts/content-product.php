@@ -17,6 +17,6 @@
             </a>
         </h3>
         <p class="text-base text-md text-gray-900"><?php echo get_the_excerpt(); ?></p>
-        <a href="<?php the_permalink(); ?>" class="btn bg-purple-900 text-sm font-semibold text-white">View Collection</a>
+        <a href="<?php the_permalink(); ?>" class="btn bg-purple-900 text-sm font-semibold text-white">View Dress</a>
     </div>
 </div>
