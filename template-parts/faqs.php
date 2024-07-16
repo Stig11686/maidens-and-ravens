@@ -8,7 +8,7 @@
 if ($faqs->have_posts()) :
 ?>
 <section id="faqs">
-  <div class="bg-gray-100 py-24 sm:py-16 lg:px-8">
+  <div class="py-24 sm:py-16 lg:px-8">
     <div class="mx-auto max-w-3xl px-6 sm:py-16 lg:px-8">
       <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Frequently Asked Questions</h2>
