@@ -11,7 +11,7 @@
             <path d="M10,5 L2,5" class="lower stroke-white" data-svg-origin="2 5" transform="matrix(1,0,0,1,0,0)"></path>
         </svg>
     </div>
-    <div><img class="w-full max-h-28 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></div>    
+    <div><a href="/"><img class="w-full max-h-28 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a></div>    
     <div class="hidden md:block gap-8 self-start text-white">
         <div class="flex gap-8">
             <a href="https://www.facebook.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>    
