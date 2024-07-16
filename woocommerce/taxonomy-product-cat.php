@@ -45,5 +45,5 @@ if ( woocommerce_product_loop() ) {
 }
 
 //get_footer( 'shop' );
-get_template_directory(  ) . '/template-parts/global/footer.php';
+include(get_template_directory(  ) . '/template-parts/global/footer.php');
 ?>
