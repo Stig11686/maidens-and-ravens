@@ -19,10 +19,13 @@ global $product;
 <div class="flex flex-col gap-16 bg-purple-900">
 
     <div class="w-full flex">
-                you might also like
+        you might also like
     </div>
     <div class="w-full flex">
         Testimonials
+    </div>
+    <div class="w-full flex">
+        <?php include(get_template_directory(  ) . '/template-parts/faqs.php');?>
     </div>
 
 </div>

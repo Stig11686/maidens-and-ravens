@@ -229,6 +229,19 @@ function add_custom_post_types(){
 			'public' => true,
 		)
 	);
+
+	register_post_type( 'faqs', array(
+		'labels' => array(
+			'name' => 'FAQs',
+			'singular_name' => 'FAQ',
+			'add_new' => 'Add New FAQ',
+			'add_new_item' => 'Add New FAQ',
+			'edit_item' => 'Edit FAQ',
+			'new_item' => 'New FAQ'
+			) ,
+			'public' => true,
+		)
+	);
 }
 add_action('init', 'add_custom_post_types');
 
