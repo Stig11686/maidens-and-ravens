@@ -24,7 +24,5 @@ $hero_image = get_theme_mod('hero_image');
         </div>
       </div>
     </div>
-    <div class="overlay-top"></div>
-    <div class="overlay-bottom"></div>
   </div>
 </div>
