@@ -25,7 +25,6 @@ include(get_template_directory(  ) . '/template-parts/global/hero.php');
 		 * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
 		 */
 		do_action( 'woocommerce_after_main_content' );
-	?>
 
 
-/* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */
+
