@@ -23,6 +23,11 @@ if ( woocommerce_product_loop() ) {
     woocommerce_product_loop_start();
 
     if ( wc_get_loop_prop( 'total' ) ) {
+    ?>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+    <?php
         while ( have_posts() ) {
             the_post();
 
@@ -36,6 +41,11 @@ if ( woocommerce_product_loop() ) {
     }
 
     woocommerce_product_loop_end();
+
+    ?>
+    </div>
+
+    <?php
 
     do_action( 'woocommerce_after_shop_loop' );
 } else {
