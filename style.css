@@ -35,6 +35,22 @@ body {
 	counter-reset: section;
 }
 
+.faq .faq-btn--active {
+    transition: color 0.2s ease-out;
+}
+
+.faq .faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-out;
+}
+  
+.faq .faq-btn--active-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: all 0.2s ease-out;
+}
+
 #header::after {
 	content: '';
 	background-image: url('./img/header-bottom.svg');
