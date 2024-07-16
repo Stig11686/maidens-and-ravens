@@ -1684,6 +1684,12 @@ html {
 .rounded-xl {
   border-radius: 0.75rem;
 }
+.rounded {
+  border-radius: 0.25rem;
+}
+.border {
+  border-width: 1px;
+}
 .border-t {
   border-top-width: 1px;
 }
@@ -1693,6 +1699,10 @@ html {
 }
 .border-white\/10 {
   border-color: rgb(255 255 255 / 0.1);
+}
+.border-purple-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(89 49 95 / var(--tw-border-opacity));
 }
 .bg-black\/20 {
   background-color: rgb(0 0 0 / 0.2);
@@ -1817,6 +1827,10 @@ html {
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 .pb-32 {
   padding-bottom: 8rem;
@@ -1947,6 +1961,10 @@ html {
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+.text-purple-900 {
+  --tw-text-opacity: 1;
+  color: rgb(89 49 95 / var(--tw-text-opacity));
 }
 .opacity-0 {
   opacity: 0;
