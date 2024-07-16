@@ -44,5 +44,6 @@ if ( woocommerce_product_loop() ) {
     do_action( 'woocommerce_no_products_found' );
 }
 
-get_footer( 'shop' );
+//get_footer( 'shop' );
+get_template_directory(  ) . '/template-parts/global/footer.php';
 ?>
