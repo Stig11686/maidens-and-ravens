@@ -2118,6 +2118,10 @@ body {
 	transition-delay: 0.4s;
 }
 
+.single-product-btn:hover {
+	color: white;
+}
+
 .single-product-btn:hover::after {
 	width: 100%;
 	height: 100%;
