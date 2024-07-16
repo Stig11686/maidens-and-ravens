@@ -1551,6 +1551,9 @@ html {
 .max-w-2xl {
   max-width: 42rem;
 }
+.max-w-3xl {
+  max-width: 48rem;
+}
 .max-w-7xl {
   max-width: 80rem;
 }

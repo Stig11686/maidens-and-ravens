@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["*.{html,php,js}", "./template-parts/*.{php,html,js}", "./template-parts/**/*.{php,html,js}", "./assets/js/*.js"],
+  content: ["*.{html,php,js}", "./template-parts/*.{php,html,js}", "./template-parts/**/*.{php,html,js}", "./assets/js/*.js", "./woocommerce/*.{php, html, js}"],
   diasyui: {
     themes: ['valentine', 'dark'],
   },
