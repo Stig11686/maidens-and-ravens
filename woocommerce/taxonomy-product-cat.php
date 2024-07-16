@@ -9,4 +9,4 @@ testing the theory
 
 <?php
 
-    include(get_template_directory() . '/template-parts/home/footer.php');
+    include(get_template_directory() . '/template-parts/global/footer.php');
