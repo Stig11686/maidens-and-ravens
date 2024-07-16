@@ -10,7 +10,7 @@ include(get_template_directory(  ) . '/template-parts/home/hero.php');
 
 ?>
 
-<div class="max-w-7xl mx-auto py-16">
+
 
 <?php
 		do_action( 'woocommerce_before_main_content' );
