@@ -2113,6 +2113,7 @@ body {
 }
 
 .single-product-btn {
+	position: relative;
 	transition: color 0.3s ease-in-out;
 	color: purple;
 	transition-delay: 0.4s;
