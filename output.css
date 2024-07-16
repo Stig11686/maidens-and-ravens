@@ -2109,7 +2109,7 @@ body {
 	bottom: 0;
 	width: 0;
 	height: 100%;
-	background: purple;
+	background: #59315F;
 	color: #fff;
 	transition: 0.6s width ease-in-out;
 	text-transform: uppercase;
@@ -2121,7 +2121,7 @@ body {
 
 .single-product-btn {
 	position: relative;
-	color: purple;
+	color: #59315F;
 	overflow: hidden;
 }
 
