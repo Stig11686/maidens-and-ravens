@@ -2163,7 +2163,7 @@ body {
 	z-index: -1;
 	transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
 	transform-origin: 0% 100%;
-	transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+	transition: transform 0.5s, opacity 0.5s, background-color 0.5s;
 }
 .button--wayra:hover {
 	color: #fff;
