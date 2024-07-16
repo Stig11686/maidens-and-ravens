@@ -5,13 +5,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-include(get_template_directory(  ) . '/template-parts/global/hero.php');
+include(get_template_directory(  ) . '/template-parts/home/hero.php');
 
 
 		do_action( 'woocommerce_before_main_content' );
-	?>
 
-		<?php while ( have_posts() ) : ?>
+		while ( have_posts() ) : ?>
 			<?php the_post(); ?>
 
 			<?php wc_get_template_part( 'content', 'single-product' ); ?>
