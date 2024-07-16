@@ -232,3 +232,5 @@ function add_custom_post_types(){
 }
 add_action('init', 'add_custom_post_types');
 
+add_filter( 'woocommerce_is_purchasable', '__return_false' );
+
