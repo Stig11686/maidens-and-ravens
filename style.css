@@ -109,13 +109,14 @@ body {
 }
 
 .single-product-btn::after {
-	content: '';
+	content: attr(data-text);
 	position: absolute;
 	left: 0;
 	top: 0;
 	bottom: 0;
 	width: 0;
 	background: purple;
+	color: #fff;
 	transition: 0.6s all ease-in-out;
 }
 
@@ -124,10 +125,6 @@ body {
 	transition: color 0.3s ease-in-out;
 	color: purple;
 	transition-delay: 0.4s;
-}
-
-.single-product-btn:hover {
-	color: white;
 }
 
 .single-product-btn:hover::after {
