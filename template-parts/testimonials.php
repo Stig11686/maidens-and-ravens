@@ -15,16 +15,23 @@
     <div class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
       <div class="flex flex-wrap -mt-8 sm:-mx-4 sm:text-[0] testimonial-slider">
         <?php while ($testimonials->have_posts()) : $testimonials->the_post(); ?>
-        <div class="pt-8 sm:inline-block w-full md:w-6/12 sm:px-4" data-theme="emerald">
+        <div class="pt-8 sm:px-4">
+          <div class="flex flex-col md:flex-row items-center">
+            <div class="flex flex-col gap-8">
+              <img class="h-12 w-12 rounded-full" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'thumbnail'); ?>" alt="testimonial image">
+              <p class="text-white leading-7 text-3xl"><?php the_content(); ?></p>
+              <cite class="text-white font-bold"><?php the_title(); ?></cite>
+            </div>
             <figure class="rounded-2xl bg-primary p-8 text-sm leading-6">
                 <blockquote class="text-white">
-                    <p><?php the_content(); ?></p>
+                    
                 </blockquote>
                 <figcaption class="mt-6 flex items-center gap-x-4">
                     <?php echo get_the_post_thumbnail(get_the_ID(), 'thumbnail', array('class' => 'h-10 w-10 rounded-full bg-gray-50')); ?>
 
                 </figcaption>
             </figure>
+          </div>
         </div>
             <?php endwhile; ?>
       
