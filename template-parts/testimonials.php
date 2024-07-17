@@ -17,7 +17,7 @@
         <div class="testimonial-slider">
           <?php while ($testimonials->have_posts()) : $testimonials->the_post(); ?>
           <div class="pt-8 sm:px-4">
-            <div class="flex flex-col md:flex-row items-start gap-8">
+            <div class="flex flex-col lg:flex-row items-start gap-8">
               <div class="flex flex-col gap-8">
                 <img class="h-28 w-28 rounded-full" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'thumbnail'); ?>" alt="testimonial image">
                 <div class="text-white text-3xl leading-loose"><?php the_content(); ?></div>
