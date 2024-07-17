@@ -16,13 +16,13 @@
       <div class="flex flex-wrap -mt-8 sm:-mx-4 sm:text-[0] testimonial-slider">
         <?php while ($testimonials->have_posts()) : $testimonials->the_post(); ?>
         <div class="pt-8 sm:px-4">
-          <div class="flex flex-col md:flex-row items-center gap-8">
+          <div class="flex flex-col md:flex-row items-start gap-8">
             <div class="flex flex-col gap-8">
               <img class="h-28 w-28 rounded-full" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'thumbnail'); ?>" alt="testimonial image">
               <div class="text-white text-3xl leading-loose"><?php the_content(); ?></div>
               <div class="text-white font-bold"><?php the_title(); ?></div>
             </div>
-            <div class="flex flex-col p-8">
+            <div class="flex flex-col px-8 self-stretch">
               <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>" class="h-full w-full object-cover rounded-lg" alt="testimonial image">
             </div>
           </div>
