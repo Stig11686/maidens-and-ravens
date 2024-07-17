@@ -25,7 +25,10 @@ global $product;
         Testimonials
     </div>
     <div class="w-full flex flex-col items-center">
-        <?php include(get_template_directory(  ) . '/template-parts/faqs.php');?>
+        <?php 
+            include(get_template_directory(  ) . '/template-parts/testimonials.php');
+            include(get_template_directory(  ) . '/template-parts/faqs.php');
+        ?>
     </div>
 
 </div>
