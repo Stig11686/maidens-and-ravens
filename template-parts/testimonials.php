@@ -19,8 +19,8 @@
           <div class="flex flex-col md:flex-row items-center gap-8">
             <div class="flex flex-col gap-8">
               <img class="h-28 w-28 rounded-full" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'thumbnail'); ?>" alt="testimonial image">
-              <div class="text-white text-3xl"><?php the_content(); ?></div>
-              <cite class="text-white font-bold"><?php echo get_the_title(); ?></cite>
+              <div class="text-white text-3xl leading-loose"><?php the_content(); ?></div>
+              <div class="text-white font-bold"><?php the_title(); ?></div>
             </div>
             <div class="flex flex-col p-8">
               <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>" class="h-full w-full object-cover rounded-lg" alt="testimonial image">
