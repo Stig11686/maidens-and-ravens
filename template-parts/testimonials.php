@@ -11,8 +11,8 @@
 ?>
 <?php if ($testimonials->have_posts()) : ?>
 <div class="bg-purple-900 py-24 sm:py-32">
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
+    <div class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 w-full">
       <div class="flex flex-col gap-8">
         <div class="testimonial-slider">
           <?php while ($testimonials->have_posts()) : $testimonials->the_post(); ?>
