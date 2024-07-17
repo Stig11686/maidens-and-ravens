@@ -5,6 +5,6 @@ jQuery(document).ready(function(){
         speed: 2000,
         slidesToShow: 1,
         adaptiveHeight: true,
-        arrows: false,
+        arrows: true,
     });
   });
