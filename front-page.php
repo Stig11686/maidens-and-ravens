@@ -7,6 +7,6 @@
     
     include(get_template_directory() . '/template-parts/home/the-experience.php');
     include(get_template_directory() . '/template-parts/home/personalised-dresses.php');
-    include(get_template_directory() . '/template-parts/global/testimonials.php');
+    include(get_template_directory() . '/template-parts/testimonials.php');
     include(get_template_directory() . '/template-parts/global/footer.php');
     
