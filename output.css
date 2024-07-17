@@ -1520,14 +1520,14 @@ html {
 .aspect-\[1155\/678\] {
   aspect-ratio: 1155/678;
 }
+.h-10 {
+  height: 2.5rem;
+}
 .h-12 {
   height: 3rem;
 }
 .h-6 {
   height: 1.5rem;
-}
-.h-7 {
-  height: 1.75rem;
 }
 .h-8 {
   height: 2rem;
@@ -1535,14 +1535,11 @@ html {
 .h-full {
   height: 100%;
 }
-.h-screen {
-  height: 100vh;
-}
-.h-10 {
-  height: 2.5rem;
-}
 .max-h-28 {
   max-height: 7rem;
+}
+.w-10 {
+  width: 2.5rem;
 }
 .w-12 {
   width: 3rem;
@@ -1561,9 +1558,6 @@ html {
 }
 .w-screen {
   width: 100vw;
-}
-.w-10 {
-  width: 2.5rem;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -1733,10 +1727,6 @@ html {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
-.border-gray-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
-}
 .border-purple-900 {
   --tw-border-opacity: 1;
   border-color: rgb(89 49 95 / var(--tw-border-opacity));
@@ -1775,15 +1765,15 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(89 49 95 / var(--tw-bg-opacity));
 }
+.bg-purple-900\/10 {
+  background-color: rgb(89 49 95 / 0.1);
+}
 .bg-slate-950\/90 {
   background-color: rgb(2 6 23 / 0.9);
 }
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-purple-900\/10 {
-  background-color: rgb(89 49 95 / 0.1);
 }
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
