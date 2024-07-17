@@ -3,7 +3,7 @@
   <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="space-y-8">
-        <img class="h-7" src="<?php get_theme_mod('custom_logo'); ?>" alt="maidens and ravens logo">
+        <img class="w-full max-h-28 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a>
         <p class="text-sm leading-6 text-gray-300">Making the world a better place through constructing elegant hierarchies.</p>
         <div class="flex space-x-6">
           <a href="#" class="text-gray-500 hover:text-gray-400">
