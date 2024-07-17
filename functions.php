@@ -230,6 +230,7 @@ function add_custom_post_types(){
 			'new_item' => 'New Test'
 			) ,
 			'public' => true,
+			'supports' => array( 'title', 'editor', 'thumbnail' )
 		)
 	);
 
@@ -243,7 +244,6 @@ function add_custom_post_types(){
 			'new_item' => 'New FAQ'
 			) ,
 			'public' => true,
-			'supports' => array( 'title', 'editor', 'thumbnail' )
 		)
 	);
 }
