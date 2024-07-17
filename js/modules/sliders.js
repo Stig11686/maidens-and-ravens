@@ -6,7 +6,7 @@ jQuery(document).ready(function(){
         slidesToShow: 1,
         adaptiveHeight: true,
         arrows: true,
-        prevArrow: jQuery('.testimonial-slider .prev'),
-        nextArrow: jQuery('.testimonial-slider .next'),
+        prevArrow: jQuery('.slider-arrows .prev'),
+        nextArrow: jQuery('.slider-arrows .next'),
     });
   });
