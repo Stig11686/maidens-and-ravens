@@ -2,7 +2,7 @@
     <div class="image-frame-container">
         <div class="flex flex-col">
             <div>
-                <img src="<?php echo wp_get_attachment_image_url( get_post_thumbnail_id(), 'full' ); ?>" alt="<?php the_title(); ?>" class="content-image">
+                <img src="<?php echo wp_get_attachment_image_url( get_post_thumbnail_id(), 'full' ) ? wp_get_attachment_image_url( get_post_thumbnail_id(), 'full' ) : 'https://images.unsplash.com/photo-1622277430358-f4d134452e2e?q=80&w=2147&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; ?>" alt="<?php the_title(); ?>" class="content-image">
             </div>
             <div>
                 <img src="<?php echo get_template_directory_uri() . '/img/frame.png'; ?>" alt="Frame Image" class="frame-image" aria-hidden="true">
