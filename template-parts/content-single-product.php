@@ -6,7 +6,7 @@ global $product;
     <div class="px-6 flex flex-col gap-8">
         <div class="flex flex-col md:flex-row gap-8">
             <div class="w-full md:w-1/2">
-                <img src="<?php echo wp_get_attachment_image_url( get_post_thumbnail_id(), 'full' ); ?>" alt="<?php the_title(); ?>" class="w-full h-full object-cover">
+                <img src="<?php echo wp_get_attachment_image_url( get_post_thumbnail_id(), 'full' ) ? wp_get_attachment_image_url( get_post_thumbnail_id(), 'full' ) : 'https://unsplash.com/photos/woman-in-white-wedding-dress-standing-near-window-during-daytime-zGtGfqQqe6U'; ?>" alt="<?php the_title(); ?>" class="w-full h-full object-cover">
             </div>
             <div class="w-full md:w-1/2 flex flex-col gap-8 p-12 text-center">
                 <h2 class="text-4xl lg:text-5xl text-purple-900"><?php the_title(); ?></h2>
