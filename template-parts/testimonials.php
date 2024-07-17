@@ -23,7 +23,7 @@
               <cite class="text-white font-bold"><?php the_title(); ?></cite>
             </div>
             <div class="flex flex-col">
-              <img src="<?php echo get_the_post_thumbnail(get_the_ID(), 'full'); ?>" class='h-full w-full object-cover rounded bg-gray-50" alt="testimonial image">
+              <img src="<?php echo get_the_post_thumbnail(get_the_ID(), 'full'); ?>" class="h-full w-full object-cover rounded bg-gray-50" alt="testimonial image">
             </div>
           </div>
         </div>
