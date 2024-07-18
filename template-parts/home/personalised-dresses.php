@@ -7,7 +7,7 @@
     </div>
     <div class="w-full lg:w-4/12 p-6">
         <div class="flex flex-col gap-2 sticky top-8 text-white">
-            <div class="flex flex-col gap-2">
+            <div class="flex flex-col gap-4">
                 <h2 class="text-5xl leading-normal">Personalised Wedding Dresses</h2>
                 <p class="text-lg leading-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore officia excepturi? Porro, placeat nam quis earum quia assumenda asperiores, dolorem in nostrum fugiat totam id. Ipsum, alias voluptatibus! Rem!</p>
                 <p class="text-lg leading-normal">Eligendi impedit, id neque iusto placeat accusamus veritatis ut cum, deleniti omnis mollitia voluptas et repudiandae facilis quod. Mollitia deserunt necessitatibus quae repellendus incidunt velit facere at delectus dolor atque.</p>
