@@ -24,6 +24,8 @@
                 are saving a dress from ending up in landfill as well as saving their
                 pennies.</p>
         <p class="text-xl">Praesentium officiis repudiandae, delectus hic labore enim quam rem ipsa tempora laboriosam laudantium! Libero error laboriosam ullam necessitatibus, quo dicta iusto porro temporibus iure cum? Reprehenderit impedit autem in iste?</p>
+
+        <a href="/product-category/treasure-trove/" class="btn bg-purple-900  text-xl font-semibold text-white ">View Our Treasure Trove</a>
       </div>
     </div>
   </div>
