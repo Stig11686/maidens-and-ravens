@@ -1,5 +1,5 @@
 <div class="w-full flex flex-col lg:flex-row lg:justify-between">
-    <div class="w-full lg:w-1/2 p-6 flex flex-col gap-1">
+    <div class="w-full lg:w-1/2 p-6 flex flex-col gap-1 bg-blue-900">
         <img src="<?php echo get_template_directory_uri(  ) . '/img/our-promise-2.jpg'; ?>" alt="image tbc" class="h-full w-full object-cover" />
         <img src="<?php echo get_template_directory_uri(  ) . '/img/our-promise-2.jpg'; ?>" alt="image tbc" class="h-full w-full object-cover" />
         <img src="<?php echo get_template_directory_uri(  ) . '/img/our-promise-2.jpg'; ?>" alt="image tbc" class="h-full w-full object-cover" />
