@@ -1,9 +1,9 @@
 <div class="px-6 lg:contents">
       <div class="mx-auto">
-        <p class="my-6 text-xl leading-8 text-gray-700 font-semibold">Hello my Queens.<br>
+        <p class="my-6 text-xl leading-8 text-whitefont-semibold">Hello my Queens.<br>
 
         I am Elizabeth and I am the founder, owner and award winning bridal mavern at Maidens and Ravens, here in the historic city of York. </p>
-        <div class="mt-10 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
+        <div class="mt-10 max-w-xl text-base leading-7 text-white lg:max-w-none">
           <p class="font-bold">Did you know that a mavern is someone who is experienced and knowledgeable? Seemed like a fitting name for me.</p>
           <p class="mt-8">I started my journey into Bridalwear in 2019 but before that I always had a love for art, making things, sewing, knitting and vintage clothing. I had a strong interest in fashion history. Growing up in Edinburgh, I enjoyed charity shop snooping and loved buying dresses from the 60s and 70s which I'd get tailored to me. Like all of my friends, my prom dress was a 1980s secondhand bridesmaid dress - mint green with puff sleeves and lace! I wanted to look like Sarah from Labyrinth in the ballroom scene with David Bowie, complete with ribbons in my hair! I still love that look.</p>
           <p class="mt-6">Like many of you, I became an avid watcher of Don't tell the Bride (I loved when the groom had to choose the dress) and Say Yes to the Dress. I started thinking how wonderful it would be to own my own boutique and help brides find their perfect dresses.</p>
