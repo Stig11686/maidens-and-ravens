@@ -4,9 +4,9 @@
     <a href="/product-category/treasure-trove/" class="btn bg-purple-900  text-xl font-semibold text-white ">View Our Treasure Trove</a>
   </div>
 
-  <div class="flex flex-col lg:flex-row md:justify-between py-16 px-6">
+  <div class="flex flex-col lg:flex-row md:justify-between py-16 gap-8">
     <div class="w-full lg:w-1/2 relative">
-      <img src="<?php echo get_template_directory_uri(  ) . '/img/our-promise-2.png'; ?>" alt="image tbc" class="h-full w-full object-cover" />
+      <img src="<?php echo get_template_directory_uri(  ) . '/img/our-promise-2.jpg'; ?>" alt="image tbc" class="h-full w-full object-cover" />
     </div>
     <div class="w-full lg:w-5/12">
       <div class="flex flex-col gap-8 text-white">
