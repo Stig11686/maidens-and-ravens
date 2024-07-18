@@ -25,7 +25,7 @@
           </a>
         </div>
       </div>
-      <div class="mt-16 grid grid-cols-1 gap-8 xl:col-span-2 xl:mt-0">
+      <div class="mt-16 grid grid-cols-1 gap-8 xl:mt-0">
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div>
             <h3 class="text-sm font-semibold leading-6 text-white">About Us</h3>
