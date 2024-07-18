@@ -9,6 +9,9 @@ module.exports = {
       sans: ['seasonsregular', 'sans-serif'],
     },
     extend: {
+      zIndex: {
+        '1': '1',
+      },
       colors: {
         'overlay-color': 'rgba(23, 21, 21, 0.8)',
         'card-bg': 'rgba(50, 44, 44, 0.8)',
