@@ -3350,6 +3350,11 @@ textarea {
   .sm\:text-\[0\] {
     font-size: 0;
   }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 768px) {
