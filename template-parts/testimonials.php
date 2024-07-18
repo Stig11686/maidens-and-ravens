@@ -19,7 +19,6 @@
           <div class="pt-8 sm:px-4">
               <div class="flex flex-col gap-8">
                 <div class="text-white text-3xl leading-loose"><?php the_content(); ?></div>
-                <div class="text-white font-bold text-lg"><?php the_title(); ?></div>
               </div>
           </div>
           <?php endwhile; ?>
