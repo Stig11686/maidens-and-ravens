@@ -4,7 +4,7 @@
         <p class="my-6 text-xl leading-8 text-white font-semibold">Hello my Queens.<br>
 
         I am Elizabeth and I am the founder, owner and award winning bridal mavern at Maidens and Ravens, here in the historic city of York. </p>
-          <p class="font-bold text-xl leading-normal text-white">Did you know that a mavern is someone who is experienced and knowledgeable? Seemed like a fitting name for me.</p>
+          <p class="font-bold text-xl leading-normal text-white">Did you know that a mavern is someone who is experienced and knowledgeable? Seemed like a fitting name for me...</p>
           <a href="/about" class="btn bg-purple-900  text-xl font-semibold text-white ">Read More About Me</a>
       </div>
     </div>
