@@ -1,5 +1,5 @@
-<div class="max-w-7xl py-16">
-  <div class="w-10/12 max-w-7xl text-white flex flex-col gap-8">
+<div class="max-w-7xl py-16 mx-auto">
+  <div class="w-10/12 max-w-7xl text-white flex flex-col items-start gap-8">
     <p class="text-5xl">"Our Dresses are unique, magical, sustainable and budget friendly. They belong in our treasure trove!"</p>
     <a href="/product-category/treasure-trove/" class="btn bg-purple-900  text-sm font-semibold text-white ">View Our Treasure Trove</a>
   </div>

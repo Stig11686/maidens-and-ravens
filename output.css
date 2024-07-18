@@ -1559,6 +1559,9 @@ html {
 .w-screen {
   width: 100vw;
 }
+.w-10\/12 {
+  width: 83.333333%;
+}
 .max-w-2xl {
   max-width: 42rem;
 }
