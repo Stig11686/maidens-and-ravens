@@ -1910,6 +1910,10 @@ html {
   border-bottom-right-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
 }
+.rounded-b-\[100px\] {
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
 .border {
   border-width: 1px;
 }

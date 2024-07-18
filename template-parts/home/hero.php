@@ -9,7 +9,7 @@ $hero_image = get_theme_mod('hero_image');
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
   </header>
 
-  <div id="header" class="relative isolate overflow-hidden pt-14 rounded-b-3xl">
+  <div id="header" class="relative isolate overflow-hidden pt-14 rounded-b-[100px]">
     <img src="<?php echo $hero_image; ?>" alt="" class="absolute inset-0 h-full w-full object-cover">
     <div class="absolute inset-x-0 inset-y-0 overflow-hidden bg-overlay-color" aria-hidden="true">
     </div>
