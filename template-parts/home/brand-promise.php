@@ -1,4 +1,4 @@
-<div class="relative overflow-hidden bg-white pb-32 pt-16">
+<div class="relative overflow-hidden pb-32 pt-16 text-white">
   <div class="relative">
     <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
       <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:py-16">
@@ -11,13 +11,13 @@
             </span>
           </div>
           <div class="mt-6">
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900">Our Promise</h2>
+            <h2 class="text-3xl font-bold tracking-tight">Our Promise</h2>
             <p class="mt-4 text-lg text-gray-500">More and more couples are making conscious decisions to be more
               environmentally friendly when planning their weddings. Bridalwear is
               one of the biggest culprits when it comes to fast fashion, not to mention
               the polluting effects of the production process so it is one area where
               you can make a difference.</p>
-              <p class="mt-4 text-lg text-gray-500">We are passionate in doing what we can to offer our brides a truly
+              <p class="mt-4 text-lg">We are passionate in doing what we can to offer our brides a truly
                 sustainable choice. Our treasure trove dresses are already in existence
                 and deserve the opportunity of being worn!  They are our most eco-
                 friendly choice and are budget friendly too with most dresses costing on
@@ -32,14 +32,14 @@
         <div class="mt-8 border-t border-gray-200 pt-6">
           <blockquote>
             <div>
-              <p class="text-base text-gray-500">&ldquo;Elizabeth is amazing (let's put a standout testimonial here).&rdquo;</p>
+              <p class="text-base">&ldquo;Elizabeth is amazing (let's put a standout testimonial here).&rdquo;</p>
             </div>
             <footer class="mt-3">
               <div class="flex items-center space-x-3">
                 <div class="flex-shrink-0">
                   <img class="h-6 w-6 rounded-full" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
                 </div>
-                <div class="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager</div>
+                <div class="text-base font-medium">Marcia Hill, Digital Marketing Manager</div>
               </div>
             </footer>
           </blockquote>
@@ -64,7 +64,7 @@
             </span>
           </div>
           <div class="mt-6">
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900">Commissioned for you</h2>
+            <h2 class="text-5xl font-bold tracking-loose">Commissioned for you</h2>
             <p class="mt-4 text-lg text-gray-500">Our commissioned for you collection is exactly that. We know that
 sample dresses are not everyone’s cup of tea, and that some of you
 prefer to purchase a new dress for many different reasons. We therefore
