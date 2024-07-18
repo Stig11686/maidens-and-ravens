@@ -11,8 +11,18 @@
     <div class="w-full lg:w-5/12">
       <div class="flex flex-col gap-8 text-white">
         <h2 class="text-4xl font-bold">Our <span class="uppercase text-yellow-900">Promise</span></h2>
-        <p class="text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quam atque nisi nemo ab expedita, animi sed quas, iste repudiandae ullam fugiat incidunt exercitationem et. Alias minus molestiae temporibus incidunt.</p>
-        <p class="text-xl">Saepe at, dolorem cum ipsum non quam dolores officiis dicta iste quaerat quos! Aspernatur laudantium dicta reiciendis necessitatibus odit, molestias accusantium maiores reprehenderit iure omnis dolorum non ut praesentium officia!</p>
+        <p class="text-xl">ore and more couples are making conscious decisions to be more
+              environmentally friendly when planning their weddings. Bridalwear is
+              one of the biggest culprits when it comes to fast fashion, not to mention
+              the polluting effects of the production process so it is one area where
+              you can make a difference.</p>
+        <p class="text-xl">We are passionate in doing what we can to offer our brides a truly
+                sustainable choice. Our treasure trove dresses are already in existence
+                and deserve the opportunity of being worn!  They are our most eco-
+                friendly choice and are budget friendly too with most dresses costing on
+                average £500-£1000. Our planet conscious brides love the fact that they
+                are saving a dress from ending up in landfill as well as saving their
+                pennies.</p>
         <p class="text-xl">Praesentium officiis repudiandae, delectus hic labore enim quam rem ipsa tempora laboriosam laudantium! Libero error laboriosam ullam necessitatibus, quo dicta iusto porro temporibus iure cum? Reprehenderit impedit autem in iste?</p>
       </div>
     </div>
