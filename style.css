@@ -33,6 +33,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 body {
 	counter-reset: section;
+	background-color: #171515;
 }
 
 .faq .faq-btn--active {
@@ -49,20 +50,6 @@ body {
       max-height: 0;
       overflow: hidden;
       transition: all 0.2s ease-out;
-}
-
-#header::after {
-	content: '';
-	background-image: url('./img/header-bottom.svg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 100%;
-	height: 100%;
-	position:absolute;
-	bottom: 0;
-	left: 0;
-	z-index: 5;
 }
 
 #side-menu {
