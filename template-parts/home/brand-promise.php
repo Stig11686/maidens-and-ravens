@@ -9,7 +9,7 @@
       <img src="" alt="image tbc" class="h-full w-full object-cover" />
     </div>
     <div class="w-full lg:w-5/12">
-      <div class="flex flex-col gap-8">
+      <div class="flex flex-col gap-8 text-white">
         <h2 class="text-4xl font-bold">Our <span class="uppercase text-yellow-900">Promise</span></h2>
         <p class="text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quam atque nisi nemo ab expedita, animi sed quas, iste repudiandae ullam fugiat incidunt exercitationem et. Alias minus molestiae temporibus incidunt.</p>
         <p class="text-xl">Saepe at, dolorem cum ipsum non quam dolores officiis dicta iste quaerat quos! Aspernatur laudantium dicta reiciendis necessitatibus odit, molestias accusantium maiores reprehenderit iure omnis dolorum non ut praesentium officia!</p>
