@@ -1,4 +1,9 @@
-<div class="relative overflow-hidden pb-32 pt-16 text-white">
+<div class="max-w-7xl py-16 text-white flex flex-col gap-8">
+  <p class="text-5xl">"Our Dresses are unique, magical, sustainable and budget friendly. They belong in our treasure trove!"</p>
+  <a href="/product-category/treasure-trove/" class="btn bg-purple-900  text-sm font-semibold text-white ">View Our Treasure Trove</a>
+</div>
+
+<!-- <div class="relative overflow-hidden pb-32 pt-16 text-white">
   <div class="relative">
     <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
       <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:py-16">
@@ -86,4 +91,4 @@ order in any size and with custom features.</p>
       </div>
     </div>
   </div>
-</div>
+</div> -->
