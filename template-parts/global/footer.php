@@ -4,7 +4,6 @@
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="space-y-8">
         <img class="w-full object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a>
-        <p class="text-sm leading-6 text-gray-300">Making the world a better place through constructing elegant hierarchies.</p>
         <div class="flex space-x-6">
           <a href="#" class="text-gray-500 hover:text-gray-400">
             <span class="sr-only">Facebook</span>
