@@ -32,8 +32,11 @@
 </div>
 <div class="w-full flex flex-col lg:flex-row ">
   
-  <div class="relative w-full lg:w-1/2 flex items-center justify-center">
+  <div class="relative w-full lg:w-1/2 flex items-center justify-center bg-yellow-900">
     <div id="spacer" class="hidden lg:block absolute -top-28 h-28 left-0  w-full -z-1 bg-yellow-900"></div>
+    <div class="flex flex-col gap-8 text-white">
+      <h2 class="text-4xl font-bold">Our <span class="uppercase text-purple-900">Promise</span></h2>
+    </div>
   </div>
   <div class="w-full lg:w-1/2">
     <img src="<?php echo get_template_directory_uri(  ) . '/img/our-promise-2.jpg'; ?>" alt="Our promise on sustainability" class="h-full w-full object-cover">
