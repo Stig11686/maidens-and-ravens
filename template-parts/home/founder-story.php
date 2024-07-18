@@ -2,11 +2,6 @@
 <div class="overflow-hidden">
   <div class="relative mx-auto max-w-7xl px-6 py-16 lg:px-8">
     <div class="absolute bottom-0 left-3/4 top-0 hidden w-screen lg:block"></div>
-    <div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
-      <div>
-        <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-white sm:text-5xl">Meet Elizabeth</h3>
-      </div>
-    </div>
     <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
       <div class="relative lg:col-start-2 lg:row-start-1">
         <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
