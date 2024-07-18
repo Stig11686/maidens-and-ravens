@@ -1457,6 +1457,9 @@ html {
 .-mt-8 {
   margin-top: -2rem;
 }
+.mb-0 {
+  margin-bottom: 0px;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1499,9 +1502,6 @@ html {
 .mt-8 {
   margin-top: 2rem;
 }
-.mb-0 {
-  margin-bottom: 0px;
-}
 .box-content {
   box-sizing: content-box;
 }
@@ -1541,6 +1541,9 @@ html {
 .max-h-28 {
   max-height: 7rem;
 }
+.w-10\/12 {
+  width: 83.333333%;
+}
 .w-12 {
   width: 3rem;
 }
@@ -1561,9 +1564,6 @@ html {
 }
 .w-screen {
   width: 100vw;
-}
-.w-10\/12 {
-  width: 83.333333%;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -1746,6 +1746,9 @@ html {
 .bg-black\/20 {
   background-color: rgb(0 0 0 / 0.2);
 }
+.bg-card-bg {
+  background-color: rgba(50, 44, 44, 0.8);
+}
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
@@ -1782,9 +1785,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-card-bg {
-  background-color: rgba(50, 44, 44, 0.8);
 }
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
@@ -1994,10 +1994,6 @@ html {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 .text-gray-900 {
   --tw-text-opacity: 1;
@@ -2603,10 +2599,6 @@ h4,
 h5,
 h6 {
 	clear: both;
-}
-
-p {
-	margin-bottom: 1.5em;
 }
 
 dfn,
@@ -3352,6 +3344,11 @@ textarea {
     line-height: 2.5rem;
   }
 
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .sm\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -3359,11 +3356,6 @@ textarea {
 
   .sm\:text-\[0\] {
     font-size: 0;
-  }
-
-  .sm\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 }
 
@@ -3482,16 +3474,16 @@ textarea {
     height: 100%;
   }
 
-  .lg\:w-auto {
-    width: auto;
-  }
-
   .lg\:w-1\/2 {
     width: 50%;
   }
 
   .lg\:w-5\/12 {
     width: 41.666667%;
+  }
+
+  .lg\:w-auto {
+    width: auto;
   }
 
   .lg\:max-w-7xl {
