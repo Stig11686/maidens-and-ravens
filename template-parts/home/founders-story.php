@@ -1,5 +1,5 @@
 <div class="px-6 lg:contents">
-      <div class="mx-auto">
+      <div class="mx-auto flex-flex-col gap-8">
         <p class="my-6 text-xl leading-8 text-white font-semibold">Hello my Queens.<br>
 
         I am Elizabeth and I am the founder, owner and award winning bridal mavern at Maidens and Ravens, here in the historic city of York. </p>
