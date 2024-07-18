@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        'overlay-color': '#171515',
+        'overlay-color': 'rgba(23, 21, 21, 0.8)',
         'secondary': '#004F71',
         'purple': {
           '900': '#59315F',
