@@ -1,7 +1,7 @@
 
-<div class="overflow-hidden bg-white">
+<div class="overflow-hidden">
   <div class="relative mx-auto max-w-7xl px-6 py-16 lg:px-8">
-    <div class="absolute bottom-0 left-3/4 top-0 hidden w-screen bg-gray-50 lg:block"></div>
+    <div class="absolute bottom-0 left-3/4 top-0 hidden w-screen lg:block"></div>
     <div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
       <div>
         <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Meet Elizabeth</h3>
