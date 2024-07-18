@@ -45,11 +45,13 @@ function maidens_and_ravens_setup() {
 		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		*/
 	add_theme_support( 'post-thumbnails' );
-	
+
 	register_nav_menus(
 		array(
 			'primary' => esc_html__( 'Primary', 'maidens-and-ravens' ),
 			'second-hero' => esc_html__( 'Second Hero', 'maidens-and-ravens' ),
+			'policies' => esc_html__( 'Policies', 'maidens-and-ravens' ),
+			'footer' => esc_html__( 'Footer', 'maidens-and-ravens' ),
 		)
 	);
 
