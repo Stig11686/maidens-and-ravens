@@ -3,21 +3,23 @@
     <p class="text-5xl leading-normal mb-0">"Our Dresses are unique, magical, sustainable and budget friendly. They belong in our treasure trove!"</p>
     <a href="/product-category/treasure-trove/" class="btn bg-purple-900  text-xl font-semibold text-white ">View Our Treasure Trove</a>
   </div>
-</div>
 
-<div class="flex flex-col lg:flex-row md:justify-between py-16 px-6">
-  <div class="w-full lg:w-1/2">
-    <img src="" alt="image tbc" class="h-full w-full object-cover" />
-  </div>
-  <div class="w-full lg:w-5/12">
-    <div class="flex flex-col gap-8">
-      <h2 class="text-4xl font-bold">Our <span class="uppercase text-yellow-900">Promise</span></h2>
-      <p class="text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quam atque nisi nemo ab expedita, animi sed quas, iste repudiandae ullam fugiat incidunt exercitationem et. Alias minus molestiae temporibus incidunt.</p>
-      <p class="text-xl">Saepe at, dolorem cum ipsum non quam dolores officiis dicta iste quaerat quos! Aspernatur laudantium dicta reiciendis necessitatibus odit, molestias accusantium maiores reprehenderit iure omnis dolorum non ut praesentium officia!</p>
-      <p class="text-xl">Praesentium officiis repudiandae, delectus hic labore enim quam rem ipsa tempora laboriosam laudantium! Libero error laboriosam ullam necessitatibus, quo dicta iusto porro temporibus iure cum? Reprehenderit impedit autem in iste?</p>
+  <div class="flex flex-col lg:flex-row md:justify-between py-16 px-6">
+    <div class="w-full lg:w-1/2 relative">
+      <img src="" alt="image tbc" class="h-full w-full object-cover" />
+    </div>
+    <div class="w-full lg:w-5/12">
+      <div class="flex flex-col gap-8">
+        <h2 class="text-4xl font-bold">Our <span class="uppercase text-yellow-900">Promise</span></h2>
+        <p class="text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quam atque nisi nemo ab expedita, animi sed quas, iste repudiandae ullam fugiat incidunt exercitationem et. Alias minus molestiae temporibus incidunt.</p>
+        <p class="text-xl">Saepe at, dolorem cum ipsum non quam dolores officiis dicta iste quaerat quos! Aspernatur laudantium dicta reiciendis necessitatibus odit, molestias accusantium maiores reprehenderit iure omnis dolorum non ut praesentium officia!</p>
+        <p class="text-xl">Praesentium officiis repudiandae, delectus hic labore enim quam rem ipsa tempora laboriosam laudantium! Libero error laboriosam ullam necessitatibus, quo dicta iusto porro temporibus iure cum? Reprehenderit impedit autem in iste?</p>
+      </div>
     </div>
   </div>
 </div>
+
+
 
 <!-- <div class="relative overflow-hidden pb-32 pt-16 text-white">
   <div class="relative">
