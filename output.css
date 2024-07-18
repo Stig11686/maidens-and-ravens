@@ -1740,10 +1740,6 @@ html {
 .bg-black\/20 {
   background-color: rgb(0 0 0 / 0.2);
 }
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
@@ -2089,7 +2085,7 @@ html {
 
 body {
 	counter-reset: section;
-	background-color: #171515;
+	background: #171515;
 }
 
 .faq .faq-btn--active {
@@ -2659,9 +2655,6 @@ big {
 
 /* Elements
 --------------------------------------------- */
-body {
-	background: #fff;
-}
 
 hr {
 	background-color: #ccc;
