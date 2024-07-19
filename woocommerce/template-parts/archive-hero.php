@@ -16,7 +16,7 @@ $archive_image = get_the_archive_thumbnail();
     </div>
     <div class="mx-auto flex flex-col items-center justify-center gap-4 max-w-2xl py-32 sm:py-48 lg:py-40 px-6">
       <div class="text-center z-50">
-        <h1 class="mt-6 text-4xl/normal lg:text-5xl/normal font-semibold text-gray-300"><?php woocommerce_page_title(); ?></h1>
+        <h1 class="mt-6 text-4xl/normal lg:text-5xl/normal font-semibold text-white"><?php woocommerce_page_title(); ?></h1>
         <div class="text-white"> <?php
             do_action( 'woocommerce_archive_description' );
             ?>
