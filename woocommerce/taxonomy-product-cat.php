@@ -36,15 +36,17 @@ if ( woocommerce_product_loop() ) {
 
             get_template_part( 'template-parts/content', 'product' );
         }
+    ?>
+    </div>
+    <?php
+
+    // Add pagination
+    woocommerce_pagination();
+
     }
 
     woocommerce_product_loop_end();
 
-    ?>
-    </div>
-
-    <?php
-    woocommerce_pagination();
     do_action( 'woocommerce_after_shop_loop' );
 } else {
     /**
