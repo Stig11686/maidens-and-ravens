@@ -1,7 +1,7 @@
 <?php
 
     include(get_template_directory() . '/template-parts/global/header.php');
-    include(get_template_directory() . '/template-parts/home/hero.php');
+    include(get_template_directory() . '/wooocommerce/template-parts/archive-hero.php');
 
 ?>
     <div class="max-w-7xl mx-auto py-16 px-6 text-white">
