@@ -1137,6 +1137,10 @@ textarea {
 	list-style: none;
 }
 
+.woocommerce-pagination .page-numbers .page-numbers.current {
+	text-decoration: underline;
+}
+
 .woocommerce-pagination .page-numbers li {
 	padding: 15px;
 	font-size: 30px;
