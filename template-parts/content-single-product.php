@@ -24,7 +24,7 @@ $fields = get_fields($product_id);
                             foreach ($fields as $field_name => $value) :
                         ?>
                             <div class="py-4 shadow-lg px-6 w-full">
-                                <div class="flex justify-between items-center self-stretch faq-btn">
+                                <div class="flex justify-between items-center self-stretch faq-btn py-4">
                                     <div class="flex items-center gap-2">
                                         <div class="flex flex-col justify-center text-xl font-bold text-white capitalize"><?php echo $field_name; ?></div>
                                     </div>
