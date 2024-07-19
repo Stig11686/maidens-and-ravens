@@ -3158,8 +3158,8 @@ textarea {
 	display: none;
 	transition: all 0.5s ease-in-out;
 	opacity: 0;
+	width: 0;
 	position: absolute;
-	bottom: -118px;
 	left: 0;
 	margin-left: 0;
 	background-color: #59315F;

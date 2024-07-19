@@ -70,7 +70,7 @@
 
             if (subMenu.classList.contains('sub-menu')) {
                 // Hide the parent menu items
-                mainMenu.querySelectorAll('> li').forEach(menuItem => {
+                Array.from(mainMenu.children).forEach(menuItem => {
                     menuItem.style.display = 'none';
                 });
 
