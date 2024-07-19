@@ -257,7 +257,7 @@ function get_the_archive_thumbnail() {
     if ($term && !is_wp_error($term)) {
         $thumbnail_id = get_term_meta($term->term_id, 'thumbnail_id', true);
         if ($thumbnail_id) {
-            return wp_get_attachment_image($thumbnail_id, 'full');
+            return wp_get_attachment_image_url($thumbnail_id, 'full');
         }
     }
     return '';
