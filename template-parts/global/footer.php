@@ -3,7 +3,7 @@
   <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="space-y-8">
-        <img class="w-full object-cover max-h-28" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a>
+        <img class="object-cover max-h-28" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a>
         <div class="flex space-x-6">
           <a href="#" class="text-gray-500 hover:text-gray-400">
             <span class="sr-only">Facebook</span>
