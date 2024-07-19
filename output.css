@@ -1593,6 +1593,9 @@ html {
 .mt-8 {
   margin-top: 2rem;
 }
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
 .box-content {
   box-sizing: content-box;
 }
