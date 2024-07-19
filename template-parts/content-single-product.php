@@ -19,7 +19,7 @@ $fields = get_fields($product_id);
                 
                 <div id="custom-product-info" class="">
                     <dl class="mt-10 space-y-6 divide-y divide-gray-900/10 faqs-section">
-                        <div class="cursor-pointer flex flex-col items-center max-w-7xl mx-auto bg-white faq">
+                        <div class="cursor-pointer flex flex-col items-center max-w-7xl mx-auto faq">
                         <?php
                             foreach ($fields as $field_name => $value) :
                         ?>
