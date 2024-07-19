@@ -9,8 +9,8 @@
             </div>
         </div>
     </div>
-    <div class="image-frame-content px-8">
-        <h3 class="my-6 text-xl text-gray-900 font-semibold">
+    <div class="image-frame-content px-8 flex flex-col items-start justify-between gap-4">
+        <h3 class="text-xl font-semibold">
             <a href="<?php the_permalink(); ?>">
                 <span class="absolute inset-0"></span>
                 <?php the_title(); ?>
