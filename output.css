@@ -3394,6 +3394,11 @@ textarea {
   .md\:gap-8 {
     gap: 2rem;
   }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px) {
