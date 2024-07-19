@@ -2162,16 +2162,16 @@ body {
 	margin: 5rem ;
 }
 
-#side-menu #mega-menu-primary > li {
+#side-menu #mega-menu-primary > li.mega-menu-item {
 	counter-increment: section;
 	position: relative;
 }
 
-#side-menu #mega-menu-primary > li a {
+#side-menu #mega-menu-primary > li.mega-menu-item  a.mega-menu-link  {
 	font-size: clamp(17px, 2vw, 30px);
 }
 
-#side-menu #mega-menu-primary > li > a::before {
+#side-menu #mega-menu-primary > li.mega-menu-item  > a.mega-menu-link ::before {
 	content: counter(section,decimal-leading-zero);
 	font-size: clamp(11px, 2vw, 25px);
 	font-weight: 700;
@@ -2180,7 +2180,7 @@ body {
 	margin: -1rem 0 0 -4rem;
 }
 
-#side-menu #mega-menu-primary > li #mega-sub-menu li a::before {
+#side-menu #mega-menu-primary > li.mega-menu-item  #mega-sub-menu li.mega-menu-item  a.mega-menu-link ::before {
 	content: "";
 	counter-increment: none;
 }
