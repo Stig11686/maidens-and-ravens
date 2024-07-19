@@ -1611,6 +1611,9 @@ html {
 .aspect-\[1155\/678\] {
   aspect-ratio: 1155/678;
 }
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
 .h-28 {
   height: 7rem;
 }
