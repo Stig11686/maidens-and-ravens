@@ -2,7 +2,7 @@
   <div class="w-10/12 max-w-7xl text-white flex flex-col items-start gap-8 py-16">
     <p class="text-3xl lg:text-5xl/normal leading-normal mb-0">"Be our guest; our stunning collection of one-off dresses are fully customisable, allowing us to add your personality, vision 
       and a sprinkle of magic to create the dress of your dreams."</p>
-    <a href="/product-category/treasure-trove/" class="btn bg-purple-900  text-xl font-semibold text-white ">View Our Treasure Trove</a>
+    <a href="/product-category/treasure-trove/" class="rounded-md bg-purple-900 px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">View Our Treasure Trove</a>
   </div>
 
   <div class="flex flex-col lg:flex-row md:justify-between py-16 gap-8">
@@ -26,7 +26,7 @@
                 pennies.</p>
         <p class="text-xl leading-normal">Praesentium officiis repudiandae, delectus hic labore enim quam rem ipsa tempora laboriosam laudantium! Libero error laboriosam ullam necessitatibus, quo dicta iusto porro temporibus iure cum? Reprehenderit impedit autem in iste?</p>
 
-        <a href="/product-category/treasure-trove/" class="btn bg-purple-900  text-xl font-semibold text-white ">View Our Treasure Trove</a>
+        <a href="/product-category/treasure-trove/" class="rounded-md bg-purple-900 px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">View Our Treasure Trove</a>
       </div>
     </div>
   </div>
