@@ -58,4 +58,48 @@
         hamburgerStripes.forEach(stripe => stripe.classList.toggle('stroke-white'));
         hamburgerStripes.forEach(stripe => stripe.classList.toggle('stroke-black'));
     }
+
+    document.addEventListener('DOMContentLoaded', function() {
+    const menuItems = document.querySelectorAll('#menu-menu-1 .menu-item-has-children > a');
+    const mainMenu = document.getElementById('menu-menu-1');
+
+    menuItems.forEach(item => {
+        item.addEventListener('click', function(event) {
+            event.preventDefault();  // Prevent the default action
+            const subMenu = item.nextElementSibling;
+
+            if (subMenu.classList.contains('sub-menu')) {
+                // Hide the parent menu items
+                mainMenu.querySelectorAll('> li').forEach(menuItem => {
+                    menuItem.style.display = 'none';
+                });
+
+                // Show the submenu
+                subMenu.classList.add('open');
+            }
+        });
+    });
+
+    // Add a back button functionality
+    const subMenus = document.querySelectorAll('#menu-menu-1 .sub-menu');
+    subMenus.forEach(subMenu => {
+        const backButton = document.createElement('li');
+        backButton.classList.add('menu-item', 'back-button');
+        backButton.innerHTML = '<a href="#">Back</a>';
+        subMenu.insertBefore(backButton, subMenu.firstChild);
+
+        backButton.addEventListener('click', function(event) {
+            event.preventDefault();
+
+            // Hide the submenu
+            subMenu.classList.remove('open');
+
+            // Show the parent menu items
+            mainMenu.querySelectorAll('> li').forEach(menuItem => {
+                menuItem.style.display = 'flex';
+            });
+        });
+    });
+});
+
 </script>
