@@ -9,7 +9,7 @@
     <div class="w-full lg:w-4/12 p-6">
         <div class="flex flex-col gap-2 sticky top-8 text-white">
             <div class="flex flex-col gap-4">
-                <h2 class="text-5xl leading-normal">Personalised Wedding <span class="text-yellow-900">Dresses</span></h2>
+                <h2 class="text-3xl lg:text-5xl leading-normal">Personalised Wedding <span class="text-yellow-900">Dresses</span></h2>
                 <p class="text-lg leading-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore officia excepturi? Porro, placeat nam quis earum quia assumenda asperiores, dolorem in nostrum fugiat totam id. Ipsum, alias voluptatibus! Rem!</p>
                 <p class="text-lg leading-normal">Eligendi impedit, id neque iusto placeat accusamus veritatis ut cum, deleniti omnis mollitia voluptas et repudiandae facilis quod. Mollitia deserunt necessitatibus quae repellendus incidunt velit facere at delectus dolor atque.</p>
                 <p class="text-lg leading-normal">Incidunt error voluptate cum nostrum ratione doloribus, possimus, obcaecati quos mollitia, similique itaque pariatur! Tempora, dicta accusantium. Consequuntur consequatur libero error? Deserunt voluptatibus nam ab quia nihil quisquam consectetur doloribus.</p>
