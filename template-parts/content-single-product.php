@@ -68,7 +68,7 @@ $fields = get_fields($product_id);
     <div class="w-full flex flex-col">
         you might also like
     </div>
-    <div class="w-full flex flex-col items-center">
+    <div class="">
         <?php 
             include(get_template_directory(  ) . '/template-parts/testimonials.php');
             include(get_template_directory(  ) . '/template-parts/faqs.php');
