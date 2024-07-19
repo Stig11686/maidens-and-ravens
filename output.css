@@ -1881,9 +1881,6 @@ html {
   -o-object-position: center;
      object-position: center;
 }
-.p-12 {
-  padding: 3rem;
-}
 .p-6 {
   padding: 1.5rem;
 }
@@ -3231,7 +3228,7 @@ textarea {
 .woocommerce-breadcrumb {
 	background-color: rgba(89, 49, 95, 1);
 	color: #fff;
-	font-size: 21px;
+	font-size: clamp(16px, 21px, 24px);
 	padding: 5px 15px;
 }
 
@@ -3520,10 +3517,6 @@ textarea {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .lg\:p-12 {
-    padding: 3rem;
   }
 
   .lg\:px-8 {

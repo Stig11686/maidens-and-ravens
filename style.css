@@ -1149,7 +1149,7 @@ textarea {
 .woocommerce-breadcrumb {
 	background-color: rgba(89, 49, 95, 1);
 	color: #fff;
-	font-size: 21px;
+	font-size: clamp(16px, 21px, 24px);
 	padding: 5px 15px;
 }
 
