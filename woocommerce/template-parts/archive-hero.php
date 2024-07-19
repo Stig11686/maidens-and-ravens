@@ -12,6 +12,7 @@
       <div class="text-center z-50">
         <!-- <h1 class="text-4xl lg:text-5xl font-bold tracking-tight text-white sm:text-6xl">Welcome to<br> Maidens and Ravens</h1> -->
         <h1 class="mt-6 text-4xl/normal lg:text-5xl/normal font-semibold text-gray-300"><?php woocommerce_page_title(); ?></h1>
+        <p><?php woocommerce_archive_description(); ?></p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
           <a href="#" class="rounded-md bg-purple-900 px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Book an Appointment</a>
           <a href="/products/all/" class="text-sm md:text-lg lg:text-xl font-semibold leading-6 text-white">View Our Dresses <span aria-hidden="true">→</span></a>
