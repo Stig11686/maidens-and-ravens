@@ -3222,6 +3222,17 @@ textarea {
 	margin: 0 20px;
 }
 
+.woocommerce-breadcrumb {
+	background-color: rgba(89 49 95, 1);
+	color: #fff;
+	font-size: 21px;
+	padding: 5px 15px;
+}
+
+.woocommerce-breadcrumb a {
+	text-decoration: underline;
+}
+
 .hover\:bg-purple-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(192 132 252 / var(--tw-bg-opacity));
