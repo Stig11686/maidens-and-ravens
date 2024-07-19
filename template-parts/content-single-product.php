@@ -18,15 +18,43 @@ $fields = get_fields($product_id);
                 ?>
                 
                 <div id="custom-product-info" class="">
+                <dl class="mt-10 space-y-6 divide-y divide-gray-900/10 faqs-section">
+                    <div class="cursor-pointer flex flex-col items-center max-w-7xl mx-auto bg-white faq">
                     <?php
-                        foreach ($fields as $field_name => $value) {
-                            echo '<p><strong>' . esc_html($field_name) . ':</strong> ' . esc_html($value) . '</p>';
-                        }
+                        foreach ($fields as $field_name => $value) :
                     ?>
-                </div>
-                <?php
-                endif;
-                ?>
+                        <div class="py-4 bg-purple-900 shadow-lg border px-6 w-full">
+                            <div class="flex justify-between items-center self-stretch faq-btn">
+                                <div class="flex items-center gap-2">
+                                    <div class="flex flex-col justify-center text-sm font-bold text-white"><?php echo $field_name; ?></div>
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <g clip-path="url(#clip0_85_3056)">
+                                        <mask id="mask0_85_3056" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="20" height="20">
+                                            <path d="M10.5714 10.5714V2H13.4286V10.5714H22V13.4286H13.4286V22H10.5714V13.4286H2V10.5714H10.5714Z" fill="black"/>
+                                        </mask>
+                                        <g mask="url(#mask0_85_3056)">
+                                            <rect width="24" height="24" fill="rgb(42, 128, 85)"/>
+                                        </g>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_85_3056">
+                                            <rect width="24" height="24" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="flex flex-col self-stretch gap-8 faq-content box-content bg-purple-900/10 text-white">
+                                <?php echo $value; ?>
+                            </div>
+                        </div>
+                    <?php
+                    endforeach;
+                    endif;
+                    ?>
+                    </div>
                 <a href="#" class="relative button button--wayra border border-1 rounded border-purple-900 px-4 py-5 outline outline-1 -outline-offset-2 outline-purple-900 uppercase" data-text="Click to Book an Appointment">Click to Book an Appointment</a>
             </div>
         </div>
