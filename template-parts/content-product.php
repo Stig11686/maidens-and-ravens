@@ -1,4 +1,4 @@
-<div class="group relative flex flex-col items-start self-stretch shadow-lg rounded-lg overflow-hidden pb-6">
+<div class="group relative flex flex-col items-start self-stretch shadow-lg rounded-lg overflow-hidden pb-6 bg-card-bg">
     <div class="image-frame-container">
         <div class="flex flex-col">
             <div>
