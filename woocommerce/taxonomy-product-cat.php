@@ -44,7 +44,7 @@ if ( woocommerce_product_loop() ) {
     </div>
 
     <?php
-
+    woocommerce_pagination();
     do_action( 'woocommerce_after_shop_loop' );
 } else {
     /**
