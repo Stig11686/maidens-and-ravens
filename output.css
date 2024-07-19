@@ -2001,6 +2001,10 @@ html {
   font-size: 1.875rem;
   line-height: 1.5;
 }
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -3525,6 +3529,15 @@ textarea {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:leading-loose {
+    line-height: 2;
   }
 }
 

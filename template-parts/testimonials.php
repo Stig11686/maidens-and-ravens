@@ -18,7 +18,7 @@
           <?php while ($testimonials->have_posts()) : $testimonials->the_post(); ?>
           <div class="pt-8 sm:px-4">
               <div class="flex flex-col gap-8">
-                <div class="text-white text-3xl leading-loose"><?php the_content(); ?></div>
+                <div class="text-white text-2xl lg:text-3xl leading-normal lg:leading-loose"><?php the_content(); ?></div>
               </div>
           </div>
           <?php endwhile; ?>
