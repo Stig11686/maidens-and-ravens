@@ -1128,3 +1128,15 @@ textarea {
     pointer-events: none; /* Prevent the frame image from interfering with mouse events */
 }
 
+.woocommerce-pagination .page-numbers {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 30px auto;
+}
+
+.woocommerce-pagination .page-numbers li {
+	padding: 5px;
+	font-size: 30px;
+}

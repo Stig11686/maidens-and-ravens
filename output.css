@@ -1566,6 +1566,9 @@ html {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
 .me-0 {
   margin-inline-end: 0px;
 }
@@ -1592,9 +1595,6 @@ html {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 .box-content {
   box-sizing: content-box;
@@ -3207,6 +3207,19 @@ textarea {
     pointer-events: none; /* Prevent the frame image from interfering with mouse events */
 }
 
+.woocommerce-pagination .page-numbers {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 30px auto;
+}
+
+.woocommerce-pagination .page-numbers li {
+	padding: 5px;
+	font-size: 30px;
+}
+
 .hover\:bg-purple-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(192 132 252 / var(--tw-bg-opacity));
@@ -3562,4 +3575,3 @@ textarea {
     gap: 2rem;
   }
 }
-
