@@ -23,10 +23,10 @@ $fields = get_fields($product_id);
                         <?php
                             foreach ($fields as $field_name => $value) :
                         ?>
-                            <div class="py-4 bg-purple-900 shadow-lg border px-6 w-full">
+                            <div class="py-4 shadow-lg px-6 w-full">
                                 <div class="flex justify-between items-center self-stretch faq-btn">
                                     <div class="flex items-center gap-2">
-                                        <div class="flex flex-col justify-center text-sm font-bold text-white"><?php echo $field_name; ?></div>
+                                        <div class="flex flex-col justify-center text-sm font-bold text-white capitalize"><?php echo $field_name; ?></div>
                                     </div>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -46,7 +46,7 @@ $fields = get_fields($product_id);
                                         </svg>
                                     </div>
                                 </div>
-                                <div class="flex flex-col self-stretch gap-8 faq-content box-content bg-purple-900/10 text-white">
+                                <div class="flex flex-col self-stretch gap-8 faq-content box-content text-white capitalize">
                                     <?php echo $value; ?>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ $fields = get_fields($product_id);
                     </dl>
                 </div>
                 
-                    <a href="#" class="relative button button--wayra border border-1 rounded border-purple-900 px-4 py-5 outline outline-1 -outline-offset-2 outline-purple-900 uppercase" data-text="Click to Book an Appointment">Click to Book an Appointment</a>
+                    <a href="#" class="relative button button--wayra border border-1 rounded border-purple-900 px-4 py-5 outline outline-1 -outline-offset-2 outline-purple-900 uppercase m-0" data-text="Click to Book an Appointment">Click to Book an Appointment</a>
             </div>
         </div>
     </div>
