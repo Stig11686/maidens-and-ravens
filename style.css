@@ -1134,9 +1134,11 @@ textarea {
 	justify-content: center;
 	align-items: center;
 	margin: 30px auto;
+	list-style: none;
 }
 
 .woocommerce-pagination .page-numbers li {
-	padding: 5px;
+	padding: 15px;
 	font-size: 30px;
+	margin: 0 20px;
 }
