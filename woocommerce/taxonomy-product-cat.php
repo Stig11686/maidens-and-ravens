@@ -5,9 +5,9 @@
 
 ?>
     <div class="max-w-7xl mx-auto py-16 px-6 text-white">
-        <div class="woocommerce-products-header">
+        <div class="flex flex-col items-start gap-4 text-white">
             <?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-                <h2 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h2>
+                <h2 class="text-3xl lg:text-5xl"><?php woocommerce_page_title(); ?></h2>
             <?php endif; ?>
 
             <?php
