@@ -1,6 +1,6 @@
 <div class="px-6 lg:contents">
       <div class="mx-auto flex flex-col items-start gap-8">
-        <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-white sm:text-5xl">Meet Elizabeth</h3>
+        <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-white sm:text-5xl">Meet <span class="text-yellow-900">Elizabeth</span></h3>
         <p class="my-6 text-xl leading-8 text-white font-semibold">Hello my Queens.<br>
 
         I am Elizabeth and I am the founder, owner and award winning bridal mavern at Maidens and Ravens, here in the historic city of York. </p>
