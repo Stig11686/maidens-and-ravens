@@ -40,12 +40,10 @@ if ( woocommerce_product_loop() ) {
     </div>
     <?php
 
-    // Add pagination
-    woocommerce_pagination();
-
     }
 
     woocommerce_product_loop_end();
+    woocommerce_pagination();
 
     do_action( 'woocommerce_after_shop_loop' );
 } else {
