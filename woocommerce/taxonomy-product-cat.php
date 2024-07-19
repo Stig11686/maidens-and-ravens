@@ -43,9 +43,9 @@ if ( woocommerce_product_loop() ) {
     }
 
     woocommerce_product_loop_end();
-    woocommerce_pagination();
+    //woocommerce_pagination();
 
-    //do_action( 'woocommerce_after_shop_loop' );
+    do_action( 'woocommerce_after_shop_loop' );
 } else {
     /**
      * Hook: woocommerce_no_products_found.
