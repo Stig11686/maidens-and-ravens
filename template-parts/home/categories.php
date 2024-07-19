@@ -29,8 +29,8 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                                 </div>
                             </div>
                         </div>
-                        <div class="image-frame-content px-8">
-                            <h3 class="my-6 text-xl text-white font-semibold">
+                        <div class="image-frame-content px-8 flex flex-col gap-8 self-stretch">
+                            <h3 class="text-xl text-white font-semibold">
                                 <a href="<?php echo esc_url( $category_link ); ?>">
                                 <span class="absolute inset-0"></span>
                                 <?php echo esc_html( $category->name ); ?>
