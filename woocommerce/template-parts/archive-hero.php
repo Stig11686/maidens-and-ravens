@@ -1,3 +1,9 @@
+<?php
+
+$archive_image = get_the_archive_thumbnail();
+
+?>
+
 
 <div class="relative">
   <header class="absolute inset-x-0 top-0 z-50">
@@ -5,7 +11,7 @@
   </header>
 
   <div id="header" class="relative isolate overflow-hidden pt-14 rounded-b-[100px]">
-    <img src="" alt="" class="absolute inset-0 h-full w-full object-cover">
+    <img src="<?php echo $archive_image; ?>" alt="" class="absolute inset-0 h-full w-full object-cover">
     <div class="absolute inset-x-0 inset-y-0 overflow-hidden bg-overlay-color" aria-hidden="true">
     </div>
     <div class="mx-auto flex flex-col items-center justify-center gap-4 max-w-2xl py-32 sm:py-48 lg:py-40 px-6">

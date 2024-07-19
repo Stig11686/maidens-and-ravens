@@ -252,3 +252,14 @@ add_action('init', 'add_custom_post_types');
 
 add_filter( 'woocommerce_is_purchasable', '__return_false' );
 
+function get_the_archive_thumbnail() {
+    $term = get_queried_object();
+    if ($term && !is_wp_error($term)) {
+        $thumbnail_id = get_term_meta($term->term_id, 'thumbnail_id', true);
+        if ($thumbnail_id) {
+            return wp_get_attachment_image($thumbnail_id, 'full');
+        }
+    }
+    return '';
+}
+
