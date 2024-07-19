@@ -11,18 +11,17 @@ global $product;
             <div class="w-full md:w-1/2 flex flex-col gap-8 p-12 text-center text-white">
                 <h2 class="text-4xl lg:text-5xl"><?php the_title(); ?></h2>
                 <p class="text-5xl lg:text-6xl font-bold"><?php echo $product->get_price_html(); ?></p>
+                <div id="custom-product-info" class="">
+                </div>
                 <a href="#" class="relative button button--wayra border border-1 rounded border-purple-900 px-4 py-5 outline outline-1 -outline-offset-2 outline-purple-900 uppercase" data-text="Click to Book an Appointment">Click to Book an Appointment</a>
             </div>
         </div>
     </div>
 </div>
-<div class="flex flex-col gap-16 bg-purple-900">
+<div class="flex flex-col gap-16 bg-purple-900 text-white">
 
-    <div class="w-full flex">
+    <div class="w-full flex flex-col">
         you might also like
-    </div>
-    <div class="w-full flex">
-        Testimonials
     </div>
     <div class="w-full flex flex-col items-center">
         <?php 
