@@ -38,7 +38,7 @@
       <h2 class="text-4xl font-bold">Our <span class="uppercase text-purple-900">Promise</span></h2>
     </div>
   </div>
-  <div class="w-full lg:w-1/2">
+  <div class="w-full lg:w-1/2 order-1 lg:order-2">
     <img src="<?php echo get_template_directory_uri(  ) . '/img/our-promise-2.jpg'; ?>" alt="Our promise on sustainability" class="h-full w-full object-cover">
   </div>
 </div>
