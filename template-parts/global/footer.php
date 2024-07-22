@@ -58,6 +58,17 @@
               </li>
             </ul>
           </div>
+          <div class="mt-10 md:mt-0">
+            <h3 class="text-sm font-semibold leading-6 text-white">About Us</h3>
+            <ul role="list" class="mt-6 space-y-4">
+              <li>
+                <p class="text-sm leading-6 text-gray-300 hover:text-white">Address Here</a>
+              </li>
+              <li>
+                <p class="text-sm leading-6 text-gray-300 hover:text-white">Phone Number Here</P>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
