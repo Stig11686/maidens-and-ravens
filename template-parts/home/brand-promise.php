@@ -1,6 +1,6 @@
 <div class="max-w-7xl px-6 mx-auto">
   <div class="w-10/12 max-w-7xl text-white flex flex-col items-start gap-8 py-16">
-    <p data-aos="zoom-in" data-aos-duration="500" data-easing="ease-in" class="text-3xl lg:text-5xl/normal leading-normal mb-0">"Be our guest; our stunning collection of one-off dresses are fully customisable, allowing us to add your personality, vision 
+    <p data-aos="zoom-in" data-aos-duration="1500" data-easing="ease-in" class="text-3xl lg:text-5xl/normal leading-normal mb-0">"Be our guest; our stunning collection of one-off dresses are fully customisable, allowing us to add your personality, vision 
       and a sprinkle of magic to create the dress of your dreams."</p>
     <a href="/product-category/treasure-trove/" class="rounded-md bg-purple-900 px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">View Our Treasure Trove</a>
   </div>
