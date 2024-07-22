@@ -15,7 +15,7 @@ include(get_template_directory(  ) . '/template-parts/home/hero.php');
 
 		<?php if ( have_posts() ) : ?>
 
-            <div class="w-full max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="mx-auto mt-16 grid max-w-7xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
 
                 <?php
                 /* Start the Loop */
