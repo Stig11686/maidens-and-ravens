@@ -7,19 +7,17 @@
  * @package maidens_and_ravens
  */
 
-get_header();
 include(get_template_directory(  ) . '/template-parts/global/header.php');
 include(get_template_directory(  ) . '/template-parts/home/hero.php');
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main text-white">
 
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
 				<?php
-				the_archive_title( '<h1 class="page-title">', '</h1>' );
-				the_archive_description( '<div class="archive-description">', '</div>' );
+				the_archive_title( '<h1 class="page-title text-white">', '</h1>' );
 				?>
 			</header><!-- .page-header -->
 
