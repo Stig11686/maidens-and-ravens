@@ -30,7 +30,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                                 </div>
                             </div>
                         </div>
-                        <div class="image-frame-content px-8 flex flex-col gap-8 self-stretch">
+                        <div class="image-frame-content px-8 flex flex-col h-100 justify-between gap-8 self-stretch">
                             <h3 class="text-xl text-white font-semibold">
                                 <a class="text-white focus:text-white active:text-white" href="<?php echo esc_url( $category_link ); ?>">
                                 <span class="absolute inset-0"></span>
