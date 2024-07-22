@@ -13,12 +13,13 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
 
                 <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 gap-8 lg:space-y-0">
                     <?php
+                    $index=0;
                         foreach ( $categories as $category ) :
                             $thumbnail_id = get_term_meta( $category->term_id, 'thumbnail_id', true );
                             $image = wp_get_attachment_url( $thumbnail_id );
                             $category_link = get_term_link( $category );
                     ?>
-                    <div data-aos="fade-up-right" data-aos-duration="4000" data-aos-easing="ease-in-out" data-aos-delay="500" class="group relative flex flex-col items-start self-stretch bg-card-bg rounded-lg overflow-hidden pb-6">
+                    <div data-aos="fade-up-right" data-aos-duration="4000" data-aos-easing="ease-in-out" data-aos-delay="<?php $index + 50 + 450; ?>" class="group relative flex flex-col items-start self-stretch bg-card-bg rounded-lg overflow-hidden pb-6">
                         <div class="image-frame-container">
                             <div class="flex flex-col">
                                 <div>
@@ -43,6 +44,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                         
 
                         <?php
+                        $index++;
                         endforeach;
                         ?>
                 </div>
