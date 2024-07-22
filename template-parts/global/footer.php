@@ -60,7 +60,7 @@
           </div>
           <div class="mt-10 md:mt-0">
             <h3 class="text-sm font-semibold leading-6 text-white">About Us</h3>
-            <ul role="list" class="mt-6 space-y-4">
+            <ul role="list" class="mt-6 space-y-2">
               <li>
                 <p class="text-sm leading-6 text-gray-300 hover:text-white">Address Here</a>
               </li>
@@ -68,6 +68,10 @@
                 <p class="text-sm leading-6 text-gray-300 hover:text-white">Phone Number Here</P>
               </li>
             </ul>
+            <div class="flex gap-4 mt-6">
+              <a href="https://www.facebook.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>    
+              <a href="https://www.instagram.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
+            </div>
           </div>
         </div>
       </div>
