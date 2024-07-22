@@ -12,7 +12,7 @@
  * @package maidens_and_ravens
  */
 
-get_header();
+include(get_template_directory(  ) . '/template-parts/global/header.php');
 ?>
 
 	<main id="primary" class="site-main">
