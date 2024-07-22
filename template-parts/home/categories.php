@@ -18,7 +18,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                             $image = wp_get_attachment_url( $thumbnail_id );
                             $category_link = get_term_link( $category );
                     ?>
-                    <div data-aos="fade-up-right" class="group relative flex flex-col items-start self-stretch bg-card-bg rounded-lg overflow-hidden pb-6">
+                    <div data-aos="fade-up-right" data-aos-duration="4000" data-aos-easing="ease-in-out" data-aos-offset="800" data-aos-delay="500" class="group relative flex flex-col items-start self-stretch bg-card-bg rounded-lg overflow-hidden pb-6">
                         <div class="image-frame-container">
                             <div class="flex flex-col">
                                 <div>
