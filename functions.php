@@ -231,6 +231,7 @@ function add_custom_post_types(){
 			'new_item' => 'New Test'
 			) ,
 			'public' => true,
+			'has_archive' => true,
 			'supports' => array( 'title', 'editor', 'thumbnail' )
 		)
 	);
