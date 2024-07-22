@@ -10,7 +10,7 @@
             <path d="M10,2 L2,2" class="upper stroke-white" data-svg-origin="2 2" transform="matrix(1,0,0,1,0,0)"></path>
             <path d="M10,5 L2,5" class="lower stroke-white" data-svg-origin="2 5" transform="matrix(1,0,0,1,0,0)"></path>
         </svg>
-        <?php wp_nav_menu(array('theme_location' => 'second_hero','menu_class' => 'flex gap-8', 'add_li_class' => 'text-white uppercase text-sm font-bold px-4')); ?>
+        <?php wp_nav_menu(array('theme_location' => 'second-hero','menu_class' => 'flex gap-8', 'add_li_class' => 'text-white uppercase text-sm font-bold px-4')); ?>
     </div>
     <div><a href="/"><img class="w-full max-h-28 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a></div>    
     <div class="hidden md:block gap-8 self-start text-white">
