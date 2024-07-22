@@ -36,6 +36,29 @@
   <div class="relative w-full lg:w-1/2 flex items-center justify-center bg-blue-900 order-2 lg:order-1">
     <div class="flex flex-col gap-8 text-white">
       <h2 class="text-4xl font-bold">Our <span class="uppercase text-purple-900">Promise</span></h2>
+      <p class="text-xl leading-normal">More and more couples are making conscious decisions to be more
+        environmentally friendly when planning their weddings. Bridalwear is
+        one of the biggest culprits when it comes to fast fashion, not to mention
+        the polluting effects of the production process so it is one area where
+        you can make a difference.
+      </p>
+      <p class="text-xl leading-normal">We are passionate in doing what we can to offer our brides a truly
+        sustainable choice. Our treasure trove dresses are already in existence
+        and deserve the opportunity of being worn!  They are our most eco-
+        friendly choice and are budget friendly too with most dresses costing on
+        average £500-£1000. Our planet conscious brides love the fact that they
+        are saving a dress from ending up in landfill as well as saving their
+        pennies.
+      </p>
+      <p class="text-xl leading-normal">Our commissioned for you collection is exactly that. We know that
+        sample dresses are not everyone’s cup of tea, and that some of you
+        prefer to purchase a new dress for many different reasons. We therefore
+        made a conscious decision to stock two designers that hold similar
+        values to ourselves. They aim to be as sustainable as possible – they do
+        not mass produce and simply make dresses to order to a bride’s
+        requirements. They enable us to be fully inclusive by being available to
+        order in any size and with custom features.
+        </p>
     </div>
   </div>
   <div class="w-full lg:w-1/2 order-1 lg:order-2">
