@@ -34,7 +34,7 @@
 <div class="w-full flex flex-col lg:flex-row ">
   
   <div class="relative w-full lg:w-1/2 flex items-center justify-center bg-blue-900 order-2 lg:order-1">
-    <div class="flex flex-col gap-8 text-white px-6 lg:px-32">
+    <div class="flex flex-col gap-8 text-white px-6 lg:px-32 py-32 lg:py-0">
       <h2 class="text-4xl font-bold">Our <span class="uppercase text-purple-900">Promise</span></h2>
       <p class="text-xl leading-normal">More and more couples are making conscious decisions to be more
         environmentally friendly when planning their weddings. Bridalwear is
