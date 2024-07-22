@@ -19,7 +19,7 @@ include(get_template_directory(  ) . '/template-parts/home/hero.php');
                 <h2 class="text-3xl lg:text-5xl text-white">Testimonials</h2>
                 <p class="text-lg text-white">If you've had a great experience with us, we'd love to share it here - get in touch via email if you're happy to share your story!</p>
 
-                <div class="mx-auto grid grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4 text-white">
+                <div class="mx-auto grid grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col text-white">
 
                     <?php
                     /* Start the Loop */
