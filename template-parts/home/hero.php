@@ -4,7 +4,7 @@ $hero_image = get_theme_mod('hero_image');
 
 ?>
 
-<header class="fixed inset-x-0 top-0 z-50">
+<header class="fixed inset-x-0 top-0 z-50 bg-black">
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
 </header>
 
