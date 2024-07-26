@@ -9,7 +9,7 @@ $hero_image = get_theme_mod('hero_image');
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
   </header>
 
-  <div id="header" class="relative isolate overflow-hidden pt-14 rounded-b-[100px]">
+  <div id="header" class="relative flex flex-col md:flex-row isolate overflow-hidden pt-14 rounded-b-[100px]">
     <div class="maidens flex-1 flex items-center justify-center bg-black">
       <span class="text" style="-webkit-text-fill: transparent; -webkit-text-stroke: 1px #fff;">Maidens</span>
     </div>
