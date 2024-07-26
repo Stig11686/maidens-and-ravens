@@ -1542,6 +1542,9 @@ html {
 .z-50 {
   z-index: 50;
 }
+.z-40 {
+  z-index: 40;
+}
 .order-1 {
   order: 1;
 }

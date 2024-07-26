@@ -13,7 +13,7 @@ $hero_image = get_theme_mod('hero_image');
     <div class="maidens relative flex-1 flex items-center justify-center bg-white" style="background-image: url('<?php echo get_template_directory_uri(  ) . '/img/raven.svg';?>'); background-position: bottom; background-repeat: no-repeat; background-size: cover;">
       <span class="absolute right-0 text-3xl lg:text-9xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #000; top: 25%;">Maidens</span>
     </div>
-    <div class=""><span class="absolute text-3xl lg:text-9xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #9e7e07; top: 50%; left: 50%; transform: translate(-50%, -25%);">&</span></div>
+    <div class="z-40"><span class="absolute text-3xl lg:text-9xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #9e7e07; top: 50%; left: 50%; transform: translate(-50%, -25%);">&</span></div>
     <div class="ravens relative flex-1 flex items-center justify-center bg-black" style="background-image: url('<?php echo get_template_directory_uri(  ) . '/img/brides/maidens-and-ravens-bride-17.jpg';?>'); background-position: bottom; background-repeat: no-repeat; background-size: cover;">
       <span class="absolute left-0 text-3xl lg:text-9xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff; bottom: 25%;">Ravens</span>
     </div>
