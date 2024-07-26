@@ -13,7 +13,7 @@ $hero_image = get_theme_mod('hero_image');
     <div class="maidens relative flex-1 flex items-center justify-center bg-white">
       <span class="right-0 text-3xl lg:text-9xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #000; top: 25%;">Maidens</span>
     </div>
-    <div class="absolute inset-0 flex items-center justify-center"><span class="text-3xl lg:text-9xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #000;">&</div></div>
+    <div class="absolute inset-0 flex items-center justify-center"><span class="text-3xl lg:text-9xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #000;">&</span></div>
     <div class="ravens relative flex-1 flex items-center justify-center bg-black">
       <span class="left-0 text-3xl lg:text-9xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff; bottom:: 25%;">Ravens</span>
     </div>
