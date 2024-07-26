@@ -8,7 +8,7 @@ $hero_image = get_theme_mod('hero_image');
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
 </header>
 
-<div class="relative min-h-screen">
+<div class="relative min-h-screen bg-white">
   <div class="flex flex-col md:flex-row items-center justify-center">
     <div class="flex flex-col gap-8 items-center">
       <h1 class="m-0 text-4xl/normal lg:text-5xl/normal font-semibold">Discover the magic at Maidens & Ravens,
@@ -19,8 +19,14 @@ $hero_image = get_theme_mod('hero_image');
           </div>
     </div>
     <div class="flex flex-col md:flex-row gap-4">
-      <img src="<?php echo $hero_image ;?>" alt="" class="w-full h-full object-cover rounded-md">
-      <img src="<?php echo $hero_image ;?>" alt="" class="w-full h-full object-cover rounded-md">
+      <div>
+        <img src="<?php echo $hero_image ;?>" alt="" class="w-full h-full object-cover rounded-md">
+      </div>
+      <div>
+        <img src="<?php echo $hero_image ;?>" alt="" class="w-full h-full object-cover rounded-md">
+      </div>
+      
+      
     </div>
   </div>  
 
