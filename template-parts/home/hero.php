@@ -11,10 +11,10 @@ $hero_image = get_theme_mod('hero_image');
 <div class="relative">
   <div id="header" class="relative min-h-screen flex flex-col md:flex-row isolate overflow-hidden pt-14 rounded-b-[100px]">
     <div class="maidens flex-1 flex items-center justify-center bg-white">
-      <span class="text-3xl lg:text-5xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #000;">Maidens</span>
+      <span class="text-3xl lg:text-9xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #000;">Maidens</span>
     </div>
     <div class="ravens flex-1 flex items-center justify-center bg-black">
-      <span class="text-3xl lg:text-5xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff;">Ravens</span>
+      <span class="text-3xl lg:text-9xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff;">Ravens</span>
     </div>
     <!-- <img src="<?php echo $hero_image; ?>" alt="" class="absolute inset-0 h-full w-full object-cover"> -->
     <!-- <div class="absolute inset-x-0 inset-y-0 overflow-hidden bg-overlay-color" aria-hidden="true">
