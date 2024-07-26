@@ -3505,6 +3505,10 @@ textarea {
     display: block;
   }
 
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:grid {
     display: grid;
   }
