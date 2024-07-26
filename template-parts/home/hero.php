@@ -14,7 +14,7 @@ $hero_image = get_theme_mod('hero_image');
       <span class="text-3xl lg:text-5xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #000;">Maidens</span>
     </div>
     <div class="ravens flex-1 flex items-center justify-center bg-black">
-      <span class="text-3xl lg:text-5xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #000;">Ravens</span>
+      <span class="text-3xl lg:text-5xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff;">Ravens</span>
     </div>
     <!-- <img src="<?php echo $hero_image; ?>" alt="" class="absolute inset-0 h-full w-full object-cover"> -->
     <!-- <div class="absolute inset-x-0 inset-y-0 overflow-hidden bg-overlay-color" aria-hidden="true">
