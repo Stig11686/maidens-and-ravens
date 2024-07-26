@@ -4,11 +4,11 @@ $hero_image = get_theme_mod('hero_image');
 
 ?>
 
-<div class="relative">
-  <header class="fixed inset-x-0 top-0 z-50">
+<header class="fixed inset-x-0 top-0 z-50">
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
-  </header>
+</header>
 
+<div class="relative">
   <div id="header" class="relative min-h-screen flex flex-col md:flex-row isolate overflow-hidden pt-14 rounded-b-[100px]">
     <div class="maidens flex-1 flex items-center justify-center bg-white">
       <span class="text-3xl lg:text-5xl" style="-webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #000;">Maidens</span>
