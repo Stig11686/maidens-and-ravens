@@ -1527,6 +1527,9 @@ html {
 .top-\[calc\(100\%-13rem\)\] {
   top: calc(100% - 13rem);
 }
+.right-0 {
+  right: 0px;
+}
 .isolate {
   isolation: isolate;
 }
