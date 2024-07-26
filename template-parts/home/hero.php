@@ -25,8 +25,6 @@ $hero_image = get_theme_mod('hero_image');
       <div>
         <img src="<?php echo $hero_image ;?>" alt="" class="w-full h-full object-cover rounded-md">
       </div>
-      
-      
     </div>
   </div>  
 
