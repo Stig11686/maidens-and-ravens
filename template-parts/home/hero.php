@@ -9,7 +9,7 @@ $hero_image = get_theme_mod('hero_image');
 </header>
 
 <div class="relative min-h-screen bg-white">
-  <div class="flex flex-col md:flex-row gap-8 items-center justify-center h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="flex flex-col md:flex-row gap-8 items-center justify-center min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex flex-col gap-8 items-center">
       <h1 class="m-0 text-4xl/normal lg:text-5xl/normal font-semibold">Discover the magic at Maidens & Ravens,
           a unique, sustainable and inclusive bridal boutique in the heart of York.</h1>
