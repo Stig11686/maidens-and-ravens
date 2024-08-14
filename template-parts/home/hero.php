@@ -1,47 +1,36 @@
 <?php
-
 $hero_image = get_theme_mod('hero_image');
-
+$tagline = get_bloginfo( 'description');
 ?>
 
-<header class="absolute inset-x-0 top-0 z-50">
+<div class="bg-white">
+  <header class="absolute inset-x-0 top-0 z-50 bg-[#eff7e5]">
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
-</header>
-
-<div class="relative min-h-screen bg-white">
-  <!-- <div class="flex flex-col md:flex-row gap-8 items-center justify-center min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex flex-col gap-8 items-center">
-      <h1 class="m-0 text-4xl/normal lg:text-5xl/normal font-semibold">Discover the magic at Maidens & Ravens,
-          a unique, sustainable and inclusive bridal boutique in the heart of York.</h1>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="#" class="rounded-md bg-purple-900 px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Book an Appointment</a>
-            <a href="/products/all/" class="text-sm md:text-lg lg:text-xl font-semibold leading-6 text-white">View Our Dresses <span aria-hidden="true">→</span></a>
+  </header>
+  <div id="homepage-hero" class="homepage-hero relative isolate overflow-hidden">
+    <div class="ml-auto w-full pb-16 pt-40 md:pt-20">
+    <div class="hidden lg:block lg:absolute inset-2/4 rounded-t-full border-8 border-white h-[53%] w-[17%] -translate-y-1/4 -translate-x-1/2">
+      <img src="<?php echo esc_url($hero_image); ?>" alt="Amazing kitchen from antler interiors" class="object-cover h-full w-full rounded-t-full">
+    </div>
+      <div class="flex flex-col gap-2 md:flex-row md:items-center pt-8">
+        <div class="md:w-6/12 flex flex-col items-center gap-4 z-10 px-4">
+          <div class="max-w-xl mx-auto flex flex-col items-start">
+            <h1 id="tagline" class="leading-snug max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl xl:col-auto">Discover the Magic at Maidens and Ravens</h1>
+            <p class="lg:w-6/12 text-lg leading-8 text-gray-600">A unique, sustainable and inclusive bridal boutique in the heart of York</p>
+            <div class="mt-10 flex items-center gap-x-6 ctas">
+                <a href="tel:07970742162" class="rounded-2xl bg-neutral px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral">Start a project now!</a>
+                <a href="/case-studies" class="text-sm font-semibold leading-6 text-gray-900">See our Work <span class="green-arrow"></span></a>
+            </div>
           </div>
-    </div>
-    <div class="flex flex-col md:flex-row gap-4">
-      <div class="h-full">
-        <img src="<?php echo $hero_image ;?>" alt="" class="w-full h-full object-cover rounded-md">
-      </div>
-      <div class="h-full">
-        <img src="<?php echo $hero_image ;?>" alt="" class="w-full h-full object-cover rounded-md">
-      </div>
-    </div>
-  </div>   -->
-
-  <div id="header" class="relative isolate overflow-hidden pt-14 rounded-b-[100px]">
-    <img src="<?php echo $hero_image; ?>" alt="" class="absolute inset-0 h-full w-full object-cover">
-    <div class="absolute inset-x-0 inset-y-0 overflow-hidden bg-overlay-color" aria-hidden="true">
-    </div>
-    <div class="mx-auto flex flex-col items-center justify-center gap-8 max-w-2xl py-32 sm:py-48 lg:py-40">
-      <div class="text-center z-50">
-        <!-- <h1 class="text-4xl lg:text-5xl font-bold tracking-tight text-white sm:text-6xl">Welcome to<br> Maidens and Ravens</h1>
-        <h1 class="m-0 text-4xl/normal lg:text-5xl/normal font-semibold text-gray-300">Discover the magic at Maidens & Ravens, -->
-          a unique bridal boutique in the heart of York.</h1>
-        <div class="mt-10 flex items-center justify-center gap-x-6">
-          <a href="#" class="rounded-md bg-purple-900 px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Book an Appointment</a>
-          <a href="/products/all/" class="text-sm md:text-lg lg:text-xl font-semibold leading-6 text-white">View Our Dresses <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="md:w-6/12 flex items-center justify-center">
+          <img src="<?php echo esc_url($hero_image); ?>" alt="Amazing kitchen from Antler Interiors" class="mt-10 aspect-[5/5] w-full object-cover lg:mt-0 lg:max-w-none">
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
+
+
