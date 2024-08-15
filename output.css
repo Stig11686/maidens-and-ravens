@@ -1632,11 +1632,11 @@ html {
 .h-full {
   height: 100%;
 }
-.max-h-28 {
-  max-height: 7rem;
-}
 .max-h-20 {
   max-height: 5rem;
+}
+.max-h-28 {
+  max-height: 7rem;
 }
 .w-10\/12 {
   width: 83.333333%;
@@ -1842,10 +1842,6 @@ html {
 .border-white\/10 {
   border-color: rgb(255 255 255 / 0.1);
 }
-.bg-\[\#eff7e5\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 247 229 / var(--tw-bg-opacity));
-}
 .bg-black\/20 {
   background-color: rgb(0 0 0 / 0.2);
 }
@@ -1868,6 +1864,10 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(227 170 166 / var(--tw-bg-opacity));
 }
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(184 5 72 / var(--tw-bg-opacity));
+}
 .bg-purple-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(168 85 247 / var(--tw-bg-opacity));
@@ -1885,18 +1885,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-yellow-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 196 0 / var(--tw-bg-opacity));
-}
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(184 5 72 / var(--tw-bg-opacity));
-}
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(162 179 162 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
@@ -2086,10 +2074,6 @@ html {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
-.text-blue-900 {
-  --tw-text-opacity: 1;
-  color: rgb(0 79 113 / var(--tw-text-opacity));
-}
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -2174,7 +2158,6 @@ html {
 
 body {
 	counter-reset: section;
-	background: #171515;
 }
 
 .faq .faq-btn--active {
@@ -3341,12 +3324,12 @@ textarea {
   outline-color: #e3aaa6;
 }
 
-.focus-visible\:outline-purple-400:focus-visible {
-  outline-color: #c084fc;
-}
-
 .focus-visible\:outline-primary:focus-visible {
   outline-color: #b80548;
+}
+
+.focus-visible\:outline-purple-400:focus-visible {
+  outline-color: #c084fc;
 }
 
 .active\:text-white:active {

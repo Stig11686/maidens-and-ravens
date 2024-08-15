@@ -33,7 +33,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 body {
 	counter-reset: section;
-	background: #171515;
 }
 
 .faq .faq-btn--active {
