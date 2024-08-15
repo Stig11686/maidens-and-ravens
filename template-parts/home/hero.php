@@ -4,7 +4,7 @@ $tagline = get_bloginfo( 'description');
 ?>
 
 <div class="bg-white">
-  <header class="absolute inset-x-0 top-0 z-50 bg-secondary">
+  <header class="absolute inset-x-0 top-0 z-50 bg-neutral">
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
   </header>
   <div id="homepage-hero" class="homepage-hero relative isolate overflow-hidden">
