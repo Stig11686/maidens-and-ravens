@@ -1863,7 +1863,7 @@ html {
 }
 .bg-neutral {
   --tw-bg-opacity: 1;
-  background-color: var(--fallback-n,oklch(var(--n)/var(--tw-bg-opacity)));
+  background-color: rgb(227 170 166 / var(--tw-bg-opacity));
 }
 .bg-purple-500 {
   --tw-bg-opacity: 1;
@@ -2097,7 +2097,7 @@ html {
 }
 .text-primary {
   --tw-text-opacity: 1;
-  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
+  color: rgb(184 5 72 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -3283,7 +3283,7 @@ textarea {
 
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
-  background-color: var(--fallback-p,oklch(var(--p)/var(--tw-bg-opacity)));
+  background-color: rgb(184 5 72 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-purple-400:hover {
@@ -3327,7 +3327,7 @@ textarea {
 }
 
 .focus-visible\:outline-neutral:focus-visible {
-  outline-color: var(--fallback-n,oklch(var(--n)/1));
+  outline-color: #e3aaa6;
 }
 
 .focus-visible\:outline-purple-400:focus-visible {

@@ -15,7 +15,9 @@ module.exports = {
       colors: {
         'overlay-color': 'rgba(23, 21, 21, 0.8)',
         'card-bg': 'rgba(50, 44, 44, 0.8)',
-        'secondary': '#004F71',
+        'primary': '#b80548',
+        'secondary': '#a2b3a2',
+        'neutral': '#e3aaa6',
         'purple': {
           '900': '#59315F',
         },
