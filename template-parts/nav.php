@@ -12,7 +12,7 @@
         </svg>
         <?php wp_nav_menu(array('theme_location' => 'second-hero','menu_class' => 'hidden lg:flex gap-4 list-none pl-2', 'add_li_class' => 'text-white uppercase text-xs font-bold hover:underline')); ?>
     </div>
-    <div><a href="/"><img class="w-full max-h-28 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a></div>    
+    <div><a href="/"><img class="w-full max-h-20 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a></div>    
     <div class="hidden md:block gap-8 self-start text-white">
         <div class="flex gap-8 items-center">
             <a href="#" class="px-4 py-2 bg-yellow-900 text-blue-900 cursor-pointer rounded-2xl text-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Book an Appointment</a>
