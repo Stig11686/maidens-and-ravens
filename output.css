@@ -1887,6 +1887,10 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(241 196 0 / var(--tw-bg-opacity));
 }
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(184 5 72 / var(--tw-bg-opacity));
+}
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
