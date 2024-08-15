@@ -24,7 +24,14 @@ $tagline = get_bloginfo( 'description');
           </div>
         </div>
         <div class="md:w-6/12 flex items-center justify-center">
-          <img src="<?php echo esc_url($hero_image); ?>" alt="Amazing kitchen from Antler Interiors" class="mt-10 aspect-[5/5] w-full object-cover lg:mt-0 lg:max-w-none">
+          <div class="testimonial__slider">
+            <div>
+              <img src="<?php echo esc_url($hero_image); ?>" alt="Wedding dresses for Maidens... and Ravens!" class="mt-10 aspect-[5/5] w-full object-cover lg:mt-0 lg:max-w-none">
+            </div>
+            <div>
+              <img src="<?php echo get_template_directory_uri() . '/img/brides/maidens-and-ravens-bride-1.jpg'; ?>" alt="Wedding dresses for Maidens... and Ravens!" class="mt-10 aspect-[5/5] w-full object-cover lg:mt-0 lg:max-w-none">
+            </div>
+          </div>
         </div>
       </div>
     </div>
