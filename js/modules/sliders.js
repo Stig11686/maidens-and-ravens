@@ -2,7 +2,7 @@ jQuery(document).ready(function(){
     jQuery('.testimonial__slider').slick({
         dots: false,
         infinite: true,
-        speed: 500,
+        autoplaySpeed: 500,
         slidesToShow: 1,
         adaptiveHeight: true,
         arrows: false,
