@@ -1894,6 +1894,10 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(184 5 72 / var(--tw-bg-opacity));
 }
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(162 179 162 / var(--tw-bg-opacity));
+}
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
@@ -3339,6 +3343,10 @@ textarea {
 
 .focus-visible\:outline-purple-400:focus-visible {
   outline-color: #c084fc;
+}
+
+.focus-visible\:outline-primary:focus-visible {
+  outline-color: #b80548;
 }
 
 .active\:text-white:active {
