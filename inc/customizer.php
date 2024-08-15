@@ -73,19 +73,19 @@ function theme_customiser_settings($wp_customize){
 
 
 	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'hero_image_control', array(
-		'label' => __('Select Banner Image 1', 'maidens'),
+		'label' => __('Select Banner Image 1', 'maidens-and-ravens'),
 		'section' => 'home_page_section',
 		'settings' => 'hero_image_1',
 	)));
 
 	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'hero_image_control', array(
-		'label' => __('Select Banner Image 2', 'maidens'),
+		'label' => __('Select Banner Image 2', 'maidens-and-ravens'),
 		'section' => 'home_page_section',
 		'settings' => 'hero_image_2',
 	)));
 
 	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'hero_image_control', array(
-		'label' => __('Select Arch Image', 'maidens'),
+		'label' => __('Select Arch Image', 'maidens-and-ravens'),
 		'section' => 'home_page_section',
 		'settings' => 'arch_image',
 	)));
