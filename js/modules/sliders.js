@@ -2,8 +2,8 @@ jQuery(document).ready(function(){
     jQuery('.testimonial__slider').slick({
         dots: false,
         infinite: true,
-        autoplaySpeed: 1000,
-        speed: 1500,
+        autoplaySpeed: 2000,
+        speed: 3000,
         slidesToShow: 1,
         adaptiveHeight: true,
         arrows: false,
