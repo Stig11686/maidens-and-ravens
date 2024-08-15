@@ -1,5 +1,7 @@
 <?php
-$hero_image = get_theme_mod('hero_image');
+$hero_image_1 = get_theme_mod('hero_image_1');
+$hero_image_2 = get_theme_mod('hero_image_2');
+$arch_image = get_theme_mod('arch_image');
 $tagline = get_bloginfo( 'description');
 ?>
 
@@ -23,15 +25,15 @@ $tagline = get_bloginfo( 'description');
         <div class="md:w-6/12">
           <div class="testimonial__slider">
             <div>
-              <img src="<?php echo esc_url($hero_image); ?>" alt="Wedding dresses for Maidens... and Ravens!" class="aspect-[5/5] w-full object-cover">
+              <img src="<?php echo esc_url($hero_image_1); ?>" alt="Wedding dresses for Maidens... and Ravens!" class="aspect-[5/5] w-full object-cover">
             </div>
             <div>
-              <img src="<?php echo get_template_directory_uri() . '/img/brides/maidens-and-ravens-bride-15.jpg'; ?>" alt="Wedding dresses for Maidens... and Ravens!" class="aspect-[5/5] w-full object-cover">
+              <img src="<?php echo esc_url($hero_image_1); ?>" alt="Wedding dresses for Maidens... and Ravens!" class="aspect-[5/5] w-full object-cover">
             </div>
           </div>
         </div>
         <div class="hidden lg:block lg:absolute inset-2/4 rounded-t-full border-8 border-white h-[53%] w-[17%] -translate-y-1/4 -translate-x-1/2">
-          <img src="<?php echo esc_url($hero_image); ?>" alt="" class="object-cover h-full w-full rounded-t-full">
+          <img src="<?php echo esc_url($arch_image); ?>" alt="" class="object-cover h-full w-full rounded-t-full">
         </div>
       </div>
     </div>
