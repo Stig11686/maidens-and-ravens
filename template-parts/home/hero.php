@@ -23,7 +23,7 @@ $tagline = get_bloginfo( 'description');
             </div>
           </div>
         </div>
-        <div class="md:w-6/12 flex items-center justify-center">
+        <div class="md:w-6/12">
           <div class="testimonial__slider">
             <div>
               <img src="<?php echo esc_url($hero_image); ?>" alt="Wedding dresses for Maidens... and Ravens!" class="aspect-[5/5] w-full object-cover">
