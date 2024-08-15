@@ -7,7 +7,7 @@ jQuery(document).ready(function(){
         slidesToShow: 1,
         adaptiveHeight: true,
         arrows: false,
-        autplay: true,
+        autoplay: true,
         fade: true,
         cssEase: 'linear'
         // prevArrow: jQuery('.slider-arrows .prev'),
