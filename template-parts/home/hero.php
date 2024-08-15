@@ -9,9 +9,6 @@ $tagline = get_bloginfo( 'description');
   </header>
   <div id="homepage-hero" class="homepage-hero relative isolate overflow-hidden">
     <div class="ml-auto w-full pt-40 md:pt-20">
-    <div class="hidden lg:block lg:absolute inset-2/4 rounded-t-full border-8 border-white h-[53%] w-[17%] -translate-y-1/4 -translate-x-1/2">
-      <img src="<?php echo esc_url($hero_image); ?>" alt="" class="object-cover h-full w-full rounded-t-full">
-    </div>
       <div class="flex flex-col gap-2 md:flex-row md:items-center pt-8">
         <div class="md:w-6/12 flex flex-col items-center gap-4 z-10 px-4">
           <div class="max-w-xl mx-auto flex flex-col items-start">
@@ -32,6 +29,9 @@ $tagline = get_bloginfo( 'description');
               <img src="<?php echo get_template_directory_uri() . '/img/brides/maidens-and-ravens-bride-1.jpg'; ?>" alt="Wedding dresses for Maidens... and Ravens!" class="aspect-[5/5] w-full object-cover">
             </div>
           </div>
+        </div>
+        <div class="hidden lg:block lg:absolute inset-2/4 rounded-t-full border-8 border-white h-[53%] w-[17%] -translate-y-1/4 -translate-x-1/2">
+          <img src="<?php echo esc_url($hero_image); ?>" alt="" class="object-cover h-full w-full rounded-t-full">
         </div>
       </div>
     </div>
