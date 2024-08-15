@@ -28,7 +28,7 @@ $tagline = get_bloginfo( 'description');
               <img src="<?php echo esc_url($hero_image_1); ?>" alt="Wedding dresses for Maidens... and Ravens!" class="aspect-[5/5] w-full object-cover">
             </div>
             <div>
-              <img src="<?php echo esc_url($hero_image_1); ?>" alt="Wedding dresses for Maidens... and Ravens!" class="aspect-[5/5] w-full object-cover">
+              <img src="<?php echo esc_url($hero_image_2); ?>" alt="Wedding dresses for Maidens... and Ravens!" class="aspect-[5/5] w-full object-cover">
             </div>
           </div>
         </div>
