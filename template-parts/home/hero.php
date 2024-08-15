@@ -15,7 +15,7 @@ $tagline = get_bloginfo( 'description');
             <h1 id="tagline" class="leading-snug max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl xl:col-auto">Discover the Magic at Maidens and Ravens</h1>
             <p class="lg:w-6/12 text-lg leading-8 text-gray-600">A unique, sustainable and inclusive bridal boutique in the heart of York</p>
             <div class="mt-10 flex items-center gap-x-6 ctas">
-                <a href="tel:07970742162" class="rounded-2xl bg-neutral px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral">See our Dresses</a>
+                <a href="tel:07970742162" class="rounded-2xl bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral">See our Dresses</a>
                 <a href="/case-studies" class="text-sm font-semibold leading-6 text-gray-900">About our Boutique <span class="green-arrow"></span></a>
             </div>
           </div>
