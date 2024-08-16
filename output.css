@@ -1886,6 +1886,13 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-gray-100 {
+  background-color: rgba(199, 197, 197, 0.1);
+}
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(162 179 162 / var(--tw-bg-opacity));
+}
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
@@ -3644,6 +3651,10 @@ textarea {
   .lg\:py-56 {
     padding-top: 14rem;
     padding-bottom: 14rem;
+  }
+
+  .lg\:pt-0 {
+    padding-top: 0px;
   }
 
   .lg\:pt-32 {
