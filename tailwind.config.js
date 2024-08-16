@@ -19,7 +19,7 @@ module.exports = {
         'secondary': '#a2b3a2',
         'neutral': '#e3aaa6',
         'gray': {
-          '100': 'rgba(199, 197, 197, 0.1)'
+          '100': 'rgba(199, 197, 197, 0.3)'
         },
         'purple': {
           '900': '#59315F',
