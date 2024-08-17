@@ -26,7 +26,7 @@
                 pennies.</p>
         <p class="text-xl leading-normal">Praesentium officiis repudiandae, delectus hic labore enim quam rem ipsa tempora laboriosam laudantium! Libero error laboriosam ullam necessitatibus, quo dicta iusto porro temporibus iure cum? Reprehenderit impedit autem in iste?</p>
 
-        <a href="/product-category/treasure-trove/" class="rounded-md bg-purple-900 px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">View Our Treasure Trove</a>
+        <a href="/product-category/treasure-trove/" class="rounded-md bg-primary px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">View Our Treasure Trove</a>
       </div>
     </div>
   </div>
