@@ -6,7 +6,8 @@ $categories = get_terms( 'product_cat', array(
 
 if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) : 
 ?>
-    <div class="bg-gray-100">
+    <div class="relative">
+        <div class="absolute bg-gray-100 left-0 top-20 right-20 bottom-0"></div>
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
                 <h2 class="text-5xl font-bold text-black">View our <span class="text-primary">Dresses</span></h2>
