@@ -1492,6 +1492,9 @@ html {
 .inset-32 {
   inset: 8rem;
 }
+.inset-96 {
+  inset: 24rem;
+}
 .inset-x-0 {
   left: 0px;
   right: 0px;
