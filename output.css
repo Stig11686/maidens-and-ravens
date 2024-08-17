@@ -1653,6 +1653,9 @@ html {
 .max-h-28 {
   max-height: 7rem;
 }
+.max-h-16 {
+  max-height: 4rem;
+}
 .w-10\/12 {
   width: 83.333333%;
 }
