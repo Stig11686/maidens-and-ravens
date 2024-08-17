@@ -12,7 +12,9 @@
           </figure>
         </div>
       </div>
-      <div class="mt-8 lg:mt-0">
+      <div class="mt-8 lg:mt-0 relative">
+      <div class="absolute bg-gray-100 inset-80 left-0"></div>
+
         <?php include(get_template_directory(  ) . '/template-parts/home/founders-story.php'); ?>
       </div>
     </div>

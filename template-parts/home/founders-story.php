@@ -1,6 +1,4 @@
 <div class="px-6 lg:contents relative">
-  <div class="absolute bg-gray-100 inset-80 left-0"></div>
-
       <div class="mx-auto flex flex-col items-start gap-8">
         <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight sm:text-5xl">Meet <span class="text-primary">Elizabeth</span></h3>
         <p class="my-6 text-xl leading-8 font-semibold">Hello my Queens.<br>
