@@ -1495,6 +1495,9 @@ html {
 .inset-96 {
   inset: 24rem;
 }
+.inset-80 {
+  inset: 20rem;
+}
 .inset-x-0 {
   left: 0px;
   right: 0px;
