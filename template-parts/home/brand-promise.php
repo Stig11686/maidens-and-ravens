@@ -24,7 +24,7 @@
                 average £500-£1000. Our planet conscious brides love the fact that they
                 are saving a dress from ending up in landfill as well as saving their
                 pennies.</p>
-        <p class="text-xl leading-normal">Praesentium officiis repudiandae, delectus hic labore enim quam rem ipsa tempora laboriosam laudantium! Libero error laboriosam ullam necessitatibus, quo dicta iusto porro temporibus iure cum? Reprehenderit impedit autem in iste?</p>
+        <!-- <p class="text-xl leading-normal">Praesentium officiis repudiandae, delectus hic labore enim quam rem ipsa tempora laboriosam laudantium! Libero error laboriosam ullam necessitatibus, quo dicta iusto porro temporibus iure cum? Reprehenderit impedit autem in iste?</p> -->
 
         <a href="/product-category/treasure-trove/" class="rounded-md bg-primary px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">View Our Treasure Trove</a>
       </div>
