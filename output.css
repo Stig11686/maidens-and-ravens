@@ -1498,6 +1498,9 @@ html {
 .inset-80 {
   inset: 20rem;
 }
+.inset-40 {
+  inset: 10rem;
+}
 .inset-x-0 {
   left: 0px;
   right: 0px;

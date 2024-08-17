@@ -1,6 +1,6 @@
 
 <div class="overflow-hidden relative">
-<div class="absolute bg-gray-100 inset-80 left-0"></div>
+<div class="absolute bg-gray-100 inset-40 bottom-0"></div>
 
   <div class="relative mx-auto max-w-7xl px-6 py-16 lg:px-8">
     <div class="absolute bottom-0 left-3/4 top-0 hidden w-screen lg:block"></div>
