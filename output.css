@@ -3545,6 +3545,10 @@ textarea {
     padding-top: 5rem;
   }
 
+  .md\:pt-16 {
+    padding-top: 4rem;
+  }
+
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;

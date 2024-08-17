@@ -10,7 +10,7 @@ $tagline = get_bloginfo( 'description');
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
   </header>
   <div id="homepage-hero" class="homepage-hero relative isolate overflow-hidden">
-    <div class="ml-auto w-full pt-40 md:pt-20">
+    <div class="ml-auto w-full pt-40 md:pt-16">
       <div class="flex flex-col gap-2 md:flex-row md:items-center pt-8 lg:pt-0">
         <div class="md:w-6/12 flex flex-col items-center gap-4 z-10 px-4">
           <div class="max-w-xl mx-auto flex flex-col items-start">
