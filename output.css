@@ -1492,14 +1492,11 @@ html {
 .inset-32 {
   inset: 8rem;
 }
-.inset-96 {
-  inset: 24rem;
+.inset-40 {
+  inset: 10rem;
 }
 .inset-80 {
   inset: 20rem;
-}
-.inset-40 {
-  inset: 10rem;
 }
 .inset-x-0 {
   left: 0px;
@@ -1531,12 +1528,6 @@ html {
 }
 .top-\[calc\(100\%-13rem\)\] {
   top: calc(100% - 13rem);
-}
-.right-20 {
-  right: 5rem;
-}
-.top-20 {
-  top: 5rem;
 }
 .isolate {
   isolation: isolate;
@@ -1574,6 +1565,9 @@ html {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
+}
+.-mt-10 {
+  margin-top: -2.5rem;
 }
 .-mt-8 {
   margin-top: -2rem;
@@ -1614,9 +1608,6 @@ html {
 .mt-8 {
   margin-top: 2rem;
 }
-.-mt-10 {
-  margin-top: -2.5rem;
-}
 .box-content {
   box-sizing: content-box;
 }
@@ -1650,14 +1641,11 @@ html {
 .h-full {
   height: 100%;
 }
-.max-h-20 {
-  max-height: 5rem;
+.max-h-16 {
+  max-height: 4rem;
 }
 .max-h-28 {
   max-height: 7rem;
-}
-.max-h-16 {
-  max-height: 4rem;
 }
 .w-10\/12 {
   width: 83.333333%;
@@ -1866,10 +1854,6 @@ html {
 .bg-black\/20 {
   background-color: rgb(0 0 0 / 0.2);
 }
-.bg-blue-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 79 113 / var(--tw-bg-opacity));
-}
 .bg-card-bg {
   background-color: rgba(50, 44, 44, 0.8);
 }
@@ -1903,16 +1887,9 @@ html {
 .bg-purple-900\/10 {
   background-color: rgb(89 49 95 / 0.1);
 }
-.bg-slate-950\/90 {
-  background-color: rgb(2 6 23 / 0.9);
-}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(162 179 162 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
@@ -2019,14 +1996,14 @@ html {
 .pt-16 {
   padding-top: 4rem;
 }
+.pt-24 {
+  padding-top: 6rem;
+}
 .pt-40 {
   padding-top: 10rem;
 }
 .pt-8 {
   padding-top: 2rem;
-}
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 .text-center {
   text-align: center;
@@ -2121,6 +2098,10 @@ html {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
+.text-neutral {
+  --tw-text-opacity: 1;
+  color: rgb(227 170 166 / var(--tw-text-opacity));
+}
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(184 5 72 / var(--tw-text-opacity));
@@ -2128,14 +2109,6 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-yellow-900 {
-  --tw-text-opacity: 1;
-  color: rgb(241 196 0 / var(--tw-text-opacity));
-}
-.text-neutral {
-  --tw-text-opacity: 1;
-  color: rgb(227 170 166 / var(--tw-text-opacity));
 }
 .opacity-0 {
   opacity: 0;
@@ -3544,12 +3517,13 @@ textarea {
     gap: 2rem;
   }
 
-  .md\:pt-20 {
-    padding-top: 5rem;
-  }
-
   .md\:pt-16 {
     padding-top: 4rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .md\:text-lg {
@@ -3583,6 +3557,10 @@ textarea {
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .lg\:ml-11 {
+    margin-left: 2.75rem;
   }
 
   .lg\:mt-0 {
@@ -3691,6 +3669,11 @@ textarea {
 
   .lg\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .lg\:text-3xl {
