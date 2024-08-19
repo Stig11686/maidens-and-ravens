@@ -48,7 +48,7 @@
         ?>
         <div class="product-category-container flex flex-col items-start">
             <div class="product-category-image">
-                <img src="<?php $thumbnail_url; ?>" alt="<?php echo esc_html($category->name); ?>">
+                <img src="<?php echo $thumbnail_url; ?>" alt="<?php echo esc_html($category->name); ?>">
             <p>hello</p>
         </div>
 
