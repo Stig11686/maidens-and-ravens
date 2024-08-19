@@ -13,10 +13,7 @@
     if (!empty($product_categories)) {
         echo '<ul class="product-categories-list">';
         foreach ($product_categories as $category) {
-            $category_link = get_term_link($category);
-            if (is_wp_error($category_link)) {
-                continue;
-            }
+
             echo '<li class="product-category">';
             echo '<a href="' . esc_url($category_link) . '">';
             echo '<h2>' . esc_html($category->name) . '</h2>';
@@ -39,7 +36,7 @@
 
     <!-- to do  - filters? -->
 
-    <div class="flex flex-col md:flex-row flex-wrap gap-6">
+    <div class="flex flex-col md:flex-row flex-wrap gap-6 max-w-7xl mx-auto">
         <?php
             if (!empty($product_categories)):
                 foreach($product_categories as $category):
