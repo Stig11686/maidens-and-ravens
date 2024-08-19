@@ -1,5 +1,5 @@
 
-<div class="bg-grey-100">
+<div class="bg-gray-100">
 <?php
     include(get_template_directory(  ) . '/template-parts/global/header.php');
     include(get_template_directory(  ) . '/template-parts/nav.php');
