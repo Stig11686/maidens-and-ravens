@@ -3,34 +3,35 @@
     $logo_url = wp_get_attachment_image_url($logo_id, 'full');
 ?>
 
-
-<nav class="flex justify-between items-center gap-8 px-8 py-4 max-w-screen-2xl mx-auto text-white">
-    <div class="flex items-center z-50 self-start cursor-pointer">
-        <svg viewBox="0 0 12 10" class="hamburger me-3 me-xl-5 me-0 mt-1" height="20px" width="24px" class="z-50">
-            <path d="M10,2 L2,2" class="upper stroke-white" data-svg-origin="2 2" transform="matrix(1,0,0,1,0,0)"></path>
-            <path d="M10,5 L2,5" class="lower stroke-white" data-svg-origin="2 5" transform="matrix(1,0,0,1,0,0)"></path>
-        </svg>
-        <?php wp_nav_menu(array('theme_location' => 'second-hero','menu_class' => 'hidden lg:flex gap-4 list-none pl-2', 'add_li_class' => 'text-white uppercase text-xs font-bold hover:underline')); ?>
-    </div>
-    <div><a href="/"><img class="w-full max-h-16 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a></div>    
-    <div class="hidden md:block gap-8 self-start text-white">
-        <div class="flex gap-8 items-center">
-            <a href="#" class="px-4 py-2 bg-primary text-white cursor-pointer rounded-2xl text-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Book an Appointment</a>
-            <a href="https://www.facebook.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>    
-            <a href="https://www.instagram.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
+<header class="absolute inset-x-0 top-0 z-50 bg-neutral">
+    <nav class="flex justify-between items-center gap-8 px-8 py-4 max-w-screen-2xl mx-auto text-white">
+        <div class="flex items-center z-50 self-start cursor-pointer">
+            <svg viewBox="0 0 12 10" class="hamburger me-3 me-xl-5 me-0 mt-1" height="20px" width="24px" class="z-50">
+                <path d="M10,2 L2,2" class="upper stroke-white" data-svg-origin="2 2" transform="matrix(1,0,0,1,0,0)"></path>
+                <path d="M10,5 L2,5" class="lower stroke-white" data-svg-origin="2 5" transform="matrix(1,0,0,1,0,0)"></path>
+            </svg>
+            <?php wp_nav_menu(array('theme_location' => 'second-hero','menu_class' => 'hidden lg:flex gap-4 list-none pl-2', 'add_li_class' => 'text-white uppercase text-xs font-bold hover:underline')); ?>
         </div>
-    </div>
-    <div id="side-menu">
-        <div class="relative h-full">
-
-            <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-black/20"></div>
-            <div class="absolute inset-0 side-menu z-10 bg-white h-full w-full">
-                <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'absolute inset-32 flex flex-col gap-8 my-auto list-none ml-auto', 'add_li_class' => 'text-black px-4')); ?>
+        <div><a href="/"><img class="w-full max-h-16 object-cover" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a></div>    
+        <div class="hidden md:block gap-8 self-start text-white">
+            <div class="flex gap-8 items-center">
+                <a href="#" class="px-4 py-2 bg-primary text-white cursor-pointer rounded-2xl text-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Book an Appointment</a>
+                <a href="https://www.facebook.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>    
+                <a href="https://www.instagram.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
             </div>
-        </div>    
+        </div>
+        <div id="side-menu">
+            <div class="relative h-full">
 
-    </div>
-</nav>
+                <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-black/20"></div>
+                <div class="absolute inset-0 side-menu z-10 bg-white h-full w-full">
+                    <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'absolute inset-32 flex flex-col gap-8 my-auto list-none ml-auto', 'add_li_class' => 'text-black px-4')); ?>
+                </div>
+            </div>    
+
+        </div>
+    </nav>
+</header>
 
 
 
