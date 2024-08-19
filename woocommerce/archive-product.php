@@ -43,9 +43,12 @@
         <?php
             if (!empty($product_categories)):
                 foreach($product_categories as $category):
-        
+                    $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
+                    $thumbnail_url = wp_get_attachment_url($thumbnail_id);
         ?>
-        <div class="product-category-container">
+        <div class="product-category-container flex flex-col items-start">
+            <div class="product-category-image">
+                <img src="<?php $thumbnail_url; ?>" alt="<?php echo esc_html($category->name); ?>">
             <p>hello</p>
         </div>
 
