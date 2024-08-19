@@ -2,6 +2,7 @@
 <div class="bg-grey-100">
 <?php
     include(get_template_directory(  ) . '/template-parts/global/header.php');
+    include(get_template_directory(  ) . '/template-parts/nav.php');
 ?>
 
     <div class="flex flex-col items-start gap-4">
