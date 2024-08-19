@@ -28,9 +28,9 @@
                     $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
                     $thumbnail_url = wp_get_attachment_url($thumbnail_id);
         ?>
-        <div class="product-category-container flex flex-col items-start">
+        <div class="product-category-container lg:w-1/4 flex flex-col items-start">
             <div class="product-category-image bg-white">
-                <img src="<?php echo $thumbnail_url; ?>" alt="<?php echo esc_html($category->name); ?>">
+                <img class="mix-blend-multiply" src="<?php echo $thumbnail_url; ?>" alt="<?php echo esc_html($category->name); ?>">
             </div>  
             <p><a href="<?php echo $category->link; ?>"><?php echo $category->name; ?></a></p>
             
