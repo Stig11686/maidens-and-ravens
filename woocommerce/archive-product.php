@@ -1,17 +1,61 @@
 
 <div class="bg-gray-100">
 <?php
+    $args = array(
+        'taxonomy'   => 'product_cat',
+        'orderby'    => 'name',
+        'order'      => 'ASC',
+        'hide_empty' => true, // Only show categories with products
+    );
+    
+    $product_categories = get_terms($args);
+    
+    if (!empty($product_categories)) {
+        echo '<ul class="product-categories-list">';
+        foreach ($product_categories as $category) {
+            $category_link = get_term_link($category);
+            if (is_wp_error($category_link)) {
+                continue;
+            }
+            echo '<li class="product-category">';
+            echo '<a href="' . esc_url($category_link) . '">';
+            echo '<h2>' . esc_html($category->name) . '</h2>';
+            echo '</a>';
+            echo '</li>';
+        }
+        echo '</ul>';
+    } else {
+        echo '<p>No categories found.</p>';
+    }
+
     include(get_template_directory(  ) . '/template-parts/global/header.php');
     include(get_template_directory(  ) . '/template-parts/nav.php');
 ?>
 
-    <div class="flex flex-col items-start gap-4 max-w-2xl lg:ml-11 px-4 pt-24">
+    <div class="flex flex-col items-start gap-4 max-w-2xl lg:ml-11 px-4 py-24">
         <h1 class="mb-0 text-3xl md:text-4xl lg:text-5xl text-black font-bold">Get Inspired</h1>
         <p class="text-xl lg:text-2xl font-bold">Decide whether you are a maiden or a raven! Browse your dream dresses, and get in touch to see them in person!</p>
     </div>
 
     <!-- to do  - filters? -->
 
+    <div class="flex flex-col md:flex-row flex-wrap gap-6">
+        <?php
+            if (!empty($product_categories)):
+                foreach($product_categories as $category):
+        
+        ?>
+        <div class="product-category-container">
+            <p>hello</p>
+        </div>
+
+    <?php
+        endforeach;
+        endif;
+    ?>
+            
+
+    </div>
 
 
 <?php
