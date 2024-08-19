@@ -1,6 +1,13 @@
 <?php
 
-$archive_image = get_the_archive_thumbnail();
+if(is_shop()){
+  $shop_id = wc_get_page_id('shop');
+  $archive_image = get_field('shop_archive_image', $shop_id);
+} else {
+  $archive_image = get_the_archive_thumbnail();
+}
+
+
 
 ?>
 
@@ -22,7 +29,7 @@ $archive_image = get_the_archive_thumbnail();
             ?>
         </div>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-          <a href="#" class="rounded-md bg-purple-900 px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Book an Appointment</a>
+          <a href="#" class="rounded-md bg-primary px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Book an Appointment</a>
         </div>
       </div>
     </div>
