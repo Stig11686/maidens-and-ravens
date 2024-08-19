@@ -9,21 +9,6 @@
     );
     
     $product_categories = get_terms($args);
-    
-    if (!empty($product_categories)) {
-        echo '<ul class="product-categories-list">';
-        foreach ($product_categories as $category) {
-
-            echo '<li class="product-category">';
-            echo '<a href="' . esc_url($category_link) . '">';
-            echo '<h2>' . esc_html($category->name) . '</h2>';
-            echo '</a>';
-            echo '</li>';
-        }
-        echo '</ul>';
-    } else {
-        echo '<p>No categories found.</p>';
-    }
 
     include(get_template_directory(  ) . '/template-parts/global/header.php');
     include(get_template_directory(  ) . '/template-parts/nav.php');
@@ -36,7 +21,7 @@
 
     <!-- to do  - filters? -->
 
-    <div class="flex flex-col md:flex-row flex-wrap gap-6 max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row flex-wrap gap-4 max-w-7xl mx-auto">
         <?php
             if (!empty($product_categories)):
                 foreach($product_categories as $category):
@@ -44,10 +29,10 @@
                     $thumbnail_url = wp_get_attachment_url($thumbnail_id);
         ?>
         <div class="product-category-container flex flex-col items-start">
-            <div class="product-category-image">
+            <div class="product-category-image bg-white">
                 <img src="<?php echo $thumbnail_url; ?>" alt="<?php echo esc_html($category->name); ?>">
             </div>  
-            <p>hello</p>
+            <p><a href="<?php echo $category->link; ?>"><?php echo $category->name; ?></a></p>
             
         </div>
 
