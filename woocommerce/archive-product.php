@@ -21,7 +21,7 @@
 
     <!-- to do  - filters? -->
 
-    <div class="flex flex-col md:flex-row flex-wrap gap-4 max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row flex-wrap items-center gap-4 max-w-7xl mx-auto">
         <?php
             if (!empty($product_categories)):
                 foreach($product_categories as $category):
