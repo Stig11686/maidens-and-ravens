@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Personalised Dresses
+Template Name: Contact
 */
 get_header(); ?>
 
