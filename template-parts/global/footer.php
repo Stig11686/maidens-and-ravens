@@ -5,6 +5,8 @@
 
 ?>
 
+<?php include(get_template_directory() . '/template-parts/global/map.php'); ?>
+
 <footer class="bg-neutral relative" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
   <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
