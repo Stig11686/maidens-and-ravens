@@ -6,7 +6,7 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      sans: ['Faunces', 'sans-serif'],
+      sans: ['Crimson Text', 'sans-serif'],
     },
     extend: {
       zIndex: {
