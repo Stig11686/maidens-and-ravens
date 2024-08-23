@@ -29,7 +29,7 @@ include(get_template_directory() . '/template-parts/global/header.php');
         <p>I started my journey into Bridalwear in 2019 but before that I always had a love for art, making things, sewing, knitting and vintage clothing. Growing up in Edinburgh, I enjoyed charity shop snooping and loved buying dresses from the 60s and 70s which I would get tailored to me. Like all of my friends, my prom dress was a 1980s bridesmaid dress - mint green with puff sleeves and lace! I wanted to look like Sarah from Labyrinth in the ballroom scene with David Bowie, complete with ribbons in my hair! I still love that look.</p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="#" alt="lorem10" class="w-full h-full object-cover">
+        <img src="<?php echo esc_url(get_theme_mod('elizabeth_image_2')); ?>" alt="lorem10" class="w-full h-full object-cover">
       </div>
     </div>
   </section>
@@ -42,7 +42,7 @@ include(get_template_directory() . '/template-parts/global/header.php');
         <p>I opened my original Reloved boutique in 2019 and after winning the Best Bridal Boutique in Yorkshire in 2022, 2023 ... I became fully independent in 2024 choosing to better adapt my boutique to my brides.</p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="#" alt="lorem10" class="w-full h-full object-cover">
+        <img src="<?php echo esc_url(get_theme_mod('elizabeth_image_3')); ?>" alt="lorem10" class="w-full h-full object-cover">
       </div>
     </div>
   </section>
@@ -56,7 +56,7 @@ include(get_template_directory() . '/template-parts/global/header.php');
         <?php include(get_template_directory(  ) . '/template-parts/global/book-appointment-btn.php'); ?>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="#" alt="lorem10" class="w-full h-full object-cover">
+        <img src="<?php echo esc_url(get_theme_mod('elizabeth_image_4')); ?>" alt="lorem10" class="w-full h-full object-cover">
       </div>
     </div>
   </section>
