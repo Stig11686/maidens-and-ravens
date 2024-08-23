@@ -8,13 +8,9 @@ include(get_template_directory() . '/template-parts/global/header.php');
 <section class="flex pt-80 md:pt-48 px-6 xl:px-48 lg:px-24 mx-auto pb-8">
     <div class="flex flex-col lg:flex-row lg:justify-between  gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
-        <h2 class="mb-0 leading-120 text-3xl lg:text-5xl">Our Journey</h2>
-        <p class="leading-200 text-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia perferendis eos voluptatem dolorem natus non nisi commodi unde temporibus dicta inventore hic ea vitae beatae accusamus amet, impedit modi. Officiis?</p>
-        <ul class="text-lg leading-7 ml-4">
-          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt necessitatibus pariatur perferendis mollitia velit.</li>
-          <li>Sunt repellat quaerat hic eum, provident dolore nesciunt dolorum ex! Itaque necessitatibus commodi sint quidem!</li>
-          <li>Blanditiis odio fugiat natus, soluta nesciunt corrupti hic repudiandae? Voluptatem corporis assumenda obcaecati officia itaque.</li>
-        </ul>
+        <h2 class="mb-0 leading-120 text-3xl lg:text-5xl">Elizabeths Story</h2>
+        <p class="leading-200 text-md">Hello my Queens!</p>
+
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
         <img src="" alt="Maidens and Ravens wedding dress boutique in York" class="w-full h-full object-cover">
@@ -25,14 +21,11 @@ include(get_template_directory() . '/template-parts/global/header.php');
   <!--Our Approach -->
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
-      <div class="flex flex-col items-start gap-8 decorated-list lg:order-2 lg:w-5/12">
+      <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <h2 class="mb-0 leading-120">Lorem ipsum dolor sit amet.</h2>
-        <p class="text-wrap leading-200 text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum non et, possimus accusantium autem fugit veritatis molestias modi, repellat ex ea tenetur, aperiam minus suscipit architecto libero distinctio sunt.</p>
-        <ul class="text-lg leading-7 ml-4">
-          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, aut.</li>
-          <li>Delectus similique provident quasi ratione ducimus recusandae aperiam illum sequi.</li>
-          <li>Molestias error illum officia nobis doloribus vitae inventore illo quia.</li>
-        </ul>
+        <p class="text-wrap leading-200 text-md">I am Elizabeth and I am the founder, owner and bridal mavern at Maidens and Ravens, here in the historic city of York. </p>
+        <p>Did you know that a mavern is someone who is experienced and knowledgeable? Seemed like a fitting name for me.</p>
+        <p>I started my journey into Bridalwear in 2019 but before that I always had a love for art, making things, sewing, knitting and vintage clothing. Growing up in Edinburgh, I enjoyed charity shop snooping and loved buying dresses from the 60s and 70s which I would get tailored to me. Like all of my friends, my prom dress was a 1980s bridesmaid dress - mint green with puff sleeves and lace! I wanted to look like Sarah from Labyrinth in the ballroom scene with David Bowie, complete with ribbons in my hair! I still love that look.</p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
         <img src="#" alt="lorem10" class="w-full h-full object-cover">
@@ -40,28 +33,40 @@ include(get_template_directory() . '/template-parts/global/header.php');
     </div>
   </section>
 
-  <section id="contact" class="flex justify-center items-center gap-36 bg-gradient-to-r from-red-100 to-purple-100">
-    <div class="max-w-screen-2xl mx-auto py-32 ">
-        <div class="mx-auto flex flex-col lg:flex-row justify-center items-center flex-1 gap-8 lg:gap-36 px-6 md:px-12 lg:px-32">
-            <div class="flex flex-col items-start gap-8 lg:w-5/12 w-full text-white">
-                <h2 class="text-white text-4xl leading-112">Lorem ipsum dolor sit amet.</h2>
-                <p class="text-white text-md leading-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos totam mollitia quibusdam repellendus, ipsum vitae.</p>
-                <a href="#" class="bg-white rounded font-bold flex items-center justify-center gap-2 p-4 text-blue-200">Book a Call <i class="ml-2 fa-solid fa-chevron-right"></i></a>
-                <p class="text-white font-bold leading-112">Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="w-full lg:w-7/12">
-                form goes here
-            </div>
-        </div>
+  <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
+    <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
+      <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
+        <p class="text-wrap leading-200 text-md">Believe it or not I am a practising family lawyer and since 2003 I have been helping people with their divorces, financial arrangements and children matters. All very rewarding but over the years I missed a creative outlet.</p>
+        <p>Like many of you, I became an avid watcher of Don't tell the Bride (I loved when the groom had to choose the dress) and Say Yes to the Dress. I started imagining how wonderful it would be to own my own bridal boutique and help brides find their perfect dresses.</p>
+        <p>I opened my original Reloved boutique in 2019 and after winning the Best Bridal Boutique in Yorkshire in 2022, 2023 ... I became fully independent in 2024 choosing to better adapt my boutique to my brides.</p>
+      </div>
+      <div class="bg-grey-2000 h-full w-full lg:w-6/12">
+        <img src="#" alt="lorem10" class="w-full h-full object-cover">
+      </div>
     </div>
-</section>
+  </section>
+
+  <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
+    <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
+      <div class="flex flex-col items-start gap-8 decorated-list lg:order-2 lg:w-5/12">
+        <p class="text-wrap leading-200 text-md">I have a real passion for helping all of my brides. I am a people person and am genuinely committed to helping you find a dress which makes you feel beautiful and meets your dreams! I firmly believe there is a dress for every bride (and a bride for every dress!). I love brides of every age, shape, size and colour. I pride myself in being fully inclusive and making your appointments as relaxed and enjoyable as possible.</p>
+        <p>I love quirky, interesting dresses - vintage inspired, colour and alternative styles especially dark and gothic. That said, I also adore classic looks, beautiful princess ballgowns and clean contemporary styles. I have a real eye for what suits you and will suggest different options to adapt a dress to work better for you. I will often pick out a wild card dress for you (sometimes it comes to me as soon as I meet you!) and many of my brides have actually found that it is the one.</p>
+        <p>Basically, whatever is your dream dress, I want to help you achieve it and if you have no idea, then that's absolutely fine too.  We will find it.</p>
+        <?php include(get_template_directory(  ) . '/template-parts/global/book-appointment-btn.php'); ?>
+      </div>
+      <div class="bg-grey-2000 h-full w-full lg:w-6/12">
+        <img src="#" alt="lorem10" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+
   
   <!-- testimonial -->
   
   <p>to do testimonials global slider to insert here</p>
 
   <!-- Getting Started -->
-  <section class="lg:px-24 xl:px-48 px-6 py-20">
+  <!-- <section class="lg:px-24 xl:px-48 px-6 py-20">
     <div class="max-w-screen-xl mx-auto flex flex-col relative gap-8">
       <div class="flex flex-col items-center gap-8">
         <h2 class="mb-0 leading-112">Lorem, ipsum.</h2>
@@ -99,7 +104,7 @@ include(get_template_directory() . '/template-parts/global/header.php');
       </div>
 
     </div>
-  </section>
+  </section> -->
 
 
   <!-- CTA Section -->
@@ -115,7 +120,7 @@ include(get_template_directory() . '/template-parts/global/header.php');
         </ul>
       </div>
       <div class="w-full lg:w-6-12">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, consequatur! Sint porro ipsa quis quam dolorem tempore quisquam pariatur obcaecati.
+        <?php echo do_shortcode('[contact-form-7 id="080a418" title="Enquiry Form"]'); ?>
       </div>
     </div>
   </section>
