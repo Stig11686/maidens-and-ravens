@@ -33,7 +33,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 body {
 	counter-reset: section;
-	background-image: url('/img/letter-bg.jpg');
+	background-image: url('./img/letter-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
