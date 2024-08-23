@@ -97,10 +97,10 @@ function theme_customiser_settings($wp_customize){
 		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
 	));
 
-	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'hero_image_control_1', array(
-		'label' => __('Select Banner Image 1', 'handp24'),
-		'section' => 'home_page_section',
-		'settings' => 'hero_image_1',
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'elizabeth_image_control_2', array(
+		'label' => __('Select Image 2', 'maidens-and-ravens'),
+		'section' => 'about_elizabeth_section',
+		'settings' => 'elizabeth_image_2',
 	)));
 
 	$wp_customize->add_setting('elizabeth_image_3', array(
@@ -108,10 +108,10 @@ function theme_customiser_settings($wp_customize){
 		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
 	));
 
-	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'hero_image_control_1', array(
-		'label' => __('Select Banner Image 1', 'handp24'),
-		'section' => 'home_page_section',
-		'settings' => 'hero_image_1',
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'elizabeth_image_control_3', array(
+		'label' => __('Select Image 3', 'maidens-and-ravens'),
+		'section' => 'about_elizabeth_section',
+		'settings' => 'elizabeth_image_3',
 	)));
 
 	$wp_customize->add_setting('elizabeth_image_4', array(
@@ -119,10 +119,10 @@ function theme_customiser_settings($wp_customize){
 		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
 	));
 
-	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'hero_image_control_1', array(
-		'label' => __('Select Banner Image 1', 'handp24'),
-		'section' => 'home_page_section',
-		'settings' => 'hero_image_1',
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'elizabeth_image_control_4', array(
+		'label' => __('Select Image 4', 'maidens-and-ravens'),
+		'section' => 'about_elizabeth_section',
+		'settings' => 'elizabeth_image_4',
 	)));
 
 	// Setting for Hero Image 1
