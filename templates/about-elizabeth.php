@@ -37,4 +37,4 @@ include(get_template_directory() . '/template-parts/nav.php');
     </div>
 </section>
 
-<?php get_footer(); ?>
+<?php include(get_template_directory(  ) . '/template-parts/global/footer.php'); ?>
