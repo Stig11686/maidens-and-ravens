@@ -2,7 +2,10 @@
 /*
 Template Name: Elizabeth's Story
 */
-get_header(); ?>
+include(get_template_directory() . '/template-parts/global/header.php');
+include(get_template_directory() . '/template-parts/nav.php');
+
+ ?>
 
 <section class="bg-gray-100 text-black p-8">
     <div class="container mx-auto max-w-screen-lg">
