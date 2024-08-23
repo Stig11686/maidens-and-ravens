@@ -149,7 +149,7 @@ add_action( 'widgets_init', 'maidens_and_ravens_widgets_init' );
  * Enqueue scripts and styles.
  */
 function maidens_and_ravens_scripts() {
-	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Alice&display=swap');
 	wp_enqueue_style( 'aos-css', 'https://unpkg.com/aos@2.3.1/dist/aos.css');
 	wp_enqueue_style( 'maidens-and-ravens-style', get_template_directory_uri() . '/output.css', array(), null );
 	wp_enqueue_style( 'slick-css', get_template_directory_uri() . '/js/slick/slick.css', array(), null);
