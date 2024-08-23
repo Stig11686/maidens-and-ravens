@@ -8,12 +8,12 @@ include(get_template_directory() . '/template-parts/global/header.php');
 <section class="flex pt-80 md:pt-48 px-6 xl:px-48 lg:px-24 mx-auto pb-8">
     <div class="flex flex-col lg:flex-row lg:justify-between  gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
-        <h2 class="mb-0 leading-120">Our Journey</h2>
-        <p class="leading-200 text-md">Investing in your team's development isn't just about new skills—it's about driving your business forward. By accessing government funding, you can:</p>
+        <h2 class="mb-0 leading-120 text-3xl lg:text-5xl">Our Journey</h2>
+        <p class="leading-200 text-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia perferendis eos voluptatem dolorem natus non nisi commodi unde temporibus dicta inventore hic ea vitae beatae accusamus amet, impedit modi. Officiis?</p>
         <ul class="text-lg leading-7 ml-4">
-          <li> Enhance productivity and efficiency.</li>
-          <li> Boost employee morale and retention.</li>
-          <li> Increase your team’s billable rate with advanced tech skills.</li>
+          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt necessitatibus pariatur perferendis mollitia velit.</li>
+          <li>Sunt repellat quaerat hic eum, provident dolore nesciunt dolorum ex! Itaque necessitatibus commodi sint quidem!</li>
+          <li>Blanditiis odio fugiat natus, soluta nesciunt corrupti hic repudiandae? Voluptatem corporis assumenda obcaecati officia itaque.</li>
         </ul>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">

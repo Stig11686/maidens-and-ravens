@@ -2,74 +2,122 @@
 /*
 Template Name: Contact
 */
-get_header(); ?>
+include(get_template_directory() . '/template-parts/global/header.php');
+ ?>
 
-<section class="bg-white text-black p-8">
-    <div class="container mx-auto max-w-screen-lg">
-        <div class="text-center">
-            <h1 class="text-4xl font-bold text-crimson mb-6">Book an Appointment</h1>
-            <p class="text-lg leading-relaxed mb-6">We are so excited to meet you, learn about your wedding day plans, and help you find the dress of your dreams...</p>
-        </div>
-        <div class="grid md:grid-cols-2 gap-8">
-            <div>
-                <img src="path-to-image/elizabeth-outside-shop.jpg" alt="Elizabeth Outside Shop" class="rounded-lg shadow-lg mb-8">
-                <h2 class="text-2xl font-semibold text-crimson mb-4">What to Expect</h2>
-                <p class="mb-6">Your appointment will be an exclusive, personalized experience in our boutique. You’ll have the shop to yourself, and we’ll be there to guide you every step of the way as you find your dream dress...</p>
+<section class="flex pt-80 md:pt-48 px-6 xl:px-48 lg:px-24 mx-auto pb-8">
+    <div class="flex flex-col lg:flex-row lg:justify-between  gap-10 max-w-7xl mx-auto">
+      <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
+        <h2 class="mb-0 leading-120 text-3xl lg:text-5xl">Our Journey</h2>
+        <p class="leading-200 text-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia perferendis eos voluptatem dolorem natus non nisi commodi unde temporibus dicta inventore hic ea vitae beatae accusamus amet, impedit modi. Officiis?</p>
+        <ul class="text-lg leading-7 ml-4">
+          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt necessitatibus pariatur perferendis mollitia velit.</li>
+          <li>Sunt repellat quaerat hic eum, provident dolore nesciunt dolorum ex! Itaque necessitatibus commodi sint quidem!</li>
+          <li>Blanditiis odio fugiat natus, soluta nesciunt corrupti hic repudiandae? Voluptatem corporis assumenda obcaecati officia itaque.</li>
+        </ul>
+      </div>
+      <div class="bg-grey-2000 h-full w-full lg:w-6/12">
+        <img src="" alt="Maidens and Ravens wedding dress boutique in York" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+  
+  <!--Our Approach -->
+  <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
+    <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
+      <div class="flex flex-col items-start gap-8 decorated-list lg:order-2 lg:w-5/12">
+        <h2 class="mb-0 leading-120">Lorem ipsum dolor sit amet.</h2>
+        <p class="text-wrap leading-200 text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum non et, possimus accusantium autem fugit veritatis molestias modi, repellat ex ea tenetur, aperiam minus suscipit architecto libero distinctio sunt.</p>
+        <ul class="text-lg leading-7 ml-4">
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, aut.</li>
+          <li>Delectus similique provident quasi ratione ducimus recusandae aperiam illum sequi.</li>
+          <li>Molestias error illum officia nobis doloribus vitae inventore illo quia.</li>
+        </ul>
+      </div>
+      <div class="bg-grey-2000 h-full w-full lg:w-6/12">
+        <img src="#" alt="lorem10" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="flex justify-center items-center gap-36 bg-gradient-to-r from-red-100 to-purple-100">
+    <div class="max-w-screen-2xl mx-auto py-32 ">
+        <div class="mx-auto flex flex-col lg:flex-row justify-center items-center flex-1 gap-8 lg:gap-36 px-6 md:px-12 lg:px-32">
+            <div class="flex flex-col items-start gap-8 lg:w-5/12 w-full text-white">
+                <h2 class="text-white text-4xl leading-112">Lorem ipsum dolor sit amet.</h2>
+                <p class="text-white text-md leading-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos totam mollitia quibusdam repellendus, ipsum vitae.</p>
+                <a href="#" class="bg-white rounded font-bold flex items-center justify-center gap-2 p-4 text-blue-200">Book a Call <i class="ml-2 fa-solid fa-chevron-right"></i></a>
+                <p class="text-white font-bold leading-112">Lorem ipsum dolor sit amet.</p>
             </div>
-            <div>
-                <form action="<?php echo esc_url(admin_url('admin-post.php')); ?>" method="post" class="space-y-6">
-                    <div>
-                        <label for="name" class="block text-lg font-semibold">Name</label>
-                        <input type="text" id="name" name="name" required class="w-full border-gray-300 rounded-lg shadow-sm">
-                    </div>
-                    <div>
-                        <label for="phone" class="block text-lg font-semibold">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" required class="w-full border-gray-300 rounded-lg shadow-sm">
-                    </div>
-                    <div>
-                        <label for="email" class="block text-lg font-semibold">Email</label>
-                        <input type="email" id="email" name="email" required class="w-full border-gray-300 rounded-lg shadow-sm">
-                    </div>
-                    <div>
-                        <label for="ideal_time" class="block text-lg font-semibold">Ideal Time for Appointment</label>
-                        <select id="ideal_time" name="ideal_time" class="w-full border-gray-300 rounded-lg shadow-sm">
-                            <option value="morning">Morning</option>
-                            <option value="afternoon">Afternoon</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="ideal_day" class="block text-lg font-semibold">Ideal Day for Appointment</label>
-                        <select id="ideal_day" name="ideal_day" class="w-full border-gray-300 rounded-lg shadow-sm">
-                            <option value="weekday">Weekday</option>
-                            <option value="weekend">Weekend</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="specific_dates" class="block text-lg font-semibold">Specific Dates (Optional)</label>
-                        <input type="text" id="specific_dates" name="specific_dates" class="w-full border-gray-300 rounded-lg shadow-sm">
-                    </div>
-                    <div>
-                        <label for="wedding_date" class="block text-lg font-semibold">Wedding Date (or not set)</label>
-                        <input type="text" id="wedding_date" name="wedding_date" class="w-full border-gray-300 rounded-lg shadow-sm">
-                    </div>
-                    <div>
-                        <label for="newsletter_optin" class="block text-lg font-semibold">Subscribe to Our Newsletter?</label>
-                        <input type="checkbox" id="newsletter_optin" name="newsletter_optin">
-                        <span class="ml-2">Yes, keep me updated</span>
-                    </div>
-                    <div class="mt-6">
-                        <button type="submit" class="bg-crimson text-white py-2 px-6 rounded-lg">Submit</button>
-                    </div>
-                </form>
+            <div class="w-full lg:w-7/12">
+                form goes here
             </div>
-        </div>
-        <div class="mt-8 text-center">
-            <h2 class="text-2xl font-semibold text-crimson mb-4">Key Information</h2>
-            <p class="mb-6">We are located at [Shop Address], and visits are by appointment only. You can contact us at [Phone Number] or [Email Address]...</p>
-            <p class="mb-6">For those driving, parking is available at [Parking Info]. If you’re taking the train, we are just [X] minutes from [Station Name]...</p>
-            <div id="map" class="w-full h-64 bg-gray-200 rounded-lg"></div> <!-- Replace with a Google Maps embed -->
         </div>
     </div>
 </section>
+  
+  <!-- testimonial -->
+  
+  <p>to do testimonials global slider to insert here</p>
 
-<?php get_footer(); ?>
+  <!-- Getting Started -->
+  <section class="lg:px-24 xl:px-48 px-6 py-20">
+    <div class="max-w-screen-xl mx-auto flex flex-col relative gap-8">
+      <div class="flex flex-col items-center gap-8">
+        <h2 class="mb-0 leading-112">Lorem, ipsum.</h2>
+        <p class="text-lg leading-7 text-center text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit.:</p>
+      </div>
+      <div class="flex flex-col gap-y-12 md:flex-row items-start justify-between">
+        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
+          <img class="h-12 w-12" src="../images/icons/Conversation.svg" alt="get in touch">
+          <div class="flex flex-col text-center gap-4">
+            <h3 class="text-md leading-lg mb-0">1. Get in Touch</h3>
+            <p class="text-sm leading-5">Use our chat feature or fill out the contact form.</p>
+          </div>
+        </div>
+        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
+          <img class="h-12 w-12" src="../images/icons/session_icon.svg" alt="schedule a consultation (BELOW)">
+          <div class="flex flex-col text-center gap-4">
+            <h3 class="text-md leading-lg mb-0">2. Schedule a Consulatation</h3>
+            <p class="text-sm leading-5">Book your free consultancy session</p>
+          </div>
+        </div>
+        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
+          <img class="h-12 w-12" src="../images/icons/plan.svg" alt="Receive Your Training Plan">
+          <div class="flex flex-col text-center gap-4">
+            <h3 class="text-md leading-lg mb-0">3. Receive Your Training Plan</h3>
+            <p class="text-sm leading-5 mb-0">We'll handle the paperwork and setup.</p>
+          </div>
+        </div>
+        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
+          <img class="h-12 w-12" src="../images/icons/part_time_icon.svg" alt="Start training with The Coders Guild">
+          <div class="flex flex-col text-center gap-4">
+            <h3 class="text-md leading-lg mb-0">4. Start Training</h3>
+            <p class="text-sm leading-5">Begin your tailored training program and watch your business grow.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CTA Section -->
+  <section class="bg-gradient-to-r from-red-1000 to-purple-1000 flex items-start self-stretch gap-4 px-6 lg:px-24 xl:px-48 py-8 lg:py-32">
+    <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start flex-1 gap-10">
+      <div class="w-full lg:w-5/12 flex flex-col items-start gap-10 lg:gap-14 text-white decorated-list white">
+        <h2 class="mb-0 text-white text-5xl lg:text-6xl font-bold leading-112">Book Your Appointment</h2>
+        <p class="text-white text-md leading-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequatur et id iste quis temporibus soluta, ut doloremque corporis laudantium a culpa commodi assumenda eaque facilis. Esse, sed voluptatibus natus quaerat laudantium accusantium omnis repellendus praesentium, quibusdam iusto odio magni!</p>
+        <ul class="flex flex-col items-start gap-2 text-md leading-lg xl:text-xl">
+          <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore autem quia totam cum iusto adipisci dolore veniam alias dolorem modi!</li>
+          <li>Molestias numquam ab nam placeat magni explicabo voluptas facere, consequuntur, odit repudiandae facilis exercitationem nihil blanditiis odio similique, doloremque velit!</li>
+          <li>Dolor ratione repellat tempore. Atque harum amet quos repudiandae placeat exercitationem consequuntur dicta alias quibusdam. Consectetur laboriosam voluptate rerum ex?</li>
+        </ul>
+      </div>
+      <div class="w-full lg:w-6-12">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, consequatur! Sint porro ipsa quis quam dolorem tempore quisquam pariatur obcaecati.
+      </div>
+    </div>
+  </section>
+
+<?php include(get_template_directory(  ) . '/template-parts/global/footer.php'); ?>

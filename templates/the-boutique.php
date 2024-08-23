@@ -1,38 +1,123 @@
 <?php
 /*
-Template Name: The Experience
+Template Name: The Boutique
 */
-get_header(); ?>
+include(get_template_directory() . '/template-parts/global/header.php');
+ ?>
 
-<section class="bg-white text-black p-8">
-    <div class="container mx-auto max-w-screen-lg">
-        <div class="text-center">
-            <h1 class="text-4xl font-bold text-crimson mb-6">The Experience</h1>
-            <p class="text-lg leading-relaxed mb-6">Your bridal appointment is a time to dream, to explore, and to find the dress that embodies your love story...</p>
-        </div>
-        <div class="grid md:grid-cols-2 gap-8">
-            <div>
-                <h2 class="text-2xl font-semibold text-crimson mb-4">What to Expect</h2>
-                <p class="mb-6">At Maidens and Ravens, we believe every bride deserves a personalized and unforgettable experience. From the moment you book your appointment, we’re here to guide you through every step...</p>
-                <p class="mb-6">On the day of your appointment, you’ll have our boutique all to yourself for two hours. You’ll be free to explore our exclusive collections, try on your favorite dresses, and receive expert advice from Elizabeth and her team...</p>
-                <p class="mb-6">We understand how important this day is to you, and we’re here to make it as special and stress-free as possible. You can take photos, bring loved ones, and share in the joy of finding your dream dress...</p>
+<section class="flex pt-80 md:pt-48 px-6 xl:px-48 lg:px-24 mx-auto pb-8">
+    <div class="flex flex-col lg:flex-row lg:justify-between  gap-10 max-w-7xl mx-auto">
+      <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
+        <h2 class="mb-0 leading-120 text-3xl lg:text-5xl">Our Journey</h2>
+        <p class="leading-200 text-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia perferendis eos voluptatem dolorem natus non nisi commodi unde temporibus dicta inventore hic ea vitae beatae accusamus amet, impedit modi. Officiis?</p>
+        <ul class="text-lg leading-7 ml-4">
+          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt necessitatibus pariatur perferendis mollitia velit.</li>
+          <li>Sunt repellat quaerat hic eum, provident dolore nesciunt dolorum ex! Itaque necessitatibus commodi sint quidem!</li>
+          <li>Blanditiis odio fugiat natus, soluta nesciunt corrupti hic repudiandae? Voluptatem corporis assumenda obcaecati officia itaque.</li>
+        </ul>
+      </div>
+      <div class="bg-grey-2000 h-full w-full lg:w-6/12">
+        <img src="" alt="Maidens and Ravens wedding dress boutique in York" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+  
+  <!--Our Approach -->
+  <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
+    <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
+      <div class="flex flex-col items-start gap-8 decorated-list lg:order-2 lg:w-5/12">
+        <h2 class="mb-0 leading-120">Lorem ipsum dolor sit amet.</h2>
+        <p class="text-wrap leading-200 text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum non et, possimus accusantium autem fugit veritatis molestias modi, repellat ex ea tenetur, aperiam minus suscipit architecto libero distinctio sunt.</p>
+        <ul class="text-lg leading-7 ml-4">
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, aut.</li>
+          <li>Delectus similique provident quasi ratione ducimus recusandae aperiam illum sequi.</li>
+          <li>Molestias error illum officia nobis doloribus vitae inventore illo quia.</li>
+        </ul>
+      </div>
+      <div class="bg-grey-2000 h-full w-full lg:w-6/12">
+        <img src="#" alt="lorem10" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="flex justify-center items-center gap-36 bg-gradient-to-r from-red-100 to-purple-100">
+    <div class="max-w-screen-2xl mx-auto py-32 ">
+        <div class="mx-auto flex flex-col lg:flex-row justify-center items-center flex-1 gap-8 lg:gap-36 px-6 md:px-12 lg:px-32">
+            <div class="flex flex-col items-start gap-8 lg:w-5/12 w-full text-white">
+                <h2 class="text-white text-4xl leading-112">Lorem ipsum dolor sit amet.</h2>
+                <p class="text-white text-md leading-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos totam mollitia quibusdam repellendus, ipsum vitae.</p>
+                <a href="#" class="bg-white rounded font-bold flex items-center justify-center gap-2 p-4 text-blue-200">Book a Call <i class="ml-2 fa-solid fa-chevron-right"></i></a>
+                <p class="text-white font-bold leading-112">Lorem ipsum dolor sit amet.</p>
             </div>
-            <div class="space-y-6">
-                <img src="path-to-image/boutique-interior.jpg" alt="Boutique Interior" class="rounded-lg shadow-lg">
-                <img src="path-to-image/brides-trying-on-dresses.jpg" alt="Brides Trying on Dresses" class="rounded-lg shadow-lg">
+            <div class="w-full lg:w-7/12">
+                form goes here
             </div>
-        </div>
-        <div class="mt-8">
-            <h2 class="text-2xl font-semibold text-crimson mb-4">Tips for Your Visit</h2>
-            <p class="mb-6">To make the most of your appointment, we suggest wearing comfortable clothing and bringing any accessories you might want to pair with your dress. Consider what styles you’re drawn to, but keep an open mind — sometimes the dress chooses you...</p>
-            <p class="mb-6">Our boutique caters to all brides, including older brides and those with curvier figures. We have a wide range of styles available to try on, and we’re here to help you find the dress that makes you feel like a queen...</p>
-        </div>
-        <div class="mt-8 text-center">
-            <a href="/wedding-dresses" class="bg-crimson text-white py-2 px-6 rounded-lg inline-block mr-4">Wedding Dresses</a>
-            <a href="/about-elizabeth" class="bg-crimson text-white py-2 px-6 rounded-lg inline-block mr-4">About Elizabeth</a>
-            <a href="/book-appointment" class="bg-crimson text-white py-2 px-6 rounded-lg inline-block">Book an Appointment</a>
         </div>
     </div>
 </section>
+  
+  <!-- testimonial -->
+  
+  <p>to do testimonials global slider to insert here</p>
 
-<?php get_footer(); ?>
+  <!-- Getting Started -->
+  <section class="lg:px-24 xl:px-48 px-6 py-20">
+    <div class="max-w-screen-xl mx-auto flex flex-col relative gap-8">
+      <div class="flex flex-col items-center gap-8">
+        <h2 class="mb-0 leading-112">Lorem, ipsum.</h2>
+        <p class="text-lg leading-7 text-center text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit.:</p>
+      </div>
+      <div class="flex flex-col gap-y-12 md:flex-row items-start justify-between">
+        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
+          <img class="h-12 w-12" src="../images/icons/Conversation.svg" alt="get in touch">
+          <div class="flex flex-col text-center gap-4">
+            <h3 class="text-md leading-lg mb-0">1. Get in Touch</h3>
+            <p class="text-sm leading-5">Use our chat feature or fill out the contact form.</p>
+          </div>
+        </div>
+        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
+          <img class="h-12 w-12" src="../images/icons/session_icon.svg" alt="schedule a consultation (BELOW)">
+          <div class="flex flex-col text-center gap-4">
+            <h3 class="text-md leading-lg mb-0">2. Schedule a Consulatation</h3>
+            <p class="text-sm leading-5">Book your free consultancy session</p>
+          </div>
+        </div>
+        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
+          <img class="h-12 w-12" src="../images/icons/plan.svg" alt="Receive Your Training Plan">
+          <div class="flex flex-col text-center gap-4">
+            <h3 class="text-md leading-lg mb-0">3. Receive Your Training Plan</h3>
+            <p class="text-sm leading-5 mb-0">We'll handle the paperwork and setup.</p>
+          </div>
+        </div>
+        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
+          <img class="h-12 w-12" src="../images/icons/part_time_icon.svg" alt="Start training with The Coders Guild">
+          <div class="flex flex-col text-center gap-4">
+            <h3 class="text-md leading-lg mb-0">4. Start Training</h3>
+            <p class="text-sm leading-5">Begin your tailored training program and watch your business grow.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CTA Section -->
+  <section class="bg-gradient-to-r from-red-1000 to-purple-1000 flex items-start self-stretch gap-4 px-6 lg:px-24 xl:px-48 py-8 lg:py-32">
+    <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start flex-1 gap-10">
+      <div class="w-full lg:w-5/12 flex flex-col items-start gap-10 lg:gap-14 text-white decorated-list white">
+        <h2 class="mb-0 text-white text-5xl lg:text-6xl font-bold leading-112">Book Your Appointment</h2>
+        <p class="text-white text-md leading-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequatur et id iste quis temporibus soluta, ut doloremque corporis laudantium a culpa commodi assumenda eaque facilis. Esse, sed voluptatibus natus quaerat laudantium accusantium omnis repellendus praesentium, quibusdam iusto odio magni!</p>
+        <ul class="flex flex-col items-start gap-2 text-md leading-lg xl:text-xl">
+          <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore autem quia totam cum iusto adipisci dolore veniam alias dolorem modi!</li>
+          <li>Molestias numquam ab nam placeat magni explicabo voluptas facere, consequuntur, odit repudiandae facilis exercitationem nihil blanditiis odio similique, doloremque velit!</li>
+          <li>Dolor ratione repellat tempore. Atque harum amet quos repudiandae placeat exercitationem consequuntur dicta alias quibusdam. Consectetur laboriosam voluptate rerum ex?</li>
+        </ul>
+      </div>
+      <div class="w-full lg:w-6-12">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, consequatur! Sint porro ipsa quis quam dolorem tempore quisquam pariatur obcaecati.
+      </div>
+    </div>
+  </section>
+
+<?php include(get_template_directory(  ) . '/template-parts/global/footer.php'); ?>
