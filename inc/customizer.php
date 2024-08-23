@@ -66,6 +66,65 @@ function theme_customiser_settings($wp_customize){
 		'priority' => 30,
 	));
 
+	$wp_customize->add_section('about_elizabeth_section', array(
+		'title' => __('About Elizabeth', 'handp24'),
+		'priority' => 30,
+	));
+
+	$wp_customize->add_section('the-boutique_section', array(
+		'title' => __('The Boutique', 'handp24'),
+		'priority' => 30,
+	));
+
+	$wp_customize->add_section('personalised_dresses_section', array(
+		'title' => __('Personalised Dresses', 'handp24'),
+		'priority' => 30,
+	));
+
+	$wp_customize->add_setting('elizabeth_image_1', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'elizabeth_image_control_1', array(
+		'label' => __('Select Image 1', 'maidens-and-ravens'),
+		'section' => 'about_elizabeth_section',
+		'settings' => 'elizabeth_image_1',
+	)));
+
+	$wp_customize->add_setting('elizabeth_image_2', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'hero_image_control_1', array(
+		'label' => __('Select Banner Image 1', 'handp24'),
+		'section' => 'home_page_section',
+		'settings' => 'hero_image_1',
+	)));
+
+	$wp_customize->add_setting('elizabeth_image_3', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'hero_image_control_1', array(
+		'label' => __('Select Banner Image 1', 'handp24'),
+		'section' => 'home_page_section',
+		'settings' => 'hero_image_1',
+	)));
+
+	$wp_customize->add_setting('elizabeth_image_4', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'hero_image_control_1', array(
+		'label' => __('Select Banner Image 1', 'handp24'),
+		'section' => 'home_page_section',
+		'settings' => 'hero_image_1',
+	)));
+
 	// Setting for Hero Image 1
 	$wp_customize->add_setting('hero_image_1', array(
 		'default' => '',

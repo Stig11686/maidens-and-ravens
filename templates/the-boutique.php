@@ -8,13 +8,8 @@ include(get_template_directory() . '/template-parts/global/header.php');
 <section class="flex pt-80 md:pt-48 px-6 xl:px-48 lg:px-24 mx-auto pb-8">
     <div class="flex flex-col lg:flex-row lg:justify-between  gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
-        <h2 class="mb-0 leading-120 text-3xl lg:text-5xl">Our Journey</h2>
-        <p class="leading-200 text-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia perferendis eos voluptatem dolorem natus non nisi commodi unde temporibus dicta inventore hic ea vitae beatae accusamus amet, impedit modi. Officiis?</p>
-        <ul class="text-lg leading-7 ml-4">
-          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sunt necessitatibus pariatur perferendis mollitia velit.</li>
-          <li>Sunt repellat quaerat hic eum, provident dolore nesciunt dolorum ex! Itaque necessitatibus commodi sint quidem!</li>
-          <li>Blanditiis odio fugiat natus, soluta nesciunt corrupti hic repudiandae? Voluptatem corporis assumenda obcaecati officia itaque.</li>
-        </ul>
+        <h2 class="mb-0 leading-120 text-3xl lg:text-5xl">The Boutique</h2>
+        <p class="leading-200 text-md">Our pretty little boutique is situated on historic Micklegate, through the bar walls, which is the traditional entrance to the city of York.</p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
         <img src="" alt="Maidens and Ravens wedding dress boutique in York" class="w-full h-full object-cover">
@@ -22,17 +17,17 @@ include(get_template_directory() . '/template-parts/global/header.php');
     </div>
   </section>
   
-  <!--Our Approach -->
+
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:order-2 lg:w-5/12">
-        <h2 class="mb-0 leading-120">Lorem ipsum dolor sit amet.</h2>
-        <p class="text-wrap leading-200 text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum non et, possimus accusantium autem fugit veritatis molestias modi, repellat ex ea tenetur, aperiam minus suscipit architecto libero distinctio sunt.</p>
-        <ul class="text-lg leading-7 ml-4">
-          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, aut.</li>
-          <li>Delectus similique provident quasi ratione ducimus recusandae aperiam illum sequi.</li>
-          <li>Molestias error illum officia nobis doloribus vitae inventore illo quia.</li>
-        </ul>
+        <h2 class="mb-0 leading-120">Maidens and Ravens, Micklegate, York</h2>
+        <p class="text-wrap leading-200 text-md">The street is described as one of the most handsome in York and is home to beautiful book shops and lovely places to eat.  It has been used as a location for many period dramas due to the Georgian building and cobbles.</p>
+        <p>Small but perfectly formed, we are definitely not your traditional grey and white bridal shop! Our vibe is colourful and pretty, a bit vintage, with a little darkness and lots of curious details. We do not do minimalist style here! </p>
+        <p>When you book in with us you will have this beautiful space completely to yourself and our aim is to give you an experience to remember.
+        Like our dresses, we love to be unique, and this is definitely reflected in our choice of everything from our wallpaper to our lighting.
+        Look out for the ravens...</p>
+
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
         <img src="#" alt="lorem10" class="w-full h-full object-cover">
@@ -40,25 +35,30 @@ include(get_template_directory() . '/template-parts/global/header.php');
     </div>
   </section>
 
-  <section id="contact" class="flex justify-center items-center gap-36 bg-gradient-to-r from-red-100 to-purple-100">
-    <div class="max-w-screen-2xl mx-auto py-32 ">
-        <div class="mx-auto flex flex-col lg:flex-row justify-center items-center flex-1 gap-8 lg:gap-36 px-6 md:px-12 lg:px-32">
-            <div class="flex flex-col items-start gap-8 lg:w-5/12 w-full text-white">
-                <h2 class="text-white text-4xl leading-112">Lorem ipsum dolor sit amet.</h2>
-                <p class="text-white text-md leading-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos totam mollitia quibusdam repellendus, ipsum vitae.</p>
-                <a href="#" class="bg-white rounded font-bold flex items-center justify-center gap-2 p-4 text-blue-200">Book a Call <i class="ml-2 fa-solid fa-chevron-right"></i></a>
-                <p class="text-white font-bold leading-112">Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="w-full lg:w-7/12">
-                form goes here
-            </div>
-        </div>
+  <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
+    <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
+      <div class="flex flex-col items-start gap-8 decorated-list lg:order-2 lg:w-5/12">
+        <h2 class="mb-0 leading-120">Information and Accessibility</h2>
+        <p class="text-wrap leading-200 text-md">Our nearest carpark is Nunnery Lane, and we are about 5 minutes’ walk from the train station.
+            If driving from out of York, the park and ride is advisable.
+        </p>
+        <h3 class="mb-0 leading-120">Accessibility</h2>
+
+        <p>As with much of York, our building is old, and the entrance to the shop is a little narrow. There is one very low step to get inside which is still accessible by wheelchair and with a buggy. We are situated on Micklegate which does have some limited paid parking outside for up to 2 hours on a first come first served basis. We will always do whatever we can to help so please feel free to ask if you need any specific assistance.
+        </p>
+        <p>When you book in with us you will have this beautiful space completely to yourself and our aim is to give you an experience to remember.
+        Like our dresses, we love to be unique, and this is definitely reflected in our choice of everything from our wallpaper to our lighting.
+        Look out for the ravens...</p>
+
+      </div>
+      <div class="bg-grey-2000 h-full w-full lg:w-6/12">
+        <img src="#" alt="lorem10" class="w-full h-full object-cover">
+      </div>
     </div>
-</section>
-  
-  <!-- testimonial -->
-  
-  <p>to do testimonials global slider to insert here</p>
+  </section>
+
+<!-- Faqs -->
+<p>to do - faqs section</p>
 
   <!-- Getting Started -->
   <section class="lg:px-24 xl:px-48 px-6 py-20">

@@ -22,7 +22,8 @@ include(get_template_directory() . '/template-parts/global/header.php');
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
-        <h2 class="mb-0 leading-120">Lorem ipsum dolor sit amet.</h2>
+        <h2 class="mb-0 leading-120">Elizabeths Story</h2>
+        <p class="leading-200 text-md">Hello my Queens!</p>
         <p class="text-wrap leading-200 text-md">I am Elizabeth and I am the founder, owner and bridal mavern at Maidens and Ravens, here in the historic city of York. </p>
         <p>Did you know that a mavern is someone who is experienced and knowledgeable? Seemed like a fitting name for me.</p>
         <p>I started my journey into Bridalwear in 2019 but before that I always had a love for art, making things, sewing, knitting and vintage clothing. Growing up in Edinburgh, I enjoyed charity shop snooping and loved buying dresses from the 60s and 70s which I would get tailored to me. Like all of my friends, my prom dress was a 1980s bridesmaid dress - mint green with puff sleeves and lace! I wanted to look like Sarah from Labyrinth in the ballroom scene with David Bowie, complete with ribbons in my hair! I still love that look.</p>
