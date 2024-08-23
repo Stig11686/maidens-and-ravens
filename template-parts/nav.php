@@ -3,7 +3,7 @@
     $logo_url = wp_get_attachment_image_url($logo_id, 'full');
 ?>
 
-<header class="absolute inset-x-0 top-0 z-50 bg-neutral">
+<header class="absolute inset-x-0 top-0 z-50 pt-4">
     <nav class="flex justify-between items-center gap-8 px-8 py-4 max-w-screen-2xl mx-auto text-white">
         <div class="flex items-center z-50 self-start cursor-pointer">
             <svg viewBox="0 0 12 10" class="hamburger me-3 me-xl-5 me-0 mt-1" height="20px" width="24px" class="z-50">
