@@ -199,13 +199,6 @@ body {
 	background-color: #fff;
 }
 
-@font-face {
-	font-family: "seasonsregular";
-	src: url('fonts/the-seasons/the-seasons.ttf');
-	font-weight: normal;
-	font-style: normal;
-}
-
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;

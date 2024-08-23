@@ -6,7 +6,7 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      sans: ['seasonsregular', 'sans-serif'],
+      sans: ['Faunces', 'sans-serif'],
     },
     extend: {
       zIndex: {

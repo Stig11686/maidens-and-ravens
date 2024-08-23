@@ -66,7 +66,7 @@ html,
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: seasonsregular, sans-serif; /* 4 */
+  font-family: Faunces, sans-serif; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
@@ -2561,13 +2561,6 @@ body {
 	background-color: #fff;
 }
 
-@font-face {
-	font-family: "seasonsregular";
-	src: url('fonts/the-seasons/the-seasons.ttf');
-	font-weight: normal;
-	font-style: normal;
-}
-
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
@@ -3780,16 +3773,12 @@ textarea {
     padding-right: 3rem;
   }
 
-  .md\:pt-16 {
-    padding-top: 4rem;
+  .md\:pt-28 {
+    padding-top: 7rem;
   }
 
   .md\:pt-48 {
     padding-top: 12rem;
-  }
-
-  .md\:pt-28 {
-    padding-top: 7rem;
   }
 
   .md\:text-4xl {
