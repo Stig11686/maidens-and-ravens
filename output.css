@@ -1756,9 +1756,6 @@ html {
 .box-content {
   box-sizing: content-box;
 }
-.inline {
-  display: inline;
-}
 .flex {
   display: flex;
 }
@@ -2895,6 +2892,7 @@ template {
 
 html {
 	box-sizing: border-box;
+	margin-top: 0 !important;
 }
 
 /*--------------------------------------------------------------

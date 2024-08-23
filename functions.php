@@ -264,10 +264,4 @@ function get_the_archive_thumbnail() {
     return '';
 }
 
-// remove wordpress trying to style the admin bar with inline css
-function hide_admin_bar_from_front_end(){
-	remove_action( 'wp_head', '_admin_bar_bump_cb' );
-	return true;
-  }
-  add_filter( 'show_admin_bar', 'hide_admin_bar_from_front_end' );
 
