@@ -13,7 +13,7 @@ include(get_template_directory() . '/template-parts/global/header.php');
 
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="" alt="Maidens and Ravens wedding dress boutique in York" class="w-full h-full object-cover">
+        <img src="<?php echo esc_url(get_theme_mod('elizabeth_image_1')); ?>" alt="Maidens and Ravens wedding dress boutique in York" class="w-full h-full object-cover">
       </div>
     </div>
   </section>
