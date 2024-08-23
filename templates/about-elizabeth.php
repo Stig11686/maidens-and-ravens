@@ -106,9 +106,6 @@ include(get_template_directory() . '/template-parts/global/header.php');
           <li>Dolor ratione repellat tempore. Atque harum amet quos repudiandae placeat exercitationem consequuntur dicta alias quibusdam. Consectetur laboriosam voluptate rerum ex?</li>
         </ul>
       </div>
-      <div class="w-full lg:w-6-12">
-        <?php echo do_shortcode('[contact-form-7 id="080a418" title="Enquiry Form"]'); ?>
-      </div>
     </div>
   </section>
 
