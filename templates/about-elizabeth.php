@@ -5,7 +5,7 @@ Template Name: Elizabeth's Story
 include(get_template_directory() . '/template-parts/global/header.php');
  ?>
 
-<section class="flex pt-80 md:pt-60 px-6 xl:px-48 lg:px-24 mx-auto pb-8">
+<section class="flex pt-80 md:pt-48 px-6 xl:px-48 lg:px-24 mx-auto pb-8">
     <div class="flex flex-col lg:flex-row lg:justify-between  gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <h2 class="mb-0 leading-120">Our Journey</h2>
@@ -15,8 +15,6 @@ include(get_template_directory() . '/template-parts/global/header.php');
           <li> Boost employee morale and retention.</li>
           <li> Increase your team’s billable rate with advanced tech skills.</li>
         </ul>
-        {% include './includes/components/hub/consultation-button.njk' %}
-
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
         <img src="" alt="Maidens and Ravens wedding dress boutique in York" class="w-full h-full object-cover">
