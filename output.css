@@ -4370,6 +4370,10 @@ textarea {
     padding-top: 10rem;
   }
 
+  .lg\:pt-36 {
+    padding-top: 9rem;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;

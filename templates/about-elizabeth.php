@@ -5,7 +5,7 @@ Template Name: Elizabeth's Story
 include(get_template_directory() . '/template-parts/global/header.php');
  ?>
   <!--Our Approach -->
-  <section class="flex pt-4 lg:pt-40 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
+  <section class="flex pt-4 lg:pt-36 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <h2 class="mb-0 leading-120 text-3xl lg:text-5xl text-primary">Elizabeths Story</h2>
