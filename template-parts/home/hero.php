@@ -10,7 +10,7 @@ $tagline = get_bloginfo( 'description');
   <div class="">
     <div class="flex flex-col gap-2 md:flex-row md:items-center pt-8 lg:pt-0">
       <div class="flex flex-col items-center gap-4 z-10 px-4">
-        <div id="hero-content" class="max-w-xl mx-auto flex flex-col items-center justify-center -mt-10">
+        <div id="hero-content" class="max-w-xl mx-auto flex flex-col text-center -mt-10">
           <h1 id="tagline" class="mb-0 leading-snug max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl xl:col-auto">Discover the Magic at Maidens and Ravens</h1>
           <p class="lg:w-6/12 text-2xl leading-8 text-gray-600">A unique, sustainable and inclusive bridal boutique in the heart of York</p>
           <div class="mt-10 flex items-center gap-x-6 ctas">
