@@ -17,7 +17,7 @@ module.exports = {
         'secondary': '#F9D6F7',
         'neutral': '#EBCBB4',
         'gray': {
-          '100': '#738290'
+          '100': '#cccccc'
         }
      
       },
