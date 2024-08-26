@@ -2422,7 +2422,7 @@ html {
 }
 
 #hero-content {
-	animation: fadein 5s linear
+	animation: fadein 5s linear;
 }
 
 body {
