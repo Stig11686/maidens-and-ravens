@@ -34,12 +34,12 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                         <div class="image-frame-content px-8 flex flex-col h-full justify-between gap-8 self-stretch">
                             <div class="flex flex-col gap-4">
                                 <h3 class="text-xl text-white font-semibold">
-                                    <a class="text-white focus:text-white active:text-white" href="<?php echo esc_url( $category_link ); ?>">
+                                    <a class="text-black focus:text-black active:text-black" href="<?php echo esc_url( $category_link ); ?>">
                                     <span class="absolute inset-0"></span>
                                     <?php echo esc_html( $category->name ); ?>
                                     </a>
                                 </h3>
-                                <p class="text-base text-md text-white"><?php echo esc_html( $category->description ); ?></p>
+                                <p class="text-base text-md text-black"><?php echo esc_html( $category->description ); ?></p>
                             </div>
                             <a href="<?php echo esc_url( $category_link ); ?>" class="btn bg-primary text-sm font-semibold text-white ">View Collection</a>
                         </div>
