@@ -13,32 +13,13 @@ module.exports = {
         '1': '1',
       },
       colors: {
-        'overlay-color': 'rgba(23, 21, 21, 0.8)',
-        'card-bg': 'rgba(50, 44, 44, 0.8)',
-        'primary': '#b80548',
-        'secondary': '#a2b3a2',
-        'neutral': '#e3aaa6',
+        'primary': '#9C0D38',
+        'secondary': '#F9D6F7',
+        'neutral': '#EBCBB4',
         'gray': {
-          '100': 'rgba(199, 197, 197, 0.3)'
-        },
-        'purple': {
-          '900': '#59315F',
-        },
-        'blue': {
-          '900': '#004F71',
-        },
-        'yellow' : {
-          '900': '#F1C400',
-        },
-        'olive': {
-          '900': '#6D712E',
-        },
-        'orange': {
-          '900': '#BE531C',
-        },
-        'blush': {
-          '900': '#910048',
+          '100': '#738290'
         }
+     
       },
       boxShadow: {
         'grey': '0px 0px 8px rgba(0, 0, 0, 0.29)',
