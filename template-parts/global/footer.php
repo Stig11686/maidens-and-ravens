@@ -22,7 +22,7 @@
         <div class="md:grid md:grid-cols-3 md:gap-8">
           <div>
             <h3 class="text-sm font-semibold leading-6 text-white">About Us</h3>
-            <ul role="list" class="mt-6 space-y-4">
+            <ul role="list" class="mt-6 space-y-4 list-style-none">
               <li>
                 <a href="/about" class="text-sm leading-6 text-gray-300 hover:text-white">About</a>
               </li>
@@ -42,7 +42,7 @@
           </div>
           <div class="mt-10 md:mt-0">
             <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
-            <ul role="list" class="mt-6 space-y-4">
+            <ul role="list" class="mt-6 space-y-4 list-style-none">
               <li>
                 <a href="/terms-conditions/" class="text-sm leading-6 text-gray-300 hover:text-white">Terms and Conditoins</a>
               </li>
@@ -53,7 +53,7 @@
           </div>
           <div class="mt-10 md:mt-0">
             <h3 class="text-sm font-semibold leading-6 text-white">About Us</h3>
-            <ul role="list" class="mt-6 space-y-2">
+            <ul role="list" class="mt-6 space-y-2 list-style-none">
               <li>
                 <p class="text-sm leading-6 text-gray-300 hover:text-white">Address Here</a>
               </li>
