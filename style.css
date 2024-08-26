@@ -31,6 +31,22 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @tailwind components;
 @tailwind utilities;
 
+@keyframes fadein {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(1);
+	}
+}
+
+#hero-content {
+	animation: fadein 5s linear;
+}
+
 body {
 	counter-reset: section;
 	background-image: url('./img/love-letter-bg.jpg');

@@ -948,6 +948,15 @@ html {
     grid-auto-flow: row dense;
   }
 }
+.hero-content {
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 80rem;
+  gap: 1rem;
+  padding: 1rem;
+}
 .join {
   display: inline-flex;
   align-items: stretch;
@@ -2398,6 +2407,22 @@ html {
 }
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(1);
+	}
+}
+
+#hero-content {
+	animation: fadein 5s linear
 }
 
 body {
