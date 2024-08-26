@@ -1798,6 +1798,9 @@ html {
 .h-full {
   height: 100%;
 }
+.h-screen {
+  height: 100vh;
+}
 .max-h-16 {
   max-height: 4rem;
 }

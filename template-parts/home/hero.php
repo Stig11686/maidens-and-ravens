@@ -6,7 +6,7 @@ $tagline = get_bloginfo( 'description');
 ?>
 
 
-<section id="homepage-hero" class="homepage-hero relative isolate overflow-hidden">
+<section id="homepage-hero" class="homepage-hero relative isolate overflow-hidden h-screen">
   <div class="ml-auto w-full pt-40 md:pt-28">
     <div class="flex flex-col gap-2 md:flex-row md:items-center pt-8 lg:pt-0">
       <div class="flex flex-col items-center gap-4 z-10 px-4">
