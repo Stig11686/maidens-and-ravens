@@ -7,58 +7,58 @@
 
 <?php include(get_template_directory() . '/template-parts/global/map.php'); ?>
 
-<footer class="bg-primary relative" aria-labelledby="footer-heading">
+<footer class="bg-transparent text-black relative" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
   <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
     <div class="xl:grid xl:grid-cols-2 xl:gap-8">
       <div class="space-y-8">
         <img class="object-cover max-h-28" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a>
         <div class="flex space-x-6">
-            <a href="https://www.facebook.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>    
-            <a href="https://www.instagram.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
+            <a href="https://www.facebook.com" target="_blank"><img class="h-8 w-8 object-cover " src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>    
+            <a href="https://www.instagram.com" target="_blank"><img class="h-8 w-8 object-cover " src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
         </div>
       </div>
       <div class="mt-16 grid grid-cols-1 gap-8 xl:mt-0">
         <div class="md:grid md:grid-cols-3 md:gap-8">
           <div>
-            <h3 class="text-sm font-semibold leading-6 text-white">About Us</h3>
+            <h3 class="text-sm font-semibold leading-6 ">About Us</h3>
             <ul role="list" class="mt-6 space-y-4 list-style-none">
               <li>
-                <a href="/about" class="text-sm leading-6 text-gray-300 hover:text-white">About</a>
+                <a href="/about" class="text-sm leading-6  ">About</a>
               </li>
               <li>
-                <a href="/blog" class="text-sm leading-6 text-gray-300 hover:text-white">Blog</a>
+                <a href="/blog" class="text-sm leading-6  ">Blog</a>
               </li>
               <li>
-                <a href="/shop" class="text-sm leading-6 text-gray-300 hover:text-white">Dresses</a>
+                <a href="/shop" class="text-sm leading-6  ">Dresses</a>
               </li>
               <li>
-                <a href="/testimonials" class="text-sm leading-6 text-gray-300 hover:text-white">Testimonials</a>
+                <a href="/testimonials" class="text-sm leading-6  ">Testimonials</a>
               </li>
               <li>
-                <a href="/contact" class="text-sm leading-6 text-gray-300 hover:text-white">Contact Us</a>
+                <a href="/contact" class="text-sm leading-6  ">Contact Us</a>
               </li>
             </ul>
           </div>
           <div class="mt-10 md:mt-0">
-            <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
+            <h3 class="text-sm font-semibold leading-6 ">Legal</h3>
             <ul role="list" class="mt-6 space-y-4 list-style-none">
               <li>
-                <a href="/terms-conditions/" class="text-sm leading-6 text-gray-300 hover:text-white">Terms and Conditoins</a>
+                <a href="/terms-conditions/" class="text-sm leading-6  ">Terms and Conditoins</a>
               </li>
               <li>
-                <a href="/privacy-policy/" class="text-sm leading-6 text-gray-300 hover:text-white">Privacy</a>
+                <a href="/privacy-policy/" class="text-sm leading-6  ">Privacy</a>
               </li>
             </ul>
           </div>
           <div class="mt-10 md:mt-0">
-            <h3 class="text-sm font-semibold leading-6 text-white">About Us</h3>
+            <h3 class="text-sm font-semibold leading-6 ">About Us</h3>
             <ul role="list" class="mt-6 space-y-2 list-style-none">
               <li>
-                <p class="text-sm leading-6 text-gray-300 hover:text-white">Address Here</a>
+                <p class="text-sm leading-6  ">Address Here</a>
               </li>
               <li>
-                <p class="text-sm leading-6 text-gray-300 hover:text-white">Phone Number Here</P>
+                <p class="text-sm leading-6  ">Phone Number Here</P>
               </li>
             </ul>
           </div>

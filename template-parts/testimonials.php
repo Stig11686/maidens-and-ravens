@@ -10,7 +10,7 @@
 
 ?>
 <?php if ($testimonials->have_posts()) : ?>
-<div class="bg-primary py-24 sm:py-32">
+<div class="bg-neutral py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
     <div class="mx-auto mt-16 sm:mt-20 lg:mx-0 w-full">
       <div class="flex flex-col gap-8">
