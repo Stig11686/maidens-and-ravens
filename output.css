@@ -1653,6 +1653,12 @@ html {
 .top-\[calc\(100\%-13rem\)\] {
   top: calc(100% - 13rem);
 }
+.bottom-7 {
+  bottom: 1.75rem;
+}
+.left-7 {
+  left: 1.75rem;
+}
 .isolate {
   isolation: isolate;
 }
