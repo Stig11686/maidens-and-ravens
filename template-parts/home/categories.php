@@ -8,7 +8,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
 ?>
     <div class="relative">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+            <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-48">
                 <h2 class="text-5xl font-bold text-black">View our <span class="text-primary">Dresses</span></h2>
 
                 <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 gap-8 lg:space-y-0">

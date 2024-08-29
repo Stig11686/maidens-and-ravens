@@ -4018,6 +4018,11 @@ textarea {
     padding-bottom: 14rem;
   }
 
+  .lg\:py-48 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
   .lg\:pt-0 {
     padding-top: 0px;
   }
