@@ -2,12 +2,12 @@
   <div class="w-10/12 max-w-7xl flex flex-col items-start gap-8 py-16">
     <p data-aos="zoom-in" data-aos-duration="1500" data-easing="ease-in" class="font-beauty text-3xl lg:text-5xl/normal leading-normal mb-0">"Be our guest; our stunning collection of one-off dresses are fully customisable, allowing us to add your personality, vision 
       and a sprinkle of magic to create the dress of your dreams."</p>
-    <a href="/product-category/treasure-trove/" class="rounded-md bg-primary px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">View Our Treasure Trove</a>
+    <a href="/product-category/treasure-trove/" class="rounded-md bg-primary px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">View Our Treasure Trove</a>
   </div>
 
   <div class="flex flex-col lg:flex-row md:justify-between py-16 gap-8">
     <div class="w-full lg:w-1/2 relative">
-      <img src="<?php echo get_template_directory_uri(  ) . '/img/our-promise-2.jpg'; ?>" alt="image tbc" class="h-full w-full object-cover" />
+      <img src="<?php echo get_template_directory_uri(  ) . '/img/brides/maidens-and-ravens-bride-1.jpg'; ?>" alt="image tbc" class="h-full w-full object-cover" />
     </div>
     <div class="w-full lg:w-5/12">
       <div data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="300" class="flex flex-col gap-8 items-start">
