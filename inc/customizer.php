@@ -125,30 +125,6 @@ function theme_customiser_settings($wp_customize){
 		'settings' => 'elizabeth_image_4',
 	)));
 
-	// Setting for Hero Image 1
-	$wp_customize->add_setting('hero_image_1', array(
-		'default' => '',
-		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
-	));
-
-	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'hero_image_control_1', array(
-		'label' => __('Select Banner Image 1', 'handp24'),
-		'section' => 'home_page_section',
-		'settings' => 'hero_image_1',
-	)));
-
-	// Setting for Hero Image 2
-	$wp_customize->add_setting('hero_image_2', array(
-		'default' => '',
-		'sanitize_callback' => 'esc_url_raw',
-	));
-
-	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'hero_image_control_2', array(
-		'label' => __('Select Banner Image 2', 'handp24'),
-		'section' => 'home_page_section',
-		'settings' => 'hero_image_2',
-	)));
-
 	// Setting for Arch Image
 	$wp_customize->add_setting('arch_image', array(
 		'default' => '',
@@ -167,7 +143,7 @@ function theme_customiser_settings($wp_customize){
 		'sanitize_callback' => 'esc_url_raw',
 	));
 
-	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'arch_image_control', array(
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'box_image_control', array(
 		'label' => __('Select Box Image', 'handp24'),
 		'section' => 'home_page_section',
 		'settings' => 'box_image',
