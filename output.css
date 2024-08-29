@@ -948,15 +948,6 @@ html {
     grid-auto-flow: row dense;
   }
 }
-.hero-content {
-  z-index: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 80rem;
-  gap: 1rem;
-  padding: 1rem;
-}
 .join {
   display: inline-flex;
   align-items: stretch;
@@ -1631,9 +1622,6 @@ html {
 .inset-32 {
   inset: 8rem;
 }
-.inset-40 {
-  inset: 10rem;
-}
 .inset-80 {
   inset: 20rem;
 }
@@ -1798,9 +1786,6 @@ html {
 .h-full {
   height: 100%;
 }
-.h-screen {
-  height: 100vh;
-}
 .max-h-16 {
   max-height: 4rem;
 }
@@ -1932,9 +1917,6 @@ html {
 }
 .gap-4 {
   gap: 1rem;
-}
-.gap-6 {
-  gap: 1.5rem;
 }
 .gap-8 {
   gap: 2rem;
@@ -2235,6 +2217,9 @@ html {
 .pt-4 {
   padding-top: 1rem;
 }
+.pt-40 {
+  padding-top: 10rem;
+}
 .pt-8 {
   padding-top: 2rem;
 }
@@ -2428,7 +2413,7 @@ html {
 
 body {
 	counter-reset: section;
-	background-image: url('./img/love-letter-bg.jpg');
+	background-image: url('./img/vintage-paper-background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -3576,11 +3561,6 @@ textarea {
   --tw-ring-color: rgb(255 255 255 / 0.2);
 }
 
-.focus\:text-white:focus {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .focus\:text-black:focus {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -3608,11 +3588,6 @@ textarea {
 
 .focus-visible\:outline-purple-400:focus-visible {
   outline-color: #c084fc;
-}
-
-.active\:text-white:active {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .active\:text-black:active {
@@ -3812,6 +3787,10 @@ textarea {
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .md\:pt-16 {
+    padding-top: 4rem;
   }
 
   .md\:pt-48 {
