@@ -31,6 +31,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: 'beauty-of-the-beast';
+	src: url(./fonts/beauty-of-the-beast/Beautyofthebeast-1VpM.ttf);
+}
+
 @keyframes fadein {
 	0% {
 		opacity: 0;
