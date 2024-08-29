@@ -26,6 +26,9 @@ $tagline = get_bloginfo( 'description');
         <div class="hidden lg:block lg:absolute left-7 bottom-[-7rem] rounded-t-full border-8 border-white h-[53%] w-[17%]">
           <img src="<?php echo esc_url($arch_image); ?>" alt="" class="object-cover h-full w-full rounded-t-full">
         </div>
+        <div class="hidden lg:block lg:absolute rotate-12 right-7 bottom-[-7rem] border-3 border-l-8 border-white h-[33%] w-[17%]">
+          <img src="<?php echo esc_url($arch_image); ?>" alt="" class="object-cover h-full w-full">
+        </div>
       </div>
     </div>
   </div>
