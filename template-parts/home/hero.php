@@ -6,9 +6,9 @@ $tagline = get_bloginfo( 'description');
 ?>
 
 <div class="bg-transparent">
-  <header class="absolute inset-x-0 top-0 z-50 bg-neutral">
+  <!-- <header class="absolute inset-x-0 top-0 z-50 bg-neutral">
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
-  </header>
+  </header> -->
   <div id="homepage-hero" class="homepage-hero relative isolate h-screen bg-cover bg-fixed bg-no-repeat flex items-center justify-center">
     <div id="background-overlay"></div>
     <div class="w-full z-50">
