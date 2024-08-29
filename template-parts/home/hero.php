@@ -2,6 +2,7 @@
 $hero_image_1 = get_theme_mod('hero_image_1');
 $hero_image_2 = get_theme_mod('hero_image_2');
 $arch_image = get_theme_mod('arch_image');
+$box_image = get_theme_mod('box_image');
 $tagline = get_bloginfo( 'description');
 ?>
 
@@ -27,7 +28,7 @@ $tagline = get_bloginfo( 'description');
           <img src="<?php echo esc_url($arch_image); ?>" alt="" class="object-cover h-full w-full rounded-t-full">
         </div>
         <div class="hidden lg:block lg:absolute rotate-12 right-20 bottom-[-4rem] border-2 border-l-8 border-white h-[33%] w-[17%]">
-          <img src="<?php echo esc_url($arch_image); ?>" alt="" class="object-cover h-full w-full">
+          <img src="<?php echo esc_url($box_image); ?>" alt="" class="object-cover h-full w-full">
         </div>
       </div>
     </div>
