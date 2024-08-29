@@ -1659,6 +1659,9 @@ html {
 .left-7 {
   left: 1.75rem;
 }
+.bottom-\[-7rem\] {
+  bottom: -7rem;
+}
 .isolate {
   isolation: isolate;
 }

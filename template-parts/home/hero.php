@@ -9,7 +9,7 @@ $tagline = get_bloginfo( 'description');
   <header class="absolute inset-x-0 top-0 z-50 bg-neutral">
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
   </header>
-  <div id="homepage-hero" class="homepage-hero relative isolate overflow-hidden h-screen bg-cover bg-fixed bg-no-repeat flex items-center justify-center">
+  <div id="homepage-hero" class="homepage-hero relative isolate h-screen bg-cover bg-fixed bg-no-repeat flex items-center justify-center">
     <div id="background-overlay"></div>
     <div class="w-full z-50">
       <div class="flex flex-col gap-2 md:flex-row md:items-center pt-8 lg:pt-0">
@@ -23,7 +23,7 @@ $tagline = get_bloginfo( 'description');
             </div>
           </div>
         </div>
-        <div class="hidden lg:block lg:absolute left-7 bottom-7 rounded-t-full border-8 border-white h-[53%] w-[17%]">
+        <div class="hidden lg:block lg:absolute left-7 bottom-[-7rem] rounded-t-full border-8 border-white h-[53%] w-[17%]">
           <img src="<?php echo esc_url($arch_image); ?>" alt="" class="object-cover h-full w-full rounded-t-full">
         </div>
       </div>
