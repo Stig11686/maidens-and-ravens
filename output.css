@@ -1668,6 +1668,9 @@ html {
 .bottom-\[-4rem\] {
   bottom: -4rem;
 }
+.right-20 {
+  right: 5rem;
+}
 .isolate {
   isolation: isolate;
 }
