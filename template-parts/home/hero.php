@@ -9,7 +9,8 @@ $tagline = get_bloginfo( 'description');
   <header class="absolute inset-x-0 top-0 z-50 bg-neutral">
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
   </header>
-  <div id="homepage-hero" class="homepage-hero relative isolate overflow-hidden">
+  <div id="homepage-hero" class="homepage-hero relative isolate overflow-hidden h-screen bg-cover bg-fixed bg-no-repeat">
+    <div id="background-overlay">
     <div class="w-full">
       <div class="flex flex-col gap-2 md:flex-row md:items-center pt-8 lg:pt-0">
         <div class="md:w-6/12 flex flex-col items-center gap-4 z-10 px-4">

@@ -56,6 +56,18 @@ body {
 	background-attachment: fixed;
 }
 
+#background-overlay {
+	position: absolute;
+	inset: 0;
+	background-color: #000;
+	opacity: .52;
+}
+
+#homepage-hero {
+	background-image: url('./img/brides/maidens-and-ravens-bride-15.jpg');
+	background-position: center;
+}
+
 .faq .faq-btn--active {
     transition: color 0.2s ease-out;
 }
