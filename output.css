@@ -1665,6 +1665,9 @@ html {
 .right-7 {
   right: 1.75rem;
 }
+.bottom-\[-4rem\] {
+  bottom: -4rem;
+}
 .isolate {
   isolation: isolate;
 }
@@ -2033,6 +2036,9 @@ html {
 }
 .border-8 {
   border-width: 8px;
+}
+.border-2 {
+  border-width: 2px;
 }
 .border-b {
   border-bottom-width: 1px;
