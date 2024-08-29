@@ -40,7 +40,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                                 </h3>
                                 <p class="text-base text-md text-black"><?php echo esc_html( $category->description ); ?></p>
                             </div>
-                            <a href="<?php echo esc_url( $category_link ); ?>" class="btn bg-transparent text-sm font-semibold text-white ">View Collection</a>
+                            <a href="<?php echo esc_url( $category_link ); ?>" class="btn bg-primary text-sm font-semibold text-white ">View Collection</a>
                         </div>
                     </div>  
                         
