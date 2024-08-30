@@ -9,7 +9,7 @@
 include(get_template_directory(  ) . '/template-parts/global/header.php');
 include(get_template_directory(  ) . '/template-parts/global/internal-hero.php');
 ?>
-<div class="flex flex-col md:flex-row gap-8">
+<div class="flex flex-col md:flex-row gap-8 py-16">
 	<div class="px-4 max-w-7xl mx-auto">
 
 		<main id="primary" class="site-main">
@@ -38,9 +38,9 @@ include(get_template_directory(  ) . '/template-parts/global/internal-hero.php')
 		</main><!-- #main -->
 	</div>
 
-<?php
-get_sidebar();
-?>
+	<?php
+	get_sidebar();
+	?>
 </div>
 <?php
 include(get_template_directory(  ) . '/template-parts/global/footer.php');
