@@ -1,11 +1,3 @@
-<?php
-$hero_image_1 = get_theme_mod('hero_image_1');
-$hero_image_2 = get_theme_mod('hero_image_2');
-$arch_image = get_theme_mod('arch_image');
-$box_image = get_theme_mod('box_image');
-$tagline = get_bloginfo( 'description');
-?>
-
 <div class="bg-transparent">
   <div class="homepage-hero relative isolate h-[50vh] bg-cover bg-fixed bg-no-repeat flex items-center justify-center" style="background-image: url('<?php maidens_and_ravens_post_thumbnail(); ?>');">
     <div id="background-overlay"></div>
