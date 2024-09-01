@@ -1783,20 +1783,17 @@ html {
 .h-\[33\%\] {
   height: 33%;
 }
-.h-\[50vh\] {
-  height: 50vh;
-}
 .h-\[53\%\] {
   height: 53%;
+}
+.h-\[70vh\] {
+  height: 70vh;
 }
 .h-full {
   height: 100%;
 }
 .h-screen {
   height: 100vh;
-}
-.h-\[70vh\] {
-  height: 70vh;
 }
 .max-h-16 {
   max-height: 4rem;
@@ -3104,8 +3101,7 @@ a:active {
 --------------------------------------------- */
 button,
 input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+input[type="reset"] {
 	border: 1px solid;
 	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
@@ -3117,8 +3113,7 @@ input[type="submit"] {
 
 button:hover,
 input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
+input[type="reset"]:hover {
 	border-color: #ccc #bbb #aaa;
 }
 
