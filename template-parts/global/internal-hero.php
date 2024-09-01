@@ -1,5 +1,5 @@
 <div class="bg-transparent">
-  <div class="homepage-hero relative isolate h-[50vh] bg-cover bg-fixed bg-no-repeat flex items-center justify-center" style="background-image: url('<?php echo the_post_thumbnail_url( 'full' ); ?>');">
+  <div class="homepage-hero relative isolate h-[70vh] bg-cover bg-fixed bg-no-repeat flex items-center justify-center" style="background-image: url('<?php echo the_post_thumbnail_url( 'full' ); ?>');">
     <div id="background-overlay"></div> 
     <div class="w-full z-50">
       <div class="flex flex-col gap-2 md:flex-row md:items-center pt-8 lg:pt-0">
