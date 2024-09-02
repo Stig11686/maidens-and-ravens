@@ -264,27 +264,10 @@ function get_the_archive_thumbnail() {
     return '';
 }
 
-function your_theme_register_blocks() {
-    $dir = get_template_directory() . '/blocks/2-column-layout';
-
-    wp_register_script(
-        'two-column-block',
-        get_template_directory_uri() . '/blocks/2-column-layout/index.js',
-        array( 'wp-blocks', 'wp-element', 'wp-editor' )
-    );
-
-    wp_register_style(
-        'two-column-block-style',
-        get_template_directory_uri() . '/blocks/2-column-layout/style.css',
-        array(),
-        filemtime( "$dir/style.css" )
-    );
-
-    register_block_type( 'your-theme/2-column-layout', array(
-        'editor_script' => 'two-column-block',
-        'style' => 'two-column-block-style',
-    ) );
+function register_my_block()
+{
+    register_block_type( dirname(__FILE__) . '/blocks/2-column-layout/build/block.json' );
 }
-add_action( 'init', 'your_theme_register_blocks' );
+add_action('init', 'register_my_block');
 
 
