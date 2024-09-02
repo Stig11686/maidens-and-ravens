@@ -1756,6 +1756,9 @@ html {
 .box-content {
   box-sizing: content-box;
 }
+.block {
+  display: block;
+}
 .flex {
   display: flex;
 }
