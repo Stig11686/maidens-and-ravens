@@ -1,0 +1,25 @@
+{
+    "apiVersion": 2,
+    "name": "theme/two-column-block",
+    "title": "Two Column Block",
+    "category": "layout",
+    "icon": "columns",
+    "description": "A custom block for two column layout.",
+    "supports": {
+      "html": false
+    },
+    "attributes": {
+      "content": {
+        "type": "string",
+        "source": "html",
+        "selector": ".content-column"
+      },
+      "imageUrl": {
+        "type": "string",
+        "default": ""
+      }
+    },
+    "editorScript": "file:./index.js",
+    "style": "file:./style.css"
+  }
+  
