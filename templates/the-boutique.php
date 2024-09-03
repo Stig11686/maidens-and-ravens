@@ -55,12 +55,11 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
           <p>When you book in with us you will have this beautiful space completely to yourself and our aim is to give you an experience to remember.
           Like our dresses, we love to be unique, and this is definitely reflected in our choice of everything from our wallpaper to our lighting.
           Look out for the ravens...</p>
-
-        </div>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
         <img src="<?php echo esc_html($image3) ?>" alt="lorem10" class="w-full h-full object-cover">
-      </div> 
+      </div>
+    </div>
   </section>
 
 <!-- Faqs -->
