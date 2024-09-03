@@ -1,5 +1,4 @@
 
-<div class="bg-gray-100">
 <?php
     $args = array(
         'taxonomy'   => 'product_cat',
@@ -11,7 +10,7 @@
     $product_categories = get_terms($args);
 
     include(get_template_directory(  ) . '/template-parts/global/header.php');
-    include(get_template_directory(  ) . '/template-parts/nav.php');
+    include(get_template_directory(  ) . '/template-parts/internal-hero.php');
 ?>
 
     <div class="flex flex-col items-start gap-4 max-w-2xl lg:ml-11 px-4 py-24">
@@ -48,5 +47,3 @@
 <?php
     include(get_template_directory(  ) . '/template-parts/global/footer.php');
 ?>
-
-</div>
