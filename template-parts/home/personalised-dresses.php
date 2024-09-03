@@ -9,12 +9,10 @@
     <div class="w-full lg:w-4/12 p-6">
         <div class="flex flex-col gap-2 sticky top-8 py-16 lg:py-0">
             <div class="flex flex-col gap-4">
-                <h2 class="text-3xl lg:text-5xl leading-normal">Personalised Wedding <span class="text-primary">Dresses</span></h2>
-                <p class="text-lg leading-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore officia excepturi? Porro, placeat nam quis earum quia assumenda asperiores, dolorem in nostrum fugiat totam id. Ipsum, alias voluptatibus! Rem!</p>
-                <p class="text-lg leading-normal">Eligendi impedit, id neque iusto placeat accusamus veritatis ut cum, deleniti omnis mollitia voluptas et repudiandae facilis quod. Mollitia deserunt necessitatibus quae repellendus incidunt velit facere at delectus dolor atque.</p>
-                <p class="text-lg leading-normal">Incidunt error voluptate cum nostrum ratione doloribus, possimus, obcaecati quos mollitia, similique itaque pariatur! Tempora, dicta accusantium. Consequuntur consequatur libero error? Deserunt voluptatibus nam ab quia nihil quisquam consectetur doloribus.</p>
-                <p class="text-lg leading-normal">Quam porro aliquam velit et saepe nulla necessitatibus eius ab incidunt. Dolorum labore facere suscipit deserunt ut amet odit molestias iusto sint repellat? Nostrum, praesentium nam soluta perspiciatis eaque repellendus.</p>
-                <p class="text-lg leading-normal">Cupiditate maiores eum itaque totam explicabo deleniti alias neque autem, ex doloremque, perferendis quod debitis quia accusamus laboriosam et voluptas, fuga quam ad eveniet maxime eius provident. Laboriosam, ad illum.</p>
+                <h2 class="text-3xl lg:text-5xl leading-normal">Create your <span class="text-primary">Dream Dress</span></h2>
+                <p class="text-lg leading-normal">Looking for something you just cannot find? Then let us help you create your dream dress! Whatever you want, we want to help you achieve it!</p>
+                <p class="text-lg leading-normal">You may like to purchase a base dress from our Treasure Trove and together we can explore ways in which it could be adapted into your perfect dress.  Using my years of bridal expertise and creative imagination, I can show you how sleeves can be added or removed, necklines changed, and details altered or added to adapt your chosen dress into the look you have envisioned.  This is a cost-effective way of creating a completely unique dress without the nasty price tag!</p>
+                <p class="text-lg leading-normal">Alternatively, many of our Commissioned for You dresses by Louisa Jackson can be made in different colours and with changes to sleeves, skirt type, trains or little details to create a dress that is as unique and individual as you would like and unlike a completely bespoke dress, these new to order dresses still sit comfortably below £2,000.</p>
             </div>
         </div>
     </div>
