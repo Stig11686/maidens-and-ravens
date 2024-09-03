@@ -1,4 +1,4 @@
-<section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 py-12 mx-auto">
+<section class="flex pb-8 px-6 xl:px-48 lg:px-24 py-24 mx-auto">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:order-2 lg:w-5/12">
         <h2 class="mb-0 text-3xl lg:text-5xl">Find our Boutique!</h2>
