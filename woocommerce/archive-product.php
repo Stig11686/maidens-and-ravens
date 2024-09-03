@@ -10,7 +10,7 @@
     $product_categories = get_terms($args);
 
     include(get_template_directory(  ) . '/template-parts/global/header.php');
-    include(get_template_directory(  ) . '/template-parts/global/internal-hero.php');
+    include(get_template_directory(  ) . '/woocommerce/template-parts/archive-hero.php');
 ?>
 
     <div class="flex flex-col items-start gap-4 max-w-2xl lg:ml-11 px-4 py-24">
