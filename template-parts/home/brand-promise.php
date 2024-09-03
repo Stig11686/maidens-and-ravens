@@ -5,7 +5,7 @@
     <a href="/product-category/treasure-trove/" class="rounded-md bg-primary px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">View Our Treasure Trove</a>
   </div>
 
-  <div class="flex flex-col lg:flex-row md:justify-between py-16 gap-8">
+  <!-- <div class="flex flex-col lg:flex-row md:justify-between py-16 gap-8">
     <div class="w-full lg:w-1/2 relative">
       <img src="<?php echo get_template_directory_uri(  ) . '/img/brides/maidens-and-ravens-bride-1.jpg'; ?>" alt="image tbc" class="h-full w-full object-cover" />
     </div>
@@ -29,13 +29,13 @@
         <a href="/product-category/treasure-trove/" class="rounded-md bg-primary px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">View Our Treasure Trove</a>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
 <div class="w-full flex flex-col lg:flex-row ">
   
   <div class="relative w-full lg:w-1/2 flex items-center justify-center bg-primary order-2 lg:order-1">
     <div data-aos="zoom-in" data-aos-duration="1500" data-easing="ease-in" class="flex flex-col gap-8 text-white px-6 lg:px-32 py-32">
-      <h2 class="text-4xl font-bold">Planet Conscious <span class="uppercase text-neutral">Weddings</span></h2>
+      <h2 class="text-4xl font-bold">Sustainable <span class="uppercase text-neutral">Style</span></h2>
       <p class="text-xl leading-normal">More and more couples are making conscious decisions to be more
         environmentally friendly when planning their weddings. Bridalwear is
         one of the biggest culprits when it comes to fast fashion, not to mention
