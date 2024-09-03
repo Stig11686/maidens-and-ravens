@@ -265,4 +265,36 @@ function get_the_archive_thumbnail() {
 }
 
 
+function load_more_posts() {
+	$offset = intval($_POST['offset']);
+	$posts_per_page = 9;
+	
+	$args = array(
+		'post_type' => 'post',
+		'posts_per_page' => $posts_per_page,
+		'offset' => $offset,
+	);
+	
+	$posts_query = new WP_Query($args);
+	
+	if ($posts_query->have_posts()) {
+		ob_start();
+		while ($posts_query->have_posts()) {
+			$posts_query->the_post();
+			
+			get_template_part('/template-parts/content-posts'); // adjust as per your theme structure
+		}
+		$posts_html = ob_get_clean();
+		wp_reset_postdata();
+		wp_send_json_success($posts_html);
+	} else {
+		// No more posts to load
+		wp_send_json_error('No more posts');
+	}
+	
+	wp_die();
+}
+add_action('wp_ajax_load_more_posts', 'load_more_posts');
+add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
+
 
