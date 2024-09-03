@@ -12,7 +12,7 @@ include(get_template_directory(  ) . '/template-parts/global/internal-hero.php')
 
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main max-w-7xl mx-auto flex flex-col gap-8">
 
 		<?php if ( have_posts() ) : ?>
 
