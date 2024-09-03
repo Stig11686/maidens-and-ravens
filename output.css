@@ -2080,6 +2080,9 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(156 13 56 / var(--tw-bg-opacity));
 }
+.bg-primary\/10 {
+  background-color: rgb(156 13 56 / 0.1);
+}
 .bg-purple-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(168 85 247 / var(--tw-bg-opacity));
@@ -2088,18 +2091,12 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(88 28 135 / var(--tw-bg-opacity));
 }
-.bg-purple-900\/10 {
-  background-color: rgb(88 28 135 / 0.1);
-}
 .bg-transparent {
   background-color: transparent;
 }
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-primary\/10 {
-  background-color: rgb(156 13 56 / 0.1);
 }
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
@@ -2117,19 +2114,11 @@ html {
   --tw-gradient-to: rgb(254 226 226 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
-.from-primary {
-  --tw-gradient-from: #9C0D38 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(156 13 56 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
 .to-\[\#9089fc\] {
   --tw-gradient-to: #9089fc var(--tw-gradient-to-position);
 }
 .to-purple-100 {
   --tw-gradient-to: #f3e8ff var(--tw-gradient-to-position);
-}
-.to-secondary {
-  --tw-gradient-to: #F9D6F7 var(--tw-gradient-to-position);
 }
 .bg-cover {
   background-size: cover;
@@ -2226,10 +2215,6 @@ html {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 .pb-16 {
   padding-bottom: 4rem;
@@ -3666,6 +3651,10 @@ textarea {
     top: calc(100% - 30rem);
   }
 
+  .sm\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .sm\:-mx-4 {
     margin-left: -1rem;
     margin-right: -1rem;
@@ -3961,16 +3950,8 @@ textarea {
     flex-direction: row;
   }
 
-  .lg\:items-start {
-    align-items: flex-start;
-  }
-
   .lg\:justify-between {
     justify-content: space-between;
-  }
-
-  .lg\:gap-14 {
-    gap: 3.5rem;
   }
 
   .lg\:gap-36 {
@@ -4005,11 +3986,6 @@ textarea {
   .lg\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
-  }
-
-  .lg\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
   }
 
   .lg\:py-48 {
@@ -4107,10 +4083,5 @@ textarea {
   .xl\:px-48 {
     padding-left: 12rem;
     padding-right: 12rem;
-  }
-
-  .xl\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
