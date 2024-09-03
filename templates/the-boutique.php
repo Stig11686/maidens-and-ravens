@@ -63,49 +63,6 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
   </section>
 
 <!-- Faqs -->
-<?php include(get_template_directory(  ) . '/template-parts/faqs.php'); ?>
-
-  <!-- Getting Started -->
-  <section class="lg:px-24 xl:px-48 px-6 py-20">
-    <div class="max-w-screen-xl mx-auto flex flex-col relative gap-8">
-      <div class="flex flex-col items-center gap-8">
-        <h2 class="mb-0 leading-112">Lorem, ipsum.</h2>
-        <p class="text-lg leading-7 text-center text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit.:</p>
-      </div>
-      <div class="flex flex-col gap-y-12 md:flex-row items-start justify-between">
-        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
-          <img class="h-12 w-12" src="../images/icons/Conversation.svg" alt="get in touch">
-          <div class="flex flex-col text-center gap-4">
-            <h3 class="text-md leading-lg mb-0">1. Get in Touch</h3>
-            <p class="text-sm leading-5">Use our chat feature or fill out the contact form.</p>
-          </div>
-        </div>
-        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
-          <img class="h-12 w-12" src="../images/icons/session_icon.svg" alt="schedule a consultation (BELOW)">
-          <div class="flex flex-col text-center gap-4">
-            <h3 class="text-md leading-lg mb-0">2. Schedule a Consulatation</h3>
-            <p class="text-sm leading-5">Book your free consultancy session</p>
-          </div>
-        </div>
-        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
-          <img class="h-12 w-12" src="../images/icons/plan.svg" alt="Receive Your Training Plan">
-          <div class="flex flex-col text-center gap-4">
-            <h3 class="text-md leading-lg mb-0">3. Receive Your Training Plan</h3>
-            <p class="text-sm leading-5 mb-0">We'll handle the paperwork and setup.</p>
-          </div>
-        </div>
-        <div class="flex flex-col flex-0 items-center items-start gap-4 w-full md:w-6/12 lg:w-2/12">
-          <img class="h-12 w-12" src="../images/icons/part_time_icon.svg" alt="Start training with The Coders Guild">
-          <div class="flex flex-col text-center gap-4">
-            <h3 class="text-md leading-lg mb-0">4. Start Training</h3>
-            <p class="text-sm leading-5">Begin your tailored training program and watch your business grow.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-
-<?php include(get_template_directory(  ) . '/template-parts/global/footer.php'); ?>
+<?php include(get_template_directory(  ) . '/template-parts/faqs.php');
+      include(get_template_directory(  ) . '/template-parts/global/footer.php'); 
+?>
