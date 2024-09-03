@@ -9,7 +9,7 @@
     include(get_template_directory() . '/template-parts/global/internal-hero.php');
 ?>
 
-<main class="mx-auto w-full lg:max-w-7xl px-4 sm:px-6 lg:px-8 py-12 flex flex-col items-start">
+<main class="mx-auto w-full lg:max-w-7xl px-4 sm:px-6 lg:px-8 py-12 flex flex-col gap-8 items-start">
 
 <?php
     // The Query
