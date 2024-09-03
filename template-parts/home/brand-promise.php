@@ -11,7 +11,7 @@
     </div>
     <div class="w-full lg:w-5/12">
       <div data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="300" class="flex flex-col gap-8 items-start">
-        <h2 class="text-4xl font-bold">Our <span class="uppercase text-primary">Promise</span></h2>
+        <h2 class="text-4xl font-bold">Sustainable <span class="uppercase text-primary">Style</span></h2>
         <p class="text-xl leading-normal">More and more couples are making conscious decisions to be more
               environmentally friendly when planning their weddings. Bridalwear is
               one of the biggest culprits when it comes to fast fashion, not to mention
