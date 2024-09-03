@@ -71,7 +71,7 @@ function theme_customiser_settings($wp_customize){
 		'priority' => 30,
 	));
 
-	$wp_customize->add_section('the-boutique_section', array(
+	$wp_customize->add_section('the_boutique_section', array(
 		'title' => __('The Boutique', 'handp24'),
 		'priority' => 30,
 	));
@@ -147,6 +147,39 @@ function theme_customiser_settings($wp_customize){
 		'label' => __('Select Box Image', 'handp24'),
 		'section' => 'home_page_section',
 		'settings' => 'box_image',
+	)));
+
+	$wp_customize->add_setting('boutique_image_1', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'boutique_image_control_1', array(
+		'label' => __('Select Image 1', 'maidens-and-ravens'),
+		'section' => 'the_boutique_section',
+		'settings' => 'boutique_image_1',
+	)));
+
+	$wp_customize->add_setting('boutique_image_2', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'boutique_image_control_1', array(
+		'label' => __('Select Image 2', 'maidens-and-ravens'),
+		'section' => 'the_boutique_section',
+		'settings' => 'boutique_image_2',
+	)));
+
+	$wp_customize->add_setting('boutique_image_3', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, ' boutique_image_control_3', array(
+		'label' => __('Select Image 3', 'maidens-and-ravens'),
+		'section' => 'the_boutique_section',
+		'settings' => 'boutique_image_3',
 	)));
 }
 add_action('customize_register', 'theme_customiser_settings');
