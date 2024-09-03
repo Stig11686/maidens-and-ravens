@@ -36,31 +36,31 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
 
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="<?php echo esc_html($image1) ?>" alt="lorem10" class="w-full h-full object-cover">
+        <img src="<?php echo esc_html($image2) ?>" alt="lorem10" class="w-full h-full object-cover">
       </div>
     </div>
   </section>
 
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
+       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
+        <img src="<?php echo esc_html($image3) ?>" alt="lorem10" class="w-full h-full object-cover">
+      </div>  
       <div class="flex flex-col items-start gap-8 decorated-list lg:order-2 lg:w-5/12">
-        <h2 class="mb-0 leading-120">Information and Accessibility</h2>
-        <p class="text-wrap leading-200 text-md">Our nearest carpark is Nunnery Lane, and we are about 5 minutes’ walk from the train station.
-            If driving from out of York, the park and ride is advisable.
-        </p>
-        <h3 class="mb-0 leading-120">Accessibility</h2>
+          <h2 class="mb-0 leading-120">Information and Accessibility</h2>
+          <p class="text-wrap leading-200 text-md">Our nearest carpark is Nunnery Lane, and we are about 5 minutes’ walk from the train station.
+              If driving from out of York, the park and ride is advisable.
+          </p>
+          <h3 class="mb-0 leading-120">Accessibility</h2>
 
-        <p>As with much of York, our building is old, and the entrance to the shop is a little narrow. There is one very low step to get inside which is still accessible by wheelchair and with a buggy. We are situated on Micklegate which does have some limited paid parking outside for up to 2 hours on a first come first served basis. We will always do whatever we can to help so please feel free to ask if you need any specific assistance.
-        </p>
-        <p>When you book in with us you will have this beautiful space completely to yourself and our aim is to give you an experience to remember.
-        Like our dresses, we love to be unique, and this is definitely reflected in our choice of everything from our wallpaper to our lighting.
-        Look out for the ravens...</p>
+          <p>As with much of York, our building is old, and the entrance to the shop is a little narrow. There is one very low step to get inside which is still accessible by wheelchair and with a buggy. We are situated on Micklegate which does have some limited paid parking outside for up to 2 hours on a first come first served basis. We will always do whatever we can to help so please feel free to ask if you need any specific assistance.
+          </p>
+          <p>When you book in with us you will have this beautiful space completely to yourself and our aim is to give you an experience to remember.
+          Like our dresses, we love to be unique, and this is definitely reflected in our choice of everything from our wallpaper to our lighting.
+          Look out for the ravens...</p>
 
+        </div>
       </div>
-      <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="<?php echo esc_html($image1) ?>" alt="lorem10" class="w-full h-full object-cover">
-      </div>
-    </div>
   </section>
 
 <!-- Faqs -->
