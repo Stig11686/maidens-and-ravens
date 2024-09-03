@@ -1,10 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["*.{html,php,js}", "./templates/*.{php,html,js}", "./template-parts/*.{php,html,js}", "./template-parts/**/*.{php,html,js}", "./assets/js/*.js", "./woocommerce/*.{php, html, js}"
-
+  content: [
+    "*.{html,php,js}",
+    "./templates/*.{php,html,js}", 
+    "./template-parts/*.{php,html,js}", 
+    "./template-parts/**/*.{php,html,js}", 
+    "./assets/js/*.js", 
+    "./woocommerce/*.{php, html, js}"
   ],
   safelist: [
-    "sm:col-span-2"
+    "sm:col-span-2",
+    "gap-6"
   ],
   diasyui: {
     themes: ['valentine', 'dark'],
