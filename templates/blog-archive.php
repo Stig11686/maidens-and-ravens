@@ -5,8 +5,8 @@
  * This is a custom template for pages. To use it, simply select it from the
  * "Page Template" dropdown when creating or editing a page.
  */
-    include(get_template_directory() . '/template-parts/header.php');
-    include(get_template_directory() . '/template-parts/blog-hero.php');
+    include(get_template_directory() . '/template-parts/global/header.php');
+    include(get_template_directory() . '/template-parts/global/internal-hero.php');
 ?>
 
 <main class="mx-auto w-full lg:max-w-7xl px-4 sm:px-6 lg:px-8 py-12 flex flex-col items-start">
