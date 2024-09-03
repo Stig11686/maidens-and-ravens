@@ -16,7 +16,7 @@ if ($faqs->have_posts()) :
           <div class="cursor-pointer flex flex-col items-center max-w-7xl mx-auto bg-white faq">
               <?php
               while ($faqs->have_posts()) : $faqs->the_post(); ?>
-                  <div class="py-4 bg-purple-900 shadow-lg border px-6 w-full">
+                  <div class="py-4 bg-primary shadow-lg border px-6 w-full">
                       <div class="flex justify-between items-center self-stretch faq-btn">
                           <div class="flex items-center gap-2">
                               <div class="flex flex-col justify-center text-sm font-bold text-white"><?php the_title(); ?></div>
@@ -39,7 +39,7 @@ if ($faqs->have_posts()) :
                               </svg>
                           </div>
                       </div>
-                      <div class="flex flex-col self-stretch gap-8 faq-content box-content bg-purple-900/10 text-white">
+                      <div class="flex flex-col self-stretch gap-8 faq-content box-content bg-primary/10 text-white">
                           <?php the_content(); ?>
                       </div>
                   </div>
