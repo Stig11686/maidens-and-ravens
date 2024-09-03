@@ -13,6 +13,7 @@
  */
 
 include(get_template_directory(  ) . '/template-parts/global/header.php');
+include(get_template_directory(  ) . '/template-parts/global/internal-hero.php');
 ?>
 
 	<main id="primary" class="site-main max-w-7xl mx-auto">
