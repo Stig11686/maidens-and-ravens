@@ -15,7 +15,7 @@
 include(get_template_directory(  ) . '/template-parts/global/header.php');
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main max-w-7xl mx-auto">
 
 		<?php
 		while ( have_posts() ) :
