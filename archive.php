@@ -22,7 +22,7 @@ include(get_template_directory(  ) . '/template-parts/global/internal-hero.php')
 				the_archive_description( '<div class="archive-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
-
+			<ul id="blog-archive" role="list" class="flex flex-wrap md:flex-row flex-col w-full max-w-full mx-auto lg:max-w-none mb:mb-12 mb-20">
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
@@ -36,6 +36,11 @@ include(get_template_directory(  ) . '/template-parts/global/internal-hero.php')
 				get_template_part( 'template-parts/content', get_post_type() );
 
 			endwhile;
+			?>
+			</ul>
+
+			<?php
+
 
 			the_posts_navigation();
 
