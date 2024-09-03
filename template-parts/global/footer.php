@@ -14,8 +14,8 @@
       <div class="space-y-8">
         <img class="object-cover max-h-28" src="<?php echo $logo_url; ?>" alt="maidens and ravens logo" /></a>
         <div class="flex space-x-6">
-            <a href="https://www.facebook.com" target="_blank"><img class="h-8 w-8 object-cover " src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>    
-            <a href="https://www.instagram.com" target="_blank"><img class="h-8 w-8 object-cover " src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
+            <a href="https://www.facebook.com/profile.php?id=61555937465354" target="_blank"><img class="h-8 w-8 object-cover " src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>    
+            <a href="https://www.instagram.com/maidensandravens?igsh=MXg5ZTE4bzlwNTVzbw==" target="_blank"><img class="h-8 w-8 object-cover " src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
         </div>
       </div>
       <div class="mt-16 grid grid-cols-1 gap-8 xl:mt-0">

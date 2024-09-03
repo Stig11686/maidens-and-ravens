@@ -16,8 +16,8 @@
         <div class="hidden md:block gap-8 self-start text-white">
             <div class="flex gap-8 items-center">
                 <?php include(get_template_directory(  ) . '/template-parts/global/book-appointment-btn.php'); ?>
-                <a href="https://www.facebook.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>    
-                <a href="https://www.instagram.com" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
+                <a href="https://www.facebook.com/profile.php?id=61555937465354" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/facebook.svg" alt="Visit the Maidens and Ravens Facebook page" /></a>    
+                <a href="https://www.instagram.com/maidensandravens?igsh=MXg5ZTE4bzlwNTVzbw==" target="_blank"><img class="h-8 w-8 object-cover text-white" src="<?php echo get_template_directory_uri();?>/img/socials/instagram.svg" alt="Visit the Maidens and Ravens Instagram page" /></a>
             </div>
         </div>
         <div id="side-menu">
