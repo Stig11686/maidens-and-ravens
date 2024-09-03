@@ -1,1 +1,0 @@
-console.log("Hello World! (from create-block-2-column-layout block)");

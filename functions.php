@@ -264,10 +264,5 @@ function get_the_archive_thumbnail() {
     return '';
 }
 
-function register_my_block()
-{
-    register_block_type( dirname(__FILE__) . '/blocks/2-column-layout/build/block.json' );
-}
-add_action('init', 'register_my_block');
 
 

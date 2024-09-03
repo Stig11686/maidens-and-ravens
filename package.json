@@ -9,7 +9,6 @@
     "Theme"
   ],
   "devDependencies": {
-    "@wordpress/scripts": "^19.2.2",
     "concurrently": "^8.2.2",
     "daisyui": "^4.12.2",
     "dir-archiver": "^1.1.1",
