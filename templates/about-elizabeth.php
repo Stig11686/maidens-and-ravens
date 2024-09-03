@@ -35,7 +35,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
     </div>
   </section>
 
-  <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
+  <section class="flex pt-4 pb-16 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <p class="text-wrap text-lg">I have a real passion for helping all of my brides. I am a people person and am genuinely committed to helping you find a dress which makes you feel beautiful and meets your dreams! I firmly believe there is a dress for every bride (and a bride for every dress!). I love brides of every age, shape, size and colour. I pride myself in being fully inclusive and making your appointments as relaxed and enjoyable as possible.</p>
