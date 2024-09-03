@@ -20,7 +20,7 @@
 
     <!-- to do  - filters? -->
 
-    <div class="flex flex-col md:flex-row flex-wrap items-center max-w-7xl mx-auto gap-y-4">
+    <div class="flex flex-col md:flex-row flex-wrap items-center max-w-7xl mx-auto gap-y-8">
         <?php
             if (!empty($product_categories)):
                 foreach($product_categories as $category):
