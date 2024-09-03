@@ -20,14 +20,14 @@
 
     <!-- to do  - filters? -->
 
-    <div class="flex flex-col md:flex-row flex-wrap items-center gap-4 max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row flex-wrap items-center max-w-7xl mx-auto gap-y-4">
         <?php
             if (!empty($product_categories)):
                 foreach($product_categories as $category):
                     $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
                     $thumbnail_url = wp_get_attachment_url($thumbnail_id);
         ?>
-        <div class="product-category-container lg:w-1/4 flex flex-col items-start">
+        <div class="product-category-container lg:w-1/4 px-4 flex flex-col items-start">
             <div class="product-category-image bg-white">
                 <img class="mix-blend-multiply" src="<?php echo $thumbnail_url; ?>" alt="<?php echo esc_html($category->name); ?>">
             </div>  
