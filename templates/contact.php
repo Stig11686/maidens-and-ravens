@@ -3,6 +3,8 @@
 Template Name: Contact
 */
 include(get_template_directory() . '/template-parts/global/header.php');
+include(get_template_directory() . '/template-parts/global/internal-hero.php');
+
  ?>
 
 <section class="flex pt-80 md:pt-48 px-6 xl:px-48 lg:px-24 mx-auto pb-8">
@@ -101,23 +103,5 @@ include(get_template_directory() . '/template-parts/global/header.php');
     </div>
   </section>
 
-
-  <!-- CTA Section -->
-  <section class="bg-gradient-to-r from-red-1000 to-purple-1000 flex items-start self-stretch gap-4 px-6 lg:px-24 xl:px-48 py-8 lg:py-32">
-    <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start flex-1 gap-10">
-      <div class="w-full lg:w-5/12 flex flex-col items-start gap-10 lg:gap-14 text-white decorated-list white">
-        <h2 class="mb-0 text-white text-5xl lg:text-6xl font-bold leading-112">Book Your Appointment</h2>
-        <p class="text-white text-md leading-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequatur et id iste quis temporibus soluta, ut doloremque corporis laudantium a culpa commodi assumenda eaque facilis. Esse, sed voluptatibus natus quaerat laudantium accusantium omnis repellendus praesentium, quibusdam iusto odio magni!</p>
-        <ul class="flex flex-col items-start gap-2 text-md leading-lg xl:text-xl">
-          <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore autem quia totam cum iusto adipisci dolore veniam alias dolorem modi!</li>
-          <li>Molestias numquam ab nam placeat magni explicabo voluptas facere, consequuntur, odit repudiandae facilis exercitationem nihil blanditiis odio similique, doloremque velit!</li>
-          <li>Dolor ratione repellat tempore. Atque harum amet quos repudiandae placeat exercitationem consequuntur dicta alias quibusdam. Consectetur laboriosam voluptate rerum ex?</li>
-        </ul>
-      </div>
-      <div class="w-full lg:w-6-12">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, consequatur! Sint porro ipsa quis quam dolorem tempore quisquam pariatur obcaecati.
-      </div>
-    </div>
-  </section>
 
 <?php include(get_template_directory(  ) . '/template-parts/global/footer.php'); ?>

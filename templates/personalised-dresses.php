@@ -3,6 +3,8 @@
 Template Name: Personalised Dresses
 */
 include(get_template_directory() . '/template-parts/global/header.php');
+include(get_template_directory() . '/template-parts/global/internal-hero.php');
+
  ?>
 
 <section class="flex pt-80 md:pt-48 px-6 xl:px-48 lg:px-24 mx-auto pb-8">
