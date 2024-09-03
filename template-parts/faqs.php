@@ -39,7 +39,7 @@ if ($faqs->have_posts()) :
                               </svg>
                           </div>
                       </div>
-                      <div class="flex flex-col self-stretch gap-8 faq-content box-content bg-primary/10 text-white">
+                      <div class="flex flex-col self-stretch gap-8 faq-content box-content bg-transparent text-white">
                           <?php the_content(); ?>
                       </div>
                   </div>
