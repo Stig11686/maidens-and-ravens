@@ -39,5 +39,5 @@
 ?>
 </main>
 <?php
-    include(get_template_directory() . '/template-parts/footer.php');
+    include(get_template_directory() . '/template-parts/global/footer.php');
 ?>
