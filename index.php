@@ -12,7 +12,9 @@
  * @package maidens_and_ravens
  */
 
-get_header();
+ include(get_template_directory() . '/template-parts/global/header.php');
+ include(get_template_directory() . '/template-parts/global/internal-hero.php');
+ 
 ?>
 
 	<main id="primary" class="site-main">
@@ -54,4 +56,4 @@ get_header();
 
 <?php
 get_sidebar();
-get_footer();
+include(get_template_directory() . '/template-parts/global/footer.php');
