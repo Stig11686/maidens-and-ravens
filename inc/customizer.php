@@ -165,7 +165,7 @@ function theme_customiser_settings($wp_customize){
 		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
 	));
 
-	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'boutique_image_control_1', array(
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'boutique_image_control_2', array(
 		'label' => __('Select Image 2', 'maidens-and-ravens'),
 		'section' => 'the_boutique_section',
 		'settings' => 'boutique_image_2',
