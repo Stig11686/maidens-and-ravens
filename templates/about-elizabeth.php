@@ -49,11 +49,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
     </div>
   </section>
 
-  
-  <!-- testimonial -->
-  
-  <p>to do testimonials global slider to insert here</p>
-
-
-
-<?php include(get_template_directory(  ) . '/template-parts/global/footer.php'); ?>
+<?php 
+  include(get_template_directory() . '/template-parts/testimonials.php');
+  include(get_template_directory(  ) . '/template-parts/global/footer.php'); 
+?>
