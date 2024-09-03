@@ -44,11 +44,11 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto"> 
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
-          <h2 class="mb-0 leading-120 text-3xl lg:text-5xl">Information and Accessibility</h2>
+          <h2 class="mb-0 text-3xl lg:text-5xl">Information and Accessibility</h2>
           <p class="text-wrap text-md">Our nearest carpark is Nunnery Lane, and we are about 5 minutes’ walk from the train station.
               If driving from out of York, the park and ride is advisable.
           </p>
-          <h3 class="mb-0 leading-120">Accessibility</h2>
+          <h3 class="mb-0 text-2xl lg:text-3xl">Accessibility</h2>
 
           <p>As with much of York, our building is old, and the entrance to the shop is a little narrow. There is one very low step to get inside which is still accessible by wheelchair and with a buggy. We are situated on Micklegate which does have some limited paid parking outside for up to 2 hours on a first come first served basis. We will always do whatever we can to help so please feel free to ask if you need any specific assistance.
           </p>
