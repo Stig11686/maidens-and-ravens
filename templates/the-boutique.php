@@ -46,7 +46,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
        <div class="bg-grey-2000 h-full w-full lg:w-6/12">
         <img src="<?php echo esc_html($image3) ?>" alt="lorem10" class="w-full h-full object-cover">
       </div>  
-      <div class="flex flex-col items-start gap-8 decorated-list lg:order-2 lg:w-5/12">
+      <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
           <h2 class="mb-0 leading-120">Information and Accessibility</h2>
           <p class="text-wrap leading-200 text-md">Our nearest carpark is Nunnery Lane, and we are about 5 minutes’ walk from the train station.
               If driving from out of York, the park and ride is advisable.
