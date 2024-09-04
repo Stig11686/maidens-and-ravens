@@ -113,6 +113,16 @@ body {
 	background-position: top;
 }
 
+#side-menu #mega-menu-wrap-primary #mega-menu-primary {
+    position: absolute;
+    inset: 10rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto 0 auto auto;
+    list-style: none;
+}
+
 #side-menu .side-menu .raven-image {
 	transform: rotateY(180deg);
 }
@@ -131,7 +141,9 @@ body {
 }
 
 #side-menu #mega-menu-primary > li.mega-menu-item  a.mega-menu-link  {
-	font-size: clamp(17px, 2vw, 30px);
+	font-size: clamp(16px, 2vw, 30px);
+	padding: 0;
+	line-height: 1.6;
 }
 
 #side-menu #mega-menu-primary > li.mega-menu-item  > a.mega-menu-link::before {
