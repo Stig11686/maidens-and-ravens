@@ -63,7 +63,7 @@ $fields = get_fields($product_id);
         </div>
     </div>
 </div>
-<div class="flex flex-col gap-16 text-white">
+<div class="flex flex-col gap-16">
 
     <div class="w-full flex flex-col">
         you might also like
