@@ -2398,6 +2398,9 @@ html {
 .pt-80 {
   padding-top: 20rem;
 }
+.pt-12 {
+  padding-top: 3rem;
+}
 .text-center {
   text-align: center;
 }
