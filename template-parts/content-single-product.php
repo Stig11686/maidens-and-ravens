@@ -23,10 +23,10 @@ $fields = get_fields($product_id);
                         <?php
                             foreach ($fields as $field_name => $value) :
                         ?>
-                            <div class="py-4 shadow-lg px-6 w-full">
+                            <div class="py-4 shadow-lg px-6 w-full bg-primary">
                                 <div class="flex justify-between items-center self-stretch faq-btn py-4">
                                     <div class="flex items-center gap-2">
-                                        <div class="flex flex-col justify-center text-xl font-bold text-white capitalize"><?php echo $field_name; ?></div>
+                                        <div class="flex flex-col justify-center text-xl font-bold text-white capitalize"><?php echo ucwords(str_replace('_', ' ', $field_name)); ?></div>
                                     </div>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -35,7 +35,7 @@ $fields = get_fields($product_id);
                                                 <path d="M10.5714 10.5714V2H13.4286V10.5714H22V13.4286H13.4286V22H10.5714V13.4286H2V10.5714H10.5714Z" fill="black"/>
                                             </mask>
                                             <g mask="url(#mask0_85_3056)">
-                                                <rect width="24" height="24" fill="rgb(42, 128, 85)"/>
+                                                <rect width="24" height="24" fill="#F9D6F7"/>
                                             </g>
                                             </g>
                                             <defs>
