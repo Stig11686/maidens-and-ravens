@@ -13,6 +13,7 @@
                 <p class="text-lg leading-normal">Looking for something you just cannot find? Then let us help you create your dream dress! Whatever you want, we want to help you achieve it!</p>
                 <p class="text-lg leading-normal">You may like to purchase a base dress from our Treasure Trove and together we can explore ways in which it could be adapted into your perfect dress.  Using my years of bridal expertise and creative imagination, I can show you how sleeves can be added or removed, necklines changed, and details altered or added to adapt your chosen dress into the look you have envisioned.  This is a cost-effective way of creating a completely unique dress without the nasty price tag!</p>
                 <p class="text-lg leading-normal">Alternatively, many of our Commissioned for You dresses by Louisa Jackson can be made in different colours and with changes to sleeves, skirt type, trains or little details to create a dress that is as unique and individual as you would like and unlike a completely bespoke dress, these new to order dresses still sit comfortably below £2,000.</p>
+                <?php include(get_template_directory() . '/template-parts/global/book-appointment-btn.php'); ?>
             </div>
         </div>
     </div>
