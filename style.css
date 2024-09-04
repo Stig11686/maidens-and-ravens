@@ -115,7 +115,7 @@ body {
 
 #side-menu #mega-menu-wrap-primary #mega-menu-primary {
     position: absolute;
-    inset: 10rem 6rem;
+    inset: 10rem 5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
