@@ -24,7 +24,7 @@
             <h3 class="text-sm font-semibold leading-6 ">About Us</h3>
             <ul role="list" class="mt-6 space-y-4 list-none">
               <li>
-                <a href="/about" class="text-sm leading-6  ">About</a>
+                <a href="/the-boutique" class="text-sm leading-6  ">The Boutique</a>
               </li>
               <li>
                 <a href="/blog" class="text-sm leading-6  ">Blog</a>
