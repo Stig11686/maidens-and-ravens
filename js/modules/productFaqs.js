@@ -1,9 +1,12 @@
 const faqs = document.querySelector('#custom-product-info .faqs-section');
 
 const productFields = function productFields() {
+    console.log('function running');
   if (!faqs) return;
 
   faqs.addEventListener('click', function(e) {
+    console.log('product fields clicked');
+
     let btn = e.target.closest('.faq-btn');
 
     if (!btn) return;
