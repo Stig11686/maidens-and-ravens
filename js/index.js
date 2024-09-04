@@ -3,3 +3,4 @@ import './modules/navigation';
 import './modules/faqs';
 import './modules/sliders';
 import './modules/blog';
+import './modules/productFaqs';
