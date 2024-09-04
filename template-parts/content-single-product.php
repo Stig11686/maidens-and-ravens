@@ -71,7 +71,7 @@ $fields = get_fields($product_id);
     <div class="">
         <?php 
             include(get_template_directory(  ) . '/template-parts/testimonials.php');
-            include(get_template_directory(  ) . '/template-parts/faqs.php');
+            include(get_template_directory(  ) . '/template-parts/global/faqs.php');
         ?>
     </div>
 
