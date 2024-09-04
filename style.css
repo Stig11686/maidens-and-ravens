@@ -216,7 +216,7 @@ body {
 	left: 0;
 	width: 150%;
 	height: 100%;
-	background: #59315F;
+	background: #9C0D38;
 	z-index: -1;
 	-webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
 	transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
@@ -227,7 +227,7 @@ body {
 }
 .button--wayra:hover {
 	color: #fff;
-	border-color: #59315F;
+	border-color: #9C0D38;
 }
 .button--wayra.button--inverted:hover {
 	color: #3f51b5;
@@ -235,7 +235,7 @@ body {
 }
 .button--wayra:hover::before {
 	opacity: 1;
-	background-color: #59315F;
+	background-color: #9C0D38;
 	-webkit-transform: rotate3d(0, 0, 1, 0deg);
 	transform: rotate3d(0, 0, 1, 0deg);
 	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
