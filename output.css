@@ -3739,9 +3739,9 @@ textarea {
 }
 
 .woocommerce-breadcrumb {
-	background-color: rgba(89, 49, 95, 1);
+	background-color: #9C0D38;
 	color: #fff;
-	font-size: clamp(16px, 21px, 24px);
+	font-size: 16px;
 	padding: 5px 15px;
 }
 

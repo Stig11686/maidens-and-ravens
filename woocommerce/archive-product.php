@@ -31,7 +31,7 @@
             <div class="product-category-image bg-white">
                 <img class="mix-blend-multiply" src="<?php echo $thumbnail_url; ?>" alt="<?php echo esc_html($category->name); ?>">
             </div>  
-            <p><a href="<?php echo $category->link; ?>"><?php echo $category->name; ?></a></p>
+            <p><a href="<?php echo get_term_link( $category ); ?>"><?php echo $category->name; ?></a></p>
             
         </div>
 
