@@ -63,7 +63,7 @@ $fields = get_fields($product_id);
         </div>
     </div>
 </div>
-<div class="flex flex-col gap-16 bg-purple-900 text-white">
+<div class="flex flex-col gap-16 text-white">
 
     <div class="w-full flex flex-col">
         you might also like
@@ -71,7 +71,7 @@ $fields = get_fields($product_id);
     <div class="">
         <?php 
             include(get_template_directory(  ) . '/template-parts/testimonials.php');
-            include(get_template_directory(  ) . '/template-parts/global/faqs.php');
+            include(get_template_directory(  ) . '/template-parts/faqs.php');
         ?>
     </div>
 
