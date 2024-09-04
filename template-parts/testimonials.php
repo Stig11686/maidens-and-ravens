@@ -12,6 +12,7 @@
 <?php if ($testimonials->have_posts()) : ?>
 <div class="bg-neutral py-24">
   <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
+    <h2 class="text-white font-bold text-3xl lg:text-5xl">Thoughts from my lovely brides</h2>
     <div class="mx-auto mt-16 sm:mt-20 lg:mx-0 w-full">
       <div class="flex flex-col gap-8">
         <div class="testimonial-slider">
