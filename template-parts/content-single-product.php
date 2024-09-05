@@ -65,9 +65,7 @@ $fields = get_fields($product_id);
 </div>
 <div class="flex flex-col gap-16">
 
-    <div class="w-full flex flex-col">
-        you might also like
-    </div>
+    <?php include(get_template_directory(  ) . '/woocommerce/template-parts/related-products.php'); ?>
     <div class="">
         <?php 
             include(get_template_directory(  ) . '/template-parts/testimonials.php');
