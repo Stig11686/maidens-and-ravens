@@ -1,7 +1,6 @@
 const faqs = document.querySelector('.faqs-section');
 
 const faqAccordion = function faqAccordion() {
-  console.log('normals faqs function running');
   if (!faqs) return;
 
   faqs.addEventListener('click', function(e) {

@@ -23,7 +23,7 @@ $fields = get_fields($product_id);
                         <?php
                             foreach ($fields as $field_name => $value) :
                         ?>
-                            <div class="py-4 shadow-lg px-6 w-full bg-primary">
+                            <div class="py-4 shadow-lg px-6 w-full bg-secondary">
                                 <div class="flex justify-between items-center self-stretch faq-btn py-4">
                                     <div class="flex items-center gap-2">
                                         <div class="flex flex-col justify-center text-xl font-bold text-white capitalize"><?php echo ucwords(str_replace('_', ' ', $field_name)); ?></div>

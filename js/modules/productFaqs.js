@@ -1,7 +1,6 @@
 const faqs = document.querySelector('#custom-product-info .product-details-section');
 
 const productFields = function productFields() {
-    console.log('product function running');
   if (!faqs) return;
 
   faqs.addEventListener('click', function(e) {
