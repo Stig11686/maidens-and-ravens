@@ -1,4 +1,4 @@
-const faqs = document.querySelector('#custom-product-info .faqs-section');
+const faqs = document.querySelector('#custom-product-info .product-details-section');
 
 const productFields = function productFields() {
     console.log('product function running');
