@@ -22,6 +22,7 @@ $fields = get_fields($product_id);
                         <div class="cursor-pointer flex flex-col items-center max-w-7xl mx-auto faq">
                         <?php
                             foreach ($fields as $field_name => $value) :
+                                if($value):
                         ?>
                             <div class="py-4 shadow-lg px-6 w-full bg-neutral">
                                 <div class="flex justify-between items-center self-stretch faq-btn">
@@ -51,6 +52,7 @@ $fields = get_fields($product_id);
                                 </div>
                             </div>
                         <?php
+                        endif;
                         endforeach;
                         endif;
                         ?>
