@@ -9,7 +9,7 @@
 include(get_template_directory(  ) . '/template-parts/global/header.php');
 include(get_template_directory(  ) . '/template-parts/global/internal-hero.php');
 ?>
-<div class="flex flex-col md:flex-row md:gap-8 py-16 px-4 max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:gap-8 py-8 px-4 max-w-7xl mx-auto">
 
 		<main id="primary" class="site-main">
 
