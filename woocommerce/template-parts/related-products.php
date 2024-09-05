@@ -28,8 +28,8 @@ if ( ! empty( $product_cats ) && ! is_wp_error( $product_cats ) ) {
     // Only display the section if there are related products
     if ( $related_products->have_posts() ) {
         ?>
-        <div class="w-full flex flex-col">
-            <h2>You might also like</h2>
+        <div class="w-full flex flex-col py-16 px-4 lg:px-6">
+            <h2 class="text-3xl lg:text-5xl">You might also like</h2>
 
             <div class="related-products grid grid-cols-1 md:grid-cols-3 gap-8">
                 <?php
