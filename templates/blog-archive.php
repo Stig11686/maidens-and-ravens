@@ -21,7 +21,7 @@
 
     // The Loop
     if ($query->have_posts()) :
-        echo '<ul id="blog-archive" role="list" class="flex flex-wrap md:flex-row flex-col w-full max-w-full mx-auto lg:max-w-none mb:mb-12 mb-20">';
+        echo '<ul id="blog-archive" role="list" class="flex flex-wrap md:flex-row flex-col w-full max-w-full mx-auto lg:max-w-none md:mb-12 mb-20">';
         while ($query->have_posts()) :
             $query->the_post();
             get_template_part('/template-parts/content-posts');
