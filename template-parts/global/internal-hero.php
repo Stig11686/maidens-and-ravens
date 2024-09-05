@@ -1,6 +1,6 @@
 <?php
 
-$title = is_archive() ? get_the_archive_title() : the_title();
+$title = is_archive() ? get_the_archive_title() : get_the_title();
 ?>
 
 <div class="bg-transparent">
