@@ -6,7 +6,7 @@ $current_product_id = $product->get_id();
 $product_cats = wp_get_post_terms( $current_product_id, 'product_cat' );
 
 if ( ! empty( $product_cats ) && ! is_wp_error( $product_cats ) ) {
-    // Get the first category of the product
+    // Get the category IDs of the product
     $cat_ids = wp_list_pluck( $product_cats, 'term_id' );
 
     // Query related products from the same category
@@ -35,18 +35,9 @@ if ( ! empty( $product_cats ) && ! is_wp_error( $product_cats ) ) {
                 <?php
                 while ( $related_products->have_posts() ) {
                     $related_products->the_post();
-                    global $product;
-                    ?>
-                    <div class="product-item">
-                        <a href="<?php the_permalink(); ?>">
-                            <?php if ( has_post_thumbnail() ) : ?>
-                                <img src="<?php echo get_the_post_thumbnail_url( get_the_ID(), 'full' ); ?>" alt="<?php the_title(); ?>">
-                            <?php endif; ?>
-                            <h3><?php the_title(); ?></h3>
-                            <p><?php echo $product->get_price_html(); ?></p>
-                        </a>
-                    </div>
-                    <?php
+
+                    // Use your existing product template part
+                    get_template_part( 'template-parts/content', 'product' );
                 }
                 wp_reset_postdata();
                 ?>
