@@ -20,7 +20,7 @@
 
     <!-- to do  - filters? -->
 
-    <div class="flex flex-col md:flex-row flex-wrap items-center max-w-7xl mx-auto gap-y-8">
+    <!-- <div class="flex flex-col md:flex-row flex-wrap items-center max-w-7xl mx-auto gap-y-8">
         <?php
             if (!empty($product_categories)):
                 foreach($product_categories as $category):
@@ -39,9 +39,11 @@
         endforeach;
         endif;
     ?>
-            
-
-    </div>
+        
+    </div> -->
+    <?php
+    include(get_template_directory(  ) . '/template-parts/home/categories.php');
+    ?>
 
 
 <?php
