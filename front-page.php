@@ -7,6 +7,7 @@
     include(get_template_directory() . '/template-parts/home/categories.php');
     ?>
 </div>
+<?php
     include(get_template_directory() . '/template-parts/home/brand-promise.php');
     include(get_template_directory() . '/template-parts/home/founder-story.php');
    
