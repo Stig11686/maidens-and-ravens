@@ -11,7 +11,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
             <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-48">
                 <h2 class="text-5xl font-bold text-black">View our <span class="text-primary">Dresses</span></h2>
 
-                <div class="mt-6 space-y-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:space-y-0">
+                <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <?php
                     $index=0;
                         foreach ( $categories as $category ) :
@@ -23,7 +23,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                         <div class="image-frame-container">
                             <div class="flex flex-col">
                                 <div>
-                                    <img src="<?php echo $image; ?>" alt="<?php echo esc_html( $category->name ); ?>" class="content-image">
+                                    <img src="<?php echo $image; ?>" alt="<?php echo esc_html( $category->name ); ?>" class="aspect-4/3 content-image">
                                 </div>
                                 <div>
                                     <img src=<?php echo get_template_directory_uri(  ) . "/img/frame.png" ?> alt="Frame Image" class="frame-image" aria-hidden="true">

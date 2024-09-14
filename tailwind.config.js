@@ -24,6 +24,9 @@ module.exports = {
       zIndex: {
         '1': '1',
       },
+      aspectRatio: {
+        '3/4': '3/4',
+      },
       colors: {
         'primary': '#9C0D38',
         'secondary': '#F9D6F7',
