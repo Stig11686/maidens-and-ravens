@@ -1898,6 +1898,9 @@ html {
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
+.aspect-3\/4 {
+  aspect-ratio: 3/4;
+}
 .h-56 {
   height: 14rem;
 }

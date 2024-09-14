@@ -23,7 +23,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                         <div class="image-frame-container">
                             <div class="flex flex-col">
                                 <div>
-                                    <img src="<?php echo $image; ?>" alt="<?php echo esc_html( $category->name ); ?>" class="aspect-4/3 content-image">
+                                    <img src="<?php echo $image; ?>" alt="<?php echo esc_html( $category->name ); ?>" class="aspect-3/4 content-image">
                                 </div>
                                 <div>
                                     <img src=<?php echo get_template_directory_uri(  ) . "/img/frame.png" ?> alt="Frame Image" class="frame-image" aria-hidden="true">
