@@ -15,7 +15,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
         <p class="text-wrap text-lg">I am passionate in doing what I can to offer brides a truly sustainable choice. My treasure trove dresses are brand new, sample dresses that are already in existence and deserve the opportunity of being worn! They are my most eco-friendly option and are the most budget friendly too. By choosing one of these dresses, you are able to purchase a dress off the peg with no environmental impact at all.</p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="<?php echo esc_url(get_theme_mod('core_values_image_1')); ?>" alt="lorem10" class="w-full h-full object-cover">
+        <img src="<?php echo esc_url(get_theme_mod('core_values_image_1')); ?>" alt="picture of a sustainable, affordable wedding dress" class="w-full h-full object-cover">
       </div>
     </div>
   </section>
@@ -23,7 +23,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="<?php echo esc_url(get_theme_mod('core_values_elizabeth_image_2')); ?>" alt="lorem10" class="w-full h-full object-cover">
+        <img src="<?php echo esc_url(get_theme_mod('core_values_elizabeth_image_2')); ?>" alt="picture of a wedding dress that makes the wearer feel fabulous!" class="w-full h-full object-cover">
       </div>
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <h2 class="mb-0 leading-120 text-3xl lg:text-5xl text-primary">Affordable Dresses that make you feel like a Queen!</h2>
@@ -42,7 +42,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
         <p class="text-wrap text-lg">The commissioned for you collection is exactly that. I have deliberately selected designers who are as sustainable as possible. They do not mass produce and only make dresses, by hand, to order. These designers enable me to offer customisable dresses and to be fully inclusive by being available to order in every size without restrictions.  </p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="<?php echo esc_url(get_theme_mod('core_values_image_3')); ?>" alt="lorem10" class="w-full h-full object-cover">
+        <img src="<?php echo esc_url(get_theme_mod('core_values_image_3')); ?>" alt="picture of a wedding dress that been created and customised" class="w-full h-full object-cover">
       </div>
     </div>
   </section>
@@ -50,7 +50,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="<?php echo esc_url(get_theme_mod('core_values_image_4')); ?>" alt="lorem10" class="w-full h-full object-cover">
+        <img src="<?php echo esc_url(get_theme_mod('core_values_image_4')); ?>" alt="a picture of a bride enjoying their time at maidens and ravens" class="w-full h-full object-cover">
       </div>
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <h2 class="mb-0 leading-120 text-3xl lg:text-5xl text-primary">A Welcoming, Personal Experience You'll Never Forget</h2>
