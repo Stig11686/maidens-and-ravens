@@ -27,7 +27,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
       </div>
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <h2 class="mb-0 leading-120 text-3xl lg:text-5xl text-primary">Affordable Dresses that make you feel like a Queen!</h2>
-        <h3>Affordable dresses that don’t compromise on style or quality!</h3>
+        <h3 class="text-xl lg:text-2xl font-bold">Affordable dresses that don’t compromise on style or quality!</h3>
         <p class="text-wrap text-lg">Getting married can be a very expensive affair and costs can quickly mount! I wanted to focus my collection on dresses that didn’t compromise on style or quality but also didn’t break the bank! I cater to budgets starting from £200 to £2000 max, helping everyone to feel like a queen on their wedding day! </p>
         <p class="text-wrap text-lg">I love quirky, interesting dresses - vintage inspired, colour and alternative styles especially dark and gothic. That said, I also adore classic looks, beautiful princess ballgowns and clean contemporary styles. I have a real eye for what suits you and will suggest different options to adapt a dress to work better for you. </p>
       </div>
@@ -59,6 +59,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
       </div>
     </div>
   </section>
+  
 
 <?php 
   include(get_template_directory() . '/template-parts/testimonials.php');
