@@ -30,9 +30,6 @@ $fields = get_fields($product_id);
                         endforeach;
                         endif;
                         ?>
-                        </div>
-                    </dl>
-                </div>
                 
                     <a href="#contact" class="relative button button--wayra border border-1 rounded border-primary px-4 py-5 outline outline-1 -outline-offset-2 outline-primary uppercase m-0" data-text="Click to Book an Appointment">Click to Book an Appointment</a>
             </div>
