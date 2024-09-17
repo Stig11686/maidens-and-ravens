@@ -17,40 +17,14 @@ $fields = get_fields($product_id);
                 if($fields):
                 ?>
                 
-                <div id="custom-product-info" class="">
-                    <dl class="mt-10 space-y-6 divide-y divide-gray-900/10 product-details-section">
-                        <div class="cursor-pointer flex flex-col items-center max-w-7xl mx-auto faq">
+                    <ul>
                         <?php
                             foreach ($fields as $field_name => $value) :
                                 if($value):
                         ?>
-                            <div class="py-4 shadow-lg px-6 w-full bg-neutral">
-                                <div class="flex justify-between items-center self-stretch faq-btn">
-                                    <div class="flex items-center gap-2">
-                                        <div class="flex flex-col justify-center text-xl font-bold capitalize"><?php echo ucwords(str_replace('_', ' ', $field_name)); ?></div>
-                                    </div>
-                                    <div>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <g clip-path="url(#clip0_85_3056)">
-                                            <mask id="mask0_85_3056" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="20" height="20">
-                                                <path d="M10.5714 10.5714V2H13.4286V10.5714H22V13.4286H13.4286V22H10.5714V13.4286H2V10.5714H10.5714Z" fill="black"/>
-                                            </mask>
-                                            <g mask="url(#mask0_85_3056)">
-                                                <rect width="24" height="24" fill="#F9D6F7"/>
-                                            </g>
-                                            </g>
-                                            <defs>
-                                            <clipPath id="clip0_85_3056">
-                                                <rect width="24" height="24" fill="white"/>
-                                            </clipPath>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="flex flex-col items-start self-stretch gap-8 faq-content box-content capitalize text-lg">
-                                    <?php echo $value; ?>
-                                </div>
-                            </div>
+                                <li class=""><span class="front-bold"><?php echo ucwords(str_replace('_', ' ', $field_name)); ?> :</span> <?php echo $value; ?></li>
+                                    
+                                    
                         <?php
                         endif;
                         endforeach;
