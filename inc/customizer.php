@@ -81,6 +81,11 @@ function theme_customiser_settings($wp_customize){
 		'priority' => 30,
 	));
 
+	$wp_customize->add_section('core_values_section', array(
+		'title' => __('Core Values', 'handp24'),
+		'priority' => 30,
+	));
+
 	$wp_customize->add_setting('elizabeth_image_1', array(
 		'default' => '',
 		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
@@ -180,6 +185,50 @@ function theme_customiser_settings($wp_customize){
 		'label' => __('Select Image 3', 'maidens-and-ravens'),
 		'section' => 'the_boutique_section',
 		'settings' => 'boutique_image_3',
+	)));
+
+	$wp_customize->add_setting('core_values_image_1', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, ' core_values_image_control_1', array(
+		'label' => __('Select Image 1', 'maidens-and-ravens'),
+		'section' => 'core_values_section',
+		'settings' => 'core_values_image_1',
+	)));
+
+	$wp_customize->add_setting('core_values_image_2', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, ' core_values_image_control_2', array(
+		'label' => __('Select Image 2', 'maidens-and-ravens'),
+		'section' => 'core_values_section',
+		'settings' => 'core_values_image_2',
+	)));
+
+	$wp_customize->add_setting('core_values_image_3', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, ' core_values_image_control_3', array(
+		'label' => __('Select Image 3', 'maidens-and-ravens'),
+		'section' => 'core_values_section',
+		'settings' => 'core_values_image_3',
+	)));
+
+	$wp_customize->add_setting('core_values_image_4', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, ' core_values_image_control_4', array(
+		'label' => __('Select Image 4', 'maidens-and-ravens'),
+		'section' => 'core_values_section',
+		'settings' => 'core_values_image_4',
 	)));
 }
 add_action('customize_register', 'theme_customiser_settings');
