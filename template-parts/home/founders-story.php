@@ -5,6 +5,6 @@
 
         I am Elizabeth and I am the founder, owner and award winning bridal mavern at Maidens and Ravens, here in the historic city of York. </p>
           <p class="font-bold text-xl leading-normal">Did you know that a mavern is someone who is experienced and knowledgeable? Seemed like a fitting name for me...</p>
-          <a href="/elizabeths-story" class="rounded-md bg-primary px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Read More About Me</a>
+          <a href="/elizabeths-story" class="rounded-md bg-primary px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Read More About Me</a>
       </div>
     </div>
