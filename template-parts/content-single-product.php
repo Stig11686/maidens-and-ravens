@@ -17,7 +17,7 @@ $fields = get_fields($product_id);
                 if($fields):
                 ?>
                 
-                    <ul>
+                    <ul class="list-none">
                         <?php
                             foreach ($fields as $field_name => $value) :
                                 if($value):
