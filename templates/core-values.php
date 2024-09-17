@@ -11,7 +11,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <h2 class="mb-0 leading-120 text-3xl lg:text-5xl text-primary">Caring for the Planet</h2>
-        <h3>Wedding dresses that won’t cost the earth.</h3>
+        <h3 class="text-xl lg:text-2xl font-bold">Wedding dresses that won’t cost the earth.</h3>
         <p class="text-wrap text-lg">I am passionate in doing what I can to offer brides a truly sustainable choice. My treasure trove dresses are brand new, sample dresses that are already in existence and deserve the opportunity of being worn! They are my most eco-friendly option and are the most budget friendly too. By choosing one of these dresses, you are able to purchase a dress off the peg with no environmental impact at all.</p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
