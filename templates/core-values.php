@@ -38,7 +38,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <h2 class="mb-0 leading-120 text-3xl lg:text-5xl text-primary">Creating your Dream Dress - Whatever your Style</h2>
-        <h3>Bespoke designed dresses at affordable prices. </h3>
+        <h3 class="text-xl lg:text-2xl font-bold">Bespoke designed dresses at affordable prices. </h3>
         <p class="text-wrap text-lg">The commissioned for you collection is exactly that. I have deliberately selected designers who are as sustainable as possible. They do not mass produce and only make dresses, by hand, to order. These designers enable me to offer customisable dresses and to be fully inclusive by being available to order in every size without restrictions.  </p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
@@ -54,7 +54,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
       </div>
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <h2 class="mb-0 leading-120 text-3xl lg:text-5xl text-primary">A Welcoming, Personal Experience You'll Never Forget</h2>
-        <h3>Everyone is welcome at Maidens and Ravens</h3>
+        <h3 class="text-xl lg:text-2xl font-bold">Everyone is welcome at Maidens and Ravens</h3>
         <p class="text-wrap text-lg">I have a real passion for helping all of my brides. I am a people person and am genuinely committed to helping you find a dress which makes you feel beautiful and meets your dreams! I firmly believe there is a dress for every bride (and a bride for every dress!). I love brides of every age, shape, size and colour. I pride myself in being fully inclusive and making your appointments as relaxed and enjoyable as possible.</p>
       </div>
     </div>
