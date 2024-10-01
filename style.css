@@ -1225,7 +1225,7 @@ textarea {
 	right: 0;
 	top: 0;
   }
-  .tcg-modal--active{
+  .tcg-modal .modal-active{
 	display: flex;
   }
   .tcg-modal .modal-inner {
