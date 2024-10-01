@@ -12,7 +12,7 @@ include(get_template_directory(  ) . '/template-parts/global/internal-hero.php')
                 <h2 class="text-3xl lg:text-5xl">Testimonials</h2>
                 <p class="text-lg">If you've had a great experience with us, we'd love to share it here - get in touch via email if you're happy to share your story!</p>
 
-                <div class="mx-auto grid grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col">
+                <div class="mx-auto grid grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none">
 
                     <?php
                     /* Start the Loop */
