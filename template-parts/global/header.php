@@ -6,5 +6,6 @@
     <?php wp_head(); ?>
 </head>
 <body class="">
+    <?php include(get_template_directory(  ) . '/template-parts/global/book-appt-modal.php'); ?>
     <?php include(get_template_directory(  ) . '/template-parts/nav.php'); ?>
     
