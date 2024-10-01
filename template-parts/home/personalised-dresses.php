@@ -8,7 +8,7 @@
     </div>
     <div class="w-full lg:w-4/12 p-6">
         <div class="flex flex-col gap-2 sticky top-8 py-16 lg:py-0">
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4 items-start">
                 <h2 class="text-3xl lg:text-5xl leading-normal">Create your <span class="text-primary">Dream Dress</span></h2>
                 <p class="text-lg leading-normal">Looking for something you just cannot find? Then let us help you create your dream dress! Whatever you want, we want to help you achieve it!</p>
                 <p class="text-lg leading-normal">You may like to purchase a base dress from our Treasure Trove and together we can explore ways in which it could be adapted into your perfect dress.  Using my years of bridal expertise and creative imagination, I can show you how sleeves can be added or removed, necklines changed, and details altered or added to adapt your chosen dress into the look you have envisioned.  This is a cost-effective way of creating a completely unique dress without the nasty price tag!</p>
