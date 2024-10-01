@@ -8,15 +8,21 @@ const displayModal = function displayModal() {
 
     btn = e.target.closest('[data-modal]');
 
+    console.log(btn);
+
     if ( !btn ) { return; }
 
     e.preventDefault();
 
     dataAttr = btn.hasAttribute('data-modal') ? btn.getAttribute('data-modal') : null;
 
+    console.log(dataAttr);
+
     if ( !dataAttr ) { return; }
 
     modal = document.querySelector(`#${dataAttr}`);
+
+    console.log(modal);
 
     if ( !modal ) { return; }
 
