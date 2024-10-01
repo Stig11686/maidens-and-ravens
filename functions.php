@@ -246,6 +246,7 @@ function add_custom_post_types(){
 			'new_item' => 'New FAQ'
 			) ,
 			'public' => true,
+			'has_archive' => true,
 		)
 	);
 }
