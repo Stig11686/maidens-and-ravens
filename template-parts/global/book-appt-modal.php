@@ -3,8 +3,8 @@
     <button class="modal-close" aria-label="close" data-modal="book-appt-modal"></button>
     <div class="modal-content px-6 md:px-8">
       <div class="center-content">
-        <h2 class="text-center mt-8">Booking Request Form</h2>
-        <p class="text-center mb-8">To book an appointment, please fill in this form, and I will get back to you within 1 working day with suitable dates and times!</p>
+        <h2 class="text-center mt-8 text-3xl">Booking Request Form</h2>
+        <p class="text-center mb-8 text-lg">To book an appointment, please fill in this form, and I will get back to you within 1 working day with suitable dates and times!</p>
       </div>
       <div class="">
           <?php echo do_shortcode('[contact-form-7 id="080a418" title="Enquiry Form"]'); ?>
