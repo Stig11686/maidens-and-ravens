@@ -10,7 +10,8 @@
 <?php
     include(get_template_directory() . '/template-parts/home/brand-promise.php');
     include(get_template_directory() . '/template-parts/home/founder-story.php');
-   
+    include(get_template_directory() . '/template-parts/global/values-banner.php');
+
     
     include(get_template_directory() . '/template-parts/home/the-experience.php');
     include(get_template_directory() . '/template-parts/home/personalised-dresses.php');
