@@ -6,7 +6,6 @@
     <div class="px-4 max-w-7xl mx-auto">
       <section id="faqs">
         <div class="py-16 sm:py-16 lg:px-8">
-            <div class="mx-auto max-w-3xl px-6 sm:py-16 lg:px-8">
             <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
                 <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Frequently Asked Questions</h2>
                 <dl class="mt-10 space-y-6 divide-y divide-gray-900/10 faqs-section">
@@ -45,7 +44,6 @@
                 <?php endwhile; ?>
             </div>
             </dl>
-        </div>
         </div>
       </div>
      </section>
