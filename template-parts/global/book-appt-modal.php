@@ -1,4 +1,4 @@
-<div id="book-appt-modal" class="modal">
+<div id="book-appt-modal" class="tcg-modal">
   <div class="modal-inner bg-white rounded shadow-secondary">
     <button class="modal-close" aria-label="close" data-modal="send-info"></button>
     <div class="modal-content px-6 md:px-8">

@@ -3952,7 +3952,7 @@ textarea {
 .woocommerce-breadcrumb a {
 	text-decoration: underline;
 }
-.modal{
+.tcg-modal{
 	display: none;
 	height: 100%;
 	width: 100%;
@@ -3963,7 +3963,7 @@ textarea {
 	position: fixed;
 	z-index: 1200;
   }
-  .modal::before{
+  .tcg-modal::before{
 	--tw-bg-opacity: 1;
 	background-color: rgb(112 112 112 / var(--tw-bg-opacity));
 	opacity: 0.25;
@@ -3975,10 +3975,10 @@ textarea {
 	right: 0;
 	top: 0;
   }
-  .modal--active{
+  .tcg-modal--active{
 	display: flex;
   }
-  .modal .modal-inner {
+  .tcg-modal .modal-inner {
 	overflow: auto;
 	position: relative;
 	width: calc(100% - 32px);
@@ -3989,11 +3989,11 @@ textarea {
 	transition: opacity ease-in 3s;
   }
   @media (min-width: 641px) {
-	.modal .modal-inner {
+	.tcg-modal .modal-inner {
 	  margin: 0 auto;
 	}
   }
-  .modal .modal-close {
+  .tcg-modal .modal-close {
 	background: transparent;
 	border: 0;
 	outline: 0;
@@ -4005,7 +4005,7 @@ textarea {
 	width: 16px;
 	height: 16px;
   }
-  .modal .modal-close::before{
+  .tcg-modal .modal-close::before{
 	--tw-bg-opacity: 1;
 	background-color: rgb(112 112 112 / var(--tw-bg-opacity));
 	content: "";
@@ -4019,7 +4019,7 @@ textarea {
 	height: 2px;
 	transform: rotate(225deg);
   }
-  .modal .modal-close::after{
+  .tcg-modal .modal-close::after{
 	--tw-bg-opacity: 1;
 	background-color: rgb(112 112 112 / var(--tw-bg-opacity));
 	content: "";
