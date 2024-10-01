@@ -299,10 +299,19 @@ add_action('wp_ajax_load_more_posts', 'load_more_posts');
 add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
 
 function remove_archive_prefix($title) {
-    if ( is_category() || is_tag() || is_tax() || is_post_type_archive() ) {
+    if ( is_category() ) {
         $title = single_cat_title( '', false );
+    } elseif ( is_tag() ) {
+        $title = single_tag_title( '', false );
+    } elseif ( is_tax() ) {
+        $title = single_term_title( '', false );
+    } elseif ( is_post_type_archive() ) {
+        $title = post_type_archive_title( '', false );
+    } elseif ( is_author() ) {
+        $title = get_the_author();
+    } elseif ( is_date() ) {
+        $title = get_the_date();
     }
     return $title;
 }
 add_filter( 'get_the_archive_title', 'remove_archive_prefix' );
-
