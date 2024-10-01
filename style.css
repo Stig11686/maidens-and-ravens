@@ -118,7 +118,7 @@ body {
     inset: 10rem 5rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
     margin: auto 0 auto auto;
     list-style: none;
 }
@@ -141,7 +141,7 @@ body {
 }
 
 #side-menu #mega-menu-primary > li.mega-menu-item  a.mega-menu-link  {
-	font-size: clamp(16px, 2vw, 30px);
+	font-size: clamp(16px, 1.4vw, 30px);
 	padding: 0;
 	line-height: 1.6;
 }
