@@ -1,14 +1,7 @@
 <?php
-/**
- * The template for displaying archive pages
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package maidens_and_ravens
- */
 
 include(get_template_directory(  ) . '/template-parts/global/header.php');
-include(get_template_directory(  ) . '/template-parts/home/hero.php');
+include(get_template_directory(  ) . '/template-parts/global/internal-hero.php');
 ?>
 
 	<main id="primary" class="site-main text-white">
