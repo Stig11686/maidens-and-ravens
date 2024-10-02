@@ -112,6 +112,12 @@ function theme_customiser_settings($wp_customize){
 		'settings' => 'personalised_dress_1',
 	)));
 
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'personalised_dress_control_2', array(
+		'label' => __('Select Image 2', 'maidens-and-ravens'),
+		'section' => 'personalised_dresses_section',
+		'settings' => 'personalised_dress_2',
+	)));
+
 	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'elizabeth_image_control_1', array(
 		'label' => __('Select Image 1', 'maidens-and-ravens'),
 		'section' => 'about_elizabeth_section',
