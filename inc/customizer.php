@@ -91,6 +91,27 @@ function theme_customiser_settings($wp_customize){
 		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
 	));
 
+	$wp_customize->add_setting('personalised_dress_1', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_setting('personalised_dress_2', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_setting('personalised_dress_3', array(
+		'default' => '',
+		'sanitize_callback' => 'esc_url_raw', // Sanitize callback to ensure valid URL
+	));
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'personalised_dress_control_1', array(
+		'label' => __('Select Image 1', 'maidens-and-ravens'),
+		'section' => 'personalised_dresses_section',
+		'settings' => 'personalised_dress_1',
+	)));
+
 	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'elizabeth_image_control_1', array(
 		'label' => __('Select Image 1', 'maidens-and-ravens'),
 		'section' => 'about_elizabeth_section',
