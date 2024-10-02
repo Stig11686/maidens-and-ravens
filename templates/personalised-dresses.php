@@ -32,7 +32,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
         <p class="text-wrap leading-200 text-md">Alternatively, many of our Commissioned for You dresses by Louisa Jackson can be made in different colours and with changes to sleeves, skirt type, trains or little details to create a dress that is as unique and individual as you would like and unlike a completely bespoke dress, these new to order dresses still sit comfortably below £2,000.</p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="<?php echo esc_html($image2); ?>" alt="lorem10" class="w-full h-full object-cover">
+        <img src="<?php echo esc_html($image2); ?>" alt="Personalised Dresses from Maidens and Ravens in York" class="w-full h-full object-cover">
       </div>
     </div>
   </section>
