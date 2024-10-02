@@ -4112,6 +4112,11 @@ textarea {
     padding-right: 2rem;
   }
 
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .md\:pt-48 {
     padding-top: 12rem;
   }
