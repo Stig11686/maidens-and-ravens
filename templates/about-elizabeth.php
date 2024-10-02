@@ -6,7 +6,6 @@ include(get_template_directory() . '/template-parts/global/header.php');
 include(get_template_directory() . '/template-parts/global/internal-hero.php');
 
  ?>
-  <!--Our Approach -->
   <section class="flex pt-12 lg:pt-36 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
@@ -24,7 +23,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
 
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
-      <div class="bg-grey-2000 h-full w-full lg:w-6/12 order-2 lg:order-1">
+      <div class="bg-grey-2000 h-full w-full lg:w-6/12 order-2">
         <img src="<?php echo esc_url(get_theme_mod('elizabeth_image_2')); ?>" alt="lorem10" class="w-full h-full object-cover">
       </div>
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
