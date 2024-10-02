@@ -1947,6 +1947,9 @@ html {
 .h-screen {
   height: 100vh;
 }
+.h-40 {
+  height: 10rem;
+}
 .max-h-20 {
   max-height: 5rem;
 }
@@ -1976,6 +1979,9 @@ html {
 }
 .w-screen {
   width: 100vw;
+}
+.w-40 {
+  width: 10rem;
 }
 .max-w-2xl {
   max-width: 42rem;
