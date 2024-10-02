@@ -14,7 +14,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
 <section class="flex pt-12 px-6 xl:px-48 lg:px-24 mx-auto pb-8">
     <div class="flex flex-col lg:flex-row lg:justify-between  gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
-        <h2 class="mb-0 leading-120 text-3xl lg:text-5xl">The Boutique</h2>
+        <h2 class="mb-0 leading-120 text-3xl lg:text-5xl text-primary">The Boutique</h2>
         <p class="leading-200 text-md">Our pretty little boutique is situated on historic Micklegate, through the bar walls, which is the traditional entrance to the city of York.</p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
@@ -27,7 +27,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:order-2 lg:w-5/12">
-        <h2 class="mb-0 text-3xl lg:text-5xl">Maidens and Ravens, Micklegate, York</h2>
+        <h2 class="mb-0 text-3xl lg:text-5xl text-primary">Maidens and Ravens, Micklegate, York</h2>
         <p class="text-wrap text-md">The street is described as one of the most handsome in York and is home to beautiful book shops and lovely places to eat.  It has been used as a location for many period dramas due to the Georgian building and cobbles.</p>
         <p>Small but perfectly formed, we are definitely not your traditional grey and white bridal shop! Our vibe is colourful and pretty, a bit vintage, with a little darkness and lots of curious details. We do not do minimalist style here! </p>
         <p>When you book in with us you will have this beautiful space completely to yourself and our aim is to give you an experience to remember.
@@ -44,7 +44,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto"> 
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
-          <h2 class="mb-0 text-3xl lg:text-5xl">Information and Accessibility</h2>
+          <h2 class="mb-0 text-3xl lg:text-5xl text-primary">Information and Accessibility</h2>
           <p class="text-wrap text-md">Our nearest carpark is Nunnery Lane, and we are about 5 minutes’ walk from the train station.
               If driving from out of York, the park and ride is advisable.
           </p>
