@@ -1718,6 +1718,9 @@ html {
 .visible {
   visibility: visible;
 }
+.fixed {
+  position: fixed;
+}
 .absolute {
   position: absolute;
 }
@@ -1779,6 +1782,12 @@ html {
 }
 .top-\[calc\(100\%-13rem\)\] {
   top: calc(100% - 13rem);
+}
+.bottom-10 {
+  bottom: 2.5rem;
+}
+.right-10 {
+  right: 2.5rem;
 }
 .isolate {
   isolation: isolate;
