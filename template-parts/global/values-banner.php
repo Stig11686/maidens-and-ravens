@@ -1,6 +1,6 @@
 <div class="w-full bg-primary grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 py-8">
     <div class="flex flex-col gap-2">
-        <div><img src="" aria-hidden="true" class="w-full h-full object-cover" /></div>
+        <div><img src="<?php echo get_template_directory_uri(  ) . '/img/icons/dress-wedding-dress.svg' ?>" aria-hidden="true" class="w-full h-full object-cover" /></div>
         <div class="text-white text-center">
             <h4 class="font-bold">No Size Limit</h4> 
             <p>We have dresses for everyone!</p>
