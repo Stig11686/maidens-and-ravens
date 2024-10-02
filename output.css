@@ -1950,6 +1950,9 @@ html {
 .h-40 {
   height: 10rem;
 }
+.h-36 {
+  height: 9rem;
+}
 .max-h-20 {
   max-height: 5rem;
 }
@@ -1982,6 +1985,9 @@ html {
 }
 .w-40 {
   width: 10rem;
+}
+.w-36 {
+  width: 9rem;
 }
 .max-w-2xl {
   max-width: 42rem;
