@@ -23,10 +23,10 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
 
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
-      <div class="bg-grey-2000 h-full w-full lg:w-6/12 order-2">
+      <div class="bg-grey-2000 h-full w-full lg:w-6/12">
         <img src="<?php echo esc_url(get_theme_mod('elizabeth_image_2')); ?>" alt="lorem10" class="w-full h-full object-cover">
       </div>
-      <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
+      <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12 order-2">
         <p class="text-wrap text-lg">Believe it or not I am a practising family lawyer and since 2003 I have been helping people with their divorces, financial arrangements and children matters. All very rewarding but over the years I missed a creative outlet.</p>
         <p class="text-wrap text-lg">Like many of you, I became an avid watcher of Don't tell the Bride (I loved when the groom had to choose the dress) and Say Yes to the Dress. I started imagining how wonderful it would be to own my own bridal boutique and help brides find their perfect dresses.</p>
         <p class="text-wrap text-lg">I opened my original Reloved boutique in 2019 and after winning the Best Bridal Boutique in Yorkshire in 2022, 2023 ... I became fully independent in 2024 choosing to better adapt my boutique to my brides.</p>
