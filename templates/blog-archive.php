@@ -26,7 +26,7 @@
             $query->the_post();
             get_template_part('/template-parts/content-posts');
         endwhile;
-        echo '</ul><button id="read-more-posts" class="justify-self-center self-center text-white bg-primary rounded px-4 py-2">Read More</button>';
+        // echo '</ul><button id="read-more-posts" class="justify-self-center self-center text-white bg-primary rounded px-4 py-2">Read More</button>';
         
         // Restore original Post Data
         wp_reset_postdata();
