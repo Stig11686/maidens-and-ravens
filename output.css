@@ -2618,7 +2618,7 @@ html {
 
 body {
 	counter-reset: section;
-	background-image: url('./img/vintage-paper-background.jpg');
+	background-image: url('https://img.freepik.com/free-vector/grey-weathered-parchment_53876-86278.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
