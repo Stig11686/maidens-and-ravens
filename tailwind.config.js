@@ -28,7 +28,7 @@ module.exports = {
         '3/4': '3/4',
       },
       colors: {
-        'primary': '#9C0D38',
+        'primary': '##431A2F',
         'secondary': '#F9D6F7',
         'neutral': '#EBCBB4',
         'gray': {
