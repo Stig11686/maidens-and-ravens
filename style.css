@@ -117,19 +117,20 @@ body {
 	right: 50%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1521px) {
 	#side-menu .side-menu {
 		right: 30%;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1271px) {
 	#side-menu .side-menu {
-		right: 10%;
+		right: 13%;
 	}
 }
 
-@media screen and (max-width: 568px) {
+
+@media screen and (max-width: 1270px) {
 	#side-menu .side-menu {
 		right: 0;
 	}
