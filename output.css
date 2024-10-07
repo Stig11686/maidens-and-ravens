@@ -2675,6 +2675,28 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+	#side-menu .side-menu {
+		right: 30%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#side-menu .side-menu {
+		right: 10%;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	#side-menu .side-menu {
+		right: 0;
+	}
 }
 
 #side-menu #mega-menu-wrap-primary #mega-menu-primary {

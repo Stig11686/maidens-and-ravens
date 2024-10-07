@@ -24,7 +24,7 @@
             <div class="relative h-full">
 
                 <div class="overlay opacity-0 absolute top-0 left-0 w-full h-full bg-black/20"></div>
-                <div class="absolute inset-0 side-menu z-10 bg-white h-full w-full">
+                <div class="absolute side-menu z-10 bg-white h-full w-full">
                     <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'absolute inset-32 flex flex-col gap-8 my-auto list-none ml-auto', 'add_li_class' => 'text-black px-4')); ?>
                 </div>
             </div>    
