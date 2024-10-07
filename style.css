@@ -119,7 +119,19 @@ body {
 
 
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 999px) {
+	#side-menu .side-menu {
+		right: 50%;
+	}
+}
+
+@media screen and (max-width: 799px) {
+	#side-menu .side-menu {
+		right: 40%;
+	}
+}
+
+@media screen and (max-width: 650px) {
 	#side-menu .side-menu {
 		right: 0;
 	}
