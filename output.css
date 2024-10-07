@@ -2678,16 +2678,11 @@ body {
 	top: 0;
 	left: 0;
 	bottom: 0;
-	right: 50%;
+	right: 30%;
 }
 
-@media screen and (min-width: 1521px) {
-	#side-menu .side-menu {
-		right: 30%;
-	}
-}
 
-@media screen and (min-width: 1271px) {
+@media screen and (max-width: 1521px) {
 	#side-menu .side-menu {
 		right: 13%;
 	}
