@@ -2681,23 +2681,11 @@ body {
 	right: 60%;
 }
 
-@media screen and (max-width: 1700px) {
-	#side-menu .side-menu {
-		right: 40%;
-	}
-}
-
-
-@media screen and (max-width: 1521px) {
-	#side-menu .side-menu {
-		right: 13%;
-	}
-}
 
 
 @media screen and (max-width: 1270px) {
 	#side-menu .side-menu {
-		right: 60%;
+		right: 0;
 	}
 }
 
