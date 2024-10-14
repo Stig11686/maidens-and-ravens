@@ -9,7 +9,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
     <div class="relative">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:max-w-none">
-                <h2 class="text-5xl font-bold text-black">View our <span class="text-primary">Dresses</span></h2>
+                <h2 class="text-5xl text-black">View our <span class="text-primary">Dresses</span></h2>
 
                 <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <?php
