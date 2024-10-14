@@ -2596,8 +2596,8 @@ html {
 }
 
 @font-face {
-	font-family: 'beauty-of-the-beast';
-	src: url(./fonts/beauty-of-the-beast/Beautyofthebeast-1VpM.ttf);
+	font-family: 'enchant';
+	src: url(./fonts/enchant/Enchant.ttf);
 }
 
 @keyframes fadein {
@@ -2829,11 +2829,11 @@ body {
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
-	font-family: 'Alice' sans-serif;
+	font-family: 'Montserrat' sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Quintessential', sans-serif;
+	font-family: 'enchant', sans-serif;
 }
 
 /* Sections
