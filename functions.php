@@ -101,6 +101,8 @@ function maidens_and_ravens_setup() {
 			'flex-height' => true,
 		)
 	);
+
+	add_theme_support( 'woocommerce' );
 	
 }
 add_action( 'after_setup_theme', 'maidens_and_ravens_setup' );
