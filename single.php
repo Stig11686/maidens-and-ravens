@@ -31,10 +31,6 @@ include(get_template_directory(  ) . '/template-parts/global/internal-hero.php')
 
 		</main><!-- #main -->
 
-
-	<?php
-	get_sidebar();
-	?>
 </div>
 <?php
 include(get_template_directory(  ) . '/template-parts/global/footer.php');
