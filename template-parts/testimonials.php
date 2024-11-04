@@ -9,7 +9,7 @@
     );
 
 ?>
-<div id="testimonials" class="bg-white py-16" class="testimonial__slider">
+<div id="testimonials" class="bg-white py-16 testimonial__slider">
 <?php while ($testimonials->have_posts()) : $testimonials->the_post(); ?>
 
 <div class="bg-white pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32">
