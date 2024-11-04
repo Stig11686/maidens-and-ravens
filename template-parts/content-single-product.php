@@ -18,6 +18,8 @@
 defined( 'ABSPATH' ) || exit;
 
 global $product;
+$product_id = $product->get_id();
+$fields = get_fields($product_id);
 
 /**
  * Hook: woocommerce_before_single_product.
@@ -58,7 +60,20 @@ if ( post_password_required() ) {
 		 * @hooked WC_Structured_Data::generate_product_data() - 60
 		 */
 		do_action( 'woocommerce_single_product_summary' );
-		?>
+
+        if($fields):
+        ?>
+        <ul class="list-none">
+            <?php
+                foreach ($fields as $field_name => $value) :
+                    if($value):
+            ?>
+                    <li class=""><span class="font-bold"><?php echo ucwords(str_replace('_', ' ', $field_name)); ?> :</span> <?php echo $value; ?></li>
+                    <?php
+                     endif;
+                endforeach;
+        endif;
+        ?>
 	</div>
 
 	<?php
