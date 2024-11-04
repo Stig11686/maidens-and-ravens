@@ -316,7 +316,7 @@ add_filter( 'get_the_archive_title', 'remove_archive_prefix' );
 
 
 function add_custom_product_class($classes) {
-    if (is_product()) {
+    if (is_product() || is_singular() ) {
         $classes[] = 'mx-auto max-w-7xl px-4 my-16'; // Add your class here
     }
     return $classes;

@@ -31,7 +31,7 @@
 
 	<?php maidens_and_ravens_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="entry-content flex flex-col gap-4">
 		<?php
 		the_content(
 			sprintf(
@@ -57,7 +57,4 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php maidens_and_ravens_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
