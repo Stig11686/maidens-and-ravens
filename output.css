@@ -1923,6 +1923,9 @@ html {
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
+.aspect-\[4\/6\] {
+  aspect-ratio: 4/6;
+}
 .h-20 {
   height: 5rem;
 }
