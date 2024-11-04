@@ -55,10 +55,15 @@
             <h3 class="text-sm font-semibold leading-6 ">About Us</h3>
             <ul role="list" class="mt-6 space-y-2 list-none">
               <li>
-                <p class="text-sm leading-6  ">Address Here</a>
+                <p class="text-sm leading-6  ">
+                  140 Micklegate <br>
+                  York<br>
+                  YO1 6JX<br>  
+
+              </p>
               </li>
               <li>
-                <p class="text-sm leading-6  ">Phone Number Here</P>
+                <p class="text-sm leading-6  "><a href="tel:01904 331541">01904 331541</a></p>
               </li>
             </ul>
           </div>
