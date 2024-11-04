@@ -103,6 +103,8 @@ function maidens_and_ravens_setup() {
 	);
 
 	add_theme_support( 'woocommerce' );
+	add_theme_support( 'wc-product-gallery-slider' );
+    add_theme_support( 'wc-product-gallery-lightbox' );
 	
 }
 add_action( 'after_setup_theme', 'maidens_and_ravens_setup' );
