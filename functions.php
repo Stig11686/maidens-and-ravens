@@ -151,6 +151,22 @@ add_action( 'widgets_init', 'maidens_and_ravens_widgets_init' );
  * Enqueue scripts and styles.
  */
 function maidens_and_ravens_scripts() {
+
+
+	if (is_product()) {
+		// Load WooCommerce styles and scripts manually
+		wp_enqueue_script('zoom');
+		wp_enqueue_script('photoswipe-ui-default');
+		wp_enqueue_script('photoswipe');
+		wp_enqueue_script('wc-single-product');
+	}
+
+	if ( class_exists( 'WooCommerce' ) ) {
+		wp_enqueue_style( 'woocommerce-general' );
+		wp_enqueue_style( 'woocommerce-layout' );
+		wp_enqueue_style( 'woocommerce-smallscreen' );
+	}
+	
 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Alice&family=Quintessential&display=swap');
 	wp_enqueue_style( 'aos-css', 'https://unpkg.com/aos@2.3.1/dist/aos.css');
 	wp_enqueue_style( 'maidens-and-ravens-style', get_template_directory_uri() . '/output.css', array(), null );
