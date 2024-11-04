@@ -62,7 +62,7 @@
     </div>
   </div>
   <div class="w-full lg:w-1/2 order-1 lg:order-2">
-    <img src="<?php echo get_template_directory_uri(  ) . '/img/our-promise-2.jpg'; ?>" alt="Our promise on sustainability" class="h-full w-full object-cover">
+    <img src="<?php wp_get_attachment_image_src( 652, 'full' ) ; ?>" alt="Our promise on sustainability" class="h-full w-full object-cover">
   </div>
 </div>
 
