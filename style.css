@@ -1191,7 +1191,7 @@ textarea {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100% !important;
     z-index: 1;
     pointer-events: none; /* Prevent the frame image from interfering with mouse events */
 }
