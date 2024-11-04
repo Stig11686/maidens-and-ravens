@@ -322,3 +322,5 @@ function add_custom_product_class($classes) {
     return $classes;
 }
 add_filter('post_class', 'add_custom_product_class');
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
+
