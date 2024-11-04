@@ -18,7 +18,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Alice', 'sans-serif'],
-      'beauty': ['beauty-of-the-beast']
+      'beauty': ['enchant']
     },
     extend: {
       zIndex: {
