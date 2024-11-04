@@ -40,4 +40,6 @@
 
 <?php endwhile; ?>
 
+<div class="dots"></div>
+
 </div>
