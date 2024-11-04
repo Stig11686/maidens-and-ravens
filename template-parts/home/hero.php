@@ -1,11 +1,3 @@
-<?php
-$hero_image_1 = get_theme_mod('hero_image_1');
-$hero_image_2 = get_theme_mod('hero_image_2');
-$arch_image = get_theme_mod('arch_image');
-$box_image = get_theme_mod('box_image');
-$tagline = get_bloginfo( 'description');
-?>
-
 <div class="bg-transparent">
   <!-- <header class="absolute inset-x-0 top-0 z-50 bg-neutral">
     <?php include(get_template_directory() . '/template-parts/nav.php');?>
@@ -23,12 +15,6 @@ $tagline = get_bloginfo( 'description');
                 <a href="/the-boutique" class="text-lg font-semibold leading-6 text-white">About our Boutique <span class="green-arrow"></span></a>
             </div>
           </div>
-        </div>
-        <div class="hidden lg:block lg:absolute left-7 bottom-[-7rem] rounded-t-full border-8 border-white h-[53%] w-[17%]">
-          <img src="<?php echo esc_url($arch_image); ?>" alt="" class="object-cover h-full w-full rounded-t-full">
-        </div>
-        <div class="hidden lg:block lg:absolute rotate-12 right-20 bottom-[-4rem] border-2 border-l-8 border-white h-[33%] w-[17%]">
-          <img src="<?php echo esc_url($box_image); ?>" alt="" class="object-cover h-full w-full">
         </div>
       </div>
     </div>
