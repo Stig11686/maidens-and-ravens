@@ -1917,6 +1917,9 @@ html {
 .aspect-\[1155\/678\] {
   aspect-ratio: 1155/678;
 }
+.aspect-\[2\/1\] {
+  aspect-ratio: 2/1;
+}
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
@@ -1925,6 +1928,9 @@ html {
 }
 .h-24 {
   height: 6rem;
+}
+.h-32 {
+  height: 8rem;
 }
 .h-56 {
   height: 14rem;
@@ -2064,9 +2070,6 @@ html {
 .items-center {
   align-items: center;
 }
-.justify-start {
-  justify-content: flex-start;
-}
 .justify-center {
   justify-content: center;
 }
@@ -2098,6 +2101,13 @@ html {
 .gap-x-6 {
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
+}
+.gap-x-8 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.gap-y-10 {
+  row-gap: 2.5rem;
 }
 .gap-y-8 {
   row-gap: 2rem;
@@ -2229,6 +2239,10 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
@@ -2283,6 +2297,9 @@ html {
 }
 .stroke-white {
   stroke: #fff;
+}
+.stroke-white\/20 {
+  stroke: rgb(255 255 255 / 0.2);
 }
 .object-cover {
   -o-object-fit: cover;
@@ -2392,6 +2409,9 @@ html {
 .pt-4 {
   padding-top: 1rem;
 }
+.pt-6 {
+  padding-top: 1.5rem;
+}
 .pt-8 {
   padding-top: 2rem;
 }
@@ -2439,6 +2459,10 @@ html {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-xl\/8 {
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 .text-xs {
   font-size: 0.75rem;
@@ -3981,6 +4005,10 @@ textarea {
     justify-content: center;
   }
 
+  .sm\:gap-y-8 {
+    row-gap: 2rem;
+  }
+
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -4015,6 +4043,10 @@ textarea {
     padding-bottom: 6rem;
   }
 
+  .sm\:pt-12 {
+    padding-top: 3rem;
+  }
+
   .sm\:pt-24 {
     padding-top: 6rem;
   }
@@ -4025,6 +4057,11 @@ textarea {
 
   .sm\:text-center {
     text-align: center;
+  }
+
+  .sm\:text-2xl\/9 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
   }
 
   .sm\:text-4xl {
@@ -4056,6 +4093,11 @@ textarea {
   }
 }
   @media (min-width: 768px) {
+
+  .md\:-mx-8 {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
 
   .md\:mb-10 {
     margin-bottom: 2.5rem;
@@ -4342,10 +4384,6 @@ textarea {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .lg\:leading-loose {
-    line-height: 2;
-  }
 }
   @media (min-width: 1280px) {
 
@@ -4358,6 +4396,10 @@ textarea {
     margin-right: 0px;
   }
 
+  .xl\:-mb-8 {
+    margin-bottom: -2rem;
+  }
+
   .xl\:mt-0 {
     margin-top: 0px;
   }
@@ -4366,20 +4408,62 @@ textarea {
     display: grid;
   }
 
+  .xl\:aspect-auto {
+    aspect-ratio: auto;
+  }
+
+  .xl\:w-96 {
+    width: 24rem;
+  }
+
   .xl\:max-w-none {
     max-width: none;
+  }
+
+  .xl\:flex-auto {
+    flex: 1 1 auto;
+  }
+
+  .xl\:flex-none {
+    flex: none;
   }
 
   .xl\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:items-stretch {
+    align-items: stretch;
+  }
+
   .xl\:gap-8 {
     gap: 2rem;
+  }
+
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .xl\:px-48 {
     padding-left: 12rem;
     padding-right: 12rem;
+  }
+
+  .xl\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .xl\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .xl\:pb-32 {
+    padding-bottom: 8rem;
   }
 }
