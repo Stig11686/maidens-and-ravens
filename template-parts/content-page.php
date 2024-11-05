@@ -16,7 +16,7 @@
 
 	<?php maidens_and_ravens_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="entry-content flex flex-col gap-8">
 		<?php
 		the_content();
 
