@@ -16,7 +16,7 @@ include(get_template_directory(  ) . '/template-parts/global/header.php');
 include(get_template_directory(  ) . '/template-parts/global/internal-hero.php');
 ?>
 
-	<main id="primary" class="site-main max-w-7xl mx-auto flex flex-col gap-8">
+	<main id="primary" class="site-main max-w-7xl mx-auto flex flex-col gap-8 px-4">
 
 		<?php
 		while ( have_posts() ) :
