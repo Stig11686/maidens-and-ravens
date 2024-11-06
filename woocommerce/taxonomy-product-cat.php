@@ -12,6 +12,7 @@
 
             <?php
             do_action( 'woocommerce_archive_description' );
+            echo do_shortcode('[tf_product_filter id="filters"]');
             ?>
         </div>
 
