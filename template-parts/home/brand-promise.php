@@ -14,7 +14,7 @@
       <p class="text-xl leading-normal">More and more couples are making conscious decisions to be more environmentally friendly when planning their weddings. Bridalwear is one of the biggest culprits when it comes to fast fashion, not to mention the polluting effects of the production process so it is one area where you can make a difference.  At Maidens & Ravens I am passionate in doing what I can to offer my brides a truly sustainable choice. 
       </p>
 
-      <a href="/core-values" class="rounded-md bg-primary px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Read About My Values</a>
+      <a href="/core-values" class="rounded-md bg-gray-900 px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Read About My Values</a>
       <!-- <p class="text-xl leading-normal">We are passionate in doing what we can to offer our brides a truly
         sustainable choice. Our treasure trove dresses are already in existence
         and deserve the opportunity of being worn!  They are our most eco-
