@@ -1,7 +1,7 @@
 <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
     <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6">
-        <blockquote class="text-gray-900">
-            <p><?php the_content(); ?></p>
+        <blockquote class="text-gray-900 text-sm/6">
+            <?php the_content(); ?>
         </blockquote>
         <figcaption class="mt-6 flex items-center gap-x-4">
             <?php 
