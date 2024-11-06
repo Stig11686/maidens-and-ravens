@@ -35,10 +35,12 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
     </div>
   </section>
 
-  <?php
-  include(get_template_directory(  ) . '/template-parts/global/values-banner.php');
+  <section class="py-32">
+    <?php
+    include(get_template_directory(  ) . '/template-parts/global/values-banner.php');
 
-  ?>
+    ?>
+  </section>
 
   <section class="flex pt-4 pb-16 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
