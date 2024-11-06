@@ -19,7 +19,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) :
                             $image = wp_get_attachment_url( $thumbnail_id );
                             $category_link = get_term_link( $category );
                     ?>
-                    <div data-aos="fade-up-right" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-delay="<?php echo ($index * 100) + 500; ?>" class="bg-white/4 group relative flex flex-col items-start self-stretch bg-transparent rounded-lg overflow-hidden pb-6 shadow-2xl">
+                    <div data-aos="fade-up-right" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-delay="<?php echo ($index * 100) + 500; ?>" class="bg-white-opacity group relative flex flex-col items-start self-stretch bg-transparent rounded-lg overflow-hidden pb-6 shadow-2xl">
                         <div class="image-frame-container">
                             <div class="flex flex-col">
                                 <div>

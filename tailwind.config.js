@@ -31,6 +31,8 @@ module.exports = {
         'primary': '#431A2F',
         'secondary': '#F9D6F7',
         'neutral': '#EBCBB4',
+        'white-opacity': 'rgba(255, 255, 255, 0.4)',
+        'grey-opacity': 'rgba(156, 156, 156, 0.4)',
         'gray': {
           '100': '#cccccc'
         }
