@@ -9,12 +9,12 @@
 <div class="w-full flex flex-col lg:flex-row ">
   
   <div class="relative w-full lg:w-1/2 flex items-center justify-center bg-primary order-2 lg:order-1">
-    <div data-aos="zoom-in" data-aos-duration="1500" data-easing="ease-in" class="flex flex-col gap-8 text-white px-6 lg:px-32 py-32">
+    <div data-aos="zoom-in" data-aos-duration="1500" data-easing="ease-in" class="flex flex-col items-start gap-8 text-white px-6 lg:px-32 py-32">
       <h2 class="text-4xl font-bold">Sustainable <span class="uppercase text-neutral">Style</span></h2>
       <p class="text-xl leading-normal">More and more couples are making conscious decisions to be more environmentally friendly when planning their weddings. Bridalwear is one of the biggest culprits when it comes to fast fashion, not to mention the polluting effects of the production process so it is one area where you can make a difference.  At Maidens & Ravens I am passionate in doing what I can to offer my brides a truly sustainable choice. 
       </p>
 
-      <a href="/core-values" class="rounded-md bg-gray-900 px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Read About My Values</a>
+      <a href="/core-values" class="rounded-md bg-white px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-primary shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Read About My Values</a>
       <!-- <p class="text-xl leading-normal">We are passionate in doing what we can to offer our brides a truly
         sustainable choice. Our treasure trove dresses are already in existence
         and deserve the opportunity of being worn!  They are our most eco-
