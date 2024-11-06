@@ -6,13 +6,14 @@ include(get_template_directory() . '/template-parts/global/header.php');
 include(get_template_directory() . '/template-parts/global/internal-hero.php');
 
  ?>
-  <!--Our Approach -->
+
   <section class="flex pt-12 lg:pt-36 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <h2 class="mb-0 leading-120 text-3xl lg:text-5xl text-primary">Caring for the Planet</h2>
         <h3 class="text-xl lg:text-2xl font-bold">Wedding dresses that won’t cost the earth.</h3>
         <p class="text-wrap text-lg">I am passionate in doing what I can to offer brides a truly sustainable choice. My treasure trove dresses are brand new, sample dresses that are already in existence and deserve the opportunity of being worn! They are my most eco-friendly option and are the most budget friendly too. By choosing one of these dresses, you are able to purchase a dress off the peg with no environmental impact at all.</p>
+        <p class="text-wrap text-lg">My commissioned for you collection is exactly that. I understand that sample dresses are not everyone’s cup of tea, and that some of you may prefer to purchase a new dress for many different reasons. I therefore made a conscious decision to only stock two designers that hold similar values to myself. Both aim to be as sustainable as possible and they do not mass produce but simply make dresses to order to a bride’s requirements. They enable Maidens & Ravens to be fully inclusive by being available to order in any size and with custom features.</p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
         <img src="<?php echo esc_url(get_theme_mod('core_values_image_1')); ?>" alt="picture of a sustainable, affordable wedding dress" class="w-full h-full object-cover">
@@ -33,6 +34,11 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
       </div>
     </div>
   </section>
+
+  <?php
+  include(get_template_directory(  ) . '/template-parts/global/values-banner.php');
+
+  ?>
 
   <section class="flex pt-4 pb-16 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
@@ -62,7 +68,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
   
 
 <?php 
-  include(get_template_directory(  ) . '/template-parts/global/values-banner.php');
+  
   include(get_template_directory() . '/template-parts/testimonials.php');
   include(get_template_directory(  ) . '/template-parts/global/footer.php'); 
 ?>
