@@ -1,5 +1,5 @@
 <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-    <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6">
+    <figure class="rounded-2xl bg-gray-50/4 p-8 text-sm/6">
         <blockquote class="text-gray-900 text-sm/6">
             <?php the_content(); ?>
         </blockquote>
