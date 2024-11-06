@@ -157,29 +157,6 @@ function theme_customiser_settings($wp_customize){
 		'settings' => 'elizabeth_image_4',
 	)));
 
-	// Setting for Arch Image
-	$wp_customize->add_setting('arch_image', array(
-		'default' => '',
-		'sanitize_callback' => 'esc_url_raw',
-	));
-
-	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'arch_image_control', array(
-		'label' => __('Select Arch Image', 'handp24'),
-		'section' => 'home_page_section',
-		'settings' => 'arch_image',
-	)));
-
-	// Setting for Arch Image
-	$wp_customize->add_setting('box_image', array(
-		'default' => '',
-		'sanitize_callback' => 'esc_url_raw',
-	));
-
-	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'box_image_control', array(
-		'label' => __('Select Box Image', 'handp24'),
-		'section' => 'home_page_section',
-		'settings' => 'box_image',
-	)));
 
 	$wp_customize->add_setting('boutique_image_1', array(
 		'default' => '',

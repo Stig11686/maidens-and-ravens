@@ -24,7 +24,7 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
   <section class="flex pt-4 pb-8 px-6 xl:px-48 lg:px-24 mx-auto ">
     <div class="flex flex-col lg:flex-row lg:justify-between  items-start gap-10 max-w-7xl mx-auto">
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
-        <img src="<?php echo esc_url(get_theme_mod('core_values_elizabeth_image_2')); ?>" alt="picture of a wedding dress that makes the wearer feel fabulous!" class="w-full h-full object-cover">
+        <img src="<?php echo esc_url(get_theme_mod('core_values_image_2')); ?>" alt="picture of a wedding dress that makes the wearer feel fabulous!" class="w-full h-full object-cover">
       </div>
       <div class="flex flex-col items-start gap-8 decorated-list lg:w-5/12">
         <h2 class="mb-0 leading-120 text-3xl lg:text-5xl text-primary">Affordable Dresses that make you feel like a Queen!</h2>
