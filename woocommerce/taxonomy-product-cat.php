@@ -2,6 +2,7 @@
 
     include(get_template_directory() . '/template-parts/global/header.php');
     include(get_template_directory() . '/woocommerce/template-parts/archive-hero.php');
+    do_action( 'woocommerce_before_main_content' );
 
 ?>
     <div class="max-w-7xl mx-auto py-16 px-6">
