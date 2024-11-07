@@ -67,25 +67,7 @@ $categories = get_terms([
 ]);
 
 if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) {
-    echo '<div class="product-categories grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">';
-
-    foreach ( $categories as $category ) {
-        $category_link = get_term_link( $category );
-        $thumbnail_id = get_term_meta( $category->term_id, 'thumbnail_id', true );
-        $image = $thumbnail_id ? wp_get_attachment_url( $thumbnail_id ) : wc_placeholder_img_src();
-        ?>
-        
-        <div class="product-category-container lg:w-1/4 px-4 flex flex-col gap-2 items-start">
-            <div class="product-category-image bg-white">
-                <img class="mix-blend-multiply" src="<?php echo $image; ?>" alt="<?php echo esc_html($category->name); ?>">
-            </div>  
-            <p><a href="<?php echo get_term_link( $category ); ?>"><?php echo $category->name; ?></a></p>
-        </div>
-
-        <?php
-    }
-
-    echo '</div>';
+    include(get_template_directory(  ) . '/template-parts/home/categories.php');
 
 	/**
 	 * Hook: woocommerce_after_shop_loop.
