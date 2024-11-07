@@ -340,7 +340,8 @@ function filter_products_query($query) {
 
     foreach ($acf_fields as $field) {
         // Check if the field is present in the GET request and not empty
-        if (!empty($_GET[$field])) {
+		$field_name = $field['name'];
+        if (!empty($_GET[$field_name])) {
             // Add the field to the meta query
             $meta_query[] = [
                 'key' => $field,
