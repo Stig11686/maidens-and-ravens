@@ -17,6 +17,20 @@
             </a>
         </h3>
         <p class="text-base text-md leading-normal"><?php echo get_the_excerpt(); ?></p>
+        <p class="text-sm text-primary">
+        <?php
+            $product = wc_get_product( get_the_ID() ); // Get the current product
+            if ( $product ) :
+        ?>
+                <p class="text-sm text-primary">
+                    <?php
+                
+                        echo $product->get_price_html(); // Outputs formatted price with currency symbol
+                    ?>
+                </p>
+            <?php
+            endif;
+            ?>
         <a href="<?php the_permalink(); ?>" class="rounded-md bg-primary px-3.5 py-2.5 text-sm md:text-lg lg:text-xl font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">View Dress</a>
     </div>
 </div>
