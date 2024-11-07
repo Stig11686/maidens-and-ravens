@@ -2349,6 +2349,10 @@ html {
 .bg-white-opacity {
   background-color: rgba(255, 255, 255, 0.4);
 }
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }

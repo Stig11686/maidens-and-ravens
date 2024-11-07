@@ -35,7 +35,11 @@ if ( !$fields ) {
                 }
             }
             ?>
-            <button class="text-white bg-primary p-4 rounded" type="submit">Filter</button>
+            <div class="flex gap-2">
+                <button class="text-white bg-primary p-4 rounded" type="submit">Filter</button>
+                <!-- Clear Filters Button -->
+                <a href="<?php echo esc_url( $category_url ); ?>" class="text-white bg-gray-500 p-4 rounded">Clear Filters</a>
+            </div>
         </form>
     </div>
 <?php
