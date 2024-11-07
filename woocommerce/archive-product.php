@@ -58,14 +58,6 @@ do_action( 'woocommerce_shop_loop_header' );
 	do_action( 'woocommerce_before_shop_loop' );
 
 
-// Display product categories in place of the product loop
-$categories = get_terms([
-    'taxonomy'   => 'product_cat',
-    'orderby'    => 'name',
-    'order'      => 'ASC',
-    'hide_empty' => true,
-]);
-
 if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) {
     include(get_template_directory(  ) . '/template-parts/home/categories.php');
 
