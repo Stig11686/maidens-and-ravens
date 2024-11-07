@@ -14,7 +14,7 @@
             <?php
             do_action( 'woocommerce_archive_description' );
             do_action( 'woocommerce_before_shop_loop' );
-            echo do_shortcode('[tf_product_filter id="filters"]');
+            echo do_shortcode('[yith_wcan_filters slug="default-preset"]');
             ?>
         </div>
 
