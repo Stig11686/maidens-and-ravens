@@ -17,8 +17,6 @@
 
 defined( 'ABSPATH' ) || exit;
 
-get_header( 'shop' );
-
 include(get_template_directory(  ) . '/template-parts/global/header.php');
 include(get_template_directory(  ) . '/woocommerce/template-parts/archive-hero.php');
 ?>
@@ -27,6 +25,8 @@ include(get_template_directory(  ) . '/woocommerce/template-parts/archive-hero.p
     <h1 class="mb-0 text-3xl md:text-4xl lg:text-5xl text-black font-bold">Get Inspired</h1>
     <p class="text-xl lg:text-2xl font-bold">Decide whether you are a maiden or a raven! Browse your dream dresses, and get in touch to see them in person!</p>
 </div>
+
+<div class="px-4 max-w-7xl mx-auto">
 
 <?php
 
@@ -105,7 +105,10 @@ do_action( 'woocommerce_after_main_content' );
  */
 do_action( 'woocommerce_sidebar' );
 
+?>
+</div>
 
+<?php
 
     include(get_template_directory(  ) . '/template-parts/global/footer.php');
 ?>
