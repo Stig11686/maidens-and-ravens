@@ -17,7 +17,7 @@
             </a>
         </h3>
         <p class="text-base text-md leading-normal"><?php echo get_the_excerpt(); ?></p>
-        <p class="text-sm text-primary">
+
         <?php
             $product = wc_get_product( get_the_ID() ); // Get the current product
             if ( $product ) :
