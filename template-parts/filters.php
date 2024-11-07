@@ -9,9 +9,9 @@ if ( !$fields ) {
 } else {
 
 ?>
-    <div class="flex flex-col gap-6 border-1 border-gray-200 p-6">
+    <div class="flex flex-col gap-6 border-1 border-gray-200 w-full">
         <h3 class="text-2xl lg:text-3xl">Filters</h3>
-    <form class="flex flex-col w-full items-start" id="product-filters" method="get" action="<?php echo esc_url( $category_url ); ?>">
+    <form class="flex flex-col w-full items-start gap-2" id="product-filters" method="get" action="<?php echo esc_url( $category_url ); ?>">
 <?php
     foreach ( $fields as $field ) {
         if ( in_array( $field['type'], array('checkbox', 'select', 'radio') ) ) {
