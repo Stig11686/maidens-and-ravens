@@ -22,7 +22,7 @@ if ( woocommerce_product_loop() ) {
 
     woocommerce_product_loop_start();
 
-    if ( wc_get_loop_prop( 'total' ) ) {
+    
     ?>
     <div class="flex flex-col gap-6 md:flex-row">
         <div class="w-full md:w-3/12">
@@ -31,6 +31,7 @@ if ( woocommerce_product_loop() ) {
         <div class="w-full md:w-9/12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
         <?php
+        if ( wc_get_loop_prop( 'total' ) ) {
             while ( have_posts() ) {
                 the_post();
 
