@@ -324,3 +324,34 @@ function add_custom_product_class($classes) {
 add_filter('post_class', 'add_custom_product_class');
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
 
+
+add_action( 'pre_get_posts', 'custom_filter_products' );
+function custom_filter_products( $query ) {
+    if ( is_product_category() && $query->is_main_query() && !is_admin() ) {
+        $meta_query = array();
+
+        if ( function_exists('get_field_objects') ) {
+            $fields = get_field_objects('product'); // Get all ACF fields for the product post type
+            
+            if ( $fields ) {
+                foreach ( $fields as $field_key => $field ) {
+                    $field_name = $field['name'];
+
+                    // Check if a filter is set for this field in the query string
+                    if ( !empty($_GET[$field_name]) ) {
+                        $meta_query[] = array(
+                            'key'     => $field_name,
+                            'value'   => $_GET[$field_name],
+                            'compare' => '=', // Exact match for single selection
+                        );
+                    }
+                }
+            }
+        }
+
+        if ( !empty( $meta_query ) ) {
+            $query->set( 'meta_query', $meta_query );
+        }
+    }
+}
+
