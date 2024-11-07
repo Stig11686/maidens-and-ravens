@@ -61,6 +61,8 @@ do_action( 'woocommerce_shop_loop_header' );
 // Display product categories in place of the product loop
 $categories = get_terms([
     'taxonomy'   => 'product_cat',
+    'orderby'    => 'name',
+    'order'      => 'ASC',
     'hide_empty' => true,
 ]);
 
@@ -73,12 +75,11 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) {
         $image = $thumbnail_id ? wp_get_attachment_url( $thumbnail_id ) : wc_placeholder_img_src();
         ?>
         
-        <div class="product-category-card">
-            <a href="<?php echo esc_url( $category_link ); ?>">
-                <img src="<?php echo esc_url( $image ); ?>" alt="<?php echo esc_attr( $category->name ); ?>" class="w-full h-64 object-cover mb-4 rounded-lg" />
-                <h2 class="text-2xl font-bold text-center"><?php echo esc_html( $category->name ); ?></h2>
-            </a>
-            <p class="text-center"><?php echo esc_html( $category->description ); ?></p>
+        <div class="product-category-container lg:w-1/4 px-4 flex flex-col gap-2 items-start">
+            <div class="product-category-image bg-white">
+                <img class="mix-blend-multiply" src="<?php echo $thumbnail_url; ?>" alt="<?php echo esc_html($category->name); ?>">
+            </div>  
+            <p><a href="<?php echo get_term_link( $category ); ?>"><?php echo $category->name; ?></a></p>
         </div>
 
         <?php
