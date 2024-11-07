@@ -19,6 +19,15 @@ defined( 'ABSPATH' ) || exit;
 
 include(get_template_directory(  ) . '/template-parts/global/header.php');
 include(get_template_directory(  ) . '/woocommerce/template-parts/archive-hero.php');
+
+/**
+ * Hook: woocommerce_before_main_content.
+ *
+ * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
+ * @hooked woocommerce_breadcrumb - 20
+ * @hooked WC_Structured_Data::generate_website_data() - 30
+ */
+do_action( 'woocommerce_before_main_content' );
 ?>
 
 <div class="flex flex-col items-start gap-4 max-w-7xl mx-auto px-4 py-24">
@@ -29,15 +38,6 @@ include(get_template_directory(  ) . '/woocommerce/template-parts/archive-hero.p
 <div class="px-4 max-w-7xl mx-auto">
 
 <?php
-
-/**
- * Hook: woocommerce_before_main_content.
- *
- * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
- * @hooked woocommerce_breadcrumb - 20
- * @hooked WC_Structured_Data::generate_website_data() - 30
- */
-do_action( 'woocommerce_before_main_content' );
 
 /**
  * Hook: woocommerce_shop_loop_header.
