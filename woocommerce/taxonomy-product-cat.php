@@ -14,7 +14,6 @@
             <?php
             do_action( 'woocommerce_archive_description' );
             do_action( 'woocommerce_before_shop_loop' );
-            include(get_template_directory(  ) . '/template-parts/filters.php');
             ?>
         </div>
 
@@ -25,22 +24,26 @@ if ( woocommerce_product_loop() ) {
 
     if ( wc_get_loop_prop( 'total' ) ) {
     ?>
+    <div class="flex flex-col gap-6 md:flex-row">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <?php
+            while ( have_posts() ) {
+                the_post();
 
-    <?php
-        while ( have_posts() ) {
-            the_post();
+                /**
+                 * Hook: woocommerce_shop_loop.
+                 */
+                do_action( 'woocommerce_shop_loop' );
 
-            /**
-             * Hook: woocommerce_shop_loop.
-             */
-            do_action( 'woocommerce_shop_loop' );
+                get_template_part( 'template-parts/content', 'product' );
+            }
+        ?>
+        </div>
+        <div>
+            <?php include(get_template_directory(  ) . '/template-parts/filters.php'); ?>
+        </div>
 
-            get_template_part( 'template-parts/content', 'product' );
-        }
-    ?>
-    </div>
     <?php
 
     }
