@@ -77,7 +77,7 @@ if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) {
         
         <div class="product-category-container lg:w-1/4 px-4 flex flex-col gap-2 items-start">
             <div class="product-category-image bg-white">
-                <img class="mix-blend-multiply" src="<?php echo $thumbnail_url; ?>" alt="<?php echo esc_html($category->name); ?>">
+                <img class="mix-blend-multiply" src="<?php echo $image; ?>" alt="<?php echo esc_html($category->name); ?>">
             </div>  
             <p><a href="<?php echo get_term_link( $category ); ?>"><?php echo $category->name; ?></a></p>
         </div>
