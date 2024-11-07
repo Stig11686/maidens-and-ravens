@@ -325,7 +325,7 @@ add_filter('post_class', 'add_custom_product_class');
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
 
 
-add_action( 'pre_get_posts', 'custom_filter_products' );
+add_action( 'pre_get_posts', 'filter_products_query' );
 function filter_products_query($query) {
     if (is_admin() || !$query->is_main_query() || !$query->is_tax('product_cat')) {
         return;
