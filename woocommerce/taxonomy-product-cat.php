@@ -13,14 +13,13 @@
 
             <?php
             do_action( 'woocommerce_archive_description' );
+            do_action( 'woocommerce_before_shop_loop' );
             echo do_shortcode('[tf_product_filter id="filters"]');
             ?>
         </div>
 
 <?php
 if ( woocommerce_product_loop() ) {
-    echo do_shortcode('[tf_product_filter id="filters"]');
-
 
     woocommerce_product_loop_start();
 
