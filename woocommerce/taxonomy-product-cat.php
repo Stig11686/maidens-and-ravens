@@ -18,6 +18,8 @@
 
 <?php
 if ( woocommerce_product_loop() ) {
+    echo do_shortcode('[tf_product_filter id="filters"]');
+
 
     woocommerce_product_loop_start();
 
