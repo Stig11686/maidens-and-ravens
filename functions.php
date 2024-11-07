@@ -344,8 +344,8 @@ function filter_products_query($query) {
         if (!empty($_GET[$field_name])) {
             // Add the field to the meta query
             $meta_query[] = [
-                'key' => $field,
-                'value' => sanitize_text_field($_GET[$field]),
+                'key' => $field_name,
+                'value' => sanitize_text_field($_GET[$field_name]),
                 'compare' => '='
             ];
         }
