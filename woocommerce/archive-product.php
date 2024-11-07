@@ -104,6 +104,7 @@ do_action( 'woocommerce_after_main_content' );
  * @hooked woocommerce_get_sidebar - 10
  */
 do_action( 'woocommerce_sidebar' );
+echo do_shortcode('[tf_product_filter id="filters"]');
 
 ?>
 </div>
