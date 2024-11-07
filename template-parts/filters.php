@@ -7,14 +7,18 @@ $category_url = get_term_link( $current_category->term_id );
 if ( !$fields ) {
     echo '<p>No fields found. Please ensure ACF fields are properly set up.</p>';
 } else {
-    echo '<form id="product-filters" method="get" action="' . esc_url( $category_url )  . '">';
 
+?>
+    <div class="flex flex-col gap-6 border-1 border-gray-200 p-6">
+        <h3 class="text-2xl lg:text-3xl">Filters</h3>
+    <form class="flex flex-col w-full items-start" id="product-filters" method="get" action="<?php echo esc_url( $category_url ); ?>">
+<?php
     foreach ( $fields as $field ) {
         if ( in_array( $field['type'], array('checkbox', 'select', 'radio') ) ) {
-            echo '<div class="filter-' . esc_attr( $field['name'] ) . '">';
+            echo '<div class="w-full filter-' . esc_attr( $field['name'] ) . '">';
             echo '<label class="sr-only " for="' . esc_attr( $field['name'] ) . '">' . esc_html( $field['label'] ) . '</label>';
             
-            echo '<select class="bg-primary p-4 text-white" name="' . esc_attr( $field['name'] ) . '" id="' . esc_attr( $field['name'] ) . '">';
+            echo '<select class="w-full bg-primary p-4 text-white" name="' . esc_attr( $field['name'] ) . '" id="' . esc_attr( $field['name'] ) . '">';
             echo '<option value="">Select ' . esc_html( $field['label'] ) . '</option>';
             
             foreach ( $field['choices'] as $choice_key => $choice_label ) {
@@ -27,6 +31,8 @@ if ( !$fields ) {
     }
 
     echo '<button class="text-white bg-primary p-4 rounded" type="submit">Filter</button>';
-    echo '</form>';
 }
 ?>
+
+    </form>
+</div>
