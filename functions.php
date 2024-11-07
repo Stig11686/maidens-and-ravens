@@ -326,32 +326,39 @@ remove_action('woocommerce_single_product_summary', 'woocommerce_template_single
 
 
 add_action( 'pre_get_posts', 'custom_filter_products' );
-function custom_filter_products( $query ) {
-    if ( is_product_category() && $query->is_main_query() && !is_admin() ) {
-        $meta_query = array();
+function filter_products_query($query) {
+    if (is_admin() || !$query->is_main_query() || !$query->is_tax('product_cat')) {
+        return;
+    }
 
-        if ( function_exists('get_field_objects') ) {
-            $fields = get_field_objects('product'); // Get all ACF fields for the product post type
-            
-            if ( $fields ) {
-                foreach ( $fields as $field_key => $field ) {
-                    $field_name = $field['name'];
+    // Begin building meta query
+    $meta_query = ['relation' => 'AND'];
 
-                    // Check if a filter is set for this field in the query string
-                    if ( !empty($_GET[$field_name]) ) {
-                        $meta_query[] = array(
-                            'key'     => $field_name,
-                            'value'   => $_GET[$field_name],
-                            'compare' => '=', // Exact match for single selection
-                        );
-                    }
-                }
-            }
-        }
+    // Get the list of ACF fields we want to filter by
+    $acf_fields = acf_get_fields(183);
+	; // Replace these with your actual ACF field names
 
-        if ( !empty( $meta_query ) ) {
-            $query->set( 'meta_query', $meta_query );
+    foreach ($acf_fields as $field) {
+        // Check if the field is present in the GET request and not empty
+        if (!empty($_GET[$field])) {
+            // Add the field to the meta query
+            $meta_query[] = [
+                'key' => $field,
+                'value' => sanitize_text_field($_GET[$field]),
+                'compare' => '='
+            ];
         }
     }
+
+    // Apply the meta query if there are filters
+    if (count($meta_query) > 1) {
+        $query->set('meta_query', $meta_query);
+    }
+
+    // Adjust sorting if desired (optional)
+    $query->set('orderby', 'meta_value');  // Replace with desired ordering key or custom criteria
+    $query->set('order', 'ASC');           // Set order direction if needed
 }
+add_action('pre_get_posts', 'filter_products_query');
+
 

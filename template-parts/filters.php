@@ -1,11 +1,13 @@
 <?php
 // Replace XXXX with your Field Group ID
 $fields = acf_get_fields(183);
+$current_category = get_queried_object();
+$category_url = get_term_link( $current_category->term_id );
 
 if ( !$fields ) {
     echo '<p>No fields found. Please ensure ACF fields are properly set up.</p>';
 } else {
-    echo '<form id="product-filters" method="get" action="' . esc_url( home_url( '/shop/' ) ) . '">';
+    echo '<form id="product-filters" method="get" action="' . esc_url( $category_url )  . '">';
 
     foreach ( $fields as $field ) {
         if ( in_array( $field['type'], array('checkbox', 'select', 'radio') ) ) {
