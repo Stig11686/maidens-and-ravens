@@ -25,6 +25,9 @@ if ( woocommerce_product_loop() ) {
     if ( wc_get_loop_prop( 'total' ) ) {
     ?>
     <div class="flex flex-col gap-6 md:flex-row">
+        <div>
+            <?php include(get_template_directory(  ) . '/template-parts/filters.php'); ?>
+        </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
         <?php
@@ -40,9 +43,7 @@ if ( woocommerce_product_loop() ) {
             }
         ?>
         </div>
-        <div>
-            <?php include(get_template_directory(  ) . '/template-parts/filters.php'); ?>
-        </div>
+        
 
     <?php
 
