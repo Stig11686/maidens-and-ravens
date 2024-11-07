@@ -11,10 +11,10 @@ if ( !$fields ) {
 
     foreach ( $fields as $field ) {
         if ( in_array( $field['type'], array('checkbox', 'select', 'radio') ) ) {
-            echo '<div class="filter-' . esc_attr( $field['name'] ) . '">';
+            echo '<div class="sr-only filter-' . esc_attr( $field['name'] ) . '">';
             echo '<label for="' . esc_attr( $field['name'] ) . '">' . esc_html( $field['label'] ) . '</label>';
             
-            echo '<select name="' . esc_attr( $field['name'] ) . '" id="' . esc_attr( $field['name'] ) . '">';
+            echo '<select class="bg-primary p-4 text-white" name="' . esc_attr( $field['name'] ) . '" id="' . esc_attr( $field['name'] ) . '">';
             echo '<option value="">Select ' . esc_html( $field['label'] ) . '</option>';
             
             foreach ( $field['choices'] as $choice_key => $choice_label ) {
@@ -26,7 +26,7 @@ if ( !$fields ) {
         }
     }
 
-    echo '<button type="submit">Filter</button>';
+    echo '<button class="text-white bg-primary p-4 rounded" type="submit">Filter</button>';
     echo '</form>';
 }
 ?>
