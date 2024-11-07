@@ -70,7 +70,7 @@ if ( woocommerce_product_loop() ) {
 			 */
 			do_action( 'woocommerce_shop_loop' );
 
-			get_template_part( 'content', 'product' );
+			get_template_part( 'template-parts/content', 'product' );
 		}
 	}
 
