@@ -52,8 +52,6 @@ include(get_template_directory() . '/template-parts/global/internal-hero.php');
 
           <p>As with much of York, our building is old, and the entrance to the shop is a little narrow. There is one very low step to get inside which is still accessible by wheelchair and with a buggy. Maidens & Ravens is situated on Micklegate which does have some limited paid parking outside for up to 2 hours on a first come first served basis. I will always do whatever I can to help so please feel free to ask if you need any specific assistance.
           </p>
-          <p>WWhen you book in with me you will have this beautiful space completely to yourself and my aim is to give you an experience to remember. Like my choice in dresses, I wanted the boutique to be unique, and this is definitely reflected in my choice of everything from the gorgeous wallpaper to the lighting. </p>
-          <p>Look out for the ravens....</p>
       </div>
       <div class="bg-grey-2000 h-full w-full lg:w-6/12">
         <img src="<?php echo esc_html($image3) ?>" alt="lorem10" class="w-full h-full object-cover">
