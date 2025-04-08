@@ -325,7 +325,6 @@ add_filter('post_class', 'add_custom_product_class');
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
 
 
-add_action( 'pre_get_posts', 'filter_products_query' );
 function filter_products_query($query) {
     if (is_admin() || !$query->is_main_query() || !$query->is_tax('product_cat')) {
         return;
@@ -356,10 +355,13 @@ function filter_products_query($query) {
         $query->set('meta_query', $meta_query);
     }
 
-    // Adjust sorting if desired (optional)
-    $query->set('orderby', 'meta_value');  // Replace with desired ordering key or custom criteria
-    $query->set('order', 'ASC');           // Set order direction if needed
+    if (empty($_GET['orderby'])) { // Only set custom sorting if no sorting is selected
+        $query->set('orderby', 'meta_value');
+        $query->set('order', 'DESC');
+    }         // Set order direction if needed
 }
 add_action('pre_get_posts', 'filter_products_query');
+
+
 
 

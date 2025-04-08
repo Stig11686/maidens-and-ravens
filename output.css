@@ -1933,6 +1933,10 @@ html {
   margin-top: auto;
   margin-bottom: auto;
 }
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .-mt-6 {
   margin-top: -1.5rem;
 }
@@ -2088,6 +2092,9 @@ html {
 }
 .w-screen {
   width: 100vw;
+}
+.w-32 {
+  width: 8rem;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -2348,10 +2355,6 @@ html {
 }
 .bg-white-opacity {
   background-color: rgba(255, 255, 255, 0.4);
-}
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
@@ -4217,24 +4220,16 @@ textarea {
     width: 50%;
   }
 
-  .md\:w-1\/3 {
-    width: 33.333333%;
+  .md\:w-3\/12 {
+    width: 25%;
   }
 
   .md\:w-9\/12 {
     width: 75%;
   }
 
-  .md\:w-3\/12 {
-    width: 25%;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:grid-cols-4 {

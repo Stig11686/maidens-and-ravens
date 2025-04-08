@@ -9,6 +9,8 @@
     "Theme"
   ],
   "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^10.0.0",
     "concurrently": "^8.2.2",
     "daisyui": "^4.12.2",
     "dir-archiver": "^1.1.1",

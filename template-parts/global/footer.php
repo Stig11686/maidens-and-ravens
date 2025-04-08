@@ -19,7 +19,11 @@
         </div>
       </div>
       <div class="mt-16 grid grid-cols-1 gap-8 xl:mt-0">
-        <div class="md:grid md:grid-cols-3 md:gap-8">
+        <div class="md:grid md:grid-cols-4 md:gap-8">
+          <div>
+            <h3 class="text-sm font-semibold leading-6 ">Accreditation</h3>
+            <img src="<?php echo wp_get_attachment_image_url(912, 'medium'); ?>" alt="Good business charter logo" class="h-32 w-32 object-cover my-4" />
+          </div>
           <div>
             <h3 class="text-sm font-semibold leading-6 ">About Us</h3>
             <ul role="list" class="mt-6 space-y-4 list-none">
