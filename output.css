@@ -1921,6 +1921,10 @@ html {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -1932,10 +1936,6 @@ html {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
-}
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 .-mt-6 {
   margin-top: -1.5rem;
@@ -2078,6 +2078,9 @@ html {
 .w-24 {
   width: 6rem;
 }
+.w-32 {
+  width: 8rem;
+}
 .w-6 {
   width: 1.5rem;
 }
@@ -2092,9 +2095,6 @@ html {
 }
 .w-screen {
   width: 100vw;
-}
-.w-32 {
-  width: 8rem;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -2157,6 +2157,9 @@ html {
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .flex-col {
   flex-direction: column;
@@ -2716,11 +2719,6 @@ html {
 
 body {
 	counter-reset: section;
-	background-image: url('./img/grey-bg-overlay.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
 }
 
 #background-overlay {
@@ -4206,10 +4204,6 @@ textarea {
 
   .md\:block {
     display: block;
-  }
-
-  .md\:grid {
-    display: grid;
   }
 
   .md\:h-full {
